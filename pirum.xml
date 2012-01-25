@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>pear.piece-framework.com</name>
+  <summary>Piece Framework PEAR channel</summary>
+  <alias>piece</alias>
+  <url>http://pear.piece-framework.com/</url>
+</server>
