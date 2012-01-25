@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Examples_Questionnaire</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>Piece Framework questionnaire example</summary>
+ <description>Piece_Examples_Questionnaire is an example application with Piece Framework.
+
+Piece_Examples_Questionnaire is a simple questionnaire application using wizard-style page flow that consists of three questionnaire form, a confirmation page, and a finish page.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-07-16</date>
+ <time>21:55:33</time>
+ <version>
+  <release>1.0.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>This is the first stable release of Piece_Examples_Questionnaire.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="1a2f5bd2bdc72663e610c4d46854468a" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="69949978ba6b56590e346b267c68db19" name="docs/questionnaire.jude" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cbe0680197c2dc53065b75d50d7f3eb8" name="web/htdocs/css/style.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3bb8af423bb23115189e9de172b9b5ba" name="web/htdocs/questionnaire.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ecb1d57d96f408bb72e68849dad7b507" name="web/webapp/actions/QuestionnaireAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ed034cfa80ebd7a80658c9400181ab4" name="web/webapp/cache/flows/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ed034cfa80ebd7a80658c9400181ab4" name="web/webapp/cache/validations/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ed034cfa80ebd7a80658c9400181ab4" name="web/webapp/cache/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ed034cfa80ebd7a80658c9400181ab4" name="web/webapp/compiled-templates/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d5e821fb96e479f732ec88357e2b074f" name="web/webapp/config/flows/Questionnaire.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74f532463c9090af298d08258d380bca" name="web/webapp/config/validations/Answer1.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="464d8ebca9e144976120cee5f23a8c10" name="web/webapp/config/validations/Answer2.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6f8c267d8b1086f9eefa71592a54ca0" name="web/webapp/config/validations/Answer3.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7d9257d0afda190c810acd1a4920db93" name="web/webapp/config/piece-unity-config.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ed034cfa80ebd7a80658c9400181ab4" name="web/webapp/sessions/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b72a3976372a256a28f3bd10ea3e87be" name="web/webapp/templates/Layout/Layout.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f85570337f3a8e3484e1d8758955fe64" name="web/webapp/templates/Questionnaire/Confirmation.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b8e3ab2181ef00a18460aa8cd07fd5df" name="web/webapp/templates/Questionnaire/Finish.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a717dca4daae749d8a9179ea53855961" name="web/webapp/templates/Questionnaire/Form1.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bd0b538609ad383381b8b8cbe8f27121" name="web/webapp/templates/Questionnaire/Form2.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ac1c8b1223b6c24f73eca7ec826c3fd9" name="web/webapp/templates/Questionnaire/Form3.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_NullByteAttackPreventation</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_Flexy</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first stable release of Piece_Examples_Questionnaire.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Examples_Questionnaire is now available.
+
+This release includes an enhancement so as to remove all class elements from Questionnaire.yaml.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Examples_Questionnaire.</notes>
+  </release>
+ </changelog>
+</package>

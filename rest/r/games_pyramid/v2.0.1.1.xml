@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/games_pyramid">Games_Pyramid</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.1</v>
+    <a>0.1.0</a>
+    <mp>5.2.1</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>1人用トランプゲーム ピラミッド</s>
+    <d>Games_Pyramidは1人用トランプゲーム ピラミッドの実装です。描画機能は備えていないので、任意のアプリケーションに自由に組み込んで使うことができます。</d>
+    <da>2007-03-22 00:10:18</da>
+    <n>@link タグを修正したリリース。</n>
+    <f>6809</f>
+    <g>http://pear.piece-framework.com/get/Games_Pyramid-0.1.1</g>
+    <x xlink:href="package.0.1.1.xml"/>
+</r>

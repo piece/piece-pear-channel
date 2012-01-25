@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>2.10.0</v>
+    <a>1.1.0</a>
+    <mp>5.2.0</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A test runner for Test Driven Development</s>
+    <d>Stagehand_TestRunner provides a test runner to run unit tests. Stagehand_TestRunner strongly supports Test Driven Development by various features.</d>
+    <da>2009-12-24 02:06:30</da>
+    <n>
+What's New in Stagehand_TestRunner 2.10.0
+
+ Logs test results in real-time into the specified file in the JUnit XML format. (PHPUnit, PHPT, and SimpleTest):
+
+  phpunitrunner --log-junit=FILE --log-junit-realtime DIRECTORY_OR_FILE
+
+  By specifying the --log-junit-realtime option, the test results get to be written in real-time by element-by-element.
+
+ Enhanced SimpleTest support:
+
+  The following features have been supported in SimpleTest:
+
+   * Runs only the specified tests in the specified file.
+   * Runs only the tests in the specified classes.
+   * Logs test results into the specified file in the JUnit XML format.
+ </n>
+    <f>34852</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.10.0</g>
+    <x xlink:href="package.2.10.0.xml"/>
+</r>

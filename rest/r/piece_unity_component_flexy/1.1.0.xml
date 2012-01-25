@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_flexy">Piece_Unity_Component_Flexy</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.1.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A component for HTML_Template_Flexy</s>
+    <d>A component for HTML_Template_Flexy</d>
+    <da>2007-08-26 21:42:32</da>
+    <n>A new release of Piece_Unity_Component_Flexy is now available.
+
+What's New in Piece_Unity_Component_Flexy 1.1.0
+
+ * Restoring field values into a form: Piece_Unity_Service_FlexyElement::restoreValues() can be used to restore field values from the given validation set and container.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Services:
+
+- Added restoreValues() which can be used to restore field values from the given validation set and container. (Piece_Unity_Service_FlexyElement)</n>
+    <f>9256</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.1.0</g>
+    <x xlink:href="package.1.1.0.xml"/>
+</r>

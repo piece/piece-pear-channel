@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_ExceptionHandler</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A component for exception handling</summary>
+ <description>Piece_Unity_Component_ExceptionHandler provides a simple exception handling system which can be used in your bootstrap code as follows:
+
+webapp/config/bootstrap.php:
+
+&lt;?php
+...
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_DebugInfo());
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_ErrorLog());
+Piece_Unity_Service_ExceptionHandler::enable();
+...
+
+The last one registered will be the first one called.
+
+Built-in exception handlers are:
+
+Piece_Unity_Service_ExceptionHandler_DebugInfo: Outputs the exception details as a HTML page.
+Piece_Unity_Service_ExceptionHandler_ErrorLog: Logs the exception message by error_log().
+Piece_Unity_Service_ExceptionHandler_InternalServerError: Outputs a typical &quot;Internal Server Error&quot; HTML page.
+
+Additionally, any exception handlers which implement the interface Piece_Unity_Service_ExceptionHandler_Interface can be used.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <helper>
+  <name>KUBO Noriko</name>
+  <user>noricot</user>
+  <email>noricott@gmail.com</email>
+  <active>yes</active>
+ </helper>
+ <date>2009-03-24</date>
+ <time>18:43:19</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>The first beta release of Piece_Unity_Component_ExceptionHandler.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="fd293a00e9f0befdb3541f01035eb587" name="data/pear.piece-framework.com/Piece_Unity_Component_ExceptionHandler/DebugInfo.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4912a31bff6e7928c84893fd237769f2" name="data/pear.piece-framework.com/Piece_Unity_Component_ExceptionHandler/InternalServerError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="27215194e8ad31ee2e5c090ffd668446" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ddee3f3ed740c4158337983d884afd09" name="src/Piece/Unity/Service/ExceptionHandler/Rendering/PHP.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="861470ff8c44ff26efb4006f97d118ee" name="src/Piece/Unity/Service/ExceptionHandler/DebugInfo.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="83ded514c39feeda8dd690582ddcab35" name="src/Piece/Unity/Service/ExceptionHandler/ErrorLog.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ee59e46db9d4baeff463614e327d2a16" name="src/Piece/Unity/Service/ExceptionHandler/Interface.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cd958c7467ca618afefc5116b06ceb12" name="src/Piece/Unity/Service/ExceptionHandler/InternalServerError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5463d0f2e9515f03383a023cf3557a6b" name="src/Piece/Unity/Service/ExceptionHandler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.5.0</min>
+   </package>
+   <package>
+    <name>Stagehand_HTTP_Status</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Stagehand_LegacyError</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <extension>
+    <name>pcre</name>
+   </extension>
+   <extension>
+    <name>date</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-03-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>The first beta release of Piece_Unity_Component_ExceptionHandler.</notes>
+  </release>
+ </changelog>
+</package>

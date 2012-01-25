@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>2.11.2</v>
+    <a>1.1.0</a>
+    <mp>5.2.0</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A test runner for Test Driven Development</s>
+    <d>Stagehand_TestRunner provides a test runner to run unit tests. Stagehand_TestRunner strongly supports Test Driven Development by various features.</d>
+    <da>2010-05-31 12:40:23</da>
+    <n>
+What's New in Stagehand_TestRunner 2.11.2
+
+ Two defect fixes
+
+  (Issue #173, #175)
+
+  A defect has been fixed that caused a start tag not to be closed when the tag and all attributes are written. And also a defect has been fixed that caused TestDox output to be broken if the same test method names except trailing numbers.
+ </n>
+    <f>38533</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.2</g>
+    <x xlink:href="package.2.11.2.xml"/>
+</r>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_orm">Piece_ORM</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.8.0</v>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An object-relational mapping framework</s>
+    <d>Piece_ORM is an object-relational mapping framework.
+
+Piece_ORM is a simple framework based on the DataMapper pattern, and features stdClass centered approach.</d>
+    <da>2007-09-24 17:09:11</da>
+    <n>A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.8.0
+
+ * Enhanced update() and delete(): update() and delete() now work a table which has no primary keys.
+ * A few Defect Fixes: Two minor defects that caused the same cache to be used if the relative paths of the configuration files (or the mapper definition files) are same even though the absolute paths of the configuration files (or the mapper definition files) are different are fixed. And also a defect that caused variables to be tainted if the given object has &quot;criteria&quot; or &quot;methodName&quot; properties is fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Improved the error message for the PIECE_ORM_ERROR_INVOCATION_FAILED exception when building a query. (Piece_ORM_Mapper_Common)
+- Changed update()/delete() so as to work with a table which has no primary keys. (Piece_ORM_Mapper_ObjectPersister)
+
+Defect Fixes
+============
+
+- Fixed the defect that caused the cache IDs to duplicate if the relative paths of the configuration files are same even though the absolute paths of the configuration files are different. (Piece_ORM_Config_Factory)
+- Fixed the defect that caused the cache IDs to duplicate if the relative paths of the mapper definition files are same even though the absolute paths of the mapper definition files are different. (Piece_ORM_Mapper_Factory)
+- Fixed the defect that caused variables to be tainted if the given object has &quot;criteria&quot; or &quot;methodName&quot; properties. (Piece_ORM_Mapper_Common)</n>
+    <f>55305</f>
+    <g>http://pear.piece-framework.com/get/Piece_ORM-0.8.0</g>
+    <x xlink:href="package.0.8.0.xml"/>
+</r>

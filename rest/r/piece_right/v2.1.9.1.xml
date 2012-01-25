@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_right">Piece_Right</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.9.1</v>
+    <a>1.1.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A validation framework</s>
+    <d>Piece_Right is a validation framework.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</d>
+    <da>2008-01-26 14:45:24</da>
+    <n>A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.9.1
+
+ * A defect fix: A defect that caused an error &quot;PHP Fatal error:  Call to undefined function gregoriantojd()&quot; to be raised if the calendar extension is disabled or not installed in the environment has been fixed.</n>
+    <f>412665</f>
+    <g>http://pear.piece-framework.com/get/Piece_Right-1.9.1</g>
+    <x xlink:href="package.1.9.1.xml"/>
+</r>

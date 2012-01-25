@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.4.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-11-25 13:53:34</da>
+    <n>A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.4.0
+
+ * Full flow name as view prefix: A feature so that the full flow name can be used as the view prefix by turning on &quot;useFullFlowNameAsViewPrefix&quot;. (default: on) If you want to keep backward compatibility with Piece_Unity 1.3.0/1.3.1 configurations, set false to &quot;useFullFlowNameAsViewPrefix&quot;. For example, if there is a view &quot;Baz&quot;, the final view of &quot;Baz&quot; by different flow names and states of &quot;useFullFlowNameAsViewPrefix&quot; as follows:
+
++-----------+-----------+-------------+
+| flow name | off/1.3.x | on          |
++-----------+-----------+-------------+
+| Foo       | Baz       | Foo_Baz     |
++-----------+-----------+-------------+
+| Foo_Bar   | Foo_Baz   | Foo_Bar_Baz |
++-----------+-----------+-------------+</n>
+    <f>63656</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-1.4.0</g>
+    <x xlink:href="package.1.4.0.xml"/>
+</r>

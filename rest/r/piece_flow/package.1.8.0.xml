@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Flow</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A web flow engine and a continuation server</summary>
+ <description>Piece_Flow is a generic web flow engine and a continuation server based on Finite State Machine(FSM). Piece_Flow provides a stateful programming model for developers, and high security for applications.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2006-12-20</date>
+ <time>20:16:41</time>
+ <version>
+  <release>1.8.0</release>
+  <api>1.7.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>This release includes a feature named &quot;Action Continuation&quot; and several enhancements.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature will allow developers to write stateful action code via the properties without using flow attributes. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation, Piece_Flow_Action_Factory ###
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution. (Ticket #13)
+
+### Piece_Flow_Continuation ###
+
+- Removed setActionDirectory().
+- Changed to start a new flow execution if another flow execution of the current flow already exists in the flow executions. (Ticket #14)
+- Added isExclusive() to check whether the curent flow execution is exclusive or not.
+- Added getCurrentFlowName() to get the current flow name.
+
+### Piece_Flow_Action_Factory ###
+
+- Added clearInstances() to clear all instances of actions. (Ticket #12)
+- Moved _load() to load() as a public method.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e1fb4936a526972c1e87b8ba0de3cf7a" name="data/piece-flow.rng" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c8b417bd8d056260835107c8c7825cb7" name="data/piece-flow.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f231f1540031d2a859df589cd7911c62" name="data/Registration.xml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b50fb19cf5eb78b00c6d009e3aa2898" name="data/Registration.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="117f7c94220bbe7ded4942ad462d4799" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eee815ce784152e357525ddb9f54762f" name="Piece/Flow/Action/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="179859a38b06698d94352e794105a8c1" name="Piece/Flow/Action/Invoker.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6486348308b5730f15121eabfcef609a" name="Piece/Flow/ConfigReader/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a412de5844d5e0c13cbc41f804113337" name="Piece/Flow/ConfigReader/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6d3183b1c8ed656d4f39a0a17b1823b9" name="Piece/Flow/ConfigReader/XML4.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f1bbe9c14e9833f7a4b5c3f101d243b5" name="Piece/Flow/ConfigReader/XML5.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="faa7851d524d793f83e878d6c89e9785" name="Piece/Flow/ConfigReader/YAML.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6b8d44580ee503e529d67063e4cec27" name="Piece/Flow/Action.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="18f3fd001802037e81a44f86f46a54c2" name="Piece/Flow/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c9077730cbdaad8d9b42cdfba5e960a1" name="Piece/Flow/Continuation.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d284988d3455ea62eb37efb0cf66fb40" name="Piece/Flow/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b9a31989cc8e7e8139fb0917e3310f2" name="Piece/Flow.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9659988f78236bb5f19ad83c2edb9ad8" name="tests/Piece/actions/OmitClassNameAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="619c1ecfda1dafb2d90daa417db1be79" name="tests/Piece/Flow/Action/BarAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aa65ad086b1e11d0be17968a3ba35aba" name="tests/Piece/Flow/Action/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2f3e6f2fde2ce0c8ba8e1046c08c45f7" name="tests/Piece/Flow/Action/FooAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd9f2c511bb650bf347c97c7b24ae720" name="tests/Piece/Flow/Action/InvalidAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ce80efae919dec955a95f7e4714b535" name="tests/Piece/Flow/Action/InvokerTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e5ae172322d92c3335f83398f81eb91e" name="tests/Piece/Flow/Action/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="24399ea088e3f895b10efc36dd162bd0" name="tests/Piece/Flow/actions/BindActionsWithFlowExecutionAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7681ce8b1117871c204c9d5d27e85bf0" name="tests/Piece/Flow/ConfigReader/Baz.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="be95893727a0528a7d3bdc682a8a9cad" name="tests/Piece/Flow/ConfigReader/broken.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f3f49d90c2949b06b81af26de06cc0fc" name="tests/Piece/Flow/ConfigReader/CompatibilityTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dec85f42ffbc30158896c4b717e9bee2" name="tests/Piece/Flow/ConfigReader/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7ecf87e7db6c55a1f9965f87a037932e" name="tests/Piece/Flow/ConfigReader/invalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc1dd2a4ccb5a40928e81e23aaf71d8b" name="tests/Piece/Flow/ConfigReader/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="469c1c8f1745036ddd1f042211686309" name="tests/Piece/Flow/ConfigReader/XML4TestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="06eef5d1021724ad420d4e434e1b7269" name="tests/Piece/Flow/ConfigReader/XML5TestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d1920f7ba345a9a6c646eb0c5f533553" name="tests/Piece/Flow/ConfigReader/YAMLTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d59690c531acb611f3e2aca410424da4" name="tests/Piece/Flow/flows/BindActionsWithFlowExecution.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e141e4734efce652daf85a8798218cab" name="tests/Piece/Flow/ContinuationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f49067cc3ae9817bb076c33107ea8edb" name="tests/Piece/Flow/Counter.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e202a0788d4f269f7be2e63782cec873" name="tests/Piece/Flow/CounterAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c5b9ece3f6a18cf4b80fd2dbb71b201f" name="tests/Piece/Flow/FooAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b1912f991a2b1d3b8388fbaadfe4a159" name="tests/Piece/Flow/SecondCounter.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="64342ea81f4b7da249bdfb8131989e51" name="tests/Piece/Flow/SecondCounterAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0ee70ebfce796cb1cb652a36f5de7545" name="tests/Piece/Flow/Shutdown.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d03ea72965d24c2557691a043190a95d" name="tests/Piece/Flow/ShutdownAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ddd61b4b2ac589a79bb6e555b60220f4" name="tests/Piece/Flow/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="83774f79ccc9a4089a300dd8c55f9c59" name="tests/Piece/flows/OmitClassName.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="be6f620ec22b621e4757fcc5af8c41a4" name="tests/Piece/flows/OmitClassName.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eedb999c4f2948a7b505d8348583ee5e" name="tests/Piece/CDPlayer.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a1755cf669141709dafb6aed09a87b03" name="tests/Piece/FlowCDPlayerAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e9ab7cf22ec6cd171c763c2e9c40213d" name="tests/Piece/FlowInitialAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c5b9735f469283da0e0bb98f0265de65" name="tests/Piece/FlowInvalidEventFromTransitionActionsOrActivitiesAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9d58bb143ce8e90a4c4f344e273e3ba0" name="tests/Piece/FlowProblemThatActivityIsInvokedTwiceUnexpectedlyAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="47219481f39cefe91d4e0a4a10334879" name="tests/Piece/FlowTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc13a2d1d82515c90de896eb5964cb52" name="tests/Piece/FlowTestCaseAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="758430072fd2921270ac8e6a412f40da" name="tests/Piece/initial.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a8a2035f8ca96c30af555feac5d1a64c" name="tests/Piece/initial.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6bfe044f3777565ef876c0e10d2925aa" name="tests/Piece/invalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1cf5caf2ade91f300312283687d664d8" name="tests/Piece/InvalidEventFromTransitionActionsOrActivities.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c7557c46db72b60ea933219b7290f51e" name="tests/Piece/optional.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="394129b0e26f02c590920dcce1813dcc" name="tests/Piece/optional.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53782f8030431e31250ea4fa2ae3ec41" name="tests/Piece/ProblemThatActivityIsInvokedTwiceUnexpectedly.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="805ca532b3b9ed2ca62dab01c6462561" name="tests/Piece/ProtectedEvents.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="514f8c2452f139d66a528e8f9c60c954" name="tests/Piece/ProtectedStates.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0311f2c27105257cf6fbb4049486ff03" name="tests/Piece/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3d36a55cfe2de3d29312bfa9f77828c6" name="tests/AllTestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Stagehand_FSM</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.8.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Stagehand_TestRunner</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.4.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.8.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-12-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a feature named &quot;Action Continuation&quot; and several enhancements.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature will allow developers to write stateful action code via the properties without using flow attributes. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation, Piece_Flow_Action_Factory ###
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution. (Ticket #13)
+
+### Piece_Flow_Continuation ###
+
+- Removed setActionDirectory().
+- Changed to start a new flow execution if another flow execution of the current flow already exists in the flow executions. (Ticket #14)
+- Added isExclusive() to check whether the curent flow execution is exclusive or not.
+- Added getCurrentFlowName() to get the current flow name.
+
+### Piece_Flow_Action_Factory ###
+
+- Added clearInstances() to clear all instances of actions. (Ticket #12)
+- Moved _load() to load() as a public method.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.7.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-11-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a security fix for a Cross Site Request Forgery (CSRF) vulnerability and a minor fix in the continuation server, and a few enhancements. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+
+- Added getFlowExecutionTicketByFlowName() method for getting a flow execution ticket by the given flow name. (Ticket #5)
+
+### Piece_Flow_Action_Invoker, Piece_Flow_Action ###
+
+- Added the code so as to be able to prepare something for a callback before invoking the callback. (Ticket #6)
+
+### Other Changes ###
+
+- Changed so as to be able to omit the class attribute for a callback. If the class attribute is omitted, ClassNameAction class is used. (Ticket #8)
+
+## Defect Fixes ##
+
+### Piece_Flow_Continuation ###
+
+- Changed the behaviour of preparing flow execution so as to require a flow execution ticket whenever continuing a flow execution even though what the flow execution mode is. (Ticket #2)
+- Changed the behaviour of preparing flow execution so as to require a flow name whenever in multiple flow mode. (Ticket #3)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.6.0</release>
+    <api>1.5.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-10-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a minor enhancement of Piece_Flow_Continuation class. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+- Moved the location of setting $_currentFlowExecutionTicket and $_activated properties to _start()/_continue() methods for using Piece_Flow_Continuation objects in actions.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.5.0</release>
+    <api>1.5.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-08-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes an enhancement and breaks backward compatibility as follows:
+
+## Enhancements ##
+
+- Introduced Piece_Flow_Action as the base class for Piece_Flow actions.
+- Changed the interface of Piece_Flow actions so as to call setFlow(), setPayload(), and setEvent() methods for passing a Piece_Flow object, a payload, and the event name to an action instead of by the arguments of invoke() method.
+- The original Piece_Flow_Action class has been renamed as Piece_Flow_Action_Invoker.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.4.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes two defect fixes and an enhancement as follows:
+
+## Defect fixes ##
+
+- Removed wrong error handling which disables the current callback.
+- Removed &apos;@&apos; operator from include_once.
+
+## Enhancements ##
+
+- Changed the code so as to use $array[] = $value instead of array_push($array, $value).</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.4.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements as follows:
+
+## Enhancements ##
+
+* Piece_Flow_Action
+- Adjusted to changes in Stagehand_FSM package.
+
+* Piece_Flow_ConfigReader_Common
+- Changed the code so as to get the flow name from the current source.
+
+* the schema of flow definitions
+- Removed &apos;name&apos; attribute from &apos;flow&apos; element in piece-flow.rng.
+- Removed &apos;name&apos; element in piece-flow.yaml.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.3.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements as follows:
+
+## Enhancements ##
+
+* Piece_Flow_Action
+- Added support for raising an exception when an invalid event is returned from actions.
+
+* Piece_Flow
+- Changed the error code from PIECE_FLOW_ERROR_INVALID_OPERATION to PIECE_FLOW_ERROR_ALREADY_SHUTDOWN when triggering events after shutting down a flow.
+
+* Piece_Flow_Continuation
+- Changed the code so as never to start a new flow execution again after shtting down in single flow mode.
+
+* Piece_Flow_Error
+- Added PIECE_FLOW_ERROR_ALREADY_SHUTDOWN constant.
+- Added PIECE_FLOW_ERROR_INVALID_EVENT constant.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>- Fixed the wrong version number of Stagehand_FSM package from 1.4.0 to 1.5.0.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements and fixing two problems as follows:
+
+Enhancements:
+
+* Piece_Flow
+- Added support to prevent configuring protected events and states.
+- Added error handling for failure to invoke actions.
+
+* Example flow definitions
+- Changed some state names and view names to conform the Spring Web Flow best practices.
+
+Defect fixes:
+
+- Fixed the problem that the protected events of the FSM can be triggered by users.
+- Fixed the problem that &apos;entry&apos;, &apos;exit&apos;, and &apos;activity&apos; for the last state could not be added.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is a bug fix release.
+
+- Fixed the problem that relative path cannot be used as the cache directory and action cirectory with Solaris.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>- Piece/Flow.php: Added removeAttribute()/clearAttributs() for removing attributes from flows.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-06-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Flow.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-04-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Flow.</notes>
+  </release>
+ </changelog>
+</package>

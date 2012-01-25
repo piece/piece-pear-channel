@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <l xmlns="http://pear.php.net/dtd/rest.categorypackages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackages http://pear.php.net/dtd/rest.categorypackages.xsd">
+  <p xlink:href="/rest/p/games_couple">Games_Couple</p>
+  <p xlink:href="/rest/p/games_pyramid">Games_Pyramid</p>
+  <p xlink:href="/rest/p/piece_examples_basics">Piece_Examples_Basics</p>
+  <p xlink:href="/rest/p/piece_examples_crud">Piece_Examples_CRUD</p>
+  <p xlink:href="/rest/p/piece_examples_conversation">Piece_Examples_Conversation</p>
+  <p xlink:href="/rest/p/piece_examples_questionnaire">Piece_Examples_Questionnaire</p>
+  <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+  <p xlink:href="/rest/p/piece_orm">Piece_ORM</p>
+  <p xlink:href="/rest/p/piece_right">Piece_Right</p>
+  <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+  <p xlink:href="/rest/p/piece_unity_component_authentication">Piece_Unity_Component_Authentication</p>
+  <p xlink:href="/rest/p/piece_unity_component_authorization">Piece_Unity_Component_Authorization</p>
+  <p xlink:href="/rest/p/piece_unity_component_contentlength">Piece_Unity_Component_ContentLength</p>
+  <p xlink:href="/rest/p/piece_unity_component_exceptionhandler">Piece_Unity_Component_ExceptionHandler</p>
+  <p xlink:href="/rest/p/piece_unity_component_flexy">Piece_Unity_Component_Flexy</p>
+  <p xlink:href="/rest/p/piece_unity_component_json">Piece_Unity_Component_JSON</p>
+  <p xlink:href="/rest/p/piece_unity_component_japanesez2h">Piece_Unity_Component_JapaneseZ2H</p>
+  <p xlink:href="/rest/p/piece_unity_component_kernelconfigurator">Piece_Unity_Component_KernelConfigurator</p>
+  <p xlink:href="/rest/p/piece_unity_component_nullbyteattackpreventation">Piece_Unity_Component_NullByteAttackPreventation</p>
+  <p xlink:href="/rest/p/piece_unity_component_pagination">Piece_Unity_Component_Pagination</p>
+  <p xlink:href="/rest/p/piece_unity_component_pieceorm">Piece_Unity_Component_PieceORM</p>
+  <p xlink:href="/rest/p/piece_unity_component_proxybasepath">Piece_Unity_Component_ProxyBasePath</p>
+  <p xlink:href="/rest/p/piece_unity_component_smarty">Piece_Unity_Component_Smarty</p>
+  <p xlink:href="/rest/p/stagehand_accesscontrol">Stagehand_AccessControl</p>
+  <p xlink:href="/rest/p/stagehand_alterationmonitor">Stagehand_AlterationMonitor</p>
+  <p xlink:href="/rest/p/stagehand_autoload">Stagehand_Autoload</p>
+  <p xlink:href="/rest/p/stagehand_clicontroller">Stagehand_CLIController</p>
+  <p xlink:href="/rest/p/stagehand_directorycleaner">Stagehand_DirectoryCleaner</p>
+  <p xlink:href="/rest/p/stagehand_directoryscanner">Stagehand_DirectoryScanner</p>
+  <p xlink:href="/rest/p/stagehand_directorysnap">Stagehand_DirectorySnap</p>
+  <p xlink:href="/rest/p/stagehand_fsm">Stagehand_FSM</p>
+  <p xlink:href="/rest/p/stagehand_http_status">Stagehand_HTTP_Status</p>
+  <p xlink:href="/rest/p/stagehand_legacyerror">Stagehand_LegacyError</p>
+  <p xlink:href="/rest/p/stagehand_php_class">Stagehand_PHP_Class</p>
+  <p xlink:href="/rest/p/stagehand_php_class_parser">Stagehand_PHP_Class_Parser</p>
+  <p xlink:href="/rest/p/stagehand_php_lexer">Stagehand_PHP_Lexer</p>
+  <p xlink:href="/rest/p/stagehand_php_parser">Stagehand_PHP_Parser</p>
+  <p xlink:href="/rest/p/stagehand_smtpdaemon">Stagehand_SmtpDaemon</p>
+  <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
 
 </l>

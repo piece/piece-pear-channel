@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_Smarty</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A renderer which is based on Smarty template engine.</summary>
+ <description>A renderer which is based on Smarty template engine.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-11-17</date>
+ <time>18:28:36</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Unity_Component_Smarty is now available.
+
+What&apos;s New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Less configuration: When using layout/fallback, &quot;template_dir&quot; and &quot;compile_dir&quot; are always used if its configurations are not given.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="a4d29da9414eb788939292d103049f01" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8fff95c3084c432b498b54106be5326e" name="Piece/Unity/Plugin/Renderer/Smarty.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cae30fb5c096ea7f6d3d24cb1970b78c" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/actions/SmartyExampleAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a0ec2b10925b496ce2952397910d80a0" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/plugins/function.helloworld.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="111e0ae908055b9fded2f897e49f4746" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyExample.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="199a98e60415d898af59faf7bc2ac93b" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyKeepingReference.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="379d2efa2bf92a1bc62bfe92646de808" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyLayoutContent.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70e6a5c88e1fc679d59bf8ab84637e0a" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyLoadingPlugins.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8b56f3735c5c2b159267fe9d53ad9984" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Fallback/Fallback.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bea8252ff4e80f41719ea13cdf007273" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Foo/Bar/Baz.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a1b23af721f3eab43fdefdb3098e5e33" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Layout/SmartyLayout.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="56544f7f9927f3951a8f2179748443dd" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f917639845ff2641a1a4e1f0639c8386" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-11-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Smarty is now available.
+
+What&apos;s New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Less configuration: When using layout/fallback, &quot;template_dir&quot; and &quot;compile_dir&quot; are always used if its configurations are not given.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_Smarty.</notes>
+  </release>
+ </changelog>
+</package>

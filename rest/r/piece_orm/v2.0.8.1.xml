@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_orm">Piece_ORM</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.8.1</v>
+    <a>0.3.0</a>
+    <mp>4.3.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An object-relational mapping framework</s>
+    <d>Piece_ORM is an object-relational mapping framework.
+
+Piece_ORM is a simple framework based on the DataMapper pattern, and features stdClass centered approach.</d>
+    <da>2008-01-13 07:50:24</da>
+    <n>A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.8.1
+
+ * Several Defect Fixes: A defect that caused an error &quot;Fatal error: Cannot redeclare ...&quot; to be raised if there are duplicate method names case insensitive in a configuration and other defects are fixed.
+
+See the following release notes for details.
+
+Defect Fixes
+============
+
+- Fixed a defect that caused update()/delete() to be failed with a table which has a composite primary key. (Ticket #62) (Piece_ORM_Mapper_Generator)
+- Fixed a defect that caused the result of findXXX()/findAllXXX() to be broken with a table which has a composite primary key. (Ticket #63) (Piece_ORM_Metadata)
+- Fixed a defect that mappers cannot work with a table which includes numbers and underscores in the table name and the column names. (Ticket #65) (Piece_ORM_Inflector)
+- Fixed a defect that caused the result of a finder method call to be broken if the mapper has already used in relationships before. (Ticket #69) (Piece_ORM_Mapper_AssociatedObjectLoader_Common)
+- Fixed a defect that caused an error &quot;Fatal error: Cannot redeclare ...&quot; to be raised if there are duplicate method names case insensitive in a configuration. (Ticket #59) (Piece_ORM_Mapper_Generator)</n>
+    <f>60079</f>
+    <g>http://pear.piece-framework.com/get/Piece_ORM-0.8.1</g>
+    <x xlink:href="package.0.8.1.xml"/>
+</r>

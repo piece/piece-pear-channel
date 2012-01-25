@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_ORM</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An object-relational mapping framework for PHP</summary>
+ <description>Piece_ORM is an object-relational mapping framework for PHP.
+
+Piece_ORM is a simple framework based on the DataMapper pattern, and features stdClass centered approach.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>MATSUFUJI Hideharu</name>
+  <user>matsufuji</user>
+  <email>matsufuji@users.sourceforge.net</email>
+  <active>yes</active>
+ </developer>
+ <developer>
+  <name>SEKIYAMA Ryusuke</name>
+  <user>sekky</user>
+  <email>sekky@users.sourceforge.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2007-08-27</date>
+ <time>11:40:18</time>
+ <version>
+  <release>0.7.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.7.0
+
+ * Native datatypes mapping support: Additional mapping from DBMS native datatypes to MDB2 datatypes can be defined by Piece_ORM_MDB2_NativeTypeMapper_XXX::addMap().
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added generic support for mapping from DBMS native datatypes to MDB2 datatypes. (Piece_ORM_Context, Piece_ORM_MDB2_NativeTypeMapper_XXX)
+- Changed configure() so that setDatabase() does not call if no database found in the current configuration. (Piece_ORM)
+- Updated setDatabase() so that a PIECE_ORM_ERROR_NOT_FOUND exception is raised when an undefind database is given. (Piece_ORM_Config, Piece_ORM_Context)
+- Added code so as to clear all database handles in clear(). (Piece_ORM_Context)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="b990d52e018c4fef9981b589764e6f99" name="data/schemas/mssql/album.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c02e8f2270799575d77aa8bc2dd9ea0e" name="data/schemas/mssql/artist.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="abf3a92ffd152d7334a90f8130f5e42e" name="data/schemas/mssql/department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4cbf86d94ebbb4d53917058b7a311fce" name="data/schemas/mssql/email.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="60bf5ee5a7de085be7eea5a847e886c3" name="data/schemas/mssql/employee.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="89e5daa9a4cfc82d22951cc81c0473ec" name="data/schemas/mssql/employee_department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c67e76fc4ad44f1293217b5bbe02a682" name="data/schemas/mssql/employee_phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="05896185426832ef3c464f420011d15c" name="data/schemas/mssql/employee_skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0571ed042fae17a6f13a6603f9788dd3" name="data/schemas/mssql/person.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7ed4e76f7eee5ad6f41c61d10d230dae" name="data/schemas/mssql/phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2bc861c2028173e38868c5e160d29d65" name="data/schemas/mssql/place.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc0dda1e44668b9125c7aac0ce39721d" name="data/schemas/mssql/restaurant.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="10a43bdcadde43c31bcdd439915d84b9" name="data/schemas/mssql/service.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a3358b215dde0b53a77bbae80d44b4fb" name="data/schemas/mssql/skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d9c369f5cb5cb9681b6a7456ad80734e" name="data/schemas/mysql/album.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c54d83352a78b9e4bf1629f5898ae9ed" name="data/schemas/mysql/artist.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b760e78b04511bf4cce43b907d379261" name="data/schemas/mysql/department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5a023870055cd3bbdeecaaaff49a8441" name="data/schemas/mysql/email.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d6a0890636c6cd0a0da96cd378122683" name="data/schemas/mysql/employee.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1734e7d7bd93d7ab667db507e6ddc0d8" name="data/schemas/mysql/employee_department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2a6efc36aa596e4a78da63e17d54ed6c" name="data/schemas/mysql/employee_phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b317b18a68d7ca85210833d96b7961fc" name="data/schemas/mysql/employee_skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="98901197b7b42567136f829adc4725e7" name="data/schemas/mysql/person.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b02cc275f7789330e2f7bc8c95a24dd1" name="data/schemas/mysql/phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cb2fea344750c8fbb00e73bf77d3c8ad" name="data/schemas/mysql/place.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8761dbd1d588930a0b112dc1b3d57b1c" name="data/schemas/mysql/restaurant.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="90fc62c6435f080ca0d061f855bcfff4" name="data/schemas/mysql/service.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b6ed1efc0fdeadcf17a0623d39c0ef5" name="data/schemas/mysql/skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="90b8161967df16dd73b8398b1240ce6c" name="data/schemas/pgsql/album.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="99e2a19b7afa6b28bb267720e89dbdb8" name="data/schemas/pgsql/artist.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="937d3e3c0954c38bf2c06f12755adf49" name="data/schemas/pgsql/department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="23da1db1fba798afa420ffb22a963ffe" name="data/schemas/pgsql/email.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="98f71256c8d75e5e09065e5f2c304009" name="data/schemas/pgsql/employee.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc7d9cd61249b9bf8d05ee1a9912e9e6" name="data/schemas/pgsql/employee_department.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="131b8ab12ac8f71255a32ec36b1507a7" name="data/schemas/pgsql/employee_phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1abfa2bfb05e4627e59cf1ddb806e7a3" name="data/schemas/pgsql/employee_skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e82f4afd6c551976837412921f8e48c0" name="data/schemas/pgsql/geometric_types.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1cdeb322189c192cbd4e41327149683a" name="data/schemas/pgsql/person.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0cd9c3c858d94d162ca5b5797a1053da" name="data/schemas/pgsql/phone.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="df7f0233203e4043dad9b5f35eb06517" name="data/schemas/pgsql/place.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2a3ea79f69c17c30a9b930a27cb30615" name="data/schemas/pgsql/restaurant.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c92fa110d06fd8023b324214a59e393f" name="data/schemas/pgsql/service.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5cc8b0725fca9102f8253e0e7dd4afe4" name="data/schemas/pgsql/skill.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dff25acdf57459c4f3dfc9c6d8eede6f" name="data/piece-orm-mapper.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f55d4c98e65c40efa6e85ae1462a0dee" name="data/piece-orm.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6999313301e36b09f43eea630230d224" name="Piece/ORM/Config/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce4cf6906cff1995a4aa0800347ce8c2" name="Piece/ORM/Mapper/AssociatedObjectLoader/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="05c9dd56b63ed11e244163930e44b910" name="Piece/ORM/Mapper/AssociatedObjectLoader/ManyToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d2e925b5b9f27a365873835a8b0718a1" name="Piece/ORM/Mapper/AssociatedObjectLoader/ManyToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3f0979754d578476d38f7a02d33b454f" name="Piece/ORM/Mapper/AssociatedObjectLoader/OneToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b4c51cd0466b0c8f494484546f9369f8" name="Piece/ORM/Mapper/AssociatedObjectLoader/OneToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="42f70c18462533a0a1c34aadc41190d7" name="Piece/ORM/Mapper/AssociatedObjectPersister/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6e83e22b79d7944ed49a05605d6a6314" name="Piece/ORM/Mapper/AssociatedObjectPersister/ManyToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d9cda1527b22091a4efa4b553826e4b7" name="Piece/ORM/Mapper/AssociatedObjectPersister/ManyToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c25b6bf0c98d8052d865580d6d16f5cb" name="Piece/ORM/Mapper/AssociatedObjectPersister/OneToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1f3cda37cd40a4b95625edaed510b364" name="Piece/ORM/Mapper/AssociatedObjectPersister/OneToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="58ee77d9b9c0c81a0f78a7110dd67dd8" name="Piece/ORM/Mapper/RelationshipNormalizer/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="04f68bc5211c63ced0e1109d255719c0" name="Piece/ORM/Mapper/RelationshipNormalizer/ManyToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd2a7597d65f69ea999db52f3b447627" name="Piece/ORM/Mapper/RelationshipNormalizer/ManyToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e29a41617c294d638417c1522058fdae" name="Piece/ORM/Mapper/RelationshipNormalizer/OneToMany.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d5346ccfd2be13bd4d6dd58fce8416b" name="Piece/ORM/Mapper/RelationshipNormalizer/OneToOne.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cb4e5b08ca5682d9869078291bb0fc13" name="Piece/ORM/Mapper/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4cf1eea1547a57e1ab9359440360366a" name="Piece/ORM/Mapper/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ac60b942e54c3796dbf065c515fd903" name="Piece/ORM/Mapper/Generator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="776f549313f0d2083ca6b464840a2f13" name="Piece/ORM/Mapper/ObjectLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="923c58880c1338c063b116874a19dad1" name="Piece/ORM/Mapper/ObjectPersister.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d808a9035c76c261048207a977fb7254" name="Piece/ORM/Mapper/RelationshipType.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cd919af04abf563a83fefad9a304b6cc" name="Piece/ORM/MDB2/Decorator/Reverse/Mssql.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6a58bfe8270ec64db194bd28b6392d18" name="Piece/ORM/MDB2/NativeTypeMapper/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74e923bf25609389a45165fdde4d3f3e" name="Piece/ORM/MDB2/NativeTypeMapper/Mssql.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="88bd4adc8b66971833baf6dd73b9f713" name="Piece/ORM/MDB2/NativeTypeMapper/Mysql.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b8c6414df37bc5f36c96232c21b95025" name="Piece/ORM/MDB2/NativeTypeMapper/Pgsql.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="71cf0f3390a9641877aa11577d362d8a" name="Piece/ORM/Metadata/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f624fa6a244ff0826e14a743f8750d38" name="Piece/ORM/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7485172d3ccbf01a2ab30ccad2f6f18b" name="Piece/ORM/Context.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74c3dfa776fed88f7249ba8d19b633f7" name="Piece/ORM/Env.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e1aaa494a9daba17e33d3d4799612e2b" name="Piece/ORM/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="99f84c236c9febdf790f735cc34d31eb" name="Piece/ORM/Inflector.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5449d5a926a0ac32c565a92a0f686f1b" name="Piece/ORM/Metadata.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b80de9128cb5d5667b27b7365874898" name="Piece/ORM.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="95b8ba1c96de4af14e74db586d2e6195" name="tests/Piece/ORM/Config/FactoryTestCase/piece-orm-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6b1d8bce6aa04775f0e34b2884e11708" name="tests/Piece/ORM/Config/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d7844059946c4a0430037b7e4bc2ea5d" name="tests/Piece/ORM/Mapper/FactoryTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="338be6230cd06207432904bc4e7025b0" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/Department.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ea1bd7e9fc9405d135a285b28e6994b7" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/Employee.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="93fbbe9fb93452523547b79c5bf5629b" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/EmployeeDepartment.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="87dcf5756531cbf55c868e3fc959526a" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/EmployeePhone.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6e2345223320f66aadad55af97beff87" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/EmployeeSkill.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="58c1ef67478952c16df4ddaf036797ec" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/Phone.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2f985e54d80ca3dfcb9f6285c3d8b30b" name="tests/Piece/ORM/Mapper/MysqlTestCase/ManyToManyRelationships/Skill.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a0ee6a13a0f1e709ee43284af78fd802" name="tests/Piece/ORM/Mapper/MysqlTestCase/OneToManyRelationships/Album.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6e4cacf84e4d1da8ade7f3c1db45b41" name="tests/Piece/ORM/Mapper/MysqlTestCase/OneToManyRelationships/Artist.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5f7c0777680ce5f507177de6e4d1a979" name="tests/Piece/ORM/Mapper/MysqlTestCase/OneToOneRelationships/Place.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dc53822ad2564627005e069cdcfff32f" name="tests/Piece/ORM/Mapper/MysqlTestCase/OneToOneRelationships/Restaurant.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b6c56a86a7fc69bc0e6e5771f0092356" name="tests/Piece/ORM/Mapper/MysqlTestCase/Overwrite/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="702857524e065ed2e03cca1177e9a752" name="tests/Piece/ORM/Mapper/MysqlTestCase/UserDefined/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3d61f30db1a9c3311f459552290ee0e3" name="tests/Piece/ORM/Mapper/MysqlTestCase/Email.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ca7233b4ee7d91f724673a196d25a2f6" name="tests/Piece/ORM/Mapper/MysqlTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="463fe3218f0b0a55cbb25d9591b975cb" name="tests/Piece/ORM/Mapper/MysqlTestCase/Service.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="336c71fdb6da23e65f5f38853ef46914" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/Department.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ea4142782536e697146cdc050c492d06" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/Employee.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c5c5c4982009c1733856ae05f53cf46" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/EmployeeDepartment.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="280bc1ad1fed0c44157cd161e89cbe01" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/EmployeePhone.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="78a41e74c5ecbb4443ce9db5747c7c0e" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/EmployeeSkill.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="17e1b673d68a821db96c235ca61e4feb" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/Phone.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5c4e90324f778b2525f71632f96da562" name="tests/Piece/ORM/Mapper/PgsqlTestCase/ManyToManyRelationships/Skill.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="768441b8935a53ab29a32e5a6f6a58be" name="tests/Piece/ORM/Mapper/PgsqlTestCase/OneToManyRelationships/Album.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4de82635dfd02fd4a649d6ea6d32e263" name="tests/Piece/ORM/Mapper/PgsqlTestCase/OneToManyRelationships/Artist.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bf04a11412ad10817292671feee80ce2" name="tests/Piece/ORM/Mapper/PgsqlTestCase/OneToOneRelationships/Place.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d6e812652b680c3452b0f5cbdcccd25" name="tests/Piece/ORM/Mapper/PgsqlTestCase/OneToOneRelationships/Restaurant.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c83ae655f53ae54d5d217baef0351457" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Overwrite/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="52f02bf75ffc4b839714dfa1973cd4d9" name="tests/Piece/ORM/Mapper/PgsqlTestCase/UserDefined/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e22060051317c0c2b098b18a9eaf7ddd" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Email.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53e9a65952c63b378b315fface1d0964" name="tests/Piece/ORM/Mapper/PgsqlTestCase/GeometricTypes.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c25ad009c982aaa7d1a3c78722b2b23" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="463fe3218f0b0a55cbb25d9591b975cb" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Service.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6764774c98a3d12c34b5b6c0ec68fd15" name="tests/Piece/ORM/Mapper/CompatibilityTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="76793986a5db90c223a6814a2ea72bbb" name="tests/Piece/ORM/Mapper/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3f5fe793a912d96738484993b091e3f7" name="tests/Piece/ORM/Mapper/MssqlTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="925e53de8400409fa98f3b1aa968e78a" name="tests/Piece/ORM/Mapper/MysqlTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="09bf135520b224f58ba29bb77a82f374" name="tests/Piece/ORM/Mapper/PgsqlTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a57c26fbacc5b6b2bd85efd4575b7949" name="tests/Piece/ORM/Metadata/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="15783c534312761fff9e1cd21335705e" name="tests/Piece/ORM/ConfigTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e317074fe45b8ed78fb62bb9809bfe67" name="tests/Piece/ORM/InflectorTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cae089525c340516c2f053d88a242d55" name="tests/Piece/ORMTestCase/SetDatabase/piece-orm-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ace88633240bcc1fcf22cbe16fbeebd7" name="tests/Piece/ORMTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8dd28a9d49cc273fe0e3619c6bcbf3a6" name="tests/Piece/ORMTestCase/piece-orm-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6622762ac683353a6d0a16a4f9b60301" name="tests/Piece/ORMTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8dee66065ed22cfb9c0527329cc62f38" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>MDB2</name>
+    <channel>pear.php.net</channel>
+    <min>2.3.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Stagehand_TestRunner</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.5.0</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.3.2</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.7.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-08-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.7.0
+
+ * Native datatypes mapping support: Additional mapping from DBMS native datatypes to MDB2 datatypes can be defined by Piece_ORM_MDB2_NativeTypeMapper_XXX::addMap().
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added generic support for mapping from DBMS native datatypes to MDB2 datatypes. (Piece_ORM_Context, Piece_ORM_MDB2_NativeTypeMapper_XXX)
+- Changed configure() so that setDatabase() does not call if no database found in the current configuration. (Piece_ORM)
+- Updated setDatabase() so that a PIECE_ORM_ERROR_NOT_FOUND exception is raised when an undefind database is given. (Piece_ORM_Config, Piece_ORM_Context)
+- Added code so as to clear all database handles in clear(). (Piece_ORM_Context)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-08-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.6.0
+
+ * Many-to-many relationships defect fixed: A defect that caused many-to-many relationships to fail if a inverse table contained a underscore separated primary key is fixed.
+ * Default queries: The default query is automatically generated if the query for a method is not given.
+ * Static Sort Orders: Static sort orders can be defined by mapper definition files.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added a feature so that the default query is automatically generated if the query for a method is not given.
+- Added support for static sort order by mapper definition files. (Ticket #48)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused many-to-many relationships to fail if a inverse table contained a underscore separated primary key. (#Ticket 49)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-08-10</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.5.0
+
+ * insertXXX()/updateXXX()/deleteXXX(): Any methods for data manipulation can be defined by mapper configuration files.
+ * Update and Delete With No Primary Key Values: Primary key values are not required when executing a update or delete query.
+ * Static Queries: Executing static queries with any findXXX, findAllXXX, findOneXXX, insertXXX, and updateXXX methods are now supported.
+ * Unique Constraint Error Detection: A PIECE_ORM_ERROR_CONSTRAINT exception is thrown when unique constraint error is occured.
+ * Environment Settings: A configuration file, a mapper definition file, and the metadata for a table be always read when the current environment is not production.
+ * A few Defect Fixes: A serious defect that caused invalid objects to return when executing findAllXxx() with no primary keys in SQL has been fixed. And other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Changed update() so as to restore the previous identity map setting. (Piece_ORM_Mapper_AssociatedObjectPersister_OneToMany, Piece_ORM_Mapper_AssociatedObjectPersister_OneToOne, Piece_ORM_Mapper_Common)
+- Added support for insertXXX(), updateXXX() and deleteXXX(). (Ticket #43) (Piece_ORM_Mapper_Common, Piece_ORM_Mapper_Generator, Piece_ORM_Mapper_ObjectPersister)
+- Changed code so that the primary key values are not required when executing a update or delete query. (Ticket #46) (Piece_ORM_Mapper_ObjectPersister)
+- Changed update() so as to remove the object from the list of the loaded objects only if the primary key is contained in the given object. (Piece_ORM_Mapper_ObjectPersister)
+- Added support for executing static queries with any findXXX, findAllXXX, findOneXXX, insertXXX, and updateXXX methods. (Ticket #42) (Piece_ORM_Mapper_Common, Piece_ORM_Mapper_Generator, Piece_ORM_Mapper_ObjectPersister)
+- Added code so that a PIECE_ORM_ERROR_CONSTRAINT exception is thrown when unique constraint error is occured. (Ticket #44)
+- Updated code so that a configuration file, a mapper definition file, and the metadata for a table be always read when the current environment is not production. (Ticket #45)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused invalid objects to return when executing findAllXxx() with no primary keys in SQL. (Piece_ORM_Mapper_ObjectLoader)
+- Fixed the problem that getCount() could not work with addOrder(). (Piece_ORM_Mapper_Common)
+- Fixed the regexp for findOne. (Piece_ORM_Mapper_Generator)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.1</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-06-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.4.1
+
+ * A Defect Fix: A defect in executing query is fixed.
+
+See the following release notes for details.
+
+Defect Fixes
+============
+
+Mappers:
+
+- Fixed a defect that caused an exception to raise when executing query with an object which includes one or more PHP NULL values. (Ticket #40)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-06-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.4.0
+
+* Microsoft SQL Server Support: Microsoft SQL Server is supported.
+* A Defect Fix: A defect that getCount() could not work with findAll() is fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Changed a portion of the query building process so as to quote based on only real values instead of metadata. (Piece_ORM_Mapper_Common)
+- Added support for Microsoft SQL Server. (Ticket #38)
+
+Kernel:
+
+- Changed factory() to throw an exception if the configuration directory or the configuration file not found or the configuration file is not readable. (Ticket #37) (Piece_ORM_Config_Factory)
+
+Defect Fixes
+============
+
+Mappers:
+
+- Fixed a defect so that getCount() could not work with findAll(). (Piece_ORM_Mapper_Common)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-05-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_ORM is now available.
+
+What&apos;s New in Piece_ORM 0.3.0
+
+* getCount method: getCount() is used to get the number of rows a query would have returned without a LIMIT clause in the latest findAll method execution.
+* findOneXxx methods: findOneXxx methods can be defined with arbitrary SQL queries to get the value from the first column of the first row of the result set.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Added more strict quoting and removing unused properties when building a query.
+- Added getCount() that is used to get the number of rows a query would have returned without a LIMIT clause in the latest findAll method execution. (Ticket #33)
+- Added a feature that findOneXxx methods can be defined with arbitrary SQL queries to get the value from the first column of the first row of the result set. (Ticket #34)
+- Added findOneWithQuery() to get the value from the first column of the first row of the result set with the given query.
+
+Kernel:
+
+- Changed the error type on all Piece_ORM_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;.
+- Updated setDatabase() to throw the same exception as getConfiguration(), getMapper(), etc. have been used.
+- Removed code that avoided calling error handler.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-05-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first beta release of Piece_ORM.
+
+What&apos;s New in Piece_ORM 0.2.0
+
+* Relationships: Many-to-Many, One-to-Many, Many-to-One, and One-to-One relationships are supported on object loading/saving.
+* Simple configuration: Piece_ORM::configure() requires only three arguments.
+* Limit and offset: LIMIT and OFFSET are supported by Piece_ORM_Mapper_XXX::setLimit().
+* Sorting orders: ORDER BY clause is supported by Piece_ORM_Mapper_XXX::addOrder().
+* Object creation: Piece_ORM::createObject() and Piece_ORM_Mapper_XXX::createObject() can be used to create an object from metadata.
+* Object conversion: Piece_ORM::dressObject() can be used to convert an object into a specified object.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Added a feature so as to throw an exception if detecting problem when building a query. (Ticket #9)
+- Changed the method naming convention to not require &quot;By&quot; for findXXX/findAllXXX methods like &quot;findByXXX&quot;, &quot;findAllByXXX&quot;.
+- Added support for relationships.
+- Added support for LIMIT and OFFSET with setLimit(). (Ticket #14)
+- Added support ORDER BY clause with addOrder(). (Ticket #21)
+- Added support for Identity Map. (Ticket #23)
+- Added createObject() to create an object from metadata.
+- Moved _executeQuery() to public.
+- Added findWithQuery() to find an object with a query.
+- Added method name validation.
+- Changed delete() so that its argument can only be specified an object.
+- Added createObject() to create an object from metadata.
+- Changed behavior for creating/getting mapper objects so that the factory sets the current database handle to a mapper object every time it is called.
+- Removed the method element.
+
+Entry Point:
+
+- Removed a Piece_ORM_Config object from the arguments of configure().
+- Added getConfiguration() to get the Piece_ORM_Config object after calling configure().
+- Updated getMapper()/getConfiguration() so as to return null if calling their methods before calling configure().
+- Removed two the cache directories for mappers/metadata from the arguments of configure(). Now, the caches of mappers/metadata are stored in the same directory where a Piece_ORM_Config object is cached in.
+- Updated configure() so as to set the current database explicitly.
+- Added setDatabase() for setting a database as the current database.
+- Added createObject() to create an object from metadata.
+- Added dressObject() to convert an object into a specified object.
+
+Metadata:
+
+- Added hasField() for checking whether a table has the given field.
+
+Kernel:
+
+- Removed the default value from getDSN()/getOptions(). (Piece_ORM_Config)
+- Changed the way of configuration. Now setDSN(), setOptions(), and setDirectorySuffix() methods are used for configuration instead of addConfiguration(). (Piece_ORM_Config)
+- Removed addConfiguration(). (Piece_ORM_Config)
+- Added getDefaultDatabase() for getting the default database. (Piece_ORM_Config)
+- Adjusted to the new way of configuration. (Piece_ORM_Config_Factory)
+- Added setMapperConfigDirectory() for setting the configuration directory for the mapper configuration. (Piece_ORM_Context)
+- Updated setDatabase() so as to set the configuration directory with a directory suffix for the mapper configuration. (Piece_ORM_Context)
+- Added an error code PIECE_ORM_ERROR_INVALID_CONFIGURATION. (Piece_ORM_Error)
+- Added support for PostgreSQL &quot;timestamp with time zone&quot;.
+
+Defect Fixes
+============ 
+
+Mappers:
+
+- Fixed a problem that a built-in query is overwritten if only the relationship element is given for a built-in method.
+- Fixed a problem that a literal as a criterion cannot use with user-defined method.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release of Piece_ORM.</notes>
+  </release>
+ </changelog>
+</package>

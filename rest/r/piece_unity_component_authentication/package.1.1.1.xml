@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_Authentication</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An interceptor to control the access to resources which can be accessed only by authenticated users</summary>
+ <description>An interceptor to control the access to resources which can be accessed only by authenticated users</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>KUMAKURA Yousuke</name>
+  <user>kumatch</user>
+  <email>kumatch@users.sourceforge.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2008-09-13</date>
+ <time>12:07:13</time>
+ <version>
+  <release>1.1.1</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.1
+
+ * A defect fix: A defect that caused a warning &quot;PHP Warning:  call_user_func(Piece_Unity_Plugin_Interceptor_Authentication::loadAuthenticationState)&quot; to be raised until any protected resource was requested has been fixed.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="6131c2d107e712572b61087a0fa1e30c" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="29aeba42054b1f56f5f32019c35fc439" name="Piece/Unity/Plugin/Interceptor/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6419ee5323a1d01a301cf8067606122f" name="Piece/Unity/Service/Authentication/State.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1a62c4d362704fbac50110aaecdca4ec" name="Piece/Unity/Service/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dcfd1e8bd596f7d199af0377a5c775e2" name="tests/Piece/Unity/Plugin/Interceptor/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="81ab4d0b129d3a974510e8b4850b8ccb" name="tests/Piece/Unity/Service/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4cb6467dab6535fdc7ff406df7d313f6" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.5.0</min>
+   </package>
+   <package>
+    <name>Net_URL</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.14</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.1
+
+ * A defect fix: A defect that caused a warning &quot;PHP Warning:  call_user_func(Piece_Unity_Plugin_Interceptor_Authentication::loadAuthenticationState)&quot; to be raised until any protected resource was requested has been fixed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.0
+
+ * includes/excludes: Two configuration points &quot;includes&quot; and &quot;excludes&quot; have been added. &quot;includes&quot; allows you to mark multiple URIs as protected resources by regexp. This configuration point behave same as &quot;resourcesMatch&quot;. &quot;excludes&quot; allows you to mark multiple URIs as non-protected resources by regexp. And also the authentication URI has always been excluded from the protected resources.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.13.0</release>
+    <api>0.13.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_Authentication.</notes>
+  </release>
+ </changelog>
+</package>

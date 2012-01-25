@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_SmtpDaemon</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A SMTP Daemon written in PHP</summary>
+ <description>Stagehand_SmtpDaemon provides a feature of SMTP daemon and an interface to handle on SMTP command running PHP-CLI.</description>
+ <lead>
+  <name>mbarracuda</name>
+  <user>mbarracuda</user>
+  <email>mbarracuda@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-12-28</date>
+ <time>21:55:41</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+The first release of Stagehand_SmtpDaemon.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="45854564ce6ac0cbc330c79964e0b87c" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6c2a78f15c6a0835aa6445ae13650d6" name="src/Stagehand/SmtpDaemon/Debugger/Client.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b4a4fa3e153f5a27271336de720269f2" name="src/Stagehand/SmtpDaemon/Debugger/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="474994cf70a6c8f8a709bdc21ae054cb" name="src/Stagehand/SmtpDaemon/Debugger/Server.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="390d212f2740ff0711723c2f402f123c" name="src/Stagehand/SmtpDaemon/Context.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eeae32946880c2e889e8f70802848c6a" name="src/Stagehand/SmtpDaemon/Driver.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6c13046181c50e7a785b7b43095f9a37" name="src/Stagehand/SmtpDaemon/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4b0af4509d7b7c56fcc8f0dedb4e8055" name="src/Stagehand/SmtpDaemon/Handler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="00ec6ee0cc0d2722d68dc7e32663b158" name="src/Stagehand/SmtpDaemon/Response.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c5e7fec4d8182b4a1dfb5f63fc381eb" name="src/Stagehand/SmtpDaemon.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="76d459398ef76aaef9959c6841132ac2" name="tests/Stagehand/SmtpDaemon/HandlerTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8382c6984682069bc2e365a38b8efdbf" name="tests/Stagehand/SmtpDaemonTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a7785aab5108b216e3daa79dde55618f" name="tests/daemon.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fa9eb2bade46a229e49de8609a339bca" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Net_Server</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.2</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-12-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The first release of Stagehand_SmtpDaemon.
+   </notes>
+  </release>
+ </changelog>
+</package>

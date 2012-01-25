@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_right">Piece_Right</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.2.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A validation framework</s>
+    <d>Piece_Right is a validation framework.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</d>
+    <da>2006-10-09 22:36:10</da>
+    <n>This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+This release includes a new class Piece_Right_Validation_Script. It will be used to run a typical process of validation with Piece_Right. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validation_Script #####
+- A new class for running a typical process of validation with Piece_Right.
+
+##### Piece_Right #####
+- Moved _isEmpty() method to public.
+- Added getFieldValuesCallback() for getting the callback to get field values for the current validation.
+
+##### Piece_Right_Validation_Error #####
+- Changed the class name from Piece_Right_ValidationError.</n>
+    <f>34910</f>
+    <g>http://pear.piece-framework.com/get/Piece_Right-1.2.0</g>
+    <x xlink:href="package.1.2.0.xml"/>
+</r>

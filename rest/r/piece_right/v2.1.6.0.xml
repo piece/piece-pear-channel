@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_right">Piece_Right</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.6.0</v>
+    <a>1.1.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A validation framework</s>
+    <d>Piece_Right is a validation framework.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</d>
+    <da>2007-06-13 12:10:56</da>
+    <n>A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.6.0
+
+ * Finals: &quot;Finals&quot; can be used for additional validations after normal validations.
+ * Enhanced Filter Mechanism: The filter mechanism can now pass an array to the filter directly if it is arrayable.
+ * Unique/UniqueFields validators: &quot;Unique&quot; validator can be used to check that all values in an array do not duplicate. &quot;UniqueFields&quot; validator can be used to check that each value of multiple fields do not duplicate.
+ * Improved WithMethod validator: &quot;WithMethod&quot; validator now has a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. And also a callback can now receive a Piece_Right_Results object as the second argument.
+ * NoFile2NULL filter: &quot;NoFile2NULL&quot; filter converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL.
+ * A few Defect Fixes: A few defects in validators are fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added a feature named &quot;Finals&quot; that can be used for additional validations after normal validations. (Ticket #11)
+- Changed factory() to throw an exception if the configuration directory not found. (Ticket #25) (Piece_Right_Config_Factory)
+- Added _setRule(), _setRuleMessage(), and _getRule().
+  setRule(), setRuleMessage(), and getRule() are deprecated since Piece_Right 1.6.0. (Ticket #21) (Piece_Right_Validator_Common)
+- Changed the filter mechanism so as to pass an array to the filter directly if it is arrayable.
+
+Validators:
+
+- Added &quot;Unique&quot; validator which can be used to check that all values in an array do not duplicate. (Ticket #26)
+- Added &quot;UniqueFields&quot; validator which can be used to check that each value of multiple fields do not duplicate. (Ticket #26)
+- Added a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. (WithMethod)
+- Changed the callback interface so as to pass the Piece_Right_Results object to a method. (WithMethod)
+
+Filters:
+
+- Added &quot;NoFile2NULL&quot; filter which converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL. (Ticket #28)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused a payload object to be passed by value to the specified method with PHP4. (Ticket #23) (WithMethod)
+- Fixed a defect that caused a validation to be passed regardless of whether or not a year value is within a valid range of Japanese era if the rule &quot;isJapaneseEra&quot; was used. (Ticket #22) (Date)</n>
+    <f>228470</f>
+    <g>http://pear.piece-framework.com/get/Piece_Right-1.6.0</g>
+    <x xlink:href="package.1.6.0.xml"/>
+</r>

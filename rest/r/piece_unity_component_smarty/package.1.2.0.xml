@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_Smarty</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A renderer which is based on Smarty template engine.</summary>
+ <description>A renderer which is based on Smarty template engine.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-09-04</date>
+ <time>19:09:49</time>
+ <version>
+  <release>1.2.0</release>
+  <api>1.2.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Unity_Component_Smarty is now available.
+
+What&apos;s New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Piece_Unity 1.5.0 support: Piece_Unity_Component_Smarty 1.2.0 works properly with Piece_Unity 1.5.0.
+ * Piece_Unity_Service_Rendering_Smarty: Piece_Unity_Service_Rendering_Smarty allows you to use Smarty in actions and plug-ins.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="b75b25041cf4100108d9273c5efeee74" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="69134b87b53f11557f7c3da74968b99d" name="Piece/Unity/Plugin/Renderer/Smarty.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9ee06c2b736f059589cf1645ebe26aea" name="Piece/Unity/Service/Rendering/Smarty.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2f40a5f3de76aa7b5ea7b21785dde06b" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/actions/SmartyExampleAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6a38e221498de32c38849b7898031f29" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/plugins/function.helloworld.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="111e0ae908055b9fded2f897e49f4746" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyExample.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="199a98e60415d898af59faf7bc2ac93b" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyKeepingReference.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="379d2efa2bf92a1bc62bfe92646de808" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyLayoutContent.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70e6a5c88e1fc679d59bf8ab84637e0a" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Content/SmartyLoadingPlugins.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8b56f3735c5c2b159267fe9d53ad9984" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Fallback/Fallback.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bea8252ff4e80f41719ea13cdf007273" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Foo/Bar/Baz.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a1b23af721f3eab43fdefdb3098e5e33" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase/templates/Layout/SmartyLayout.tpl" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc061f537162782c059ebc73f6ad559d" name="tests/Piece/Unity/Plugin/Renderer/SmartyTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d1ca3f3ba5ad78fd04ac0aa7702d88e3" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.5.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>1.2.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Smarty is now available.
+
+What&apos;s New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Piece_Unity 1.5.0 support: Piece_Unity_Component_Smarty 1.2.0 works properly with Piece_Unity 1.5.0.
+ * Piece_Unity_Service_Rendering_Smarty: Piece_Unity_Service_Rendering_Smarty allows you to use Smarty in actions and plug-ins.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-11-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Smarty is now available.
+
+What&apos;s New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Less configuration: When using layout/fallback, &quot;template_dir&quot; and &quot;compile_dir&quot; are always used if its configurations are not given.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_Smarty.</notes>
+  </release>
+ </changelog>
+</package>

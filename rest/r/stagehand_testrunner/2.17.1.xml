@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>2.17.1</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A test runner for Test Driven Development</s>
+    <d>Stagehand_TestRunner provides a test runner to run unit tests. Stagehand_TestRunner strongly supports Test Driven Development by various features.</d>
+    <da>2011-07-08 09:59:07</da>
+    <n>
+What's New in Stagehand_TestRunner 2.17.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;PHP Fatal error: Call to protected Net_Growl::__construct() from context 'Stagehand_TestRunner_TestRunner' in ...&quot; is raised when using Growl. (Issue #305)
+ </n>
+    <f>34679</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.17.1</g>
+    <x xlink:href="package.2.17.1.xml"/>
+</r>

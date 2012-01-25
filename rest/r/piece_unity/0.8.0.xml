@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.8.0</v>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2006-10-17 11:11:12</da>
+    <n>This is the first release of Piece_Unity with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a few enhancements of the validation system. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Validation #####
+- Added getResults() method for getting the Piece_Right_Results object of the latest validation.
+- Added setting the Piece_Right_Results object to the current flow scope when the continuation server is running.
+- Refactored validate() method using Piece_Right_Validation_Script class.
+- Added addValidatorDirectory()/addFilterDirectory() methods.
+
+### Plug-ins ###
+
+##### KernelConfigurator #####
+- Added Piece_Right_Results class to the array for autoloading.
+- Added missing two configuration points validationValidatorDirectories and validationFilterDirectories, and their processes, which had existed in Interceptor_PieceRight plug-in.</n>
+    <f>259092</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-0.8.0</g>
+    <x xlink:href="package.0.8.0.xml"/>
+</r>

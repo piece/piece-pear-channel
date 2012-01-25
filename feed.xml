@@ -1,12 +1,3753 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-01-25T11:55:45+09:00</updated>
+    <updated>2012-01-25T12:22:48+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
         <name>http://pear.piece-framework.com</name>
     </author>
 
+    <entry>
+        <title>Games_Couple 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Games_Couple-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Games_Couple-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-10-28T17:08:46+09:00</updated>
+        <content>
+            Games_Coupleの最初のステーブルリリース。
+        </content>
+    </entry>    <entry>
+        <title>Games_Pyramid 0.1.1 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Games_Pyramid-0.1.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Games_Pyramid-0.1.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-03-22T00:10:18+09:00</updated>
+        <content>
+            @link タグを修正したリリース。
+        </content>
+    </entry>    <entry>
+        <title>Games_Pyramid 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Games_Pyramid-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Games_Pyramid-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-03-21T22:15:41+09:00</updated>
+        <content>
+            Games_Pyramidの最初のリリース。
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Basics 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Basics-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Basics-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-25T22:44:44+09:00</updated>
+        <content>
+            A new release of Piece_Examples_Basics is now available.
 
+What's New in Piece_Examples_Basics 1.1.0
+
+ * Update to Piece_Unity 1.4.0: The code of this release includes a lot of uses of new features of Piece_Unity.
+ * New HTML design: HTML design has been renewed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Basics 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Basics-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Basics-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-19T22:40:36+09:00</updated>
+        <content>
+            This is the first stable release of Piece_Examples_Basics.
+
+This package is extracted from the Piece_Unity package.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_CRUD 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_CRUD-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_CRUD-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-25T23:23:43+09:00</updated>
+        <content>
+            The first release of Piece_Examples_CRUD.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Conversation 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Conversation-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Conversation-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-26T18:53:58+09:00</updated>
+        <content>
+            The first release of Piece_Examples_Conversation.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Questionnaire 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-19T19:44:36+09:00</updated>
+        <content>
+            A new release of Piece_Examples_Questionnaire is now available.
+
+What's New in Piece_Examples_Questionnaire 1.1.0
+
+ * The New Naming Convention: All event names and event handler names are updated corresponding to the Piece_IDE compatible naming convention.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Updated corresponding to the Piece_IDE compatible naming convention.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Questionnaire 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-16T21:55:33+09:00</updated>
+        <content>
+            This is the first stable release of Piece_Examples_Questionnaire.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Questionnaire 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-0.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-03-25T07:03:29+09:00</updated>
+        <content>
+            A new release of Piece_Examples_Questionnaire is now available.
+
+This release includes an enhancement so as to remove all class elements from Questionnaire.yaml.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Examples_Questionnaire 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Examples_Questionnaire-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-03-24T11:49:53+09:00</updated>
+        <content>
+            The first release of Piece_Examples_Questionnaire.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.16.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.16.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.16.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-07-28T21:44:57+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.16.0
+
+ * Enhanced interfaces: getActiveFlowExecutionTicket() has been added to the Piece_Flow_Continuation_Service class. It can be used to get the flow execution ticket for the active flow execution. And also isViewState() has been added to the Piece_Flow class. It can be used to get whether the current state of a flow execution is a view state or not.
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+ * A defect fix: A defect that the outer frame of an already removed flow execution to be created by garbage collection has been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added getActiveFlowExecutionTicket() to get the flow execution ticket for the active flow execution. (Piece_Flow_Continuation_FlowExecution, Piece_Flow_Continuation_Service)
+- Added isViewState() to get whether the current state of a flow execution is a view state or not. (Piece_Flow)
+- Changed the behavior of internal error handling so as to handle only own and &quot;exception&quot; level errors.
+- Replaced all uses of PIECE_FLOW_ERROR_FLOW_NAME_NOT_GIVEN with PIECE_FLOW_ERROR_FLOW_ID_NOT_GIVEN.
+- Changed the behavior of internal error handling that an exception from Stagehand_FSM is always wrapped with Piece_Flow_Error::push().
+
+Defect Fixes
+============
+
+- Fixed a defect that the outer frame of an already removed flow execution to be created by garbage collection. (Piece_Flow_Continuation_FlowExecution)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.15.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.15.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.15.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-25T14:14:37+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.15.1
+
+ * Two defect fixes: A defect that caused a PIECE_FLOW_ERROR_FLOW_ID_NOT_GIVEN exception to be raised when being accessed an expired flow execution after sweeping it by the garbage collection has been fixed. And a defect that caused an undefined index notice to be raised if the action instances of the current context do not exist has been fixed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.15.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.15.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.15.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-13T12:18:09+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.15.0
+
+ * New configuration system: A new configuration system using a directory where flow definition files exist and an extension of flow definition files has been supported. And the configuration system supports layered structure by using underscores in flow names as directory separators.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added a feature so that a continuation server can use each action directory individually.
+- Changed the constructor so as to use the given cache directory as is. (Piece_Flow_ConfigReader_Common)
+- Added a configuration reader for PHP array. (Piece_Flow_ConfigReader_PHPArray, Piece_Flow_ConfigReader)
+- Added a feature so that instances of actions are kept with each context individually. (Piece_Flow_Action_Factory, Piece_Flow_Continuation_Server)
+- Added PIECE_FLOW_ERROR_FLOW_ID_NOT_GIVEN. (Piece_Flow_Error)
+- Changed the representation of flow identifier from &quot;flow name&quot; to &quot;flow ID&quot;. (Piece_Flow_Continuation_FlowExecution, Piece_Flow_Continuation_Service, Piece_Flow_Continuation_Server)
+- Added setFlowIDCallback() and marked setFlowNameCallback() as deprecated. (Piece_Flow_Continuation_Server)
+- Added support for new configuration system using a directory where flow definition files exist and an extension of flow definition files. (Ticket #35)
+- Added getActiveFlowID()/getActiveFlowSource() which can be used to get the flow ID/source for the active flow execution. (Piece_Flow_Continuation_Server)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.14.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.14.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.14.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-09-28T12:34:37+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.14.0
+
+ * Two new interfaces for the continuation server: Two new interfaces for the continuation server have been available. One is Piece_Flow_Continuation_Service. The other is Piece_Flow_Continuation_Server. Piece_Flow_Continuation_Service is a service class which provides simple interfaces to access attributes of the active flow object and to get some information from flow executions. Users should use this class instead of Piece_Flow_Continuation from this release forward. Piece_Flow_Continuation_Server is a class which just provides the features for the continuation server only. Framework developers should use this class instead of Piece_Flow_Continuation from this release forward. Besides, Piece_Flow_Continuation has been deprecated.
+ * A Defect Fix: A defect that caused the same cache to be used if the relative paths of the flow definition files are same even though the absolute paths of the files are different has been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added missing code for checking whether the flow execution has started or not to getCurrentStateName() and getPreviousStateName(). (Piece_Flow)
+- Improved some error messages and comments. (Piece_Flow)
+- Changed the visibility of isExclusive() to private. isExclusive() has been marked as deprecated. (Piece_Flow_Continuation)
+- Refactored Piece_Flow_Continuation. It has been divided into some classes, and deprecated. (Ticket #30)
+- Refactored Piece_Flow. (Ticket #32)
+
+Defect Fixes
+============
+
+- Fixed the defect that caused the same cache to be used if the relative paths of the flow definition files are same even though the absolute paths of the files are different. (Ticket #34) (Piece_Flow_ConfigReader_Common)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.13.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.13.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.13.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-26T15:09:17+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.13.0
+
+ * Piece_Flow_Continuation::checkLastEvent(): This method can be used to check whether the last event which is given by a user is valid or not. And this method always return true if the continuation has not activated yet or just started.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed read() so that a flow definition file with unknown extension is read as YAML. (Piece_Flow_ConfigReader)
+- Added checkLastEvent() which can be used to check whether the last event which is given by a user is valid or not. (Piece_Flow_Continuation, Piece_Flow)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.12.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.12.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.12.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-17T23:54:23+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.12.0
+
+ * The target of the garbage collection changed: The target of the garbage collection has been changed from all flow executions to only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the target of the garbage collection to only non-exclusive flow executions. (Piece_Flow_Continuation)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.11.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.11.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.11.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-15T00:39:06+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.11.0
+
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions.
+ * Environment settings: A flow definition file is always read when the current environment is not production.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the cached value format from array to Piece_Flow_Config. (Piece_Flow_ConfigReader_Common)
+- Updated code so that a flow definition file is always read when the current environment is not production. (Ticket #26) (Piece_Flow_ConfigReader_Common)
+- Added support for garbage collection for expired flow executions. (Ticket #16)
+- Added code so as to clear the payload from the current flow execution to reduce the session size. (Piece_Flow_Continuation, Piece_Flow)
+- Added code so as to call clear() if it exists to reduce the session size. (Piece_Flow_EventHandler)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.10.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.10.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.10.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-02T21:23:14+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.10.0
+
+ * Runtime Validation of Flow Definition: A flow definition is validated when it is loaded.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Web Flow Engine:
+
+- Added validation of flow definition. (Ticket #23)
+- Many minor improvements.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.9.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.9.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.9.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-05-28T11:50:10+09:00</updated>
+        <content>
+            A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.9.0
+
+ * Plain Old PHP Object Support: A user-defined class can be used as an action without subclassing Piece_Flow_Action.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Web Flow Engine:
+
+- Added a feature so that a user-defined class can be used as an action without subclassing Piece_Flow_Action. (Ticket #18)
+- Updated invoke() and invokeAndTriggerEvent() so as to throw an exception if the method that will be called does not exist in an action class. (Ticket #20)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.8.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-12-20T20:16:41+09:00</updated>
+        <content>
+            This release includes a feature named &quot;Action Continuation&quot; and several enhancements.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature will allow developers to write stateful action code via the properties without using flow attributes. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation, Piece_Flow_Action_Factory ###
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution. (Ticket #13)
+
+### Piece_Flow_Continuation ###
+
+- Removed setActionDirectory().
+- Changed to start a new flow execution if another flow execution of the current flow already exists in the flow executions. (Ticket #14)
+- Added isExclusive() to check whether the curent flow execution is exclusive or not.
+- Added getCurrentFlowName() to get the current flow name.
+
+### Piece_Flow_Action_Factory ###
+
+- Added clearInstances() to clear all instances of actions. (Ticket #12)
+- Moved _load() to load() as a public method.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.7.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.7.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.7.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-11-18T00:57:13+09:00</updated>
+        <content>
+            This release includes a security fix for a Cross Site Request Forgery (CSRF) vulnerability and a minor fix in the continuation server, and a few enhancements. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+
+- Added getFlowExecutionTicketByFlowName() method for getting a flow execution ticket by the given flow name. (Ticket #5)
+
+### Piece_Flow_Action_Invoker, Piece_Flow_Action ###
+
+- Added the code so as to be able to prepare something for a callback before invoking the callback. (Ticket #6)
+
+### Other Changes ###
+
+- Changed so as to be able to omit the class attribute for a callback. If the class attribute is omitted, ClassNameAction class is used. (Ticket #8)
+
+## Defect Fixes ##
+
+### Piece_Flow_Continuation ###
+
+- Changed the behaviour of preparing flow execution so as to require a flow execution ticket whenever continuing a flow execution even though what the flow execution mode is. (Ticket #2)
+- Changed the behaviour of preparing flow execution so as to require a flow name whenever in multiple flow mode. (Ticket #3)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Flow 1.6.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Flow-1.6.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Flow-1.6.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-10-16T13:19:12+09:00</updated>
+        <content>
+            This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a minor enhancement of Piece_Flow_Continuation class. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+- Moved the location of setting $_currentFlowExecutionTicket and $_activated properties to _start()/_continue() methods for using Piece_Unity_Continuation objects in actions.
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-10-01T20:57:47+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 1.2.0
+
+ * getDefault(): getDefault() to get the default value of a given field has been added to the Mapper API.
+ * Two defect fixes: A defect has been fixed so that an exception to be raised if an assumed through table is not found. And also a defect has been fixed that caused an exception to be raised if the $query variable was used in a query.
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-07-13T21:59:54+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 1.1.0
+
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+ * Improved Automatic Timestamp: The behavior of insert() has been changed so that the current timestamp to be set to the updated_at field.
+ * Many defect fixes: Many defects related to LOB support and the useMapperNameAsTableName option and a few other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Changed the behavior of object loading so that a field value of an object is always set null if the field value of the database is NULL.
+- Renamed from PIECE_ORM_ERROR_INVOCATION_FAILED to PIECE_ORM_ERROR_CANNOT_INVOKE.
+- Changed the behavior of internal error handling so as to handle only own and &quot;exception&quot; level errors.
+- Changed the behavior of insert() so that the current timestamp to be set to the updated_at field. (Ticket #99)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused an fatal error &quot;PHP Fatal error:  Call to a member function getSource() on a non-object&quot; to be raised when insert()/update() call on an object which contains one or more LOB fields setting null. (Ticket #96) (Piece_ORM_Mapper_Common)
+- Fixed a defect that a LOB field value to be null after invoking update() even if the value is not changed. (Ticket #95) (Piece_ORM_Mapper_Common, Piece_ORM_Mapper_LOB)
+- Fixed the definition of &quot;options&quot;. (Ticket #88) (data/piece-orm.yaml)
+- Fixed a defect that caused a LOB value to be damaged after invoking update if the value is not changed on PostgreSQL. (Ticket #97) (Piece_ORM_Mapper_Common)
+- Fixed a defect so that all blob values are set to the same value as the value of the last placeholder in a query if multiple blobs are included in the query. (Piece_ORM_Mapper_Common)
+- Fixed a defect so that any queries with relationships do not work if the useMapperNameAsTableName option is enabled.
+- Fixed a defect that caused an exception to be raised when inserting a record to a table including one or more datetime field which is NOT NULL and *not* has default value if Piece_ORM was used with MDB2_Driver_mysql 1.5.0b1. (Ticket #100) (Piece_ORM_Metadata_Factory)
+- Fixed a defect that caused variable names in a default query to be broken if the useMapperNameAsTableName option was enabled. (Ticket #87) (Piece_ORM_Context)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-04-20T04:26:24+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available. This is the first stable release of Piece_ORM.
+
+What's New in Piece_ORM 1.0.0
+
+ * Automatic Timestamp: The current timestamp is set to the createdAt/updatedAt property automatically when insert/update if a table has a created_at/updated_at field.
+ * Optimistic Locking: Optimistic Locking by the lock_version field has been supported only in default queries.
+ * LOB support: The LOB support provides easy-to-use interfaces to handle LOBs using mappers.
+ * Array support: Quotable (scalar or null) values in an array are expanded with a comma in a query.
+ * the useMapperNameAsTableName option: If you want to use a mapper name as a table name, set the useMapperNameAsTableName option to true in the piece-orm-config.yaml.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added a feature so that quotable (scalar or null) values in an array are expanded with a comma in a query. (Piece_ORM_Mapper_Common)
+- Added a built-in variable $__table which is replaced with an appropriate table name in mapper definition files. (Ticket #67) (Piece_ORM_Mapper_Common)
+- Added a feature so as to use a mapper name as a table name by setting the useMapperNameAsTableName option to true in the piece-orm-config.yaml. (Ticket #71)
+- Removed support for Identity Map.
+- Changed factory() so as to use the given cache directory as is. (Ticket #58) (Piece_ORM_Config_Factory)
+- Changed setConfigDirectory()/setCacheDirectory() to not return the previous value. (Ticket #56) (Piece_ORM_Mapper_Factory, Piece_ORM_Metadata_Factory)
+- Added support for LOB.
+- Added a feature so that a DBMS specific function to get the current timestamp is set to the createdAt/updatedAt property automatically when insert/update. (Ticket #81) (Piece_ORM_Mapper_Common)
+- Added support for Optimistic Locking by the lock_version field only in default queries. (Ticket #84) (Piece_ORM_Mapper_Generator)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.8.1 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.8.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.8.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-01-13T07:50:24+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.8.1
+
+ * Several Defect Fixes: A defect that caused an error &quot;Fatal error: Cannot redeclare ...&quot; to be raised if there are duplicate method names case insensitive in a configuration and other defects are fixed.
+
+See the following release notes for details.
+
+Defect Fixes
+============
+
+- Fixed a defect that caused update()/delete() to be failed with a table which has a composite primary key. (Ticket #62) (Piece_ORM_Mapper_Generator)
+- Fixed a defect that caused the result of findXXX()/findAllXXX() to be broken with a table which has a composite primary key. (Ticket #63) (Piece_ORM_Metadata)
+- Fixed a defect that mappers cannot work with a table which includes numbers and underscores in the table name and the column names. (Ticket #65) (Piece_ORM_Inflector)
+- Fixed a defect that caused the result of a finder method call to be broken if the mapper has already used in relationships before. (Ticket #69) (Piece_ORM_Mapper_AssociatedObjectLoader_Common)
+- Fixed a defect that caused an error &quot;Fatal error: Cannot redeclare ...&quot; to be raised if there are duplicate method names case insensitive in a configuration. (Ticket #59) (Piece_ORM_Mapper_Generator)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.8.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-09-24T17:09:11+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.8.0
+
+ * Enhanced update() and delete(): update() and delete() now work a table which has no primary keys.
+ * A few Defect Fixes: Two minor defects that caused the same cache to be used if the relative paths of the configuration files (or the mapper definition files) are same even though the absolute paths of the configuration files (or the mapper definition files) are different are fixed. And also a defect that caused variables to be tainted if the given object has &quot;criteria&quot; or &quot;methodName&quot; properties is fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Improved the error message for the PIECE_ORM_ERROR_INVOCATION_FAILED exception when building a query. (Piece_ORM_Mapper_Common)
+- Changed update()/delete() so as to work with a table which has no primary keys. (Piece_ORM_Mapper_ObjectPersister)
+
+Defect Fixes
+============
+
+- Fixed the defect that caused the cache IDs to duplicate if the relative paths of the configuration files are same even though the absolute paths of the configuration files are different. (Piece_ORM_Config_Factory)
+- Fixed the defect that caused the cache IDs to duplicate if the relative paths of the mapper definition files are same even though the absolute paths of the mapper definition files are different. (Piece_ORM_Mapper_Factory)
+- Fixed the defect that caused variables to be tainted if the given object has &quot;criteria&quot; or &quot;methodName&quot; properties. (Piece_ORM_Mapper_Common)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.7.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.7.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.7.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-27T11:40:18+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.7.0
+
+ * Native datatypes mapping support: Additional mapping from DBMS native datatypes to MDB2 datatypes can be defined by Piece_ORM_MDB2_NativeTypeMapper_XXX::addMap().
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added generic support for mapping from DBMS native datatypes to MDB2 datatypes. (Piece_ORM_Context, Piece_ORM_MDB2_NativeTypeMapper_XXX)
+- Changed configure() so that setDatabase() does not call if no database found in the current configuration. (Piece_ORM)
+- Updated setDatabase() so that a PIECE_ORM_ERROR_NOT_FOUND exception is raised when an undefind database is given. (Piece_ORM_Config, Piece_ORM_Context)
+- Added code so as to clear all database handles in clear(). (Piece_ORM_Context)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.6.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.6.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.6.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-16T18:40:42+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.6.0
+
+ * Many-to-many relationships defect fixed: A defect that caused many-to-many relationships to fail if a inverse table contained a underscore separated primary key is fixed.
+ * Default queries: The default query is automatically generated if the query for a method is not given.
+ * Static Sort Orders: Static sort orders can be defined by mapper definition files.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added a feature so that the default query is automatically generated if the query for a method is not given.
+- Added support for static sort order by mapper definition files. (Ticket #48)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused many-to-many relationships to fail if a inverse table contained a underscore separated primary key. (#Ticket 49)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.5.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-10T21:30:53+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.5.0
+
+ * insertXXX()/updateXXX()/deleteXXX(): Any methods for data manipulation can be defined by mapper configuration files.
+ * Update and Delete With No Primary Key Values: Primary key values are not required when executing a update or delete query.
+ * Static Queries: Executing static queries with any findXXX, findAllXXX, findOneXXX, insertXXX, and updateXXX methods are now supported.
+ * Unique Constraint Error Detection: A PIECE_ORM_ERROR_CONSTRAINT exception is thrown when unique constraint error is occured.
+ * Environment Settings: A configuration file, a mapper definition file, and the metadata for a table be always read when the current environment is not production.
+ * A few Defect Fixes: A serious defect that caused invalid objects to return when executing findAllXxx() with no primary keys in SQL has been fixed. And other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Changed update() so as to restore the previous identity map setting. (Piece_ORM_Mapper_AssociatedObjectPersister_OneToMany, Piece_ORM_Mapper_AssociatedObjectPersister_OneToOne, Piece_ORM_Mapper_Common)
+- Added support for insertXXX(), updateXXX() and deleteXXX(). (Ticket #43) (Piece_ORM_Mapper_Common, Piece_ORM_Mapper_Generator, Piece_ORM_Mapper_ObjectPersister)
+- Changed code so that the primary key values are not required when executing a update or delete query. (Ticket #46) (Piece_ORM_Mapper_ObjectPersister)
+- Changed update() so as to remove the object from the list of the loaded objects only if the primary key is contained in the given object. (Piece_ORM_Mapper_ObjectPersister)
+- Added support for executing static queries with any findXXX, findAllXXX, findOneXXX, insertXXX, and updateXXX methods. (Ticket #42) (Piece_ORM_Mapper_Common, Piece_ORM_Mapper_Generator, Piece_ORM_Mapper_ObjectPersister)
+- Added code so that a PIECE_ORM_ERROR_CONSTRAINT exception is thrown when unique constraint error is occured. (Ticket #44)
+- Updated code so that a configuration file, a mapper definition file, and the metadata for a table be always read when the current environment is not production. (Ticket #45)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused invalid objects to return when executing findAllXxx() with no primary keys in SQL. (Piece_ORM_Mapper_ObjectLoader)
+- Fixed the problem that getCount() could not work with addOrder(). (Piece_ORM_Mapper_Common)
+- Fixed the regexp for findOne. (Piece_ORM_Mapper_Generator)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.4.1 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.4.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.4.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-06-21T20:45:20+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.4.1
+
+ * A Defect Fix: A defect in executing query is fixed.
+
+See the following release notes for details.
+
+Defect Fixes
+============
+
+Mappers:
+
+- Fixed a defect that caused an exception to raise when executing query with an object which includes one or more PHP NULL values. (Ticket #40)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.4.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-06-19T21:10:05+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.4.0
+
+* Microsoft SQL Server Support: Microsoft SQL Server is supported.
+* A Defect Fix: A defect that getCount() could not work with findAll() is fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Changed a portion of the query building process so as to quote based on only real values instead of metadata. (Piece_ORM_Mapper_Common)
+- Added support for Microsoft SQL Server. (Ticket #38)
+
+Kernel:
+
+- Changed factory() to throw an exception if the configuration directory or the configuration file not found or the configuration file is not readable. (Ticket #37) (Piece_ORM_Config_Factory)
+
+Defect Fixes
+============
+
+Mappers:
+
+- Fixed a defect so that getCount() could not work with findAll(). (Piece_ORM_Mapper_Common)
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.3.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-05-19T17:24:06+09:00</updated>
+        <content>
+            A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.3.0
+
+* getCount method: getCount() is used to get the number of rows a query would have returned without a LIMIT clause in the latest findAll method execution.
+* findOneXxx methods: findOneXxx methods can be defined with arbitrary SQL queries to get the value from the first column of the first row of the result set.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Added more strict quoting and removing unused properties when building a query.
+- Added getCount() that is used to get the number of rows a query would have returned without a LIMIT clause in the latest findAll method execution. (Ticket #33)
+- Added a feature that findOneXxx methods can be defined with arbitrary SQL queries to get the value from the first column of the first row of the result set. (Ticket #34)
+- Added findOneWithQuery() to get the value from the first column of the first row of the result set with the given query.
+
+Kernel:
+
+- Changed the error type on all Piece_ORM_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;.
+- Updated setDatabase() to throw the same exception as getConfiguration(), getMapper(), etc. have been used.
+- Removed code that avoided calling error handler.
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-05-09T14:58:52+09:00</updated>
+        <content>
+            This is the first beta release of Piece_ORM.
+
+What's New in Piece_ORM 0.2.0
+
+* Relationships: Many-to-Many, One-to-Many, Many-to-One, and One-to-One relationships are supported on object loading/saving.
+* Simple configuration: Piece_ORM::configure() requires only three arguments.
+* Limit and offset: LIMIT and OFFSET are supported by Piece_ORM_Mapper_XXX::setLimit().
+* Sorting orders: ORDER BY clause is supported by Piece_ORM_Mapper_XXX::addOrder().
+* Object creation: Piece_ORM::createObject() and Piece_ORM_Mapper_XXX::createObject() can be used to create an object from metadata.
+* Object conversion: Piece_ORM::dressObject() can be used to convert an object into a specified object.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Mappers:
+
+- Added a feature so as to throw an exception if detecting problem when building a query. (Ticket #9)
+- Changed the method naming convention to not require &quot;By&quot; for findXXX/findAllXXX methods like &quot;findByXXX&quot;, &quot;findAllByXXX&quot;.
+- Added support for relationships.
+- Added support for LIMIT and OFFSET with setLimit(). (Ticket #14)
+- Added support ORDER BY clause with addOrder(). (Ticket #21)
+- Added support for Identity Map. (Ticket #23)
+- Added createObject() to create an object from metadata.
+- Moved _executeQuery() to public.
+- Added findWithQuery() to find an object with a query.
+- Added method name validation.
+- Changed delete() so that its argument can only be specified an object.
+- Added createObject() to create an object from metadata.
+- Changed behavior for creating/getting mapper objects so that the factory sets the current database handle to a mapper object every time it is called.
+- Removed the method element.
+
+Entry Point:
+
+- Removed a Piece_ORM_Config object from the arguments of configure().
+- Added getConfiguration() to get the Piece_ORM_Config object after calling configure().
+- Updated getMapper()/getConfiguration() so as to return null if calling their methods before calling configure().
+- Removed two the cache directories for mappers/metadata from the arguments of configure(). Now, the caches of mappers/metadata are stored in the same directory where a Piece_ORM_Config object is cached in.
+- Updated configure() so as to set the current database explicitly.
+- Added setDatabase() for setting a database as the current database.
+- Added createObject() to create an object from metadata.
+- Added dressObject() to convert an object into a specified object.
+
+Metadata:
+
+- Added hasField() for checking whether a table has the given field.
+
+Kernel:
+
+- Removed the default value from getDSN()/getOptions(). (Piece_ORM_Config)
+- Changed the way of configuration. Now setDSN(), setOptions(), and setDirectorySuffix() methods are used for configuration instead of addConfiguration(). (Piece_ORM_Config)
+- Removed addConfiguration(). (Piece_ORM_Config)
+- Added getDefaultDatabase() for getting the default database. (Piece_ORM_Config)
+- Adjusted to the new way of configuration. (Piece_ORM_Config_Factory)
+- Added setMapperConfigDirectory() for setting the configuration directory for the mapper configuration. (Piece_ORM_Context)
+- Updated setDatabase() so as to set the configuration directory with a directory suffix for the mapper configuration. (Piece_ORM_Context)
+- Added an error code PIECE_ORM_ERROR_INVALID_CONFIGURATION. (Piece_ORM_Error)
+- Added support for PostgreSQL &quot;timestamp with time zone&quot;.
+
+Defect Fixes
+============ 
+
+Mappers:
+
+- Fixed a problem that a built-in query is overwritten if only the relationship element is given for a built-in method.
+- Fixed a problem that a literal as a criterion cannot use with user-defined method.
+        </content>
+    </entry>    <entry>
+        <title>Piece_ORM 0.1.0 (alpha)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_ORM-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_ORM-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-03-09T16:04:48+09:00</updated>
+        <content>
+            This is the first release of Piece_ORM.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.10.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.10.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.10.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-07-27T21:14:32+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.10.0
+
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+ * Improved validation process flow: The validation process flow has been changed so that the validations of a field to be broken when a validation fail unless the &quot;forcevalidation&quot; option is disabled.
+ * A defect fix: A defect for the the &quot;forceValidation&quot; option has been fixed so that the option of a field was not merged.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.9.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.9.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.9.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-01-26T14:45:24+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.9.1
+
+ * A defect fix: A defect that caused an error &quot;PHP Fatal error:  Call to undefined function gregoriantojd()&quot; to be raised if the calendar extension is disabled or not installed in the environment has been fixed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.9.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.9.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.9.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-01-15T14:55:34+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.9.0
+
+ * Enhanced validators: File validator allows users to use messages corresponding to each error code for file uploading. Range validator supports array.
+ * A defect fix: A defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given has been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Validators:
+
+- Added support for messages by error code. (Ticket #41) (File)
+- Added support for array. (Ticket #59) (Range)
+
+Kernel:
+
+- Changed factory() so as to use a given cache directory as is. (Ticket #37) (Piece_Right_Config_Factory)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given. (Ticket #40) (Date, FutureDate, PastDate)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.8.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-03T03:47:41+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.8.0
+
+ * Validation Template: Validation Template allows users to use a validation set as a template for another validation set.
+ * Layered structure support: Layered structure has been supported by using underscores in validation set names as directory separators.
+ * A Defect Fix: A defect that caused the same cache to be used if the relative paths of the validation definition files are same even though the absolute paths of the files are different has been fixed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.7.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.7.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.7.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-11T13:17:41+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.7.0
+
+ * Getting Field Names: This is a new feature that allows users to always get field names by a validation set and a Piece_Right_Config object.
+ * Environment Settings: A configuration file be always read when the current environment is not production.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added a feature that allows users to always get field names by a validation set and a Piece_Right_Config object. (Ticket #30) (Piece_Right_Config, Piece_Right_Validation_Script, Piece_Right)
+- Updated code so that a configuration file be always read when the current environment is not production. (Ticket #31) (Piece_Right_Config_Factory)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.6.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.6.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.6.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-06-13T12:10:56+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+
+What's New in Piece_Right 1.6.0
+
+ * Finals: &quot;Finals&quot; can be used for additional validations after normal validations.
+ * Enhanced Filter Mechanism: The filter mechanism can now pass an array to the filter directly if it is arrayable.
+ * Unique/UniqueFields validators: &quot;Unique&quot; validator can be used to check that all values in an array do not duplicate. &quot;UniqueFields&quot; validator can be used to check that each value of multiple fields do not duplicate.
+ * Improved WithMethod validator: &quot;WithMethod&quot; validator now has a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. And also a callback can now receive a Piece_Right_Results object as the second argument.
+ * NoFile2NULL filter: &quot;NoFile2NULL&quot; filter converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL.
+ * A few Defect Fixes: A few defects in validators are fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added a feature named &quot;Finals&quot; that can be used for additional validations after normal validations. (Ticket #11)
+- Changed factory() to throw an exception if the configuration directory not found. (Ticket #25) (Piece_Right_Config_Factory)
+- Added _setRule(), _setRuleMessage(), and _getRule().
+  setRule(), setRuleMessage(), and getRule() are deprecated since Piece_Right 1.6.0. (Ticket #21) (Piece_Right_Validator_Common)
+- Changed the filter mechanism so as to pass an array to the filter directly if it is arrayable.
+
+Validators:
+
+- Added &quot;Unique&quot; validator which can be used to check that all values in an array do not duplicate. (Ticket #26)
+- Added &quot;UniqueFields&quot; validator which can be used to check that each value of multiple fields do not duplicate. (Ticket #26)
+- Added a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. (WithMethod)
+- Changed the callback interface so as to pass the Piece_Right_Results object to a method. (WithMethod)
+
+Filters:
+
+- Added &quot;NoFile2NULL&quot; filter which converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL. (Ticket #28)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused a payload object to be passed by value to the specified method with PHP4. (Ticket #23) (WithMethod)
+- Fixed a defect that caused a validation to be passed regardless of whether or not a year value is within a valid range of Japanese era if the rule &quot;isJapaneseEra&quot; was used. (Ticket #22) (Date)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.5.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-02-19T00:41:26+09:00</updated>
+        <content>
+            A new release of Piece_Right is now available.
+This release includes two features &quot;Validator Aliases&quot; and &quot;Filter Aliases&quot;. They can be used multiple aliases as the name of a validator/filter class by setting multiple prefixes.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validator_Factory #####
+
+- Revemod setValidatorDirectories() and getValidatorDirectories().
+- Changed addValidatorDirectory() so as to not return value.
+- Added a feature named &quot;Validator Aliases&quot; so that this feature can be used multiple aliases as the name of a validator class by setting multiple prefixes. (Ticket #18)
+
+##### Piece_Right_Filter_Factory #####
+
+- Removed setFilterDirectories() and getFilterDirectories().
+- Changed addFilterDirectory() so as to not return value.
+- Added a feature named &quot;Filter Aliases&quot; so that this feature can be used multiple aliases as the name of a validator class by setting multiple prefixes. (Ticket #19)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.4.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-12-24T00:16:40+09:00</updated>
+        <content>
+            This release includes a few enhancements for instance caching of validators and filters, and two minor fixes. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validator_Factory #####
+
+- Changed addValidatorDirectory() to return the old validator directories. (Ticket #14)
+- Added setValidatorDirectories() to set the directories as the validator directories. (Ticket #14)
+- Added clearInstances() to clear all instances of validators. (Ticket #15)
+- Added getValidatorDirectories() to get the validator directories. (Ticket #16)
+
+##### Piece_Right_Filter_Factory #####
+
+- Changed addFilterDirectory() to return the old filter directories. (Ticket #14)
+- Added setFilterDirectories() to set the directories as the filter directories. (Ticket #14)
+- Added clearInstances() to clear all instances of filters. (Ticket #15)
+- Added getFilterDirectories() to get the filter directories. (Ticket #16)
+
+## Defect Fixes ##
+
+##### Piece_Right_Validation_Script #####
+
+- Added missing error handling.
+- Added a missing require_once statement.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.3.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-11-27T00:48:57+09:00</updated>
+        <content>
+            This release includes two new validators File and Image, a lot of enhancements, and several fixes. See the following release notes for details.
+
+## Enhancements ##
+
+### Validators ###
+
+##### Range, Numeric #####
+
+- Added the code so as to check whether a value is a numeric, and extracted its features as Numeric validator. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for good advices and the patches.
+
+##### File #####
+
+- A validator which is used to validate a file.
+
+##### Image #####
+
+- A validator to check files are valid image files.
+
+### Kernel ###
+
+##### Piece_Right #####
+
+- Changed support file uploads in Piece_Right.
+- Added support for filtering all values in an array. (Ticket #3)
+
+##### Piece_Right_Config_Factory #####
+
+- Changed so as to raise an exception if the file corresponding to a validation set not found or not readable. (Ticket #3)
+- Removed the feature of defining message variables in validation definition file. (Ticket #7)
+
+##### Piece_Right_Validation_Script #####
+
+- Changed so as to pass a Piece_Right_Results object to the post run callback by reference, and return the Piece_Right_Results object by reference. (Ticket #9)
+- Added setPayload() and changed so as to be able to pass a user defined payload to validators.
+
+##### Piece_Right_Validator_Common #####
+
+- Added a feature to replace message variables in a error message with
+  the value of each rule if the value is not an array. (Ticket #8)
+
+### Filters ###
+
+##### Empty2NULL #####
+
+- A filter which is used to replace an empty string with null.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Right_Results #####
+
+- Fixed a fatal error where 'Object of class Piece_Right_Validation_Error could not be converted to string' raised with PHP 5.2.0 RC5. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for the patches.
+
+##### Piece_Right_Validator_Common #####
+
+- Removed unused argument $payload from validate() method. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for the patches.
+
+##### Piece_Right #####
+
+- Fixed the problem that the fields which are specified to turn off always turn off even though what the target field values are.
+- Fixed so as to set an error if a field value is an array and a validator is not arrayable.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Right 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Right-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Right-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-10-09T22:36:10+09:00</updated>
+        <content>
+            This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+This release includes a new class Piece_Right_Validation_Script. It will be used to run a typical process of validation with Piece_Right. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validation_Script #####
+- A new class for running a typical process of validation with Piece_Right.
+
+##### Piece_Right #####
+- Moved _isEmpty() method to public.
+- Added getFieldValuesCallback() for getting the callback to get field values for the current validation.
+
+##### Piece_Right_Validation_Error #####
+- Changed the class name from Piece_Right_ValidationError.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.7.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.7.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.7.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-10T19:30:37+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available. If you have used Piece_Unity 1.7.0, you *must* upgrade to this version.
+
+What's New in Piece_Unity 1.7.1
+
+ * A defect fix: A blocker defect has been fixed so that an application cannot be continue if the requested URI contains query variables. (See Ticket #291) And also since Piece_Unity_Component_Authentication 1.1.2 has a related defect, Upgrade to the upcoming version 1.1.3 if you have used it.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.7.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.7.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.7.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-05T13:36:38+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.7.0
+
+ * Two defect fixes: A defect has been fixed that caused a URI scheme for redirection to be &quot;http&quot; on SSL by non-standard port. And another defect has been fixed.
+ * Some improvements: A method setConfigurationCallback() has been added to set the callback for createRuntime(), and the behavior of createRuntime() has been changed so as to call the callback by setConfigurationCallback() if the callback by the argument is not given. And there are a few more improvements.
+
+Backward Compatibility
+
+ * Redirection to internal URIs: When redirecting to a internal URI, the scheme of the given URI (http/https) is always kept.
+ * Piece_Unity_Component_Authentication: Piece_Unity_Component_Authentication 1.1.1 or less does not work properly with Piece_Unity 1.7.0. Upgrade to the upcoming version 1.1.2.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added a method setConfigurationCallback() to set the callback for createRuntime(). (Piece_Unity)
+- Changed the behavior of createRuntime() so as to call the callback by setConfigurationCallback() if the callback by the argument is not given. (Piece_Unity)
+- Changed the behavior of getURI() so that the given URI scheme is kept by the argument &quot;pass&quot;. Also the Renderer_Redirection plug-in always use &quot;pass&quot;. (Piece_Unity_URI)
+- Added isSecure() to check whether the current connection is secure or not. (Piece_Unity_Context)
+- Replaced $_SERVER['SCRIPT_NAME'] with $_SERVER['REQUEST_URI'] for URI mappings by mod_rewrite. (Ticket #287)
+
+Defect Fixes
+============
+
+- Fixed a defect so that the proxy path was included twice in the URI by Piece_Unity_Service_Continuation::createURI(). (Piece_Unity_URI)
+- Fixed a defect that caused a URI scheme for redirection to be &quot;http&quot; on SSL by non-standard port. (Ticket #288)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.6.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.6.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.6.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-29T20:31:33+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.6.2
+
+ * A defect fix: A defect has been fixed so as to not be able to access the session attributes by the $_attributes property.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.6.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.6.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.6.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-14T13:54:49+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.6.1
+
+ * Session expiration: Piece_Unity 1.6.1 supports session expiration by new plug-in &quot;Interceptor_Session&quot;. the Interceptor_Session plug-in is the successor to the Interceptor_SessionStart plug-in, and the Interceptor_SessionStart plug-in is marked as deprecated. And also the default value of the &quot;interceptors&quot; extension point in the InterceptorChain plug-in has been changed to the Interceptor_Session plug-in.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.5.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-03T22:33:30+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.5.0
+
+ * HTML component system: The Renderer_HTML plug-in allows you to deploy any ready-to-use HTML components as view elements using &quot;components&quot; extension point.
+ * View Scheme: &quot;View Scheme&quot; is a feature that the appropriate renderer is automatically determined by the scheme part in the current view string such like &quot;http:&quot;, &quot;json:&quot;, &quot;html:&quot;, etc.
+ * Raw Rendering support: This allows you to print any contents directly in an action such like file downloading without a dummy HTML view. If you use this, set &quot;raw:&quot; to the view.
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+
+Backward Compatibility
+
+ * Piece_Unity_Component_Smarty: Piece_Unity_Component_Smarty 1.1.0 or less does not work properly with Piece_Unity 1.5.0. Upgrade to the upcoming version 1.2.0.
+ * PEAR_ErrorStack: Piece_Unity 1.5.0 does not work properly with PEAR_ErrorStack::staticPushCallback(). Use PEAR_ErrorStack::setDefaultCallback() instead.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added support for Raw Rendering which does nothing. (View plug-in)
+- Added Piece_Unity_Service_Rendering_PHP as a rendering service.
+- Added an extension point &quot;components&quot; to deploy HTML components before it is required. (Renderer_HTML plug-in)
+- Added a feature named &quot;View Scheme&quot; that the appropriate renderer is automatically determined by the view scheme in the current view string such like &quot;http:&quot;, &quot;json:&quot;, &quot;html:&quot;, etc. (Ticket #105) (View plug-in, ViewSchemeHandler plug-in)
+- Added createRuntime() to create a Piece_Unity object and invokes a given callback for any configuration. (Ticket #99) (Piece_Unity)
+- Changed code so that a plug-in directory is always converted to absolute path. (Piece_Unity_Plugin_Factory)
+- Changed the behavior of the Piece_Unity_URL class to always return the backend URI if redirection is enabled. (Ticket #102) (Piece_Unity_URL, Renderer_Redirection plug-in)
+- Changed the behavior of internal error handling so as to handle only own and &quot;exception&quot; level errors.
+- Added removeProxyPath() to remove the proxy path from a given URI Path. (Piece_Unity_Context)
+- Added Piece_Unity_HTTPStatus. (Ticket #113)
+- Added sendHTTPStatus() to send a HTTP status line like &quot;HTTP/1.1 404 Not Found&quot;. (Piece_Unity_Context)
+- Added Piece_Unity_Service_Continuation::createURI() to create a Piece_Unity_URI object based on the active flow execution or a given flow ID. (Ticket #110)
+- Changed code so as to use &quot;URI&quot; instead of &quot;URL&quot;. (Ticket #119)
+- Marked pushPHPError() as deprecated. (Piece_Unity_Error)
+- Added configure() to configure the runtime after object instantiation. (Piece_Unity)
+- Changed the behavior of initialize() so that $context-&gt;getAppRootPath() to be added to the beginning of a given URI if the URI is internal and not starting with http(s). (Piece_Unity_URI)
+- Changed the behavior of GC fallback so as to set true to the session variable &quot;_flowExecutionExpired&quot;. (Dispatcher_Continuation plug-in)
+- Changed the behavior of GC fallback so as to send HTTP status 302 Found. (Dispatcher_Continuation plug-in)
+
+Defect Fixes
+============
+
+- Fixed a defect that a fatal error to be raised if session is not used. (Ticket #118) (Piece_Unity_Session)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.4.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-25T13:53:34+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.4.0
+
+ * Full flow name as view prefix: A feature so that the full flow name can be used as the view prefix by turning on &quot;useFullFlowNameAsViewPrefix&quot;. (default: on) If you want to keep backward compatibility with Piece_Unity 1.3.0/1.3.1 configurations, set false to &quot;useFullFlowNameAsViewPrefix&quot;. For example, if there is a view &quot;Baz&quot;, the final view of &quot;Baz&quot; by different flow names and states of &quot;useFullFlowNameAsViewPrefix&quot; as follows:
+
++-----------+-----------+-------------+
+| flow name | off/1.3.x | on          |
++-----------+-----------+-------------+
+| Foo       | Baz       | Foo_Baz     |
++-----------+-----------+-------------+
+| Foo_Bar   | Foo_Baz   | Foo_Bar_Baz |
++-----------+-----------+-------------+
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.3.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.3.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.3.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-21T12:16:59+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.3.1
+
+ * A Defect Fix: A defect that flowMappings does not work with reverse proxy has been fixed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.3.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-18T22:22:01+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.3.0
+
+ * New configuration system for mapping urls to flows: A new configuration system for mapping urls to flows using a directory where flow definition files exist and an extension of flow definition files has been supported. And it supports layered structure for flow definition files, actions, and html views by using underscores in flow names as directory separators.
+ * Layered structure support for less configuration: As mentioned above, the new configuration system for mapping urls to flows supports layered structure. And also the validation sysytem supports layered structure for validation definition files by using underscores in validation set names as directory separators.
+ * Validation Template: Validation Template allows users to use a validation set as a template for another validation set.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Kernel:
+
+- Added mergeValidationSet() which can be used to merge a validation set into the Piece_Right_Config object for the current validation. (Ticket #83) (Piece_Unity_Validation)
+- Added a feature which allows users to use a validation set as a template for another validation set. (Piece_Unity_Validation)
+- Added support for layered structure by using underscores in validation set names as directory separators. (Piece_Unity_Validation)
+- Changed factory() so as to use the given cache directory as is. (Ticket #90) (Piece_Unity_Config_Factory)
+
+Plug-ins:
+
+- Changed code so as to use the value of &quot;templateDirectory&quot; instead if &quot;layoutDirectory&quot; is not given when using layout. (Renderer_PHP)
+- Changed code so as to set the value to &quot;templateDirectory&quot; only if &quot;fallbackDirectory&quot; is given when using fallback. (Renderer_PHP)
+- Added a feature which allows users to use a validation set as a template for another validation set. (Configurator_Validation)
+- Added support for layered structure by using underscores in validation set names as directory separators. (Configurator_Validation)
+- Added support for new configuration system using a directory where flow definition files exist and an extension of flow definition files. (Ticket #85) (Dispatcher_Continuation)
+
+Defect Fixes
+============
+
+Plug-ins:
+
+- Fixed a defect that caused any exceptions except Piece_Flow to not be thrown. (Ticket #88) (Dispatcher_Continuation)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-10-05T11:43:10+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.2.0
+
+ * Enhanced Dispatcher_Simple plug-in: Two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot; have been added. These provide a feature so that the default event is used if the event is an empty string or NULL. And a feature which allows users to return a view string from an action has been added.
+ * A few Defect Fixes: A defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different has been fixed. And also two defects in Renderer_PHP plug-in have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Kernel:
+
+- Changed getURL() so as to return without replacing the host and port if the URL is external. (Piece_Unity_URL)
+
+Plug-ins:
+
+- Added a feature so that users can overwrite the view returned from the dispatcher with an arbitrary view in an action. (Controller)
+- Changed code so as to use the new interfaces for the continuation server. (Dispatcher_Continuation)
+- Added two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot;. These provide a feature so that the default event is used if the event is an empty string or NULL. (Ticket #80) (Dispatcher_Simple)
+- Added a feature which allows users to return a view string from an action. (Ticket #86) (Dispatcher_Simple)
+
+Defect Fixes
+============
+
+Kernel:
+
+- Fixed the defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different. (Piece_Unity_Config_Factory)
+
+Plug-ins:
+
+- Fixed the defect that caused $file to be tainted if the Piece_Unity_ViewElement object has &quot;file&quot; attribute. (Renderer_PHP)
+- Fixed the defect that caused $viewElement to be tainted if the Piece_Unity_ViewElement object has &quot;viewElement&quot; attribute. (Renderer_PHP)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-26T19:54:59+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.1.0
+
+ * Two client interfaces for dynamic configuration: Piece_Unity::setConfiguration() and Piece_Unity::setExtension() can be used for dynamic configuration in entry points and actions.
+ * A client interface to get all field names in a form: Piece_Unity_Validation::getFieldNames() can be used to get all field names corresponding to the given validation set and a Piece_Right_Config object.
+ * Environment settings: The configuration file is always read when the current environment is not production.
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions. The target of the garbage collection is only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added setConfiguration()/setExtension() for client use. (Piece_Unity)
+- Updated an exception to be raised when an undefined extension point or configuration point is used in the current configuration. (Piece_Unity_Plugin_Common, Piece_Unity_Config)
+- Added error handling after instantiating a plug-in. (Piece_Unity_Plugin_Factory)
+- Added getFieldNames() to get all field names corresponding to the given validation set and a Piece_Right_Config object. (Piece_Unity_Validation)
+- Updated code so that the configuration file is always read when the current environment is not production. (Ticket #75) (Piece_Unity_Env, Piece_Unity_Config_Factory)
+
+Services:
+
+- Added clear() to clear all properties for the next use. (Piece_Unity_Service_FlowAction)
+
+Plug-ins:
+
+- Added support for garbage collection for expired flow executions. (Dispatcher_Continuation)
+- Added missing error handling. (Dispatcher_Continuation)
+- Added an extension point &quot;envHandlers&quot; which can be used to set whether the current environment is production or not to arbitrary components. (Configurator_Env, Configurator_EnvHandler_PieceFlow, Configurator_EnvHandler_PieceRight)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T20:16:23+09:00</updated>
+        <content>
+            This is the first stable release of Piece_Unity.
+
+What's New in Piece_Unity 1.0.0
+
+ * Components: A component is a package that consists of plug-ins, services, GUI elements (HTML templates, images, scripts, etc.), flow definition files, action classes, and entry points, etc.. Many plug-ins are extracted as each Piece_Unity_Component_Xxx package. See the following release notes for details.
+ * Services: A service is one or more classes that provides useful operations for client use.
+ * The Piece_Unity_Service_FlowAction class: The Piece_Unity_Service_FlowAction class can be used as the base class for Piece_Flow actions.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added error handling. (Interceptor_SessionStart)
+- Moved the process of preloading Dispatcher_Continuation plug-in from Configurator_Plugin to Interceptor_SessionStart.
+- A improvement for restoring action instances in session. (Dispatcher_Continuation, Interceptor_SessionStart, Piece_Unity_Session_Preload)
+- Changed the error type on all Piece_Unity_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;. (ConfiguratorChain, InterceptorChain, OutputBufferStack)
+- Moved the following plug-ins to components/. These plug-ins will be packaged as each Piece_Unity_Component_Xxx package.
+  * Interceptor_Authentication
+  * OutputFilter_ContentLength
+  * Renderer_Flexy
+  * Renderer_JSON
+  * OutputFilter_JapaneseZ2H
+  * KernelConfigurator (obsoleted)
+  * Interceptor_NullByteAttackPreventation
+  * Configurator_PieceORM
+  * Interceptor_ProxyBasePath (obsoleted)
+  * Renderer_Smarty
+
+Services:
+
+- Added the base class for Piece_Flow actions. (Piece_Unity_Service_FlowAction)
+
+Kernel:
+
+- Changed factory() to throw an exception if the configuration directory or the configuration file not found. (Ticket #66) (Piece_Unity_Config_Factory)
+- Added a class loader. (Piece_Unity_ClassLoader)
+- Updated an exception to be raised when an undefined extension point is used. (Ticket #72) (Piece_Unity_Plugin_Common)
+- Updated getResults() so that a Piece_Right_Results object can be get by a validation set name. (Ticket #70) (Piece_Unity_Validation)
+- Improved error handling so as to recognize the place where the exception is raised. (Piece_Unity_Plugin_Common)
+- Added hasResults() to check whether or not the Piece_Right_Results object of the given validation set or the latest validation exists. (Piece_Unity_Validation)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 0.12.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-0.12.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-0.12.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-05-27T01:49:05+09:00</updated>
+        <content>
+            A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 0.12.0
+
+ * Configurator_AppRoot plug-in: A plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web.
+ * Configurator_PieceORM plug-in: A plug-in for Piece_ORM.
+ * Several defect fixes: A defect in fallback view rendering has been fixed. And also a defect in Plug-in Aliases has been fixed. And other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added the plugins_dir configuration point. (Renderer_Smarty)
+- Updated &quot;Self Notation&quot; so as to set true to the configuration point &quot;addFlowExecutionTicket&quot; of Renderer_Redirection plug-in. (View)
+- Added &quot;Configurator_PieceORM&quot; plug-in for Piece_ORM.
+- Added &quot;Configurator_Proxy&quot; plug-in for proxy.
+- Changed the default value for the configuration point &quot;configurator&quot; from &quot;KernelConfigurator&quot; to &quot;ConfiguratorChain&quot;. (Root)
+- Added &quot;Configurator_AppRoot&quot; plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web. (Ticket #56)
+- Removed the configuration point &quot;importSessionIDFromRequest&quot;. (Interceptor_SessionStart)
+
+Kernel:
+
+- Updated pushPEARError() so that the params field in the repackage array contains &quot;userinfo&quot; and &quot;debuginfo&quot; fields, which contains each of the return values from getUserInfo() and getDebugInfo(). (Piece_Unity_Error)
+- Updated the constructor so as to receive a prefix for determining the plug-in name. (Piece_Unity_Plugin_Common)
+- Changed the error type on all Piece_Unity_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;. (Piece_Unity_URL)
+- Added getRemoteAddr() for getting an IP address (or IP addresses) of the client making the request. (Piece_Unity_Context)
+- Added _getExtension()/_getConfiguration(). (Piece_Unity_Plugin_Common)
+  getExtension()/getConfiguration() are deprecated since Piece_Unity 0.12.0. (Ticket #54)
+
+Example Applications:
+
+- Changed the function for URI encoding from escape() to encodeURIcomponent(). (ahah.js)
+- Replaced all &quot;__basePath&quot; with &quot;__appRootPath&quot;.
+
+Defect Fixes
+============ 
+
+Plug-ins:
+
+- Fixed a defect in fallback view rendering that caused a fallback view to be always rendered in spite of success in HTML rendering if one or more &quot;warning&quot; level errors raised before rendering. (Ticket #57)
+
+Kernel:
+
+- Fixed the problem that a plug-in with Plug-in Aliases cannot get the current configuration. (Ticket #53)
+- Fixed the problem that the getExtension()/getConfiguration() cannot work with an empty prefix. (Piece_Unity_Plugin_Common)
+
+Example Applications:
+
+- Fixed the problem that all radio elements are transferred regardless of whether they are checked or not. (ahah.js)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 0.11.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-0.11.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-0.11.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-02-19T20:51:55+09:00</updated>
+        <content>
+            Hi all,
+
+A new release of Piece_Unity is now available.
+
+This release includes a feature named &quot;Fallback View&quot; which can be used for rendering a fallback view if an error occured while rendering with a specified view, and a feature named &quot;Plug-in Aliases&quot; which can be used multiple aliases as the name of a plug-in class by setting multiple prefixes.
+
+Also this release includes a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+And also other enhancements and two fixes are included. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Plugin_Factory #####
+
+- Added a feature named &quot;Plug-in Aliases&quot; so that this feature can be used multiple aliases as the name of a plug-in class by setting multiple prefixes. (Ticket #40)
+
+##### Piece_Unity_URL #####
+
+- Added removeQueryString() to remove a name/value pair from the query string.
+
+### Plug-ins ###
+
+##### Renderer_Flexy, Renderer_HTML, Renderer_PHP, Renderer_Smarty #####
+
+- Added a feature named &quot;Fallback View&quot;. (Ticket #37)
+  If an error occured while rendering with a specified view and useFallback is true, a fallback view will be rendered.
+
+##### KernelConfigurator #####
+
+- Added a configuration point &quot;pluginPrefixes&quot; for using &quot;Plug-in Aliases&quot;.
+- Added two configuration point &quot;validationValidatorPrefixes&quot; and &quot;validationFilterPrefixes&quot; for using &quot;Validator Aliases&quot; and &quot;Filter Aliases&quot;. (Ticket #43)
+
+##### Renderer_Redirection #####
+
+- Added a feature so that __eventNameKey is replaced with the event name key. (Ticket #38)
+
+##### View #####
+
+- Added a feature named &quot;Self Notation&quot; for redirection to an entry point itself. (Ticket #39)
+
+##### ConfiguratorChain, Configurator_Env, Configurator_Event, Configurator_Plugin, Configurator_Request, Configurator_Validation #####
+
+- Added a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. (Ticket #45)
+  In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+### Example Applications ###
+
+- Changed so as to use of ConfigurationChain.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Unity_URL #####
+
+- Fixed the problem so that EZweb mobile phone cannot redirect with Renderer_Redirection plug-in. (Ticket #44)
+
+### Plug-ins ###
+
+##### Renderer_Redirection #####
+
+- Fixed the problem that the renderer cannot redirect to HTTPS URL.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 0.10.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-0.10.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-0.10.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-01-12T15:00:28+09:00</updated>
+        <content>
+            Hi all,
+
+A new release of Piece_Unity is now available.
+This release includes a nice feature for the layout system. It can turn off the use of the layout system by the HTTP Accept header. And also other enhancements are included.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Plug-ins ###
+
+##### Renderer_HTML #####
+
+- Added a new configuration point 'turnOffLayoutByHTTPAccept' on Renderer_HTML.
+  If this option is true, the useLayout option is turned off by the HTTP Accept header.
+
+##### Dispatcher_Continuation #####
+
+- Changed the default value of bindActionsWithFlowExecution to true.
+
+##### Interceptor_SessionStart #####
+
+- Added a feature to import a session ID from the request parameters when a new configuration point importSessionIDFromRequest is true. (Ticket #34)
+
+### Example Applications ###
+
+- Updated templates and javascripts of the sample application.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 0.9.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-0.9.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-0.9.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-12-23T23:40:40+09:00</updated>
+        <content>
+            Hi all,
+
+A new release of Piece_Unity is now available.
+For Piece_Unity, this will be a big release because this release includes a very important feature named &quot;Action Continuation&quot; and several powerful enhancements as follows.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature allows developers to write stateful action code via the properties without using flow attributes. In fact it allows stateful programming without thinking sessions. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+Interceptor_Authentication plug-in provides a smart and simple solution for authentication.
+
+Renderer_Flexy, Renderer_Smarty, and Renderer_PHP plug-ins provide a simple and useful layout system to reuse shared html layout across multiple pages.
+
+Renderer_JSON plug-in allows to output view elements as JSON.
+
+Also the example applications was restructured with new features as follows. (Sorry there are no JSON examples yet.)
+
+A. Registration Applications
+
+   1. A registration application. *non-exclusive*
+   2. A registration application. *exclusive*
+   3. A registration application with AHAH. *exclusive*
+
+B. Authentication
+
+   1. An authentication service. *exclusive*
+   2. A resource which is protected by the above authentication service. *non-exclusive*
+
+These examples will be available on the web one of these days.
+
+And also other enhancements are included.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_URL #####
+
+- A utility which is used to create the appropriate absolute URL from a relative/absolute URL. (Ticket #4)
+
+##### Piece_Unity_Request #####
+
+- Added support for accessing $_FILES contents as each parameter to support validation of files and images. (Ticket #10)
+
+##### Piece_Unity_Context #####
+
+- Added support for image input type. (Ticket #18)
+
+##### Piece_Unity_Validation #####
+
+- Changed so as to handle a Piece_Right_Results object by reference. (Ticket #20)
+- Updated validate() to set a Piece_Unity_Context object as a payload to Piece_Right. (Ticket #19)
+
+##### Piece_Unity_Session_Preload #####
+
+- A class *pre*loader for restoring objects in session.
+
+##### Piece_Unity_Session #####
+
+- Added a feature to preload for restoring objects.
+
+##### Piece_Unity_Plugin_Factory #####
+
+- Added clearInstances() to clear the plug-in instances.
+
+##### Piece_Unity_Error #####
+
+- Added a constant PIECE_UNITY_ERROR_UNEXPECTED_VALUE.
+- Added a constant PIECE_UNITY_ERROR_INVALID_OPERATION.
+
+### Plug-ins ###
+
+##### Interceptor_Authentication #####
+
+- An interceptor to control the access to protected resources on Piece_Unity applications.
+
+##### Renderer_JSON #####
+
+- A renderer to output view elements as JSON.
+
+##### Controller #####
+
+- Changed to skip dispatcher when context has already view contents.
+
+##### View #####
+
+- Added a feature to replace the current view with a view which is given by a new configuration point forcedView.
+- Added a built-in view element __url which is a Piece_Unity_URL object.
+
+##### KernelConfigurator #####
+
+- Added to preload Dispatcher_Continuation plug-in for restoring action instances in session.
+- Added a configuration point nonSSLableServers to make a list of non-SSLable servers.
+
+##### Dispatcher_Continuation #####
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution.
+- Removed the configuration point sessionKey.
+- Added getContinuationSessionKey() to get the session key for a continuation object.
+
+##### Renderer_HTML #####
+
+- An abstract renderer which is used to render HTML.
+
+##### Renderer_Flexy, Renderer_PHP, Renderer_Smarty #####
+
+- Added a feature to reuse shared html layout across multiple pages. (Ticket #2)
+
+##### Controller, Dispatcher_Continuation #####
+
+- Updated to publish the Piece_Flow_Continuation object as a view element if it exists even though what the specified dispatcher is. And the flow execution ticket key and the flow name key have always been available as each view element. (Ticket #26)
+
+##### Renderer_Redirection #####
+
+- Removed getURL().
+
+### Example Applications ###
+
+- Restructured applications with new features.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity 0.8.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity-0.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity-0.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-10-17T11:11:12+09:00</updated>
+        <content>
+            This is the first release of Piece_Unity with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a few enhancements of the validation system. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Validation #####
+- Added getResults() method for getting the Piece_Right_Results object of the latest validation.
+- Added setting the Piece_Right_Results object to the current flow scope when the continuation server is running.
+- Refactored validate() method using Piece_Right_Validation_Script class.
+- Added addValidatorDirectory()/addFilterDirectory() methods.
+
+### Plug-ins ###
+
+##### KernelConfigurator #####
+- Added Piece_Right_Results class to the array for autoloading.
+- Added missing two configuration points validationValidatorDirectories and validationFilterDirectories, and their processes, which had existed in Interceptor_PieceRight plug-in.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 1.1.3 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.3.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.3.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-10T19:31:45+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Authentication is now available. If you have used Piece_Unity_Component_Authentication 1.1.2, you *must* upgrade to this version.
+
+What's New in Piece_Unity_Component_Authentication 1.1.3
+
+ * A defect fix: - A defect has been fixed that redirection to the requested URI to be failed if the URI contains query variables. (Ticket #293)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 1.1.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-05T17:25:59+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Authentication is now available.
+
+What's New in Piece_Unity_Component_Authentication 1.1.2
+
+ * A defect fix: A defect has been fixed that caused a URI scheme for redirection to be &quot;http&quot; on SSL by non-standard port. (See Ticket #288)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 1.1.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-13T12:07:13+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Authentication is now available.
+
+What's New in Piece_Unity_Component_Authentication 1.1.1
+
+ * A defect fix: A defect that caused a warning &quot;PHP Warning:  call_user_func(Piece_Unity_Plugin_Interceptor_Authentication::loadAuthenticationState)&quot; to be raised until any protected resource was requested has been fixed.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-04T21:58:48+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Authentication is now available.
+
+What's New in Piece_Unity_Component_Authentication 1.1.0
+
+ * includes/excludes: Two configuration points &quot;includes&quot; and &quot;excludes&quot; have been added. &quot;includes&quot; allows you to mark multiple URIs as protected resources by regexp. This configuration point behave same as &quot;resourcesMatch&quot;. &quot;excludes&quot; allows you to mark multiple URIs as non-protected resources by regexp. And also the authentication URI has always been excluded from the protected resources.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-10-07T14:19:38+09:00</updated>
+        <content>
+            The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What's New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authentication 0.13.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-0.13.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-0.13.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T20:48:51+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_Authentication.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Authorization 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Authorization-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Authorization-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-06T17:22:30+09:00</updated>
+        <content>
+            The first beta release of Piece_Unity_Component_Authorization.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_ContentLength 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_ContentLength-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_ContentLength-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-16T20:05:49+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_ContentLength.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_ExceptionHandler 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_ExceptionHandler-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_ExceptionHandler-0.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-26T16:23:48+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_ExceptionHandler is now available.
+
+What's New in Piece_Unity_Component_ExceptionHandler 0.2.0
+
+ * Improved the DebugInfo exception handler: The limit of the ripped source line has been changed to 21. (10 + 1 + 10)
+ * Improved HTML rendering: The behavior of HTML rendering has been changed so as to send the HTTP status line and Content-Type header only if the headers haven't been sent.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_ExceptionHandler 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_ExceptionHandler-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_ExceptionHandler-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-24T18:43:19+09:00</updated>
+        <content>
+            The first beta release of Piece_Unity_Component_ExceptionHandler.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Flexy 1.3.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-04T17:34:48+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Flexy is now available.
+
+What's New in Piece_Unity_Component_Flexy 1.3.0
+
+ * Piece_Unity_Service_Rendering_Flexy: Piece_Unity_Service_Rendering_Flexy allows you to use HTML_Template_Flexy in actions and plug-ins.
+ * Improved custom controller handling: The behavior of the Renderer_Flexy plug-in has been changed to instantiate a controller once.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Flexy 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-16T12:22:45+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Flexy is now available.
+
+What's New in Piece_Unity_Component_Flexy 1.2.0
+
+ * Less configuration: When using layout/fallback, &quot;templateDir&quot; and &quot;compileDir&quot; are always used if its configurations are not given.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Flexy 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-26T21:42:32+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Flexy is now available.
+
+What's New in Piece_Unity_Component_Flexy 1.1.0
+
+ * Restoring field values into a form: Piece_Unity_Service_FlexyElement::restoreValues() can be used to restore field values from the given validation set and container.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Services:
+
+- Added restoreValues() which can be used to restore field values from the given validation set and container. (Piece_Unity_Service_FlexyElement)
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Flexy 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Flexy-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T21:47:21+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_Flexy.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_JSON 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_JSON-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_JSON-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-04T19:41:30+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_JSON is now available.
+
+What's New in Piece_Unity_Component_JSON 1.1.0
+
+ * Some minor updates: Some minor updates to Piece_Unity 1.5.0 error handling has been included in this release.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_JSON 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_JSON-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_JSON-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T22:04:12+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_JSON.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_JapaneseZ2H 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_JapaneseZ2H-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_JapaneseZ2H-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-16T20:19:37+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_JapaneseZ2H.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_KernelConfigurator 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_KernelConfigurator-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_KernelConfigurator-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T22:31:19+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_KernelConfigurator.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_NullByteAttackPreventation 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_NullByteAttackPreventation-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_NullByteAttackPreventation-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T22:46:06+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_NullByteAttackPreventation.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Pagination 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Pagination-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Pagination-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-05T12:00:52+09:00</updated>
+        <content>
+            The first beta release of Piece_Unity_Component_Pagination.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_PieceORM 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_PieceORM-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_PieceORM-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-26T22:41:17+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_PieceORM is now available.
+
+What's New in Piece_Unity_Component_PieceORM 1.1.0
+
+ * Configurator_EnvHandler_PieceORM plug-in: This plug-in can be used to set whether the current environment is production or not to the Piece_ORM environment.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added Configurator_EnvHandler_PieceORM plug-in to set whether the current environment is production or not to the Piece_ORM environment.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_PieceORM 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_PieceORM-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_PieceORM-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T22:58:32+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_PieceORM.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_ProxyBasePath 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_ProxyBasePath-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_ProxyBasePath-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T23:10:23+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_ProxyBasePath.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Smarty 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-04T19:09:49+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Smarty is now available.
+
+What's New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Piece_Unity 1.5.0 support: Piece_Unity_Component_Smarty 1.2.0 works properly with Piece_Unity 1.5.0.
+ * Piece_Unity_Service_Rendering_Smarty: Piece_Unity_Service_Rendering_Smarty allows you to use Smarty in actions and plug-ins.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Smarty 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-11-17T18:28:36+09:00</updated>
+        <content>
+            A new release of Piece_Unity_Component_Smarty is now available.
+
+What's New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Less configuration: When using layout/fallback, &quot;template_dir&quot; and &quot;compile_dir&quot; are always used if its configurations are not given.
+        </content>
+    </entry>    <entry>
+        <title>Piece_Unity_Component_Smarty 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-18T23:21:53+09:00</updated>
+        <content>
+            The first release of Piece_Unity_Component_Smarty.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AccessControl 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AccessControl-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AccessControl-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-09T13:45:34+09:00</updated>
+        <content>
+            
+This is the first stable release of Stagehand_AccessControl.
+
+The features of Stagehand_AccessControl 1.0.0 is the same as Stagehand_AccessControl 0.1.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AccessControl 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AccessControl-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AccessControl-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-14T20:47:24+09:00</updated>
+        <content>
+            
+The first release of Stagehand_AccessControl.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AlterationMonitor 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-10T22:14:29+09:00</updated>
+        <content>
+            
+The features of Stagehand_AlterationMonitor 1.1.0 is the same as Stagehand_AlterationMonitor 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AlterationMonitor 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-19T11:10:29+09:00</updated>
+        <content>
+            
+The first release of Stagehand_AlterationMonitor.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-11T02:43:33+09:00</updated>
+        <content>
+            
+The features of Stagehand_Autoload 1.1.0 is the same as Stagehand_Autoload 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-01-25T16:27:30+09:00</updated>
+        <content>
+            
+What's New in Stagehand_Autoload 1.0.0
+
+ The first stable release of Stagehand_Autoload:
+
+  This is the first release of Stagehand_Autoload. Stagehand_Autoload 1.0.0 is the same as Stagehand_Autoload 0.5.0 except the version number.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 0.5.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-0.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-0.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-01-05T03:01:42+09:00</updated>
+        <content>
+            
+What's New in Stagehand_Autoload 0.5.0
+
+ Searches target namespaces in FIFO order.:
+
+  As of this version, namespaces are searched in FIFO order. (Issue #122)
+
+ A defect fix:
+
+  A defect has been fixed that caused NamespaceLoader not to work with two or more level nesting target namespaces. (Issue #123)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 0.4.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-0.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-0.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-13T02:35:45+09:00</updated>
+        <content>
+            
+What's New in Stagehand_Autoload 0.4.0
+
+ New APIs for getting built-in loaders:
+
+  The following methods are now available for getting the built-in loaders:
+
+   * Stagehand_Autoload::legacyLoader() which replaces Stagehand_Autoload::getLegacyLoader()
+   * Stagehand_Autoload::namespaceLoader() which replaces Stagehand_Autoload::getNamespaceLoader()
+
+  The old APIs Stagehand_Autoload::getLegacyLoader() and Stagehand_Autoload::getNamespaceLoader() have been deprecated, and these will be removed in after this release.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 0.3.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-0.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-0.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-08-23T21:32:51+09:00</updated>
+        <content>
+            
+What's New in Stagehand_Autoload 0.3.0
+
+ getLegacyLoader() and getNamespaceLoader():
+
+  The following utility methods is now available for getting the built-in loaders:
+
+   * getLegacyLoader() for the legacy loader
+   * getNamespaceLoader() for the namespace loader
+
+ Namespace support for the legacy loader:
+
+  To autoload classes/interfaces, specify one or more namespaces same as the namespace loader.
+
+   $loader = Stagehand_Autoload::getLegacyLoader();
+   $loader-&gt;addNamespace('Stagehand');
+   $loader-&gt;addNamespace('Piece');
+   Stagehand_Autoload::register($loader);
+
+  Any classes/interfaces no longer be loaded automatically without specifying namespaces.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-0.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-08-20T18:47:57+09:00</updated>
+        <content>
+            
+Release Date: 2009-08-20
+
+What's New in Stagehand_Autoload 0.2.0
+
+ New APIs:
+
+  The following new APIs have been added to use autoload more explicitly:
+
+   * Stagehand_Autoload::register()
+   * Stagehand_Autoload::getLoader()
+   * Stagehand_Autoload_Loader_LegacyLoader for the Package_Class style naming convension
+   * Stagehand_Autoload_Loader_NamespaceLoader for the Package\Class style naming convension for PHP 5.3
+
+For more information, see the Reference Guide.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_Autoload 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_Autoload-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_Autoload-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-11-25T23:21:51+09:00</updated>
+        <content>
+            The first beta release of Stagehand_Autoload.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_CLIController 1.0.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_CLIController-1.0.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_CLIController-1.0.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-10-01T19:42:02+09:00</updated>
+        <content>
+            
+What's New in Stagehand_CLIController 1.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * A possible crash by &quot;Strict Standards&quot; (Issue #341)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_CLIController 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_CLIController-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_CLIController-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-10T02:12:57+09:00</updated>
+        <content>
+            
+This is the first stable release of Stagehand_CLIController.
+
+The features of Stagehand_CLIController 1.0.0 is the same as Stagehand_CLIController 0.1.2 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_CLIController 0.1.2 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-12-16T04:11:58+09:00</updated>
+        <content>
+            
+What's New in Stagehand_CLIController 0.1.2
+
+ A defect fix:
+
+  A defect has been fixed that caused a &quot;Notice: .../Console/Getopt.php line 123 - Uninitialized string offset: 0&quot; error to be raised when parsing the options.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_CLIController 0.1.1 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-13T16:10:08+09:00</updated>
+        <content>
+            
+What's New in Stagehand_CLIController 0.1.1
+
+ A defect fix:
+
+  A defect has been fixed that caused &quot;Strict Standards: Non-static method ...&quot; errors to be raised if E_STRICT is enabled.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_CLIController 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-08-28T01:33:24+09:00</updated>
+        <content>
+            
+The first release of Stagehand_CLIController.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_DirectoryCleaner 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_DirectoryCleaner-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_DirectoryCleaner-1.1.0.tgz</id>
+        <author>
+            <name>mbarracuda</name>
+        </author>
+        <updated>2009-12-16T00:15:37+09:00</updated>
+        <content>
+            
+What's New in Stagehand_DirectoryCleaner 1.1.0
+
+ * Removes the root directory:
+
+  A new feature removes the root (initially specified) directory with cleaning.
+
+    &lt;?php
+    $cleaner = new Stagehand_DirectoryCleaner();
+    $cleaner-&gt;setRemovesRoot(true);
+    $cleaner-&gt;clean('/path/to/directory');
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_DirectoryCleaner 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_DirectoryCleaner-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_DirectoryCleaner-1.0.0.tgz</id>
+        <author>
+            <name>mbarracuda</name>
+        </author>
+        <updated>2009-10-29T22:02:53+09:00</updated>
+        <content>
+            
+The first release of Stagehand_DirectoryCleaner.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_DirectoryScanner 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_DirectoryScanner-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_DirectoryScanner-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-11T01:50:49+09:00</updated>
+        <content>
+            
+The features of Stagehand_DirectoryScanner 1.1.0 is the same as Stagehand_DirectoryScanner 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_DirectoryScanner 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_DirectoryScanner-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_DirectoryScanner-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-17T19:12:29+09:00</updated>
+        <content>
+            
+The first release of Stagehand_DirectoryScanner.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_DirectorySnap 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_DirectorySnap-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_DirectorySnap-1.0.0.tgz</id>
+        <author>
+            <name>mbarracuda</name>
+        </author>
+        <updated>2009-11-08T17:06:56+09:00</updated>
+        <content>
+            
+The first release of Stagehand_DirectorySnap.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_FSM 1.10.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_FSM-1.10.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_FSM-1.10.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-07-27T17:54:22+09:00</updated>
+        <content>
+            A new release of Stagehand_FSM is now available.
+
+What's New in Stagehand_FSM 1.10.0
+
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_FSM 1.9.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_FSM-1.9.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_FSM-1.9.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-08-14T19:14:26+09:00</updated>
+        <content>
+            A new release of Stagehand_FSM is now available.
+
+What's New in Stagehand_FSM 1.9.0
+
+ * A few Enhancements: clearPayload(), and error handling for invalid callbacks are added.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added clearPayload() to remove the payload from the property. (Stagehand_FSM)
+- Added error handling for invalid callbacks.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_FSM 1.8.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_FSM-1.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_FSM-1.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-10-15T19:33:24+09:00</updated>
+        <content>
+            This is the first release with the new PEAR Channel Server pear.piece-framework.com. There are no changes from the previous release except the PEAR Channel Server is changed.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_HTTP_Status 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_HTTP_Status-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_HTTP_Status-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-22T22:14:54+09:00</updated>
+        <content>
+            A new release of Stagehand_HTTP_Status is now available.
+
+What's New in Stagehand_HTTP_Status 1.1.0
+
+ * API changes: Stagehand_HTTP_Status::send() has been changed to static method and so as to receive the status code as an argument.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_HTTP_Status 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_HTTP_Status-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_HTTP_Status-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-21T16:57:19+09:00</updated>
+        <content>
+            The first stable release of Stagehand_HTTP_Status.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 1.0.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-10-01T17:00:43+09:00</updated>
+        <content>
+            
+What's New in Stagehand_LegacyError 1.0.2
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * A possible crash by &quot;Strict Standards&quot; (Issue #342)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 1.0.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-06-09T15:19:58+09:00</updated>
+        <content>
+            
+What's New in Stagehand_LegacyError 1.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;Fatal error: Class 'Stagehand_LegacyError_PHPError_Exception' not found&quot; is raised if an error is raised within the error handler. (Issue #292)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-09T13:53:43+09:00</updated>
+        <content>
+            
+This is the first stable release of Stagehand_LegacyError.
+
+The features of Stagehand_LegacyError 1.0.0 is the same as Stagehand_LegacyError 0.3.1 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 0.3.1 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-0.3.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-0.3.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-10-03T17:35:51+09:00</updated>
+        <content>
+            
+What's New in Stagehand_LegacyError 0.3.1
+
+ Two defect fixes.
+
+  * A defect has been fixed so that Stagehand_LegacyError_PHPError causes an exception to be raised when an unrelated error is raised.
+  * A defect has been fixed so that Stagehand_LegacyError_PEARErrorStack causes a &quot;Strict Standards&quot; error to be raised.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 0.3.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-0.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-0.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-08-31T18:40:22+09:00</updated>
+        <content>
+            
+What's New in Stagehand_LegacyError 0.3.0
+
+ Support for Stagehand_Autoload 0.3.0
+
+  Stagehand_LegacyError now depends on Stagehand_Autoload 0.3.0. Before using Stagehand_LegacyError, specify the namespace *Stagehand* somewhere (e.g. your bootstrap code) as follows:
+
+   &lt;?php
+   require_once 'Stagehand/Autoload.php';
+   $loader = Stagehand_Autoload::getLegacyLoader();
+   $loader-&gt;addNamespace('Stagehand');
+   Stagehand_Autoload::register($loader);
+
+Backward Compatibility
+
+ Changed the name of the interface
+
+  In previous versions of Stagehand_LegacyError, The interface name was Stagehand_LegacyError_Exception_Interface. Stagehand_LegacyError_Exception_Interface has now been renamed to Stagehand_LegacyError_Exception.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-0.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-26T16:09:11+09:00</updated>
+        <content>
+            A new release of Stagehand_LegacyError is now available.
+
+What's New in Stagehand_LegacyError 0.2.0
+
+ * Improved PEAR_Error support: __construct() has been changed so as to overwrite the $this-&gt;file and $this-&gt;line properties in the exception object with the file and line where PEAR_Error::raiseError() is called. And the message layout has been changed.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_LegacyError 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_LegacyError-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_LegacyError-0.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-03-24T18:23:44+09:00</updated>
+        <content>
+            The first beta release of Stagehand_LegacyError.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Class 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Class-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Class-0.1.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-02T23:10:43+09:00</updated>
+        <content>
+            
+The first release of Stagehand_PHP_Class.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Class_Parser 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Class_Parser-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Class_Parser-0.2.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-11T17:10:42+09:00</updated>
+        <content>
+            
+What's New in Stagehand_PHP_Lexer 0.2.0
+
+ A new method: parseContents()
+
+  Adds a new method: support for parsing from text content of PHP script. Stagehand_PHP_Class_Parser could parse only a PHP file in previous versions.
+
+   $code = &lt;&lt;&lt;PHP_CODE
+   &lt;?php
+   class ExampleClass
+   {
+       public $attribute;
+
+       public function doSomeMethod() { }
+   }
+   PHP_CODE;
+
+   $class = Stagehand_PHP_Class_Parser::parseContents($code);
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Class_Parser 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Class_Parser-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Class_Parser-0.1.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-04T17:43:16+09:00</updated>
+        <content>
+            
+The first release of Stagehand_PHP_Class.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Lexer 0.2.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.2.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-10T18:28:57+09:00</updated>
+        <content>
+            
+What's New in Stagehand_PHP_Lexer 0.2.0
+
+ New analytics source
+
+  Added support for analyzing from text content of PHP script. Stagehand_PHP_Lexer could analyze only a PHP file in previous versions.
+
+   $code = &lt;&lt;&lt;PHP_CODE
+   &lt;?php
+   $a = 10;
+   $b = 20;
+   $c = $a + $b;
+   PHP_CODE;
+
+   $lexer = new Stagehand_PHP_Lexer();
+   $lexer-&gt;setContents($code);
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Lexer 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.1.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-04T16:27:18+09:00</updated>
+        <content>
+            
+The first release of Stagehand_PHP_Lexer.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_PHP_Parser 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_PHP_Parser-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_PHP_Parser-0.1.0.tgz</id>
+        <author>
+            <name>kumatch</name>
+        </author>
+        <updated>2009-09-03T18:00:44+09:00</updated>
+        <content>
+            
+The first release of Stagehand_PHP_Parser.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_SmtpDaemon 0.1.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_SmtpDaemon-0.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_SmtpDaemon-0.1.0.tgz</id>
+        <author>
+            <name>mbarracuda</name>
+        </author>
+        <updated>2009-12-28T21:55:41+09:00</updated>
+        <content>
+            
+The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.20.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.20.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.20.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-10-18T02:58:40+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.20.0
+
+Supports PHPUnit 3.6.
+
+ (Issue #327)
+
+ PHPUnit 3.6 has been supported.
+
+Four Defect Fix
+
+ The following defects have been fixed:
+
+ * Missing backslashes in notice messages on Linux. (Issue #332)
+ * An error message does not appear in the notice message. (Issue #333)
+ * A possible crash by &quot;Strict Standards&quot; (Issue #334)
+ * Super-type is collected as test unexpectedly. (Issue #347)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.19.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.19.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.19.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-08-27T15:02:38+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.19.0
+
+Reflects the colors attribute in the PHPUnit XML configuration file to the configuration.
+
+ (Issue #326)
+
+ The value of the colors attribute in the PHPUnit XML configuration file is now reflected to the Stagehand_TestRunner's configuration.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * Nothing is displayed when specifying the -a option. (Issue #323)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.18.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.18.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.18.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-07-28T03:09:51+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.18.1
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * The command line is broken when monitoring changes. (Issue #319)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.18.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.18.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.18.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-07-27T16:55:49+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.18.0
+
+Improved Notifications
+
+ (Issue #309, #311)
+
+ The following improvements have been made:
+
+ * Provides the icons for notifications.
+ * Uses the &quot;growlnotify&quot; command (Windows, Mac OS X) or the &quot;notify-send&quot; command instead of the Net_Growl package.
+ * Sends the fatal error message when monitoring changes.
+
+ For more information, see the User Guide (http://redmine.piece-framework.com/projects/stagehand-testrunner/wiki/Stagehand_TestRunner_User_Guide_2_18_0#Notifies-test-results).
+
+Runs tests at the beginning of monitoring changes.
+
+ (Issue #318)
+
+ If the &quot;-a&quot; option is specified, Stagehand_TestRunner runs tests unconditionally at the beginning.
+
+Three Defect Fixes
+
+ The following defects have been fixed:
+
+ * The preload script is not loaded when specifying multiple options after one &quot;-&quot;. (Issue #312)
+ * Some command line options are lost with the monitoring feature. (Issue #314)
+ * An underscore is not treated as a word separator in TestDox. (Issue #317)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.17.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.17.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.17.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-07-08T09:59:07+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.17.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;PHP Fatal error: Call to protected Net_Growl::__construct() from context 'Stagehand_TestRunner_TestRunner' in ...&quot; is raised when using Growl. (Issue #305)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.17.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.17.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.17.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-07-03T18:25:10+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.17.0
+ Sometimes PHPUnit reports warning messages such as follows:
+
+ Warning: Deprecated PHPUnit features are being used 1 times!
+ Use --verbose for more information.
+
+ If the &quot;--verbose&quot; option is enabled, PHPUnit reports more detailed information as follows:
+
+ PHPUnit 3.5.10 by Sebastian Bergmann.
+
+ ...................
+
+ Time: 0 seconds, Memory: 3.50Mb
+
+ /home/iteman/GITREPOS/stagehand-fsm/test/Stagehand/FSM/FSMTest.php:(between 281 and 297) - assertType() will be removed in PHPUnit 3.6 and should no longer be used. assertInternalType() should be used for asserting internal types such as &quot;integer&quot; or &quot;string&quot; whereas assertInstanceOf() should be used for asserting that an object is an instance of a specified class or interface.
+ ...
+
+ This information would be useful to improve your test code.
+
+Three Defect Fixes
+
+ The following defects have been fixed:
+
+ * The excluded tests by the &lt;groups&gt; element are contained in the number of tests. (Issue #288)
+ * The value of the constant TEST_CAKE_CORE_INCLUDE_PATH is wrong. (Issue #290)
+ * JUnit XML output is broken if a test class is skipped. (Issue #291)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.16.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.16.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.16.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2011-02-25T05:15:54+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.16.0
+Supports CIUnit.
+
+ (Issue #231)
+
+ CIUnit has been supported. CIUnit is a testing framework for CodeIgniter based on PHPUnit. For more information, see the User Guide.
+
+Supports the &lt;selenium&gt; element in the PHPUnit XML configuration file.
+
+ (Issue #237)
+
+ The &lt;selenium&gt; element in the PHPUnit XML configuration file has been supported.
+
+Specifies the test file pattern.
+
+ (Issue #230)
+
+ The pattern of your test files can be specified by a regular expression literal. For more information, see the User Guide.
+
+Logs more correct information about test cases into JUnit XML files.
+
+ (Issue #261)
+
+ More correct information about test cases is now logged into JUnit XML files.
+
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * A &quot;bootstrap&quot; PHP file that is specified by the XML configuration file is not loaded. (Issue #257)
+ * An error &quot;Notice: Undefined property: ...DetailedProgressPrinter::$lastEvent&quot; is raised if the -v option is specified. (Issue #258)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.15.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.15.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.15.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-12-13T14:16:42+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.15.0
+Supports URL-encoded class and method names.
+ (Issue #247)
+
+ The --classes and -m options can now accept URL-encoded string. This feature is intended to be used for the class and method names which contain multibyte characters.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * No tests found when specifying the fully qualified class name with a namespace. (Issue #245)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.14.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-11-13T19:01:44+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.14.2
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * CakeWebTestCase does not work with JUnit XML output. (Issue #232)
+ * CakeTestCase does not work with the -m option. (Issue #235)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.14.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-10-22T11:13:22+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.14.1
+
+ A Defect Fix
+
+  The following defect has been fixed:
+
+  * An error &quot;Fatal error: Cannot redeclare class UnitTestCase&quot; is raised when using the project's internal CakePHP libraries. (Issue #226)
+
+Backward Compatibility
+
+ When using CakePHP the SimpleTest package must be placed in the *vendors* directory as *vendors/simpletest*.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.14.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.14.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-10-04T20:05:55+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.14.0
+
+ Supports CakePHP.
+  (Issue #212)
+
+  The testing framework of CakePHP has been supported. For more information, see the User Guide.
+
+ Supports the PHPUnit XML configuration file.
+  (Issue #202)
+
+  The PHPUnit XML configuration file has been supported. For more information, see the User Guide.
+
+ Supports Web Page Testing.
+  (Issue #222)
+
+  Web Page Testing by WebTestCase (SimpleTest), CakeWebTestCase (CakePHP) has been supported.
+
+ Specifies the test file suffix.
+  (Issue #211)
+
+  The suffix of your test files can be specified by a regular expression literal. For more information, see the User Guide.
+
+ Three Defect Fixes
+  The following defects have been fixed:
+
+  * An error Warning: DOMDocument::createElement(): unterminated entity reference is raised if a failure/error message contains ampersands. (Issue #215)
+  * An invalid XML is generated if a test case is skipped by the @depends annotations. (Issue #216)
+  * An invalid XML is generated when multiple failures are included in a single test. (Issue #219)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.13.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.13.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.13.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-09-11T17:27:03+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.13.0
+
+ New Directory Structure
+  As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+
+ Three Defect Fixes
+  The following defects have been fixed:
+
+  * Growl does not work. (Issue #192)
+  * A fatal error is raised when launching by a launcher script with the -a option. (Issue #196)
+  * The current directory is not treated as the test directory if no directories or files are specified. (Issue #197)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.12.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.12.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.12.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-07-29T15:58:36+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.12.0
+
+ Supports PHPUnit 3.5.
+
+  (Issue #179)
+
+  PHPUnit 3.5 has been supported.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.11.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-05-31T12:40:23+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.11.2
+
+ Two defect fixes
+
+  (Issue #173, #175)
+
+  A defect has been fixed that caused a start tag not to be closed when the tag and all attributes are written. And also a defect has been fixed that caused TestDox output to be broken if the same test method names except trailing numbers.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.11.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-03-09T02:09:58+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.11.1
+
+ Two defect fixes
+
+  A defect has been fixed that caused the layout of the detailed progress report to be broken by incomplete or skipped tests with data providers. (Issue #136)
+
+  And a defect has been fixed that caused wrong number of tests to be output to a JUnit XML if using method/class filters with the real-time option. (Issue #141)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.11.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.11.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2010-02-25T20:07:49+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.11.0
+
+ Stops on the first failure or error. (PHPUnit, PHPT, and SimpleTest):
+
+  phpunitrunner --stop-on-failure DIRECTORY_OR_FILE
+
+  Stops the test run when the first failure or error is raised.
+
+ Provides easy to understand information for incomplete and skipped tests. (PHPUnit):
+
+  JUnit XML:
+
+   The specified message is included in the value of the error element.
+
+  TestDox and detailed progress report:
+
+   The specified message is included in the TestDox and detailed progress report as follows:
+
+    &lt;?php
+    class FooTest
+    {
+        /**
+         * @test
+         */
+        public function bar()
+        {
+            $this-&gt;markTestSkipped('Baz is not available');
+        }
+    ...
+
+    The test suite generated by Stagehand_TestRunner
+    FooTest
+      bar ... skipped (Baz is not available)
+
+    FooTest
+     [ ] Bar (Baz is not available)
+    ...
+
+ A defect fix:
+
+  A defect has been fixed that caused a test run to be failed by unexpected preload.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.10.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.10.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.10.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-12-24T02:06:30+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.10.0
+
+ Logs test results in real-time into the specified file in the JUnit XML format. (PHPUnit, PHPT, and SimpleTest):
+
+  phpunitrunner --log-junit=FILE --log-junit-realtime DIRECTORY_OR_FILE
+
+  By specifying the --log-junit-realtime option, the test results get to be written in real-time by element-by-element.
+
+ Enhanced SimpleTest support:
+
+  The following features have been supported in SimpleTest:
+
+   * Runs only the specified tests in the specified file.
+   * Runs only the tests in the specified classes.
+   * Logs test results into the specified file in the JUnit XML format.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.9.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.9.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.9.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-11-12T17:17:54+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.9.0
+
+ Can specify multiple files and directories as test target.:
+
+  phpunitrunner DIRECTORY_OR_FILE1 DIRECTORY_OR_FILE2 ...
+
+  In previous versions, one file or directory could only be specified as test target.
+
+  As of this version, multiple files and directories can be specified as test target.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.8.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.8.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.8.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-10-27T01:21:29+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.8.0
+
+ Runs only the tests in the specified classes. (PHPUnit only):
+
+  phpunitrunner --classes=CLASS1,CLASS2,... FILE
+
+  Runs the tests in the specified classes which are included in the specified file. Multiple classes can be specified by a comma delimited list.
+
+ Improvements for testing specified methods:
+
+  Can specify fully-qualified method names.:
+
+   In the version 2.7.0, if multiple classes have same method, their methods are run when testing specified methods.
+
+   As of this version, fully-qualified method names can be specified as CLASS::METHOD for resolving this ambiguity.
+
+  Be case-insensitive.:
+
+   In the version 2.7.0, it is case-sensitive even though PHP methods are case-insensitive.
+
+   As of this version, it has been made case-insensitive.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.7.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.7.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.7.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-09-25T22:26:52+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 2.7.0
+
+ Runs only the specified tests in the specified file. (PHPUnit only):
+
+  From the specified file, only methods which you want to test can now be specified.
+
+ Supports PHPUnit 3.4.:
+
+  PHPUnit 3.4 has been supported. As of this version, PHPUnit 3.3.x are no longer supported.
+
+ Supports JUnit XML output. (PHPUnit and PHPT).
+
+  Test results can now be logged in the JUnit XML format into the specified file.
+
+ Supports PHPT.:
+
+  PHPT has been supported. PHPUnit is required to use this feature.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.6.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-01-27T21:52:04+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.6.2
+
+ * A defect fix: A defect with PHPUnit has been fixed that caused the numerical part of the prettified method name for a method ending with a number to be lost.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.6.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2009-01-14T23:48:52+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.6.1
+
+ * A defect fix: A defect has been fixed that caused warning messages to be displayed if E_STRICT was enabled.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.6.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.6.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-10-23T10:21:02+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.6.0
+
+ * Enhanced PHPUnit support: A feature to display detailed progress report instead of normal progress report has been added. This feature will make it easy to find out where a fatal error occurred. This feature can be used by the -v option.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.5.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-23T15:03:30+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.5.0
+
+ * Enhanced PHPUnit support: Results output has been improved so as to be same as PHPUnit 3.3.0.
+ * A defect fix: A defect has been fixed so that the Growl message is output only &quot;FAILURES!&quot; when a test fails.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.4.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-09-18T19:37:39+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.4.0
+
+ * Enhanced PHPUnit support: TestDox documentation has been supported. And also real-time progress report has been supported.
+ * Improved preloading option handling: Preloading option handling has been improved so as to be able to use &quot;-p&quot; with other options such like &quot;-Rcp prepare.php&quot;
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.3.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.3.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.3.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-05-25T14:33:12+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.3.0
+
+ * Growl support: Growl support can now be used by the -g option. If the Growl requires password, specify the password by the --growl-password option.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-05-11T16:13:12+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.2.0
+
+ * Test.php support: Test classes ending with &quot;Test.php&quot; have become targets of running tests by testrunner/testrunner-st (PHPUnit/SimpleTest).
+ * Test class extensions: Extending test classes has become a lot easier since the PHPUnit/SimpleTest collectors now target only classes ending with Test or TestCase.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Removed the second argument for passthru(). (Stagehand_TestRunner_AlterationMonitor)
+- Removed error_reporting(). (specrunner/testrunner/testrunner-st)
+- Added some error handling. (Stagehand_TestRunner)
+- Added support for running tests ending with &quot;Test.php&quot;. (PHPUnit/SimpleTest)
+- Changed a collector's behavior so as to target only classes ending with Test or TestCase. (Ticket #18) (PHPUnit/SimpleTest)
+- Added '^.#' to the exclude patterns. (Stagehand_TestRunner_DirectoryScanner)
+- Changed code so as to exit the program when loading a preload file is failed. (specrunner/testrunner/testrunner-st)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused tests to be run every time if fileperms()/filemtime() fails when using autotest.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-03-06T12:23:04+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.1.0
+
+ * autotest Support: autotest support can now be used by -a option. When using autotest, one or more directories to be watched for changes can specify by the -w option.
+ * Explicit test directory: An arbitrary directory can now be used as the test directory by specifying the directory as the last argument for testrunner commands.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 2.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-2.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-2.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2008-01-26T18:12:05+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 2.0.0
+
+ * PHPSpec Support: Stagehand_TestRunner can now be used with PHPSpec (http://code.google.com/p/phpspec/). If you use PHPSpec 0.2.0devel or greater, use the specrunner script for running tests.
+ * Migration to PHP 5: Stagehand_TestRunner now works with PHP 5.0.3 or greater.
+ * End of support for PHPUnit 1 and 2: Starting with this release, PHPUnit 1 and 2 are no longer supported.
+ * New directory structure: The source code of Stagehand_TestRunner is now located in the php_dir/src directory. Please add php_dir/src into your include_path before starting to use this package.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 1.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-1.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-1.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-10-26T01:02:12+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 1.2.0
+
+ * Coloring the result of a test runner run: The result of a test runner run can be colored by &quot;-c&quot; option.
+ * PHP script preloading: An arbitrary PHP script can be loaded before tests run for testing in a closed environment.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added support for coloring the result of a test runner run with ANSI console colors.
+- Added support for preloading an arbitrary PHP script for testing in a closed environment. (Ticket #4)
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 1.1.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-1.1.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-1.1.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-10-20T14:43:28+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 1.1.0
+
+ * SimpleTest Support: Stagehand_TestRunner can now be used with SimpleTest (http://simpletest.org/). If you use SimpleTest v1.0.1beta2 or greater, use the testrunner-st script for running tests.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-31T11:06:21+09:00</updated>
+        <content>
+            This is the first stable release of Stagehand_TestRunner.
+
+What's New in Stagehand_TestRunner 1.0.0
+
+ * PHPUnit 3 Support: Stagehand_TestRunner can now be used with PHPUnit 3. If you use PHPUnit 3, use the testrunner3 script for running tests.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added support for specifying a file name directly. (Stagehand_TestRunner)
+- Added support for PHPUnit 3.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 0.5.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-0.5.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-0.5.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2007-07-12T14:20:37+09:00</updated>
+        <content>
+            A new release of Stagehand_TestRunner is now available.
+
+What's New in Stagehand_TestRunner 0.5.0
+
+ * Command Line Interface Support: testrunner1/testrunner2 can be used to run tests automatically without TestRunner.php and AllTestRunner.php. Also these commands can be used to run only the specified test case.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added testrunner1/testrunner2 scripts to run tests automatically without TestRunner.php and AllTestRunner.php.
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 0.4.0 (beta)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-0.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-0.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2006-10-09T14:57:35+09:00</updated>
+        <content>
+            This is the first release with the new PEAR Channel Server pear.piece-framework.com. There are no changes from the previous release except the PEAR Channel Server is changed.
+        </content>
+    </entry>
 </feed>

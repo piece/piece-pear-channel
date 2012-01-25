@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_smarty">Piece_Unity_Component_Smarty</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.2.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A renderer which is based on Smarty template engine.</s>
+    <d>A renderer which is based on Smarty template engine.</d>
+    <da>2008-09-04 19:09:49</da>
+    <n>A new release of Piece_Unity_Component_Smarty is now available.
+
+What's New in Piece_Unity_Component_Smarty 1.2.0
+
+ * Piece_Unity 1.5.0 support: Piece_Unity_Component_Smarty 1.2.0 works properly with Piece_Unity 1.5.0.
+ * Piece_Unity_Service_Rendering_Smarty: Piece_Unity_Service_Rendering_Smarty allows you to use Smarty in actions and plug-ins.</n>
+    <f>6772</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.2.0</g>
+    <x xlink:href="package.1.2.0.xml"/>
+</r>

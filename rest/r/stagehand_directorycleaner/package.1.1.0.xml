@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_DirectoryCleaner</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A directory cleaner</summary>
+ <description>Provides a file/directory cleaner in the directory.</description>
+ <lead>
+  <name>mbarracuda</name>
+  <user>mbarracuda</user>
+  <email>mbarracuda@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-12-16</date>
+ <time>00:15:37</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+What&apos;s New in Stagehand_DirectoryCleaner 1.1.0
+
+ * Removes the root directory:
+
+  A new feature removes the root (initially specified) directory with cleaning.
+
+    &lt;?php
+    $cleaner = new Stagehand_DirectoryCleaner();
+    $cleaner-&gt;setRemovesRoot(true);
+    $cleaner-&gt;clean(&apos;/path/to/directory&apos;);
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="45854564ce6ac0cbc330c79964e0b87c" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="04828746c7879ec5971fde68afcea4ef" name="src/Stagehand/DirectoryCleaner.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a46275123121f5cfdee331c9530ea0a9" name="tests/Stagehand/DirectoryCleanerTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="tests/tmp/dummy" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c5d903de5a902d7949e3cec7047d0a5" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-12-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_DirectoryCleaner 1.1.0
+
+ * Removes the root directory:
+
+  A new feature removes the root (initially specified) directory with cleaning.
+
+    &lt;?php
+    $cleaner = new Stagehand_DirectoryCleaner();
+    $cleaner-&gt;setRemovesRoot(true);
+    $cleaner-&gt;clean(&apos;/path/to/directory&apos;);
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-10-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The first release of Stagehand_DirectoryCleaner.
+   </notes>
+  </release>
+ </changelog>
+</package>

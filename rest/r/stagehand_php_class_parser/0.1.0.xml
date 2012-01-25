@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_php_class_parser">Stagehand_PHP_Class_Parser</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>kumatch</m>
+    <s>A parser for PHP classes</s>
+    <d>Stagehand_PHP_Class_Parser provides features of parsing PHP classes and mapping to Stagehand_PHP_Class meta objects.</d>
+    <da>2009-09-04 17:43:16</da>
+    <n>
+The first release of Stagehand_PHP_Class.
+ </n>
+    <f>15463</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_PHP_Class_Parser-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

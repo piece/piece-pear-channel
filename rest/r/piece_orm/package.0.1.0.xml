@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_ORM</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An object-relational mapping framework for PHP</summary>
+ <description>Piece_ORM is an object-relational mapping framework for PHP.
+
+Piece_ORM is a framework against the background of Data Mapper.
+A mapper is automatically generated from a configuration file and the metadata of a table.
+Piece_ORM uses the stdClass as the default domain model for a mapper, and uses a stdClass object as a criteria object for SELECT queries.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-03-09</date>
+ <time>16:04:48</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>This is the first release of Piece_ORM.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="ecc39e14919222ee881a1501e270ae45" name="data/schemas/mysql/person.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="012cffcd1e2b175f06d81358b2a280f2" name="data/schemas/pgsql/person.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13f3deb57427db6fac3627192f84b509" name="data/piece-orm-mapper.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6768a5e4850758acf85f53220e29287b" name="Piece/ORM/Config/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c145c03e1631a32ffa27c045a7f72b3d" name="Piece/ORM/Mapper/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="786e6bd8fc52c7b28b2ca3cc20b7aec2" name="Piece/ORM/Mapper/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9cffba7a939b57ca8632b4ff1751522e" name="Piece/ORM/Mapper/Generator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7fe2de9a4263fcb7a280108737bd4e88" name="Piece/ORM/Metadata/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5086effcae5f5b5ff1da0b7c38e4a42f" name="Piece/ORM/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d047e09a1bf836adf1c1bea5eeaebf88" name="Piece/ORM/Context.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e94f304e52ec69fc09ba152475b7701c" name="Piece/ORM/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3457e37c65f7d8c89a8c2a65b6714058" name="Piece/ORM/Inflector.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6be02ab6fd7fa72510733981cdedaa54" name="Piece/ORM/Metadata.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="24e62af765389c6ee8b23217a75a00c7" name="Piece/ORM.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="315da9af0c3022f8ac900375a28d0bb2" name="tests/Piece/ORM/Config/FactoryTestCase/piece-orm-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="39ba465f585a8ef25b058f145cee27fe" name="tests/Piece/ORM/Config/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="17b0b4d4638b3ff4e45449366cbe24e4" name="tests/Piece/ORM/Config/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d7844059946c4a0430037b7e4bc2ea5d" name="tests/Piece/ORM/Mapper/FactoryTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a72c640909d0ddc7349b3b58976b9d71" name="tests/Piece/ORM/Mapper/MysqlTestCase/Overwrite/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1c469b9727cf6511aa675bb360aae13b" name="tests/Piece/ORM/Mapper/MysqlTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c59169be3da54134b70fb3acc0b1741d" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Overwrite/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1c469b9727cf6511aa675bb360aae13b" name="tests/Piece/ORM/Mapper/PgsqlTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4f84f0936d5963e66928b3f807b0af4c" name="tests/Piece/ORM/Mapper/CompatibilityTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="11f75c2c22f2b7408c32762c52ec07c4" name="tests/Piece/ORM/Mapper/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="051753118ece2cbc7b868c886b9be315" name="tests/Piece/ORM/Mapper/MysqlTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="313755fb45bed8361f4cf8bc04d558f6" name="tests/Piece/ORM/Mapper/PgsqlTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="02c77d52deef89d15e83430614796c4a" name="tests/Piece/ORM/Mapper/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bf9e6a3176cd9e18f2ef2ca306d62cb8" name="tests/Piece/ORM/Metadata/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="17b0b4d4638b3ff4e45449366cbe24e4" name="tests/Piece/ORM/Metadata/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8cd3a3d4000bcd943e86867df6c5d825" name="tests/Piece/ORM/ConfigTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dcc6ec6065a34ae44c0facf00c9ff2c5" name="tests/Piece/ORM/InflectorTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="930de802685ae96a902c25aaa723b294" name="tests/Piece/ORM/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ace88633240bcc1fcf22cbe16fbeebd7" name="tests/Piece/ORMTestCase/Person.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="88e370eb0279361437a39b9361f6a08b" name="tests/Piece/ORMTestCase/piece-orm-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d78f353927473eb975fbb641012d1fb3" name="tests/Piece/ORMTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c4cf1a2f5fc0de2fd0826ad9714d4d1" name="tests/Piece/TestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0a9e733a0374623de559f79737dfdc1c" name="tests/AllTestRunner.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>MDB2</name>
+    <channel>pear.php.net</channel>
+    <min>2.3.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Stagehand_TestRunner</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.4.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-03-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release of Piece_ORM.</notes>
+  </release>
+ </changelog>
+</package>

@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <a xmlns="http://pear.php.net/dtd/rest.allpackages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.allpackages http://pear.php.net/dtd/rest.allpackages.xsd">
     <c>pear.piece-framework.com</c>
+  <p>Games_Couple</p>
+  <p>Games_Pyramid</p>
+  <p>Piece_Examples_Basics</p>
+  <p>Piece_Examples_CRUD</p>
+  <p>Piece_Examples_Conversation</p>
+  <p>Piece_Examples_Questionnaire</p>
+  <p>Piece_Flow</p>
+  <p>Piece_ORM</p>
+  <p>Piece_Right</p>
+  <p>Piece_Unity</p>
+  <p>Piece_Unity_Component_Authentication</p>
+  <p>Piece_Unity_Component_Authorization</p>
+  <p>Piece_Unity_Component_ContentLength</p>
+  <p>Piece_Unity_Component_ExceptionHandler</p>
+  <p>Piece_Unity_Component_Flexy</p>
+  <p>Piece_Unity_Component_JSON</p>
+  <p>Piece_Unity_Component_JapaneseZ2H</p>
+  <p>Piece_Unity_Component_KernelConfigurator</p>
+  <p>Piece_Unity_Component_NullByteAttackPreventation</p>
+  <p>Piece_Unity_Component_Pagination</p>
+  <p>Piece_Unity_Component_PieceORM</p>
+  <p>Piece_Unity_Component_ProxyBasePath</p>
+  <p>Piece_Unity_Component_Smarty</p>
+  <p>Stagehand_AccessControl</p>
+  <p>Stagehand_AlterationMonitor</p>
+  <p>Stagehand_Autoload</p>
+  <p>Stagehand_CLIController</p>
+  <p>Stagehand_DirectoryCleaner</p>
+  <p>Stagehand_DirectoryScanner</p>
+  <p>Stagehand_DirectorySnap</p>
+  <p>Stagehand_FSM</p>
+  <p>Stagehand_HTTP_Status</p>
+  <p>Stagehand_LegacyError</p>
+  <p>Stagehand_PHP_Class</p>
+  <p>Stagehand_PHP_Class_Parser</p>
+  <p>Stagehand_PHP_Lexer</p>
+  <p>Stagehand_PHP_Parser</p>
+  <p>Stagehand_SmtpDaemon</p>
+  <p>Stagehand_TestRunner</p>
 
 </a>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.12.0</v>
+    <a>1.7.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-08-17 23:54:23</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.12.0
+
+ * The target of the garbage collection changed: The target of the garbage collection has been changed from all flow executions to only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the target of the garbage collection to only non-exclusive flow executions. (Piece_Flow_Continuation)</n>
+    <f>46735</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.12.0</g>
+    <x xlink:href="package.1.12.0.xml"/>
+</r>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_directoryscanner">Stagehand_DirectoryScanner</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <a>1.0.0</a>
+    <mp>5.0.0</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A directory scanner</s>
+    <d>Stagehand_DirectoryScanner provides a framework to process anything for files and directories under the specified directory.</d>
+    <da>2009-09-17 19:12:29</da>
+    <n>
+The first release of Stagehand_DirectoryScanner.
+ </n>
+    <f>3972</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_DirectoryScanner-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_ExceptionHandler</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A component for exception handling</summary>
+ <description>Piece_Unity_Component_ExceptionHandler provides a simple exception handling system which can be used in your bootstrap code as follows:
+
+webapp/config/bootstrap.php:
+
+&lt;?php
+...
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_DebugInfo());
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_ErrorLog());
+Piece_Unity_Service_ExceptionHandler::enable();
+...
+
+The last one registered will be the first one called.
+
+Built-in exception handlers are:
+
+Piece_Unity_Service_ExceptionHandler_DebugInfo: Outputs the exception details as a HTML page.
+Piece_Unity_Service_ExceptionHandler_ErrorLog: Logs the exception message by error_log().
+Piece_Unity_Service_ExceptionHandler_InternalServerError: Outputs a typical &quot;Internal Server Error&quot; HTML page.
+
+Additionally, any exception handlers which implement the interface Piece_Unity_Service_ExceptionHandler_Interface can be used.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <helper>
+  <name>KUBO Noriko</name>
+  <user>noricot</user>
+  <email>noricott@gmail.com</email>
+  <active>yes</active>
+ </helper>
+ <date>2009-03-26</date>
+ <time>16:23:48</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>A new release of Piece_Unity_Component_ExceptionHandler is now available.
+
+What&apos;s New in Piece_Unity_Component_ExceptionHandler 0.2.0
+
+ * Improved the DebugInfo exception handler: The limit of the ripped source line has been changed to 21. (10 + 1 + 10)
+ * Improved HTML rendering: The behavior of HTML rendering has been changed so as to send the HTTP status line and Content-Type header only if the headers haven&apos;t been sent.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="d591211f40f1551ae1348430dbaf839c" name="data/pear.piece-framework.com/Piece_Unity_Component_ExceptionHandler/DebugInfo.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="96644df933b3f3a83b3db0069fd1ae6d" name="data/pear.piece-framework.com/Piece_Unity_Component_ExceptionHandler/InternalServerError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="27215194e8ad31ee2e5c090ffd668446" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e96e2f0429638ba2b328e716c9973ade" name="src/Piece/Unity/Service/ExceptionHandler/Rendering/PHP.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b7c034a3073a091b89bd5c3680e6ddb8" name="src/Piece/Unity/Service/ExceptionHandler/DebugInfo.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c08d703c0c6caeac26892a5436cfc0e" name="src/Piece/Unity/Service/ExceptionHandler/ErrorLog.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="25ad3563887d93fe5e71c33f43af9b60" name="src/Piece/Unity/Service/ExceptionHandler/Interface.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fce0961cbfdab323b77bce89b0b068b9" name="src/Piece/Unity/Service/ExceptionHandler/InternalServerError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ab022eba453fc8a2ec72c966d44d688d" name="src/Piece/Unity/Service/ExceptionHandler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.5.0</min>
+   </package>
+   <package>
+    <name>Stagehand_HTTP_Status</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Stagehand_LegacyError</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <extension>
+    <name>pcre</name>
+   </extension>
+   <extension>
+    <name>date</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-03-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>A new release of Piece_Unity_Component_ExceptionHandler is now available.
+
+What&apos;s New in Piece_Unity_Component_ExceptionHandler 0.2.0
+
+ * Improved the DebugInfo exception handler: The limit of the ripped source line has been changed to 21. (10 + 1 + 10)
+ * Improved HTML rendering: The behavior of HTML rendering has been changed so as to send the HTTP status line and Content-Type header only if the headers haven&apos;t been sent.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-03-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>The first beta release of Piece_Unity_Component_ExceptionHandler.</notes>
+  </release>
+ </changelog>
+</package>

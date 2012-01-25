@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_orm">Piece_ORM</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.7.0</v>
+    <a>0.3.0</a>
+    <mp>4.3.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An object-relational mapping framework</s>
+    <d>Piece_ORM is an object-relational mapping framework.
+
+Piece_ORM is a simple framework based on the DataMapper pattern, and features stdClass centered approach.</d>
+    <da>2007-08-27 11:40:18</da>
+    <n>A new release of Piece_ORM is now available.
+
+What's New in Piece_ORM 0.7.0
+
+ * Native datatypes mapping support: Additional mapping from DBMS native datatypes to MDB2 datatypes can be defined by Piece_ORM_MDB2_NativeTypeMapper_XXX::addMap().
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added generic support for mapping from DBMS native datatypes to MDB2 datatypes. (Piece_ORM_Context, Piece_ORM_MDB2_NativeTypeMapper_XXX)
+- Changed configure() so that setDatabase() does not call if no database found in the current configuration. (Piece_ORM)
+- Updated setDatabase() so that a PIECE_ORM_ERROR_NOT_FOUND exception is raised when an undefind database is given. (Piece_ORM_Config, Piece_ORM_Context)
+- Added code so as to clear all database handles in clear(). (Piece_ORM_Context)</n>
+    <f>52750</f>
+    <g>http://pear.piece-framework.com/get/Piece_ORM-0.7.0</g>
+    <x xlink:href="package.0.7.0.xml"/>
+</r>

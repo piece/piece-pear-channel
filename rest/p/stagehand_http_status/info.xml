@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Stagehand_HTTP_Status</n>
+<c>pear.piece-framework.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>New BSD License</l>
+<s>A utility to send HTTP status line</s>
+<d>Stagehand_HTTP_Status is a utility which can be used to send a HTTP status line from a status code for the current HTTP response.</d>
+<r xlink:href="/rest/r/stagehand_http_status" />
+</p>

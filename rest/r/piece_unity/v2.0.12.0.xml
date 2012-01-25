@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.12.0</v>
+    <a>0.7.0</a>
+    <mp>4.3.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-05-27 01:49:05</da>
+    <n>A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 0.12.0
+
+ * Configurator_AppRoot plug-in: A plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web.
+ * Configurator_PieceORM plug-in: A plug-in for Piece_ORM.
+ * Several defect fixes: A defect in fallback view rendering has been fixed. And also a defect in Plug-in Aliases has been fixed. And other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added the plugins_dir configuration point. (Renderer_Smarty)
+- Updated &quot;Self Notation&quot; so as to set true to the configuration point &quot;addFlowExecutionTicket&quot; of Renderer_Redirection plug-in. (View)
+- Added &quot;Configurator_PieceORM&quot; plug-in for Piece_ORM.
+- Added &quot;Configurator_Proxy&quot; plug-in for proxy.
+- Changed the default value for the configuration point &quot;configurator&quot; from &quot;KernelConfigurator&quot; to &quot;ConfiguratorChain&quot;. (Root)
+- Added &quot;Configurator_AppRoot&quot; plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web. (Ticket #56)
+- Removed the configuration point &quot;importSessionIDFromRequest&quot;. (Interceptor_SessionStart)
+
+Kernel:
+
+- Updated pushPEARError() so that the params field in the repackage array contains &quot;userinfo&quot; and &quot;debuginfo&quot; fields, which contains each of the return values from getUserInfo() and getDebugInfo(). (Piece_Unity_Error)
+- Updated the constructor so as to receive a prefix for determining the plug-in name. (Piece_Unity_Plugin_Common)
+- Changed the error type on all Piece_Unity_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;. (Piece_Unity_URL)
+- Added getRemoteAddr() for getting an IP address (or IP addresses) of the client making the request. (Piece_Unity_Context)
+- Added _getExtension()/_getConfiguration(). (Piece_Unity_Plugin_Common)
+  getExtension()/getConfiguration() are deprecated since Piece_Unity 0.12.0. (Ticket #54)
+
+Example Applications:
+
+- Changed the function for URI encoding from escape() to encodeURIcomponent(). (ahah.js)
+- Replaced all &quot;__basePath&quot; with &quot;__appRootPath&quot;.
+
+Defect Fixes
+============ 
+
+Plug-ins:
+
+- Fixed a defect in fallback view rendering that caused a fallback view to be always rendered in spite of success in HTML rendering if one or more &quot;warning&quot; level errors raised before rendering. (Ticket #57)
+
+Kernel:
+
+- Fixed the problem that a plug-in with Plug-in Aliases cannot get the current configuration. (Ticket #53)
+- Fixed the problem that the getExtension()/getConfiguration() cannot work with an empty prefix. (Piece_Unity_Plugin_Common)
+
+Example Applications:
+
+- Fixed the problem that all radio elements are transferred regardless of whether they are checked or not. (ahah.js)</n>
+    <f>177966</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-0.12.0</g>
+    <x xlink:href="package.0.12.0.xml"/>
+</r>

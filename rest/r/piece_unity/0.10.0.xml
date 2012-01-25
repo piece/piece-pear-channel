@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.10.0</v>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-01-12 15:00:28</da>
+    <n>Hi all,
+
+A new release of Piece_Unity is now available.
+This release includes a nice feature for the layout system. It can turn off the use of the layout system by the HTTP Accept header. And also other enhancements are included.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Plug-ins ###
+
+##### Renderer_HTML #####
+
+- Added a new configuration point 'turnOffLayoutByHTTPAccept' on Renderer_HTML.
+  If this option is true, the useLayout option is turned off by the HTTP Accept header.
+
+##### Dispatcher_Continuation #####
+
+- Changed the default value of bindActionsWithFlowExecution to true.
+
+##### Interceptor_SessionStart #####
+
+- Added a feature to import a session ID from the request parameters when a new configuration point importSessionIDFromRequest is true. (Ticket #34)
+
+### Example Applications ###
+
+- Updated templates and javascripts of the sample application.</n>
+    <f>162268</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-0.10.0</g>
+    <x xlink:href="package.0.10.0.xml"/>
+</r>

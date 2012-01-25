@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.11.0</v>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-02-19 20:51:55</da>
+    <n>Hi all,
+
+A new release of Piece_Unity is now available.
+
+This release includes a feature named &quot;Fallback View&quot; which can be used for rendering a fallback view if an error occured while rendering with a specified view, and a feature named &quot;Plug-in Aliases&quot; which can be used multiple aliases as the name of a plug-in class by setting multiple prefixes.
+
+Also this release includes a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+And also other enhancements and two fixes are included. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Plugin_Factory #####
+
+- Added a feature named &quot;Plug-in Aliases&quot; so that this feature can be used multiple aliases as the name of a plug-in class by setting multiple prefixes. (Ticket #40)
+
+##### Piece_Unity_URL #####
+
+- Added removeQueryString() to remove a name/value pair from the query string.
+
+### Plug-ins ###
+
+##### Renderer_Flexy, Renderer_HTML, Renderer_PHP, Renderer_Smarty #####
+
+- Added a feature named &quot;Fallback View&quot;. (Ticket #37)
+  If an error occured while rendering with a specified view and useFallback is true, a fallback view will be rendered.
+
+##### KernelConfigurator #####
+
+- Added a configuration point &quot;pluginPrefixes&quot; for using &quot;Plug-in Aliases&quot;.
+- Added two configuration point &quot;validationValidatorPrefixes&quot; and &quot;validationFilterPrefixes&quot; for using &quot;Validator Aliases&quot; and &quot;Filter Aliases&quot;. (Ticket #43)
+
+##### Renderer_Redirection #####
+
+- Added a feature so that __eventNameKey is replaced with the event name key. (Ticket #38)
+
+##### View #####
+
+- Added a feature named &quot;Self Notation&quot; for redirection to an entry point itself. (Ticket #39)
+
+##### ConfiguratorChain, Configurator_Env, Configurator_Event, Configurator_Plugin, Configurator_Request, Configurator_Validation #####
+
+- Added a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. (Ticket #45)
+  In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+### Example Applications ###
+
+- Changed so as to use of ConfigurationChain.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Unity_URL #####
+
+- Fixed the problem so that EZweb mobile phone cannot redirect with Renderer_Redirection plug-in. (Ticket #44)
+
+### Plug-ins ###
+
+##### Renderer_Redirection #####
+
+- Fixed the problem that the renderer cannot redirect to HTTPS URL.</n>
+    <f>172906</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-0.11.0</g>
+    <x xlink:href="package.0.11.0.xml"/>
+</r>

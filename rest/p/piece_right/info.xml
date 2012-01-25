@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Piece_Right</n>
+<c>pear.piece-framework.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD License (revised)</l>
+<s>A validation framework</s>
+<d>Piece_Right is a validation framework.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</d>
+<r xlink:href="/rest/r/piece_right" />
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_autoload">Stagehand_Autoload</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.1.0</v>
+    <a>0.3.0</a>
+    <mp>5.1.2</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>Class loaders for autoloading</s>
+    <d>Stagehand_Autoload provides class loaders for autoloading classes and interfaces which are based on the Package\Class or Package_Class style naming conventions.</d>
+    <da>2010-09-11 02:43:33</da>
+    <n>
+The features of Stagehand_Autoload 1.1.0 is the same as Stagehand_Autoload 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ </n>
+    <f>4530</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_Autoload-1.1.0</g>
+    <x xlink:href="package.1.1.0.xml"/>
+</r>

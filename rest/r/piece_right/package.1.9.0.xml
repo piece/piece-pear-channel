@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Right</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A validation framework for PHP</summary>
+ <description>Piece_Right is a validation framework for PHP.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-01-15</date>
+ <time>14:55:34</time>
+ <version>
+  <release>1.9.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Right is now available.
+
+What&apos;s New in Piece_Right 1.9.0
+
+ * Enhanced validators: File validator allows users to use messages corresponding to each error code for file uploading. Range validator supports array.
+ * A defect fix: A defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given has been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Validators:
+
+- Added support for messages by error code. (Ticket #41) (File)
+- Added support for array. (Ticket #59) (Range)
+
+Kernel:
+
+- Changed factory() so as to use a given cache directory as is. (Ticket #37) (Piece_Right_Config_Factory)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given. (Ticket #40) (Date, FutureDate, PastDate)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c653683dafc22997ea371656795fbb2d" name="data/piece-right.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="52a4dc6e4d0f73b0308b7f2db47fb131" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d858457ab943fd35eb8f5b6afd2c0e10" name="Piece/Right/Config/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f6656b730c5809664c0a9ae0060a2a10" name="Piece/Right/Config/Field.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="76beb56d3690c4e3c58995ae0d3ab374" name="Piece/Right/Filter/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="49884a52102122ca9df378edbf6a96c9" name="Piece/Right/Filter/Empty2NULL.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="07ff00bd86e0528ff553c604790c4c77" name="Piece/Right/Filter/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3c099c7f177bbe1c0271e3b8a1a84416" name="Piece/Right/Filter/JapaneseAlphaNumeric.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c8e76d414b3f0423e0e94ce0cc74509a" name="Piece/Right/Filter/JapaneseH2Z.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="38eeceb9dd082ba8cec9716d3c24c65a" name="Piece/Right/Filter/NoFile2NULL.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="db1b1cde5c0d2414694aa80a1ac37e6f" name="Piece/Right/Validation/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="268b4696236c61a29b5e576191aa2578" name="Piece/Right/Validation/Script.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="86dab783cc421dbeafa5cfb9718d6876" name="Piece/Right/Validator/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="467d41bfb714c35caf0d7eee6b429627" name="Piece/Right/Validator/Compare.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3fbdb47f957786c55815b854abe4f4ca" name="Piece/Right/Validator/Date.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c6a5ad58f50001bc95aae9a25a9c575" name="Piece/Right/Validator/Email.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="65445d8bc5eb3ff46bc2d363f27a73a2" name="Piece/Right/Validator/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5c87e3e6f3702e51789df1507b2f0c36" name="Piece/Right/Validator/File.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="92b166b62695a61c0df050db70142a08" name="Piece/Right/Validator/FutureDate.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2ee16986f63b219c9f63921e9248cc2c" name="Piece/Right/Validator/Image.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c4e4274010432059eb7822b7f576c941" name="Piece/Right/Validator/Length.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="67be72d8fa8f5d668b4f16caa78f3ba7" name="Piece/Right/Validator/List.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a34d0ffd0c6d6a0db886dcce237055fe" name="Piece/Right/Validator/Numeric.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0f02d39008aa364ee6cd66f0e9a05b3e" name="Piece/Right/Validator/PastDate.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cae34c8b56ebd96d58ff5142d7d9bc1c" name="Piece/Right/Validator/Range.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="825ec78eb48b792572a08ec0792e657a" name="Piece/Right/Validator/Regex.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="26e776d7388139be3d0605499273b388" name="Piece/Right/Validator/Unique.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ea553ad55b6dbcba4d29cfbbedffd574" name="Piece/Right/Validator/UniqueFields.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2abd43bfcf4910f710de02442144c6a6" name="Piece/Right/Validator/WithMethod.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6200f54e4dbf833a8c39aeb1bba9ae22" name="Piece/Right/ClassLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fa0fb4a05e5a3c6a3c0dc9cf4be92e3c" name="Piece/Right/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="84f667265161e320a435c56f478067b1" name="Piece/Right/Env.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d8e2f2caadae1943d3c926e8e644e8ff" name="Piece/Right/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="393d5da87081d486ea09caef47733762" name="Piece/Right/Results.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6bf4fc0df7ba83616648fb4d58c51821" name="Piece/Right.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74acc90cb4032ca4b3a13e7e7dbf54f5" name="tests/Piece/Right/Config/FactoryTestCase/CacheIDsShouldBeUniqueInOneCacheDirectory1/CacheIDsShouldBeUniqueInOneCacheDirectory.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3dbcacb1c205cbfc949d9e82ae83e309" name="tests/Piece/Right/Config/FactoryTestCase/CacheIDsShouldBeUniqueInOneCacheDirectory2/CacheIDsShouldBeUniqueInOneCacheDirectory.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce7f2942d2ee0644eabb173aa300aaf1" name="tests/Piece/Right/Config/FactoryTestCase/Common.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f8372003bc35a85b85c897f6158ad6be" name="tests/Piece/Right/Config/FactoryTestCase/Example.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70d2a753502b740652a20c930860abf6" name="tests/Piece/Right/Config/FactoryTestCase/InvalidConfiguration.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e394dcc54ffecadd343e05c73d73c0b" name="tests/Piece/Right/Config/FactoryTestCase/TemplateShouldBeUsedIfFileIsSetAndBasedOnElementIsSpecified.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="83f604558ab0326ffc0f8fc0f2922003" name="tests/Piece/Right/Config/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="05e5ccf8d68c2849472bf969c5a82593" name="tests/Piece/Right/Filter/FactoryTestCase/FactoryTestCaseAlias/FooFilter.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a5062038127f5db1db94fa280f4afcc6" name="tests/Piece/Right/Filter/FactoryTestCase/Piece/Right/Filter/FactoryTestCase/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8fe9f2fbfa15746251d6ba6d3bd12126" name="tests/Piece/Right/Filter/FactoryTestCase/Piece/Right/Filter/FactoryTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="292ab73d23daf902b656e08e3593b473" name="tests/Piece/Right/Filter/FactoryTestCase/BarFilter.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="701cebd8f0a35b5f1cac280a2acd30b1" name="tests/Piece/Right/Filter/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="96309cf4f5b851d9c32b426dbd73910e" name="tests/Piece/Right/Filter/JapaneseAlphaNumericTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d97168f68d16eeba88d8f5cbf3c82681" name="tests/Piece/Right/Filter/JapaneseH2ZTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a41e5e06255b02ea31c9e1896dc96547" name="tests/Piece/Right/Filter/NoFile2NULLTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="789799e12dc262805e058c89f41b14c4" name="tests/Piece/Right/Validation/ScriptTestCase/Piece/Right/Validator/ScriptPayloadTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="165da853c9c54d675e680f5fb2d63d56" name="tests/Piece/Right/Validation/ScriptTestCase/Common.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3f48727fb0386b8d60eb538407d2fb27" name="tests/Piece/Right/Validation/ScriptTestCase/FieldNames.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7c517b6f3ae4f519ef22dbee0fbb1855" name="tests/Piece/Right/Validation/ScriptTestCase/Script.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fe0f9a90500528f7ced61c3627001706" name="tests/Piece/Right/Validation/ScriptTestCase/TemplateShouldBeUsedIfFileIsSetAndBasedOnElementIsSpecified.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="52a57e51a1bd87e83e097ef40226fded" name="tests/Piece/Right/Validation/ErrorTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2d0bf6984e812e03a4477adf2664455d" name="tests/Piece/Right/Validation/ScriptTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5e1c6bb7871089e639a2e1780303006a" name="tests/Piece/Right/Validator/FactoryTestCase/FactoryTestCaseAlias/FactoryTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1b350d3987c51411bb0fd5b8d8cb1249" name="tests/Piece/Right/Validator/FactoryTestCase/FactoryTestCaseAlias/FooValidator.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cecb48ac07b17e849f13abb366dc7b1c" name="tests/Piece/Right/Validator/FactoryTestCase/Piece/Right/Validator/FactoryTestCase/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9ac26b4a539fb24e7eb8a4d352ec9750" name="tests/Piece/Right/Validator/FactoryTestCase/Piece/Right/Validator/FactoryTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="88c822ea609fd466941acdfec50da504" name="tests/Piece/Right/Validator/FactoryTestCase/Piece/Right/Validator/Invalid.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2e6ce312ea88e29880dc75b445a6beb3" name="tests/Piece/Right/Validator/FactoryTestCase/BarValidator.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6784e25e73c9614e9e4578fdfbf742b1" name="tests/Piece/Right/Validator/images/image.bmp" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3d86e4c4d6b23799b1905330f31c5362" name="tests/Piece/Right/Validator/images/image.gif" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="913f5a68198ec1fcfa49c74b0f8f8ccc" name="tests/Piece/Right/Validator/images/image.jpg" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b3182b46908cfbaf523f0f52146fdc81" name="tests/Piece/Right/Validator/images/image.png" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="329ec0a3ad56d0eed46c23a7c2316a54" name="tests/Piece/Right/Validator/images/image.tif" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="77db98be3add96d136aff7c9fe707d20" name="tests/Piece/Right/Validator/WithMethodTestCase/Piece/Right/Validator/WithMethodTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e23f2b4fd7ee69f0e760a3b9e891ddf1" name="tests/Piece/Right/Validator/WithMethodTestCase/WithMethod.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b22679128f6bd2384c70baffb5972174" name="tests/Piece/Right/Validator/CompareTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0499c6cf834620a344907dd2288e9ce2" name="tests/Piece/Right/Validator/DateTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="73219d2cf5b89c863e1b6717a749dff4" name="tests/Piece/Right/Validator/EmailTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b849db97048e1ccd2ec0a22e4363be87" name="tests/Piece/Right/Validator/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c51cb7cdd3fa792e20e3da487c5966d" name="tests/Piece/Right/Validator/FileTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="36d2fd94dffc79de05108aba5504c645" name="tests/Piece/Right/Validator/FutureDateTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c9d0a0028dd30865b61f9f3e1ac99966" name="tests/Piece/Right/Validator/ImageTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f9d2220ea13c723f72faf2285f509a94" name="tests/Piece/Right/Validator/LengthTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="add58dbe716c75f68fbec43e05949e2d" name="tests/Piece/Right/Validator/ListTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8678a63cedfd558372b88f6123cf0d5d" name="tests/Piece/Right/Validator/NumericTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="773f1c1a0dd9f5ea26bca94701bb67ce" name="tests/Piece/Right/Validator/PastDateTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce869ab3b79efaa60e1229c785bb7b34" name="tests/Piece/Right/Validator/RangeTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cb983e0625d60eabf4f24691a7574232" name="tests/Piece/Right/Validator/RegexTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cca40172ea4a3dac57349be2070a899c" name="tests/Piece/Right/Validator/UniqueFieldsTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ca8323d59d9177baf66ed4ce505d85ee" name="tests/Piece/Right/Validator/UniqueTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9a27d0a994ce85a2380f4fa34dcb59e4" name="tests/Piece/Right/Validator/WithMethodTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a7076031899ba0fa25669a938cf62f8d" name="tests/Piece/Right/ConfigTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e24c620adbddec422e224a1f3d7d61ff" name="tests/Piece/Right/ResultsTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6784e25e73c9614e9e4578fdfbf742b1" name="tests/Piece/RightTestCase/images/image.bmp" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3d86e4c4d6b23799b1905330f31c5362" name="tests/Piece/RightTestCase/images/image.gif" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="913f5a68198ec1fcfa49c74b0f8f8ccc" name="tests/Piece/RightTestCase/images/image.jpg" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b3182b46908cfbaf523f0f52146fdc81" name="tests/Piece/RightTestCase/images/image.png" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="329ec0a3ad56d0eed46c23a7c2316a54" name="tests/Piece/RightTestCase/images/image.tif" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd54d299412f98d13a1e3dfedaec2551" name="tests/Piece/RightTestCase/Piece/Right/Filter/LowerCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="795892b44a268dfbc533179a7cb33849" name="tests/Piece/RightTestCase/Piece/Right/Validator/PayloadTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="71779e1d98712f8ebbea759d60abe120" name="tests/Piece/RightTestCase/UnderScoresInValidationSetNamesShouldBeUsedAsDirectorySeparators/Foo.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="af1ade1385b83587f7964aec8f673464" name="tests/Piece/RightTestCase/AppropriateValidationMessage.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a3af67ebf124310766cd4d6ddbbf5c0b" name="tests/Piece/RightTestCase/Common.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13c9249b8434292165d9ae41e4a85d1c" name="tests/Piece/RightTestCase/Example.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b04bd69346d1c80ac6216b3c959f52d" name="tests/Piece/RightTestCase/ForceValidation.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="accfb2b412f0d7dd65df836f98e20058" name="tests/Piece/RightTestCase/ForceValidationBasedOnWatcher.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3872cf92070e806d9ea387ba30d978d6" name="tests/Piece/RightTestCase/MessageVariable.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="28b5f2a00cb0b0d2d9ffc1893afad981" name="tests/Piece/RightTestCase/ProblemThatValidationOfPseudoFieldsAreAlwaysInvoked.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="478339449d5e3f3d0f5aaa0896161abf" name="tests/Piece/RightTestCase/PseudoField.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fdf284e5b7e5b9c5baf43e9c45a5d819" name="tests/Piece/RightTestCase/RuleMessage.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="edea968523671f812c890c225815c3cf" name="tests/Piece/RightTestCase/SeparatedDateValidationWithPseudoFieldIfPseudoFieldIsNotRequired.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b2302eb82c81106536c724967aad490" name="tests/Piece/RightTestCase/SeparatedDateValidationWithPseudoFieldIfPseudoFieldIsRequired.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cf37fd4b305d0cc575a3a3dc5d96a93f" name="tests/Piece/RightTestCase/TemplateShouldBeUsedIfFileIsSetAndBasedOnElementIsSpecified.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d73f16ffee44fb563cd3ee5b1be37e45" name="tests/Piece/RightTestCase/ValidateFinals.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c19aa29adf605d640dde5ffe04923ed8" name="tests/Piece/RightTestCase/ValidateFinals.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2a7bfc3c765fcc2dd22a60e5cccc0726" name="tests/Piece/RightTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4990d930a10fdc296bb5c61a8ad9fc50" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.9.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-01-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Right is now available.
+
+What&apos;s New in Piece_Right 1.9.0
+
+ * Enhanced validators: File validator allows users to use messages corresponding to each error code for file uploading. Range validator supports array.
+ * A defect fix: A defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given has been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Validators:
+
+- Added support for messages by error code. (Ticket #41) (File)
+- Added support for array. (Ticket #59) (Range)
+
+Kernel:
+
+- Changed factory() so as to use a given cache directory as is. (Ticket #37) (Piece_Right_Config_Factory)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused the validation result to be incorrect when a day later than January 19, 2038 is given. (Ticket #40) (Date, FutureDate, PastDate)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.8.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-11-03</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Right is now available.
+
+What&apos;s New in Piece_Right 1.8.0
+
+ * Validation Template: Validation Template allows users to use a validation set as a template for another validation set.
+ * Layered structure support: Layered structure has been supported by using underscores in validation set names as directory separators.
+ * A Defect Fix: A defect that caused the same cache to be used if the relative paths of the validation definition files are same even though the absolute paths of the files are different has been fixed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.7.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-08-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Right is now available.
+
+What&apos;s New in Piece_Right 1.7.0
+
+ * Getting Field Names: This is a new feature that allows users to always get field names by a validation set and a Piece_Right_Config object.
+ * Environment Settings: A configuration file be always read when the current environment is not production.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added a feature that allows users to always get field names by a validation set and a Piece_Right_Config object. (Ticket #30) (Piece_Right_Config, Piece_Right_Validation_Script, Piece_Right)
+- Updated code so that a configuration file be always read when the current environment is not production. (Ticket #31) (Piece_Right_Config_Factory)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.6.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-06-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Right is now available.
+
+What&apos;s New in Piece_Right 1.6.0
+
+ * Finals: &quot;Finals&quot; can be used for additional validations after normal validations.
+ * Enhanced Filter Mechanism: The filter mechanism can now pass an array to the filter directly if it is arrayable.
+ * Unique/UniqueFields validators: &quot;Unique&quot; validator can be used to check that all values in an array do not duplicate. &quot;UniqueFields&quot; validator can be used to check that each value of multiple fields do not duplicate.
+ * Improved WithMethod validator: &quot;WithMethod&quot; validator now has a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. And also a callback can now receive a Piece_Right_Results object as the second argument.
+ * NoFile2NULL filter: &quot;NoFile2NULL&quot; filter converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL.
+ * A few Defect Fixes: A few defects in validators are fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added a feature named &quot;Finals&quot; that can be used for additional validations after normal validations. (Ticket #11)
+- Changed factory() to throw an exception if the configuration directory not found. (Ticket #25) (Piece_Right_Config_Factory)
+- Added _setRule(), _setRuleMessage(), and _getRule().
+  setRule(), setRuleMessage(), and getRule() are deprecated since Piece_Right 1.6.0. (Ticket #21) (Piece_Right_Validator_Common)
+- Changed the filter mechanism so as to pass an array to the filter directly if it is arrayable.
+
+Validators:
+
+- Added &quot;Unique&quot; validator which can be used to check that all values in an array do not duplicate. (Ticket #26)
+- Added &quot;UniqueFields&quot; validator which can be used to check that each value of multiple fields do not duplicate. (Ticket #26)
+- Added a rule &quot;directory&quot; for loading a class from the specified directory if the class file is not loaded before invoking a method. (WithMethod)
+- Changed the callback interface so as to pass the Piece_Right_Results object to a method. (WithMethod)
+
+Filters:
+
+- Added &quot;NoFile2NULL&quot; filter which converts a $_FILES element with UPLOAD_ERR_NO_FILE to NULL. (Ticket #28)
+
+Defect Fixes
+============
+
+Validators:
+
+- Fixed a defect that caused a payload object to be passed by value to the specified method with PHP4. (Ticket #23) (WithMethod)
+- Fixed a defect that caused a validation to be passed regardless of whether or not a year value is within a valid range of Japanese era if the rule &quot;isJapaneseEra&quot; was used. (Ticket #22) (Date)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.5.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-02-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Right is now available.
+This release includes two features &quot;Validator Aliases&quot; and &quot;Filter Aliases&quot;. They can be used multiple aliases as the name of a validator/filter class by setting multiple prefixes.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validator_Factory #####
+
+- Revemod setValidatorDirectories() and getValidatorDirectories().
+- Changed addValidatorDirectory() so as to not return value.
+- Added a feature named &quot;Validator Aliases&quot; so that this feature can be used multiple aliases as the name of a validator class by setting multiple prefixes. (Ticket #18)
+
+##### Piece_Right_Filter_Factory #####
+
+- Removed setFilterDirectories() and getFilterDirectories().
+- Changed addFilterDirectory() so as to not return value.
+- Added a feature named &quot;Filter Aliases&quot; so that this feature can be used multiple aliases as the name of a validator class by setting multiple prefixes. (Ticket #19)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.4.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-12-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements for instance caching of validators and filters, and two minor fixes. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validator_Factory #####
+
+- Changed addValidatorDirectory() to return the old validator directories. (Ticket #14)
+- Added setValidatorDirectories() to set the directories as the validator directories. (Ticket #14)
+- Added clearInstances() to clear all instances of validators. (Ticket #15)
+- Added getValidatorDirectories() to get the validator directories. (Ticket #16)
+
+##### Piece_Right_Filter_Factory #####
+
+- Changed addFilterDirectory() to return the old filter directories. (Ticket #14)
+- Added setFilterDirectories() to set the directories as the filter directories. (Ticket #14)
+- Added clearInstances() to clear all instances of filters. (Ticket #15)
+- Added getFilterDirectories() to get the filter directories. (Ticket #16)
+
+## Defect Fixes ##
+
+##### Piece_Right_Validation_Script #####
+
+- Added missing error handling.
+- Added a missing require_once statement.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.3.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-11-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes two new validators File and Image, a lot of enhancements, and several fixes. See the following release notes for details.
+
+## Enhancements ##
+
+### Validators ###
+
+##### Range, Numeric #####
+
+- Added the code so as to check whether a value is a numeric, and extracted its features as Numeric validator. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for good advices and the patches.
+
+##### File #####
+
+- A validator which is used to validate a file.
+
+##### Image #####
+
+- A validator to check files are valid image files.
+
+### Kernel ###
+
+##### Piece_Right #####
+
+- Changed support file uploads in Piece_Right.
+- Added support for filtering all values in an array. (Ticket #3)
+
+##### Piece_Right_Config_Factory #####
+
+- Changed so as to raise an exception if the file corresponding to a validation set not found or not readable. (Ticket #3)
+- Removed the feature of defining message variables in validation definition file. (Ticket #7)
+
+##### Piece_Right_Validation_Script #####
+
+- Changed so as to pass a Piece_Right_Results object to the post run callback by reference, and return the Piece_Right_Results object by reference. (Ticket #9)
+- Added setPayload() and changed so as to be able to pass a user defined payload to validators.
+
+##### Piece_Right_Validator_Common #####
+
+- Added a feature to replace message variables in a error message with
+  the value of each rule if the value is not an array. (Ticket #8)
+
+### Filters ###
+
+##### Empty2NULL #####
+
+- A filter which is used to replace an empty string with null.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Right_Results #####
+
+- Fixed a fatal error where &apos;Object of class Piece_Right_Validation_Error could not be converted to string&apos; raised with PHP 5.2.0 RC5. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for the patches.
+
+##### Piece_Right_Validator_Common #####
+
+- Removed unused argument $payload from validate() method. Thanks to Chihiro Sakatoku &lt;csakatoku@mac.com&gt; for the patches.
+
+##### Piece_Right #####
+
+- Fixed the problem that the fields which are specified to turn off always turn off even though what the target field values are.
+- Fixed so as to set an error if a field value is an array and a validator is not arrayable.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-10-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+This release includes a new class Piece_Right_Validation_Script. It will be used to run a typical process of validation with Piece_Right. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right_Validation_Script #####
+- A new class for running a typical process of validation with Piece_Right.
+
+##### Piece_Right #####
+- Moved _isEmpty() method to public.
+- Added getFieldValuesCallback() for getting the callback to get field values for the current validation.
+
+##### Piece_Right_Validation_Error #####
+- Changed the class name from Piece_Right_ValidationError.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-09-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancement and breaks backward compatibility as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right #####
+- Changed the code so as to not set payloads to any filters.
+
+##### Piece_Right_Validator_Common #####
+- Changed the code so as to set payloads by setPayload() method instead of by validate() method.
+
+### Validators ###
+
+##### Email #####
+- Moved the code to build addr-spec values from the constructor to _initialize() method.
+- Removed the constructor.
+
+##### WithMethod #####
+- Fixed the problem that validate() method always returns null when an array is given.
+
+### Other Changes ###
+- Replaced the URL of Piece_Right&apos;s Web page with http://piece-framework.com/piece-right/.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-08-10</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Right. This release includes a few enhancement as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right #####
+- Changed the codition which a pseudo field is generated to the number of non-empty fields equal to the number of the pseudo field arguments.
+- Moved the code to replace messages with message variables to Piece_Right_Results class.
+
+### Validators ###
+
+##### Date #####
+- Removed &apos;year&apos;, &apos;month&apos;, &apos;day&apos; from the rules. This validator no longer supports validations with specified fields. Use pseudo fields instead.
+- Added the capability to handle Japanese date based on JapaneseDate validator.
+
+##### FutureDate #####
+- A validator which is used to check whether a value is a valid date and the value is later than current date.
+
+##### PastDate #####
+- A validator which is used to check whether a value is a valid date and the value is earlier than current date.
+
+##### JapaneseDate #####
+- Removed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancement as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right #####
+- Added support for user defined payloads in validators and filters.
+
+### Validators ###
+
+##### Email #####
+- A validator which is used to check whether a value is valid email address or not. This validator checks only addr-spec defined in RFC822.
+
+##### WithMethod #####
+- Added support for payload.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes an enhancement and a defect fix as follows:
+
+## Enhancements ##
+
+##### Piece_Right_Results #####
+- Added getValidFields() method for getting an array of the field names.
+
+## Defect fixes ##
+
+##### Piece_Right #####
+- Fixed the problem that the validation of pseudo fields are always invoked. Pseudo fields will only be created when all fields specifying with &apos;arg&apos; element are not empty.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-30</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first beta release of Piece_Right. This release includes a lot of enhancemens and several defect fixes as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Right #####
+- Added support for filters.
+- Added support for &apos;watcher&apos;.
+- Added array support.
+- Added the code so as to set a Piece_Right_Results object to a validator object.
+- Added error handling for invalid configuration.
+- Added error handling for the factories of filters and validators.
+- Added support for forcing validation.
+- Added support for pseudo fields.
+- Added support for message variables.
+
+##### Piece_Right_Config #####
+- Added setRequired()/isRequired()/getRequiredMessage() methods for handling required stuff.
+- Added support for filters.
+- Added support for merging filters and required fileds.
+- Added support for watchers.
+- Added addField() method for adding fields which will be validated.
+- Added setForceValidation() and forceValidation() method for forcing validation.
+- Added support for pseudo fields.
+- Added support for message variables.
+- Added missing support for force validations.
+
+##### Piece_Right_Config_Factory #####
+- Added support for filters.
+- Added support for watchers.
+- Added error handling for invalid configuration.
+- Changed the code so as to call addField() method first.
+- Added support for pseudo fields.
+- Added support for message variables.
+- Added missing support for force validations.
+
+##### Piece_Right_Validator_Common #####
+- Added setResults() method for setting a Piece_Right_Results object.
+- Added the constructor for initializing properties.
+- Added _initialize() method for initializing properties.
+- clear(): Added the code so as to call _initialize() method.
+- Changed the location of the rules from each property to $_rules.
+- Changed the method name from addRule() to setRule().
+- Added getRule() method for getting the validation rule of the given rule name.
+- Added _addRule() method for defining/initializing validation rules.
+- Added support for the error message of each rule.
+- Added support for the error message of the current validation.
+- Added $_arrayable property for indicating the validator is arrayable or not.
+- Added isArrayable() method for checking whether the validator is arrayable or not.
+
+##### Piece_Right_Filter_Factory #####
+- A factory class for creating filter objects.
+
+##### Piece_Right_Error #####
+- Added PIECE_RIGHT_ERROR_INVALID_CONFIGURATION constant.
+- Added PIECE_RIGHT_ERROR_NOT_ARRAYABLE constant.
+
+##### Piece_Right_Results #####
+- Added getFieldNames() method to getting all field names of the current validation.
+
+### Validators ###
+
+##### List #####
+- A validator which is used to check whether values are included in the definition.
+
+##### Piece_Right_Validator_Date #####
+- A validator which is used to check whether a value is a valid date.
+
+##### Piece_Right_Validator_JapaneseDate #####
+- A validator which is used to check whether a value is a valid japanese date.
+
+##### Piece_Right_Validator_Compare #####
+- A validator which is used to compare the value of a field to the value of another field.
+
+##### WithMethod #####
+- A validator which is used to validate the value of a field with an arbitrary method.
+
+##### Regex #####
+- Changed the return value to false when the pattern is invalid.
+
+##### Required #####
+- Removed.
+
+### Filters ###
+
+##### JapaneseH2Z #####
+- A filter which is used to converts Japanese JIS X0201 kana to JIS X0208 kana.
+
+##### JapaneseAlphaNumeric #####
+- A filter which is used to converts Japanese JISX 0208 alphabet characters and numeric characters to ASCII characters.
+
+## Defect fixes ##
+
+##### Piece_Right #####
+- Fixed the problem that the validation is influenced by the validation order.
+
+##### Piece_Right_Config #####
+- setRequired(): Changed the code so as to keep the message on the filed if the given message is null.
+- Fixed the problem that non required fields cannot be turned required on.
+
+##### Piece_Right_Filter_Factory #####
+##### Piece_Right_Validator_Factory #####
+- Removed &apos;@&apos; operator from include_once.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes one enhancement as follows:
+
+## Enhancements ##
+
+##### Piece_Right_Results #####
+- Added getFieldValue() method for getting the value of a field.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-07-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first alpha release of Piece_Right.</notes>
+  </release>
+ </changelog>
+</package>

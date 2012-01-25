@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_DirectoryScanner</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A directory scanner</summary>
+ <description>Stagehand_DirectoryScanner provides a framework to process anything for files and directories under the specified directory.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-11</date>
+ <time>01:50:49</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+The features of Stagehand_DirectoryScanner 1.1.0 is the same as Stagehand_DirectoryScanner 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="7fe0ee58accd6562d09bad26546d51b6" name="doc/LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="fe70093e9d1cb6176b08cf3025e5708a" name="Stagehand/DirectoryScanner.php" role="php" />
+   <file baseinstalldir="/" md5sum="6c332bec148586fc23c015842bc1ccb3" name="Stagehand/DirectoryScanner/Exception.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Stagehand_AccessControl</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <package>
+    <name>Stagehand_Autoload</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.3.0</min>
+   </package>
+   <package>
+    <name>Stagehand_LegacyError</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.3.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-09-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The first release of Stagehand_DirectoryScanner.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The features of Stagehand_DirectoryScanner 1.1.0 is the same as Stagehand_DirectoryScanner 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_accesscontrol">Stagehand_AccessControl</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>An access control object</s>
+    <d>Stagehand_AccessControl provides an object for access control. You can specify rules to allow access and deny access, evaluate the target such like the following:
+
+ $denyAllow = Stagehand_AccessControl::denyAllow();
+ $denyAllow-&gt;deny('^192\.168\.0\.1$');
+ if ($denyAllow-&gt;evaluate('192.168.0.1') == Stagehand_AccessControl_AccessState::ALLOW) {
+     // access granted
+     ...
+ } else {
+     // access denied
+     ...
+ }
+
+The evaluation process works like access control by the Order directive of Apache. Stagehand_AccessControl::denyAllow() creates an object corresponding to Deny,Allow of Apache, and Stagehand_AccessControl::allowDeny() creates an object corresponding to Allow,Deny.
+
+Since the evaluation is done by a matcher, the evaluation logic can be changed by replacing the matcher with another. The default is RegexMatcher which matches by regular expressions.</d>
+    <da>2010-09-09 13:45:34</da>
+    <n>
+This is the first stable release of Stagehand_AccessControl.
+
+The features of Stagehand_AccessControl 1.0.0 is the same as Stagehand_AccessControl 0.1.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ </n>
+    <f>3975</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_AccessControl-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

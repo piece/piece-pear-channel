@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_contentlength">Piece_Unity_Component_ContentLength</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An output filter which sends a Content-Legnth header. This filter must be added first.</s>
+    <d>An output filter which sends a Content-Legnth header. This filter must be added first.</d>
+    <da>2007-07-16 20:05:49</da>
+    <n>The first release of Piece_Unity_Component_ContentLength.</n>
+    <f>2168</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_ContentLength-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

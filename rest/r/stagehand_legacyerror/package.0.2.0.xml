@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_LegacyError</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A utility to convert non-exception errors to exceptions</summary>
+ <description>Stagehand_LegacyError can be used to convert the following non-exception errors to exceptions. The following non-exception errors are supported:
+
+- A PEAR_Error object
+- An array which represents a PEAR_ErrorStack error
+- A PHP error
+
+Auto conversion can be enabled for each type of errors. If auto conversion is enabled, an error will be converted to an exception by the appropriate error handler when the error is raised. And also exception objects raised from this package are instance of a class which implements the Stagehand_LegacyError_Exception_Interface interface.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-03-26</date>
+ <time>16:09:11</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>A new release of Stagehand_LegacyError is now available.
+
+What&apos;s New in Stagehand_LegacyError 0.2.0
+
+ * Improved PEAR_Error support: __construct() has been changed so as to overwrite the $this-&gt;file and $this-&gt;line properties in the exception object with the file and line where PEAR_Error::raiseError() is called. And the message layout has been changed.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="7fe0ee58accd6562d09bad26546d51b6" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c9be057dc0cc41c00c0b59cc830f962" name="src/Stagehand/LegacyError/Exception/Interface.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ac9544c15275eec0a29290cb80f807d" name="src/Stagehand/LegacyError/PEARError/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3f62a8b8d4a099c615953ace7817db83" name="src/Stagehand/LegacyError/PEARErrorStack/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bdba76b228c6b1c31f31b55b8bc6e18a" name="src/Stagehand/LegacyError/PHPError/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a1502bb885fc76c6396a9230d4979565" name="src/Stagehand/LegacyError/PEARError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="77b06d6df353df4f1e261cc37f0fa18d" name="src/Stagehand/LegacyError/PEARErrorStack.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5b464ffc7d39e012eba58c3009c63256" name="src/Stagehand/LegacyError/PHPError.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-03-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>A new release of Stagehand_LegacyError is now available.
+
+What&apos;s New in Stagehand_LegacyError 0.2.0
+
+ * Improved PEAR_Error support: __construct() has been changed so as to overwrite the $this-&gt;file and $this-&gt;line properties in the exception object with the file and line where PEAR_Error::raiseError() is called. And the message layout has been changed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-03-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>The first beta release of Stagehand_LegacyError.</notes>
+  </release>
+ </changelog>
+</package>

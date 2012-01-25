@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_PHP_Class</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A meta object system for PHP classes</summary>
+ <description>Stagehand_PHP_Class provides features of the building, loading, and code generating for PHP classes.
+These classes can be written in pure PHP code.</description>
+ <lead>
+  <name>KUMAKURA Yousuke</name>
+  <user>kumatch</user>
+  <email>kumatch@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-09-02</date>
+ <time>23:10:43</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+The first release of Stagehand_PHP_Class.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="240805a621fc3dbef3bfba4bd22e3105" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e93cc02948aec9a643c9465ae9e5f65" name="src/Stagehand/PHP/Class/CodeGenerator/AbstractClass.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7832adda837860a4f0e3b8955547a007" name="src/Stagehand/PHP/Class/CodeGenerator/Class.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="860cb9fb486c48e72ec56761f1bbe576" name="src/Stagehand/PHP/Class/CodeGenerator/Interface.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ffd27d6edd04c4727b5bf1b1852ce6e0" name="src/Stagehand/PHP/Class/Method/Argument.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f1674dda4641991c065165a8e9e01ae0" name="src/Stagehand/PHP/Class/Visibility/Declaration.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4b03a71504fffc6f0c95f63e6771b703" name="src/Stagehand/PHP/Class/Visibility/Private.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="51311fb073ec405e0fad0b720fe69b59" name="src/Stagehand/PHP/Class/Visibility/Protected.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a5045c0c06198aac5331af91e2e96282" name="src/Stagehand/PHP/Class/Visibility/Public.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e27a1cad8ed5615c9ebf200280391b5" name="src/Stagehand/PHP/Class/CodeGenerator.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d9dcd3d566adb6fd756fe4ff0da60cc0" name="src/Stagehand/PHP/Class/Constant.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="55613ede45d31940b4e6f97238fefe28" name="src/Stagehand/PHP/Class/Declaration.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b98ab3439b781687ed0f401768c9f14d" name="src/Stagehand/PHP/Class/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="48e702c13fbf4c536296c3ef9fffeb60" name="src/Stagehand/PHP/Class/Method.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f01ef2413698a9ed13ab2ba2c0724216" name="src/Stagehand/PHP/Class/Property.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="10948d93851345d8eef78dd802238f57" name="src/Stagehand/PHP/Class/Visibility.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d921d79f1a424a12f4555f3fe4d5b81e" name="src/Stagehand/PHP/Class.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="34c7df44c60bfd4676ac76b6ca8eae79" name="tests/Stagehand/PHP/Class/CodeGenerator/AbstractClassTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="87b01aa863730538b83759bcd11fec48" name="tests/Stagehand/PHP/Class/CodeGenerator/ClassTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f349098c36f9fa0a5d1024ca287a0d15" name="tests/Stagehand/PHP/Class/CodeGenerator/define-class.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e89c42dc2973130754005c2ef540ac3" name="tests/Stagehand/PHP/Class/CodeGenerator/InterfaceTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5511e94e32ae0cb22e43df78ccfd14b3" name="tests/Stagehand/PHP/Class/Method/ArgumentTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13a2f05c712a315f64e9ed5c46b10081" name="tests/Stagehand/PHP/Class/CodeGeneratorTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bacc1885add8928c82b1441ca691a0f1" name="tests/Stagehand/PHP/Class/ConstantTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7eabb8beb61ce88921c7928783347468" name="tests/Stagehand/PHP/Class/MethodTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8e2bfbe4efbd9f54507a5fbcbfa6aa14" name="tests/Stagehand/PHP/Class/PropertyTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b1ed27821a3894cfa7b4689cb381ba88" name="tests/Stagehand/PHP/ClassTest/ConcreteClass.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5745d666784c688087819baea958d750" name="tests/Stagehand/PHP/ClassTest/ExistingClass.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d6c62f08d1901566bd41d11ae3647330" name="tests/Stagehand/PHP/ClassTest/ImplementedClass.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e2bc19affaf9ffaff94bfd30d8e42f76" name="tests/Stagehand/PHP/ClassTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="909556b0463eda97496baf13d9beb68e" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-09-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The first release of Stagehand_PHP_Class.
+   </notes>
+  </release>
+ </changelog>
+</package>

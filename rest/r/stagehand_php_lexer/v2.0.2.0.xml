@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_php_lexer">Stagehand_PHP_Lexer</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.2.0</v>
+    <a>0.2.0</a>
+    <mp>5.0.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>kumatch</m>
+    <s>A Lexical analyzer of PHP</s>
+    <d>Stagehand_PHP_Lexer provides features of the lexical PHP codes and translation tokens for Stagehand_PHP_Parser.</d>
+    <da>2009-09-10 18:28:57</da>
+    <n>
+What's New in Stagehand_PHP_Lexer 0.2.0
+
+ New analytics source
+
+  Added support for analyzing from text content of PHP script. Stagehand_PHP_Lexer could analyze only a PHP file in previous versions.
+
+   $code = &lt;&lt;&lt;PHP_CODE
+   &lt;?php
+   $a = 10;
+   $b = 20;
+   $c = $a + $b;
+   PHP_CODE;
+
+   $lexer = new Stagehand_PHP_Lexer();
+   $lexer-&gt;setContents($code);
+ </n>
+    <f>4688</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.2.0</g>
+    <x xlink:href="package.0.2.0.xml"/>
+</r>

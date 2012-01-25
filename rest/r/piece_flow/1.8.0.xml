@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.8.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2006-12-20 20:16:41</da>
+    <n>This release includes a feature named &quot;Action Continuation&quot; and several enhancements.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature will allow developers to write stateful action code via the properties without using flow attributes. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation, Piece_Flow_Action_Factory ###
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution. (Ticket #13)
+
+### Piece_Flow_Continuation ###
+
+- Removed setActionDirectory().
+- Changed to start a new flow execution if another flow execution of the current flow already exists in the flow executions. (Ticket #14)
+- Added isExclusive() to check whether the curent flow execution is exclusive or not.
+- Added getCurrentFlowName() to get the current flow name.
+
+### Piece_Flow_Action_Factory ###
+
+- Added clearInstances() to clear all instances of actions. (Ticket #12)
+- Moved _load() to load() as a public method.</n>
+    <f>34237</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.8.0</g>
+    <x xlink:href="package.1.8.0.xml"/>
+</r>

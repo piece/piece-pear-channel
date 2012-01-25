@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_php_lexer">Stagehand_PHP_Lexer</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>kumatch</m>
+    <s>A Lexical analyzer of PHP</s>
+    <d>Stagehand_PHP_Lexer provides features of the lexical PHP codes and translation tokens for Stagehand_PHP_Parser.</d>
+    <da>2009-09-04 16:27:18</da>
+    <n>
+The first release of Stagehand_PHP_Lexer.
+ </n>
+    <f>4352</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_PHP_Lexer-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

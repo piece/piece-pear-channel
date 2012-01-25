@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Stagehand_FSM</n>
+<c>pear.piece-framework.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD License (revised)</l>
+<s>A finite state machine</s>
+<d>Stagehand_FSM is a finite state machine.
+
+Using Stagehand_FSM with applications, frameworks, and toolkits, it can make to simplify complex state management code in them. And also, it can be used as an engine of event-driven architecture.</d>
+<r xlink:href="/rest/r/stagehand_fsm" />
+</p>

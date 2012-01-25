@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Piece_Examples_Questionnaire</n>
+<c>pear.piece-framework.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD License (revised)</l>
+<s>Piece Framework questionnaire example</s>
+<d>Piece_Examples_Questionnaire is an example application with Piece Framework.
+
+Piece_Examples_Questionnaire is a simple questionnaire application using wizard-style page flow that consists of three questionnaire form, a confirmation page, and a finish page.</d>
+<r xlink:href="/rest/r/piece_examples_questionnaire" />
+</p>

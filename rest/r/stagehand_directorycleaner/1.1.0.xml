@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_directorycleaner">Stagehand_DirectoryCleaner</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.1.0</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>mbarracuda</m>
+    <s>A directory cleaner</s>
+    <d>Provides a file/directory cleaner in the directory.</d>
+    <da>2009-12-16 00:15:37</da>
+    <n>
+What's New in Stagehand_DirectoryCleaner 1.1.0
+
+ * Removes the root directory:
+
+  A new feature removes the root (initially specified) directory with cleaning.
+
+    &lt;?php
+    $cleaner = new Stagehand_DirectoryCleaner();
+    $cleaner-&gt;setRemovesRoot(true);
+    $cleaner-&gt;clean('/path/to/directory');
+ </n>
+    <f>3304</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_DirectoryCleaner-1.1.0</g>
+    <x xlink:href="package.1.1.0.xml"/>
+</r>

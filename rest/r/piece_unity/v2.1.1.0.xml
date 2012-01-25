@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.1.0</v>
+    <a>0.7.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-08-26 19:54:59</da>
+    <n>A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.1.0
+
+ * Two client interfaces for dynamic configuration: Piece_Unity::setConfiguration() and Piece_Unity::setExtension() can be used for dynamic configuration in entry points and actions.
+ * A client interface to get all field names in a form: Piece_Unity_Validation::getFieldNames() can be used to get all field names corresponding to the given validation set and a Piece_Right_Config object.
+ * Environment settings: The configuration file is always read when the current environment is not production.
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions. The target of the garbage collection is only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added setConfiguration()/setExtension() for client use. (Piece_Unity)
+- Updated an exception to be raised when an undefined extension point or configuration point is used in the current configuration. (Piece_Unity_Plugin_Common, Piece_Unity_Config)
+- Added error handling after instantiating a plug-in. (Piece_Unity_Plugin_Factory)
+- Added getFieldNames() to get all field names corresponding to the given validation set and a Piece_Right_Config object. (Piece_Unity_Validation)
+- Updated code so that the configuration file is always read when the current environment is not production. (Ticket #75) (Piece_Unity_Env, Piece_Unity_Config_Factory)
+
+Services:
+
+- Added clear() to clear all properties for the next use. (Piece_Unity_Service_FlowAction)
+
+Plug-ins:
+
+- Added support for garbage collection for expired flow executions. (Dispatcher_Continuation)
+- Added missing error handling. (Dispatcher_Continuation)
+- Added an extension point &quot;envHandlers&quot; which can be used to set whether the current environment is production or not to arbitrary components. (Configurator_Env, Configurator_EnvHandler_PieceFlow, Configurator_EnvHandler_PieceRight)</n>
+    <f>56678</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-1.1.0</g>
+    <x xlink:href="package.1.1.0.xml"/>
+</r>

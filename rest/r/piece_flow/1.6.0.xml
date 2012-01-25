@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.6.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2006-10-16 13:19:12</da>
+    <n>This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a minor enhancement of Piece_Flow_Continuation class. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+- Moved the location of setting $_currentFlowExecutionTicket and $_activated properties to _start()/_continue() methods for using Piece_Unity_Continuation objects in actions.</n>
+    <f>30480</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.6.0</g>
+    <x xlink:href="package.1.6.0.xml"/>
+</r>

@@ -1,4 +1,1984 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>Games_Couple</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>1人用トランプゲーム カップル</s>
+            <d>Games_Coupleは1人用トランプゲーム カップルの実装です。描画機能は備えていないので、任意のアプリケーションに自由に組み込んで使うことができます。</d>
+            <r xlink:href="/rest/r/games_couple" />
+        </p>
 
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Games_Pyramid</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>1人用トランプゲーム ピラミッド</s>
+            <d>Games_Pyramidは1人用トランプゲーム ピラミッドの実装です。描画機能は備えていないので、任意のアプリケーションに自由に組み込んで使うことができます。</d>
+            <r xlink:href="/rest/r/games_pyramid" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.1</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.0.5";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.0.5";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Examples_Basics</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>Piece Framework basics examples</s>
+            <d>Piece_Examples_Basics provides several example applications which focus on presenting the basics of using Piece_Unity.</d>
+            <r xlink:href="/rest/r/piece_examples_basics" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.4.0";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:36:"Piece_Unity_Component_Authentication";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:3;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.2.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:36:"Piece_Unity_Component_Authentication";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"0.13.0";}i:3;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Examples_CRUD</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A CRUD application with Piece_Unity and Piece_ORM</s>
+            <d>Piece_Examples_CRUD is a CRUD application with Piece_Unity and Piece_ORM.</d>
+            <r xlink:href="/rest/r/piece_examples_crud" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.4.0";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.2.0";}i:3;a:3:{s:4:"name";s:30:"Piece_Unity_Component_PieceORM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.1.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Examples_Conversation</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A potato burger order application example using Piece_Unity</s>
+            <d>Piece_Examples_Conversation provides an example application using Piece_Unity. This application focuses stateful conversation in ordering a potato burger with a potato side dish. And also this application is a reference implementation for Piece_Unity 1.x with PHP 5.</d>
+            <r xlink:href="/rest/r/piece_examples_conversation" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:6:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.7.1";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.2.0";}i:3;a:3:{s:4:"name";s:30:"Piece_Unity_Component_PieceORM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.1.0";}i:4;a:3:{s:4:"name";s:38:"Piece_Unity_Component_ExceptionHandler";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:5;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Examples_Questionnaire</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>Piece Framework questionnaire example</s>
+            <d>Piece_Examples_Questionnaire is an example application with Piece Framework.
+
+Piece_Examples_Questionnaire is a simple questionnaire application using wizard-style page flow that consists of three questionnaire form, a confirmation page, and a finish page.</d>
+            <r xlink:href="/rest/r/piece_examples_questionnaire" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:48:"Piece_Unity_Component_NullByteAttackPreventation";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:27:"Piece_Unity_Component_Flexy";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"0.11.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.5";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"0.11.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.5";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Flow</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A web flow engine and continuation server</s>
+            <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+            <r xlink:href="/rest/r/piece_flow" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.16.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.15.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.15.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.14.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.13.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.12.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.11.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.10.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.9.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.8.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.7.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.6.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.16.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.15.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.15.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.14.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.13.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.12.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.11.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.10.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.9.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.8.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.7.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.6.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Stagehand_FSM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_ORM</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An object-relational mapping framework</s>
+            <d>Piece_ORM is an object-relational mapping framework.
+
+Piece_ORM is a simple framework based on the DataMapper pattern, and features stdClass centered approach.</d>
+            <r xlink:href="/rest/r/piece_orm" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.8.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.8.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.7.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.6.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.5.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.4.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.4.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.3.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.8.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.8.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.7.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.6.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.5.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.4.1</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.4.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.3.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.2.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:4:"MDB2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Right</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A validation framework</s>
+            <d>Piece_Right is a validation framework.
+
+Piece_Right provides a generic validation system which make it easy to validate input values on Web applications. Piece_Right includes a lot of ready-to-use built-in validators. This can make it a lot faster to get started with Piece_Right in existing web applications and web application frameworks.</d>
+            <r xlink:href="/rest/r/piece_right" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.10.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.9.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.9.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.8.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.7.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.6.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.5.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.4.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.3.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.10.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:2;a:3:{s:4:"name";s:4:"Date";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.7";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.9.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:2;a:3:{s:4:"name";s:4:"Date";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.7";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.9.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.8.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.7.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.6.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.5.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.4.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.3.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.2.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A Web application framework</s>
+            <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+            <r xlink:href="/rest/r/piece_unity" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.7.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.7.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.6.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.6.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.5.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.4.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.3.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.3.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.12.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.11.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.10.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.9.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.8.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.7.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.16.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.7.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.16.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.6.2</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.16.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.6.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.16.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.5.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.16.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.10.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.4.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.15.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.3.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.15.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.3.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.15.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.14.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:6:"1.12.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.7.0";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.9.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.12.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}s:8:"optional";a:2:{s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}i:3;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}i:4;a:3:{s:4:"name";s:9:"Piece_ORM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+        <deps>
+            <v>0.11.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}i:3;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+        <deps>
+            <v>0.10.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.4.0";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}i:3;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+        <deps>
+            <v>0.9.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.8.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.4.0";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}i:3;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+        <deps>
+            <v>0.8.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:10:"Piece_Flow";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.6.0";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:3;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}i:4;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.2.0";}}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_Authentication</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An interceptor to control the access to resources which can be accessed only by authenticated users</s>
+            <d>An interceptor to control the access to resources which can be accessed only by authenticated users</d>
+            <r xlink:href="/rest/r/piece_unity_component_authentication" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.3</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.13.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.3</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.7.1";}i:1;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.2</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.7.0";}i:1;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:1;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:1;a:3:{s:4:"name";s:7:"Net_URL";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"1.0.14";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.2.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.13.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_Authorization</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A URI based authorization component</s>
+            <d>Piece_Unity_Component_Authorization is a URI based authorization component.
+
+Piece_Unity_Component_Authorization allows you to restrict requests based on URI patterns with user-defined rules.</d>
+            <r xlink:href="/rest/r/piece_unity_component_authorization" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_ContentLength</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An output filter which sends a Content-Legnth header. This filter must be added first.</s>
+            <d>An output filter which sends a Content-Legnth header. This filter must be added first.</d>
+            <r xlink:href="/rest/r/piece_unity_component_contentlength" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_ExceptionHandler</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A component for exception handling</s>
+            <d>Piece_Unity_Component_ExceptionHandler provides a simple exception handling system which can be used in your bootstrap code as follows:
+
+webapp/config/bootstrap.php:
+
+&lt;?php
+...
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_DebugInfo());
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_ErrorLog());
+Piece_Unity_Service_ExceptionHandler::enable();
+...
+
+The last one registered will be the first one called.
+
+Built-in exception handlers are:
+
+Piece_Unity_Service_ExceptionHandler_DebugInfo: Outputs the exception details as a HTML page.
+Piece_Unity_Service_ExceptionHandler_ErrorLog: Logs the exception message by error_log().
+Piece_Unity_Service_ExceptionHandler_InternalServerError: Outputs a typical &quot;Internal Server Error&quot; HTML page.
+
+Additionally, any exception handlers which implement the interface Piece_Unity_Service_ExceptionHandler_Interface can be used.</d>
+            <r xlink:href="/rest/r/piece_unity_component_exceptionhandler" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:1;a:3:{s:4:"name";s:21:"Stagehand_HTTP_Status";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:4:"date";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:1;a:3:{s:4:"name";s:21:"Stagehand_HTTP_Status";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:4:"date";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_Flexy</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A component for HTML_Template_Flexy</s>
+            <d>A component for HTML_Template_Flexy</d>
+            <r xlink:href="/rest/r/piece_unity_component_flexy" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.3.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.3.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.1.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.1.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:19:"HTML_Template_Flexy";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}i:2;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_JSON</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A renderer to output view elements as JSON.</s>
+            <d>A renderer to output view elements as JSON.</d>
+            <r xlink:href="/rest/r/piece_unity_component_json" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:9:"HTML_AJAX";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"json";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_JapaneseZ2H</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An output filter which can be used to convert Japanese JIS X0208 kana to JIS X0201 kana.</s>
+            <d>An output filter which can be used to convert Japanese JIS X0208 kana to JIS X0201 kana.</d>
+            <r xlink:href="/rest/r/piece_unity_component_japanesez2h" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_KernelConfigurator</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A configurator which can be used to set appropriate values to Piece_Unity Kernel Classes.</s>
+            <d>A configurator which can be used to set appropriate values to Piece_Unity Kernel Classes.</d>
+            <r xlink:href="/rest/r/piece_unity_component_kernelconfigurator" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}i:1;a:3:{s:4:"name";s:11:"Piece_Right";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}i:2;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_NullByteAttackPreventation</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An interceptor to prevent Null Byte Attack for applications.</s>
+            <d>An interceptor to prevent Null Byte Attack for applications.</d>
+            <r xlink:href="/rest/r/piece_unity_component_nullbyteattackpreventation" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_Pagination</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A Pagination component</s>
+            <d>Piece_Unity_Component_Pagination is a Pagination component.
+
+Piece_Unity_Component_Pagination provides a service which creates a pagination HTML fragment by a paginator object in a view. This component can be used with any HTML renderer.</d>
+            <r xlink:href="/rest/r/piece_unity_component_pagination" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_PieceORM</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A configurator for Piece_ORM.</s>
+            <d>A configurator for Piece_ORM.</d>
+            <r xlink:href="/rest/r/piece_unity_component_pieceorm" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.1.0";}i:1;a:3:{s:4:"name";s:9:"Piece_ORM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:9:"Piece_ORM";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}i:1;a:3:{s:4:"name";s:10:"Cache_Lite";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.7.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_ProxyBasePath</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>An interceptor to adjust the base path and the script name of the current request which are held in the Piece_Unity_Context object.</s>
+            <d>An interceptor to adjust the base path and the script name of the current request which are held in the Piece_Unity_Context object.</d>
+            <r xlink:href="/rest/r/piece_unity_component_proxybasepath" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Piece_Unity_Component_Smarty</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A renderer which is based on Smarty template engine.</s>
+            <d>A renderer which is based on Smarty template engine.</d>
+            <r xlink:href="/rest/r/piece_unity_component_smarty" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.5.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:11:"Piece_Unity";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:6:"Smarty";s:7:"channel";s:13:"pearified.com";s:3:"min";s:5:"1.6.8";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_AccessControl</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>An access control object</s>
+            <d>Stagehand_AccessControl provides an object for access control. You can specify rules to allow access and deny access, evaluate the target such like the following:
+
+ $denyAllow = Stagehand_AccessControl::denyAllow();
+ $denyAllow-&gt;deny('^192\.168\.0\.1$');
+ if ($denyAllow-&gt;evaluate('192.168.0.1') == Stagehand_AccessControl_AccessState::ALLOW) {
+     // access granted
+     ...
+ } else {
+     // access denied
+     ...
+ }
+
+The evaluation process works like access control by the Order directive of Apache. Stagehand_AccessControl::denyAllow() creates an object corresponding to Deny,Allow of Apache, and Stagehand_AccessControl::allowDeny() creates an object corresponding to Allow,Deny.
+
+Since the evaluation is done by a matcher, the evaluation logic can be changed by replacing the matcher with another. The default is RegexMatcher which matches by regular expressions.</d>
+            <r xlink:href="/rest/r/stagehand_accesscontrol" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_AlterationMonitor</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A file alteration monitor</s>
+            <d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directory.</d>
+            <r xlink:href="/rest/r/stagehand_alterationmonitor" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_Autoload</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>Class loaders for autoloading</s>
+            <d>Stagehand_Autoload provides class loaders for autoloading classes and interfaces which are based on the Package\Class or Package_Class style naming conventions.</d>
+            <r xlink:href="/rest/r/stagehand_autoload" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.5.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.4.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.3.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.5.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.4.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.3.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_CLIController</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A controller object for CLI</s>
+            <d>Stagehand_CLIController provides a controller superclass to run a typical control flow of CLI such like the following:
+
+ * Parsing options and arguments
+ * Configuring runtime components
+ * Running the specified command</d>
+            <r xlink:href="/rest/r/stagehand_clicontroller" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.1.2</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.2</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_DirectoryCleaner</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A directory cleaner</s>
+            <d>Provides a file/directory cleaner in the directory.</d>
+            <r xlink:href="/rest/r/stagehand_directorycleaner" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_DirectoryScanner</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A directory scanner</s>
+            <d>Stagehand_DirectoryScanner provides a framework to process anything for files and directories under the specified directory.</d>
+            <r xlink:href="/rest/r/stagehand_directoryscanner" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}i:2;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_DirectorySnap</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A tool of filesystem snapshot</s>
+            <d>Provides a feature of snap and resotre a directory</d>
+            <r xlink:href="/rest/r/stagehand_directorysnap" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_FSM</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A finite state machine</s>
+            <d>Stagehand_FSM is a finite state machine.
+
+Using Stagehand_FSM with applications, frameworks, and toolkits, it can make to simplify complex state management code in them. And also, it can be used as an engine of event-driven architecture.</d>
+            <r xlink:href="/rest/r/stagehand_fsm" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.10.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.9.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.8.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.10.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.9.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.5.0";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}}</d>
+        </deps>
+        <deps>
+            <v>1.8.0</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:20:"Stagehand_TestRunner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_HTTP_Status</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A utility to send HTTP status line</s>
+            <d>Stagehand_HTTP_Status is a utility which can be used to send a HTTP status line from a status code for the current HTTP response.</d>
+            <r xlink:href="/rest/r/stagehand_http_status" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_LegacyError</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A utility to convert some types of errors to exceptions</s>
+            <d>Stagehand_LegacyError is a package that can be used to convert some types of errors to exceptions automatically. The following types of errors are supported:
+
+ * PEAR_Error
+ * PEAR_ErrorStack
+ * PHP errors which can be processed by a user-defined error handler
+
+Auto conversion can be enabled for each type of errors. If auto conversion is enabled, an error will be converted to an exception by the appropriate error handler when the error is raised. And also exception objects raised by conversion are instances of a class which implements the Stagehand_LegacyError_Exception interface.</d>
+            <r xlink:href="/rest/r/stagehand_legacyerror" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.0.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.3.1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.3.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.0.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.3.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.3.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}</d>
+        </deps>
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_PHP_Class</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A meta object system for PHP classes</s>
+            <d>Stagehand_PHP_Class provides features of the building, loading, and code generating for PHP classes.
+These classes can be written in pure PHP code.</d>
+            <r xlink:href="/rest/r/stagehand_php_class" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_PHP_Class_Parser</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A parser for PHP classes</s>
+            <d>Stagehand_PHP_Class_Parser provides features of parsing PHP classes and mapping to Stagehand_PHP_Class meta objects.</d>
+            <r xlink:href="/rest/r/stagehand_php_class_parser" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:20:"Stagehand_PHP_Parser";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:19:"Stagehand_PHP_Lexer";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.2.0";}i:2;a:3:{s:4:"name";s:19:"Stagehand_PHP_Class";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:20:"Stagehand_PHP_Parser";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:19:"Stagehand_PHP_Lexer";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:2;a:3:{s:4:"name";s:19:"Stagehand_PHP_Class";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_PHP_Lexer</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD License (revised)</l>
+            <s>A Lexical analyzer of PHP</s>
+            <d>Stagehand_PHP_Lexer provides features of the lexical PHP codes and translation tokens for Stagehand_PHP_Parser.</d>
+            <r xlink:href="/rest/r/stagehand_php_lexer" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_PHP_Parser";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:20:"Stagehand_PHP_Parser";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.3.0";}}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_PHP_Parser</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>Zend License</l>
+            <s>A PHP code parser in pure PHP</s>
+            <d>Stagehand_PHP_Parser provides features of parses PHP codes.</d>
+            <r xlink:href="/rest/r/stagehand_php_parser" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_SmtpDaemon</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A SMTP Daemon written in PHP</s>
+            <d>Stagehand_SmtpDaemon provides a feature of SMTP daemon and an interface to handle on SMTP command running PHP-CLI.</d>
+            <r xlink:href="/rest/r/stagehand_smtpdaemon" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:10:"Net_Server";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
+            <n>Stagehand_TestRunner</n>
+            <c>pear.piece-framework.com</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>A test runner for Test Driven Development</s>
+            <d>Stagehand_TestRunner provides a test runner to run unit tests. Stagehand_TestRunner strongly supports Test Driven Development by various features.</d>
+            <r xlink:href="/rest/r/stagehand_testrunner" />
+        </p>
+
+        <a>
+            <r>
+                <v>2.20.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.19.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.18.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.18.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.17.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.17.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.16.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.15.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.14.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.14.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.14.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.13.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.12.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.11.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.11.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.11.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.10.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.9.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.8.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.7.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.6.2</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.6.1</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.6.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.5.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.4.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.3.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>2.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.2.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.1.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.0.0</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>0.5.0</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.4.0</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>2.20.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.1";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:4;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.2";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.19.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:4;a:3:{s:4:"name";s:21:"Stagehand_LegacyError";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.18.1</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.18.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.17.1</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.17.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.16.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:2;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:3;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.15.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.14.2</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.14.1</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.14.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.13.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.12.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.11.2</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.11.1</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:3:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}i:2;a:1:{s:4:"name";s:9:"xmlwriter";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.11.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:3:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}i:2;a:1:{s:4:"name";s:9:"xmlwriter";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.10.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"SPL";}}}s:8:"optional";a:2:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}s:9:"extension";a:3:{i:0;a:1:{s:4:"name";s:3:"dom";}i:1;a:1:{s:4:"name";s:8:"mbstring";}i:2;a:1:{s:4:"name";s:9:"xmlwriter";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.9.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}s:8:"optional";a:1:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.8.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}s:8:"optional";a:1:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.1";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.7.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:5:{i:0;a:3:{s:4:"name";s:23:"Stagehand_AccessControl";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:1;a:3:{s:4:"name";s:27:"Stagehand_AlterationMonitor";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}i:2;a:3:{s:4:"name";s:18:"Stagehand_Autoload";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.4.0";}i:3;a:3:{s:4:"name";s:23:"Stagehand_CLIController";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"0.1.0";}i:4;a:3:{s:4:"name";s:26:"Stagehand_DirectoryScanner";s:7:"channel";s:24:"pear.piece-framework.com";s:3:"min";s:5:"1.0.0";}}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"pcre";}i:1;a:1:{s:4:"name";s:3:"spl";}}}s:8:"optional";a:1:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}i:3;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.4.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.6.2</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.3.0";}i:3;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.6.1</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:4:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.3.0";}i:3;a:3:{s:4:"name";s:7:"PHPSpec";s:7:"channel";s:16:"pear.phpspec.org";s:3:"min";s:5:"0.2.3";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.6.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.5.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.4.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.3.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}i:1;a:3:{s:4:"name";s:9:"Net_Growl";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.7.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>2.2.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+        <deps>
+            <v>2.1.0</v>
+            <d>a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+        <deps>
+            <v>2.0.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+        <deps>
+            <v>1.2.0</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.3";}i:1;a:3:{s:4:"name";s:14:"Console_Getopt";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:3:"1.2";}}}s:8:"optional";a:1:{s:7:"package";a:3:{s:4:"name";s:13:"Console_Color";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.2";}}}</d>
+        </deps>
+        <deps>
+            <v>1.1.0</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.0.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+        <deps>
+            <v>0.5.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}s:7:"package";a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"1.3.2";}}}</d>
+        </deps>
+        <deps>
+            <v>0.4.0</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"4.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:8:"PHPUnit2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"2.3.2";}i:1;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.3.1";}i:2;a:3:{s:4:"name";s:10:"PHP_Compat";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.1";}}}}</d>
+        </deps>
+
+    </pi>
 </f>

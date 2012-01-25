@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Piece_Unity_Component_Authorization</n>
+<c>pear.piece-framework.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>BSD License (revised)</l>
+<s>A URI based authorization component</s>
+<d>Piece_Unity_Component_Authorization is a URI based authorization component.
+
+Piece_Unity_Component_Authorization allows you to restrict requests based on URI patterns with user-defined rules.</d>
+<r xlink:href="/rest/r/piece_unity_component_authorization" />
+</p>

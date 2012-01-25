@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.15.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-11-13 12:18:09</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.15.0
+
+ * New configuration system: A new configuration system using a directory where flow definition files exist and an extension of flow definition files has been supported. And the configuration system supports layered structure by using underscores in flow names as directory separators.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added a feature so that a continuation server can use each action directory individually.
+- Changed the constructor so as to use the given cache directory as is. (Piece_Flow_ConfigReader_Common)
+- Added a configuration reader for PHP array. (Piece_Flow_ConfigReader_PHPArray, Piece_Flow_ConfigReader)
+- Added a feature so that instances of actions are kept with each context individually. (Piece_Flow_Action_Factory, Piece_Flow_Continuation_Server)
+- Added PIECE_FLOW_ERROR_FLOW_ID_NOT_GIVEN. (Piece_Flow_Error)
+- Changed the representation of flow identifier from &quot;flow name&quot; to &quot;flow ID&quot;. (Piece_Flow_Continuation_FlowExecution, Piece_Flow_Continuation_Service, Piece_Flow_Continuation_Server)
+- Added setFlowIDCallback() and marked setFlowNameCallback() as deprecated. (Piece_Flow_Continuation_Server)
+- Added support for new configuration system using a directory where flow definition files exist and an extension of flow definition files. (Ticket #35)
+- Added getActiveFlowID()/getActiveFlowSource() which can be used to get the flow ID/source for the active flow execution. (Piece_Flow_Continuation_Server)</n>
+    <f>60299</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.15.0</g>
+    <x xlink:href="package.1.15.0.xml"/>
+</r>

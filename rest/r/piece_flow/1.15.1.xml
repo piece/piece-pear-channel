@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.15.1</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-11-25 14:14:37</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.15.1
+
+ * Two defect fixes: A defect that caused a PIECE_FLOW_ERROR_FLOW_ID_NOT_GIVEN exception to be raised when being accessed an expired flow execution after sweeping it by the garbage collection has been fixed. And a defect that caused an undefined index notice to be raised if the action instances of the current context do not exist has been fixed.</n>
+    <f>60159</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.15.1</g>
+    <x xlink:href="package.1.15.1.xml"/>
+</r>

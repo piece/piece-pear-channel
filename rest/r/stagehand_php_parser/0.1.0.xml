@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_php_parser">Stagehand_PHP_Parser</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <st>beta</st>
+    <l>Zend License</l>
+    <m>kumatch</m>
+    <s>A PHP code parser in pure PHP</s>
+    <d>Stagehand_PHP_Parser provides features of parses PHP codes.</d>
+    <da>2009-09-03 18:00:44</da>
+    <n>
+The first release of Stagehand_PHP_Parser.
+ </n>
+    <f>34013</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_PHP_Parser-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

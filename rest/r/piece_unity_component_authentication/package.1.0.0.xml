@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_Authentication</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An interceptor to control the access to resources which can be accessed only by authenticated users.</summary>
+ <description>An interceptor to control the access to resources which can be accessed only by authenticated users.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>KUMAKURA Yousuke</name>
+  <user>kumatch</user>
+  <email>kumatch@users.sourceforge.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2007-10-07</date>
+ <time>14:19:38</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="16aa86f8ad255886977123a750200336" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9f1f38b8bd5c5ea53b0f571023bfa665" name="Piece/Unity/Plugin/Interceptor/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1266d0a03f9230b7ab667eaad9127a1b" name="Piece/Unity/Service/Authentication/State.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c01c0e6dceb9193969833686674d344" name="Piece/Unity/Service/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a8d0bf81e1c3198159e1f3a0587f957c" name="tests/Piece/Unity/Plugin/Interceptor/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8073d87e86fff63dead0e47d50f109ec" name="tests/Piece/Unity/Service/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b3b49d7d4c6a73884a32e4608701e32" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.13.0</release>
+    <api>0.13.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_Authentication.</notes>
+  </release>
+ </changelog>
+</package>

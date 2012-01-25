@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_legacyerror">Stagehand_LegacyError</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A utility to convert some types of errors to exceptions</s>
+    <d>Stagehand_LegacyError is a package that can be used to convert some types of errors to exceptions automatically. The following types of errors are supported:
+
+ * PEAR_Error
+ * PEAR_ErrorStack
+ * PHP errors which can be processed by a user-defined error handler
+
+Auto conversion can be enabled for each type of errors. If auto conversion is enabled, an error will be converted to an exception by the appropriate error handler when the error is raised. And also exception objects raised by conversion are instances of a class which implements the Stagehand_LegacyError_Exception interface.</d>
+    <da>2010-09-09 13:53:43</da>
+    <n>
+This is the first stable release of Stagehand_LegacyError.
+
+The features of Stagehand_LegacyError 1.0.0 is the same as Stagehand_LegacyError 0.3.1 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+ </n>
+    <f>4414</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_LegacyError-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

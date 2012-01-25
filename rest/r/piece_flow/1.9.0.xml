@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.9.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-05-28 11:50:10</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.9.0
+
+ * Plain Old PHP Object Support: A user-defined class can be used as an action without subclassing Piece_Flow_Action.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Web Flow Engine:
+
+- Added a feature so that a user-defined class can be used as an action without subclassing Piece_Flow_Action. (Ticket #18)
+- Updated invoke() and invokeAndTriggerEvent() so as to throw an exception if the method that will be called does not exist in an action class. (Ticket #20)</n>
+    <f>35357</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.9.0</g>
+    <x xlink:href="package.1.9.0.xml"/>
+</r>

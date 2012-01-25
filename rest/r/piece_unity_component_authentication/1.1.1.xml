@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_authentication">Piece_Unity_Component_Authentication</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.1.1</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An interceptor to control the access to resources which can be accessed only by authenticated users</s>
+    <d>An interceptor to control the access to resources which can be accessed only by authenticated users</d>
+    <da>2008-09-13 12:07:13</da>
+    <n>A new release of Piece_Unity_Component_Authentication is now available.
+
+What's New in Piece_Unity_Component_Authentication 1.1.1
+
+ * A defect fix: A defect that caused a warning &quot;PHP Warning:  call_user_func(Piece_Unity_Plugin_Interceptor_Authentication::loadAuthenticationState)&quot; to be raised until any protected resource was requested has been fixed.</n>
+    <f>8261</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.1.1</g>
+    <x xlink:href="package.1.1.1.xml"/>
+</r>

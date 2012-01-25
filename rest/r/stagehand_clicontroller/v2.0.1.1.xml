@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_clicontroller">Stagehand_CLIController</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.1</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>beta</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A controller object for CLI</s>
+    <d>Stagehand_CLIController provides a controller superclass to run a typical control flow of CLI such like the following:
+
+ * Parsing options and arguments
+ * Configuring runtime components
+ * Running the specified command</d>
+    <da>2009-09-13 16:10:08</da>
+    <n>
+What's New in Stagehand_CLIController 0.1.1
+
+ A defect fix:
+
+  A defect has been fixed that caused &quot;Strict Standards: Non-static method ...&quot; errors to be raised if E_STRICT is enabled.
+ </n>
+    <f>3202</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_CLIController-0.1.1</g>
+    <x xlink:href="package.0.1.1.xml"/>
+</r>

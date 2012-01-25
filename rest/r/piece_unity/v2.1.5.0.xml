@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.5.0</v>
+    <a>1.5.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2008-09-03 22:33:30</da>
+    <n>A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.5.0
+
+ * HTML component system: The Renderer_HTML plug-in allows you to deploy any ready-to-use HTML components as view elements using &quot;components&quot; extension point.
+ * View Scheme: &quot;View Scheme&quot; is a feature that the appropriate renderer is automatically determined by the scheme part in the current view string such like &quot;http:&quot;, &quot;json:&quot;, &quot;html:&quot;, etc.
+ * Raw Rendering support: This allows you to print any contents directly in an action such like file downloading without a dummy HTML view. If you use this, set &quot;raw:&quot; to the view.
+ * Improved error handling: The behavior of internal error handling has been changed so as to handle only own and &quot;exception&quot; level errors.
+
+Backward Compatibility
+
+ * Piece_Unity_Component_Smarty: Piece_Unity_Component_Smarty 1.1.0 or less does not work properly with Piece_Unity 1.5.0. Upgrade to the upcoming version 1.2.0.
+ * PEAR_ErrorStack: Piece_Unity 1.5.0 does not work properly with PEAR_ErrorStack::staticPushCallback(). Use PEAR_ErrorStack::setDefaultCallback() instead.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added support for Raw Rendering which does nothing. (View plug-in)
+- Added Piece_Unity_Service_Rendering_PHP as a rendering service.
+- Added an extension point &quot;components&quot; to deploy HTML components before it is required. (Renderer_HTML plug-in)
+- Added a feature named &quot;View Scheme&quot; that the appropriate renderer is automatically determined by the view scheme in the current view string such like &quot;http:&quot;, &quot;json:&quot;, &quot;html:&quot;, etc. (Ticket #105) (View plug-in, ViewSchemeHandler plug-in)
+- Added createRuntime() to create a Piece_Unity object and invokes a given callback for any configuration. (Ticket #99) (Piece_Unity)
+- Changed code so that a plug-in directory is always converted to absolute path. (Piece_Unity_Plugin_Factory)
+- Changed the behavior of the Piece_Unity_URL class to always return the backend URI if redirection is enabled. (Ticket #102) (Piece_Unity_URL, Renderer_Redirection plug-in)
+- Changed the behavior of internal error handling so as to handle only own and &quot;exception&quot; level errors.
+- Added removeProxyPath() to remove the proxy path from a given URI Path. (Piece_Unity_Context)
+- Added Piece_Unity_HTTPStatus. (Ticket #113)
+- Added sendHTTPStatus() to send a HTTP status line like &quot;HTTP/1.1 404 Not Found&quot;. (Piece_Unity_Context)
+- Added Piece_Unity_Service_Continuation::createURI() to create a Piece_Unity_URI object based on the active flow execution or a given flow ID. (Ticket #110)
+- Changed code so as to use &quot;URI&quot; instead of &quot;URL&quot;. (Ticket #119)
+- Marked pushPHPError() as deprecated. (Piece_Unity_Error)
+- Added configure() to configure the runtime after object instantiation. (Piece_Unity)
+- Changed the behavior of initialize() so that $context-&gt;getAppRootPath() to be added to the beginning of a given URI if the URI is internal and not starting with http(s). (Piece_Unity_URI)
+- Changed the behavior of GC fallback so as to set true to the session variable &quot;_flowExecutionExpired&quot;. (Dispatcher_Continuation plug-in)
+- Changed the behavior of GC fallback so as to send HTTP status 302 Found. (Dispatcher_Continuation plug-in)
+
+Defect Fixes
+============
+
+- Fixed a defect that a fatal error to be raised if session is not used. (Ticket #118) (Piece_Unity_Session)</n>
+    <f>72122</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-1.5.0</g>
+    <x xlink:href="package.1.5.0.xml"/>
+</r>

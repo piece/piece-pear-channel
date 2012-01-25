@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_examples_conversation">Piece_Examples_Conversation</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A potato burger order application example using Piece_Unity</s>
+    <d>Piece_Examples_Conversation provides an example application using Piece_Unity. This application focuses stateful conversation in ordering a potato burger with a potato side dish. And also this application is a reference implementation for Piece_Unity 1.x with PHP 5.</d>
+    <da>2009-03-26 18:53:58</da>
+    <n>The first release of Piece_Examples_Conversation.</n>
+    <f>103255</f>
+    <g>http://pear.piece-framework.com/get/Piece_Examples_Conversation-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

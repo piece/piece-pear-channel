@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_authentication">Piece_Unity_Component_Authentication</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>An interceptor to control the access to resources which can be accessed only by authenticated users</s>
+    <d>An interceptor to control the access to resources which can be accessed only by authenticated users</d>
+    <da>2007-10-07 14:19:38</da>
+    <n>The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What's New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.</n>
+    <f>7067</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Authentication-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

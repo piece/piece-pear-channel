@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_smtpdaemon">Stagehand_SmtpDaemon</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <st>beta</st>
+    <l>New BSD License</l>
+    <m>mbarracuda</m>
+    <s>A SMTP Daemon written in PHP</s>
+    <d>Stagehand_SmtpDaemon provides a feature of SMTP daemon and an interface to handle on SMTP command running PHP-CLI.</d>
+    <da>2009-12-28 21:55:41</da>
+    <n>
+The first release of Stagehand_SmtpDaemon.
+ </n>
+    <f>7127</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_SmtpDaemon-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

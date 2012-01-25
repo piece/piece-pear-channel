@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_autoload">Stagehand_Autoload</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.2.0</v>
+    <st>beta</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>Class loaders for autoloading</s>
+    <d>Stagehand_Autoload provides class loaders for autoloading classes and interfaces which are based on the Package\Class or Package_Class style naming conventions.</d>
+    <da>2009-08-20 18:47:57</da>
+    <n>
+Release Date: 2009-08-20
+
+What's New in Stagehand_Autoload 0.2.0
+
+ New APIs:
+
+  The following new APIs have been added to use autoload more explicitly:
+
+   * Stagehand_Autoload::register()
+   * Stagehand_Autoload::getLoader()
+   * Stagehand_Autoload_Loader_LegacyLoader for the Package_Class style naming convension
+   * Stagehand_Autoload_Loader_NamespaceLoader for the Package\Class style naming convension for PHP 5.3
+
+For more information, see the Reference Guide.
+ </n>
+    <f>3734</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_Autoload-0.2.0</g>
+    <x xlink:href="package.0.2.0.xml"/>
+</r>

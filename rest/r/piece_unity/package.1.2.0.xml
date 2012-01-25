@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A stateful and secure web application framework for PHP</summary>
+ <description>Piece_Unity is a stateful and secure web application framework for PHP.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-10-05</date>
+ <time>11:43:10</time>
+ <version>
+  <release>1.2.0</release>
+  <api>0.7.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Unity is now available.
+
+What&apos;s New in Piece_Unity 1.2.0
+
+ * Enhanced Dispatcher_Simple plug-in: Two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot; have been added. These provide a feature so that the default event is used if the event is an empty string or NULL. And a feature which allows users to return a view string from an action has been added.
+ * A few Defect Fixes: A defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different has been fixed. And also two defects in Renderer_PHP plug-in have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Kernel:
+
+- Changed getURL() so as to return without replacing the host and port if the URL is external. (Piece_Unity_URL)
+
+Plug-ins:
+
+- Added a feature so that users can overwrite the view returned from the dispatcher with an arbitrary view in an action. (Controller)
+- Changed code so as to use the new interfaces for the continuation server. (Dispatcher_Continuation)
+- Added two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot;. These provide a feature so that the default event is used if the event is an empty string or NULL. (Ticket #80) (Dispatcher_Simple)
+- Added a feature which allows users to return a view string from an action. (Ticket #86) (Dispatcher_Simple)
+
+Defect Fixes
+============
+
+Kernel:
+
+- Fixed the defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different. (Piece_Unity_Config_Factory)
+
+Plug-ins:
+
+- Fixed the defect that caused $file to be tainted if the Piece_Unity_ViewElement object has &quot;file&quot; attribute. (Renderer_PHP)
+- Fixed the defect that caused $viewElement to be tainted if the Piece_Unity_ViewElement object has &quot;viewElement&quot; attribute. (Renderer_PHP)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="1abd2387d09e907ed9a84868fc55a1f2" name="data/js/ahah.js" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13c073bf02ad7fd5de00b325a3eea055" name="data/piece-unity-config.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dae359016e3c6ac6145bb4f443e946a8" name="data/piece-unity.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53fa6b664b0c7b6f92ed2118fc91db16" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ebe95d3dd16b5b0cd6b24c1b17ef5069" name="Piece/Unity/Config/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7d7ba82a302a45a82e13dd62b6db790a" name="Piece/Unity/Plugin/Configurator/EnvHandler/PieceFlow.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70f11c22a57c2230ab29f579909233e6" name="Piece/Unity/Plugin/Configurator/EnvHandler/PieceRight.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bc57fc1c2a89b57eb54ad238e561717b" name="Piece/Unity/Plugin/Configurator/AppRoot.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c340bfe554dadfce4e424c16abd5fed" name="Piece/Unity/Plugin/Configurator/Env.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fa589c6634b6adc6bbeab8b95cb4d1db" name="Piece/Unity/Plugin/Configurator/Event.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="66f3a1de79f96358790b4e1c351e0fea" name="Piece/Unity/Plugin/Configurator/Plugin.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3bba3ab3e22a393b5826346b44ca0d6e" name="Piece/Unity/Plugin/Configurator/Proxy.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c47eac9cabdfa0a672521b237b69812" name="Piece/Unity/Plugin/Configurator/Request.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bbd4ea3c7038dcf691484bb94baa120c" name="Piece/Unity/Plugin/Configurator/Validation.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="540ec7403fa56f9bacacc720026ba664" name="Piece/Unity/Plugin/Dispatcher/Continuation.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c8a35a82ba58928231621b2e26dd5f9" name="Piece/Unity/Plugin/Dispatcher/Simple.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="154c3f778ecbe545a8db6a9f2120d140" name="Piece/Unity/Plugin/Interceptor/SessionStart.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0d2df423f536305cc68c06f8f730ff9a" name="Piece/Unity/Plugin/Renderer/HTML.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="72a7d4256de9cddee2b1af310a2cd143" name="Piece/Unity/Plugin/Renderer/HTMLTest.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="76cc25fd615282d6b139df0ed42f2ef8" name="Piece/Unity/Plugin/Renderer/PHP.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d66fec2a667f82a3f7dd254fc35b4696" name="Piece/Unity/Plugin/Renderer/Redirection.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="17554c4c3e9bcd432cda811a50575f95" name="Piece/Unity/Plugin/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c3eea2b82950bd114e082e39628653ef" name="Piece/Unity/Plugin/ConfiguratorChain.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="31b18dff2b60156f3d2f7e48372c21e6" name="Piece/Unity/Plugin/Controller.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aceec6874b23a784881429919640f4ef" name="Piece/Unity/Plugin/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a95286a49e8bb0df4a0094a3ff6e4c70" name="Piece/Unity/Plugin/InterceptorChain.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6f6562b340ad544225c4732ac07cd74f" name="Piece/Unity/Plugin/OutputBufferStack.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="da98f2840d575b31ea81fdf1c0d569b5" name="Piece/Unity/Plugin/Root.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="49cc0f0c8e46b82f36e108ca077cb807" name="Piece/Unity/Plugin/View.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="331ab42f03c34016a0c7e46f2704c06e" name="Piece/Unity/Service/FlowAction.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="55314fceec3da98b5409ddba4dbf995f" name="Piece/Unity/Session/Preload.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74dd3fd44bfd2be364637d7154c9cbad" name="Piece/Unity/ClassLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d0b1bf854aa2f34c77bb5103b2be76af" name="Piece/Unity/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="784843b1af43967239043c7c13760da5" name="Piece/Unity/Context.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4858c254e2f39161ae0862085a21bae1" name="Piece/Unity/Env.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aac42941b93d7455684ee2b1ab5cc122" name="Piece/Unity/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c194332d53a721bca9d49095370c8e1b" name="Piece/Unity/Request.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3ed4ab0302e0b21a2da0a132c7ac8c4d" name="Piece/Unity/Session.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d8c4e42ea3ff8a731312697169636f9c" name="Piece/Unity/URL.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f536d33e3db07b956c5c33a3ae2f66aa" name="Piece/Unity/Validation.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="199cfee4094872b49ea7a422ba3b138e" name="Piece/Unity/ViewElement.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ace6033693bf6e6ffcfde0ca93edba11" name="Piece/Unity.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="57ab1bdb3746f8724746aab27b9511dd" name="tests/Piece/Unity/Config/FactoryTestCase/CacheIDsShouldBeUniqueInOneCacheDirectory1/piece-unity-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="57ab1bdb3746f8724746aab27b9511dd" name="tests/Piece/Unity/Config/FactoryTestCase/CacheIDsShouldBeUniqueInOneCacheDirectory2/piece-unity-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ea5ba4f83652b2558c1a66e25614c49" name="tests/Piece/Unity/Config/FactoryTestCase/piece-unity-config.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fca1d950e1c54b4e0484cc0f08191278" name="tests/Piece/Unity/Config/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="68586d44e9fd43e075b4d4d9a58638ef" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/Baz.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="84456dcb3bc99e9a78f0ff28604c4a0c" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/ExceptionShouldBeRaisedWhenUndefinedConfigurationPointIsUsed.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d5e913cece9929a7bfca0a43ff899d0" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/ExceptionShouldBeRaisedWhenUndefinedExtensionPointIsUsed.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6bdfcad6487493709fdf633cb2ce1d09" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/ExceptionShouldBeRaisedWhenUndefinedExtensionPointIsUsedInConfiguration.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc54f88b519664c0b443eaf0eb6584bc" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2269ee07c2126de4e6eb212a3484a45e" name="tests/Piece/Unity/Plugin/CommonTestCase/CommonTestCaseAlias/Qux.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="777a3a12f011c6da6f6e0670d80a0e6f" name="tests/Piece/Unity/Plugin/CommonTestCase/CannotGetConfigurationWithPluginPrefixBaz.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cfb9571649a5c5b5ead031999e726b62" name="tests/Piece/Unity/Plugin/CommonTestCase/CannotGetConfigurationWithPluginPrefixFoo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1e04b10ea599ad224aae0e2463b33453" name="tests/Piece/Unity/Plugin/CommonTestCase/CannotGetConfigurationWithPluginPrefixQux.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="00057b4c8f188a3a66011d6335108ec0" name="tests/Piece/Unity/Plugin/Configurator/PluginTestCase/PluginTestCaseAlias/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5afd99aa7959097567275c1aa0a60773" name="tests/Piece/Unity/Plugin/Configurator/PluginTestCase/PluginTestCaseAlias/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="13166db2fe3a6746184d4a31a28f0953" name="tests/Piece/Unity/Plugin/Configurator/ValidationTestCase/ValidationTestCaseAlias/HelloWorld.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e558c1b163d70ad803a9e1484c6e3230" name="tests/Piece/Unity/Plugin/Configurator/ValidationTestCase/ValidationTestCaseAlias/LowerCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a053ac1521d88a05d9e81082821b3155" name="tests/Piece/Unity/Plugin/Configurator/ValidationTestCase/Authentication.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="be41209c73a40203ae469b905c45d4a7" name="tests/Piece/Unity/Plugin/Configurator/AppRootTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d82c85e2436b0befb9df7f7770126201" name="tests/Piece/Unity/Plugin/Configurator/EnvTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d7708dce594b410d5b8fa5697987f901" name="tests/Piece/Unity/Plugin/Configurator/EventTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eee9c6bb2f91424039b63b9e1dee986e" name="tests/Piece/Unity/Plugin/Configurator/PluginTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="57cd6235cf6b11a4a4098bad36cbb48a" name="tests/Piece/Unity/Plugin/Configurator/ProxyTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9ac3c94b6be516f5d99e7e2327c97b03" name="tests/Piece/Unity/Plugin/Configurator/RequestTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2248d485405768bdbc29e67eff51a020" name="tests/Piece/Unity/Plugin/Configurator/ValidationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="371c881df0cdf6da648af2beabcff63a" name="tests/Piece/Unity/Plugin/ConfiguratorChainTestCase/FirstConfigurator.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dfe3db3a5c604447fa765ee52124375b" name="tests/Piece/Unity/Plugin/ConfiguratorChainTestCase/SecondConfigurator.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e7fe0dd6e71afa747b13054be0e11529" name="tests/Piece/Unity/Plugin/ControllerTestCase/ControllerTestCaseSpecifyingArbitraryViewInActionShouldWorkAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9fc408591d298b3202e482b05d9544b2" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/ContinuationValidation.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="80d6a902474ecbe1f2d3a64462dd6041" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/ContinuationValidationAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2e1bc859a166de9999c6e145a94947ad" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/Counter.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="05ae3a9d698c9f0fefe2b3c577637e0f" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/Counter.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="89627bf3e074533a6e0306bc9bb2a037" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/CounterAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c28d770a911c8a122b3aaae06cabe0cd" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/FlowExecutionExpired.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e9f01399252835873a32718283fbd71e" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase/Validation.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ad10b1a29a6d54db87b3967fb3911ab" name="tests/Piece/Unity/Plugin/Dispatcher/SimpleTestCase/ActionShouldBeAbleToReturnViewStringAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b523ffad23876d024ab307e4205cff62" name="tests/Piece/Unity/Plugin/Dispatcher/SimpleTestCase/SimpleExampleAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ea824e88c1acbcdc3616ee2747ff168" name="tests/Piece/Unity/Plugin/Dispatcher/SimpleTestCase/SimpleValidationAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ee64d6b4cb0b7afb55505f7a9dd228f1" name="tests/Piece/Unity/Plugin/Dispatcher/SimpleTestCase/Validation.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a16c060644f42d56ba576de82e29b492" name="tests/Piece/Unity/Plugin/Dispatcher/ContinuationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c77629d90f369ce9ffab25cdb2fe5dfc" name="tests/Piece/Unity/Plugin/Dispatcher/SimpleTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3deff607ec13b38dcfa62339d6bfd5b0" name="tests/Piece/Unity/Plugin/FactoryTestCase/FactoryTestCaseAlias/FactoryTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc74afdb0a6ec4631616e6277734b7a2" name="tests/Piece/Unity/Plugin/FactoryTestCase/FactoryTestCaseAlias/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ba708d4e30b9c9655a99f235c3a5dd18" name="tests/Piece/Unity/Plugin/FactoryTestCase/FactoryTestCaseAlias/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3be00c5fe4c80b75461ea0956ee183eb" name="tests/Piece/Unity/Plugin/FactoryTestCase/Piece/Unity/Plugin/FactoryTestCase/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b8451d2005227afa3035644b5622294" name="tests/Piece/Unity/Plugin/FactoryTestCase/Piece/Unity/Plugin/FactoryTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c78d8342080841489beeb40fd3e5626" name="tests/Piece/Unity/Plugin/FactoryTestCase/Piece/Unity/Plugin/FactoryTestCase/Invalid.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="09c6164fa9ae1cebd1bb290611d6a7f4" name="tests/Piece/Unity/Plugin/FactoryTestCase/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4643c4a3db9cb5c7bfa246366d94fe1e" name="tests/Piece/Unity/Plugin/Interceptor/First.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0a505ee7de1f21220e56c5fc47a82069" name="tests/Piece/Unity/Plugin/Interceptor/Second.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="67a3a8deb8ef08d425ce1e8f25943251" name="tests/Piece/Unity/Plugin/OutputFilter/First.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="44da39c035b2d37d845fcd98dce4d81e" name="tests/Piece/Unity/Plugin/OutputFilter/Second.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ba0dc6fc09debc1186c35bbf3579f69f" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/actions/PHPExampleAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd3ea12b2b8fcd420874cf862fc4f6b5" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/templates/Content/PHPExample.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f04c9ffdab372a075bb626e11fcca3c1" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/templates/Content/PHPKeepingReference.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c66f77a07a5c4b9ea792f8fd818c0af" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/templates/Content/PHPLayoutContent.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8b56f3735c5c2b159267fe9d53ad9984" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/templates/Fallback/Fallback.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7515dbfe074106d2c75646ea0b5e52ea" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase/templates/Layout/PHPLayout.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9e68ec79d498d442b63b3854b8b0d337" name="tests/Piece/Unity/Plugin/Renderer/PHPTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e939c09e9e9609c5f5d82fe6e4202490" name="tests/Piece/Unity/Plugin/Renderer/RedirectionTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b9c44041e9482d8d22b204f1bc7e0a19" name="tests/Piece/Unity/Plugin/CommonTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="95b3edf5421ba40afd6a20a14e3db33c" name="tests/Piece/Unity/Plugin/ConfiguratorChainTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8fc7e14dee255b97dba1204c5302f16b" name="tests/Piece/Unity/Plugin/ControllerTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b7e405caf3a68afff7dd70ac50e10f7" name="tests/Piece/Unity/Plugin/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="60d1665a4ad235cc3fb5f252ed27282b" name="tests/Piece/Unity/Plugin/InterceptorChainTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="94ba33823de064a72f6acb39f5555699" name="tests/Piece/Unity/Plugin/OutputBufferStackTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="31bc0275bd8488382c813111db30a812" name="tests/Piece/Unity/Plugin/RelativePathVulnerability.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a927adf9ded47bf9c5f8629f610b1e12" name="tests/Piece/Unity/Plugin/RelativePathVulnerabilityAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="75dce0b9c904a63d0546f86323581b7c" name="tests/Piece/Unity/Plugin/ViewTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aca921e3c5e0342614ab0be1aefb31dc" name="tests/Piece/Unity/SessionTestCase/AutoloadClass.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9d715ee60de2d3d947c2bd78bdf0077f" name="tests/Piece/Unity/SessionTestCase/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="637aa0a10af740d8a2079adffc75115d" name="tests/Piece/Unity/SessionTestCase/Loader.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3f17df0ea868c31e94952fdd1e183666" name="tests/Piece/Unity/ValidationTestCase/Piece/Right/Validator/PayloadTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="60abf8ef9dc979100d630250855ccd94" name="tests/Piece/Unity/ValidationTestCase/Authentication.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a61161f00e0b88d75ff70a2008a7ad21" name="tests/Piece/Unity/ConfigTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e470599117cb83cab8858e1d2160303a" name="tests/Piece/Unity/ContextTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5c797c5abbf4a29b4b9ede992ce9e9da" name="tests/Piece/Unity/RequestTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f20c94557fcd8f228bad56542666863f" name="tests/Piece/Unity/SessionTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="40cada2c59ff45663b4ccd7047de3952" name="tests/Piece/Unity/URLTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="df19d7a7aa78116b0c5b1d00c29fbd67" name="tests/Piece/Unity/ValidationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8d1e573dae7a5f31af7f39abca580a7d" name="tests/Piece/Unity/ViewElementTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7847cc26231c74ec701e437201aa2772" name="tests/Piece/UnityTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9f82f7f9637f89528c53eba81a7d61aa" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Flow</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.14.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+   <package>
+    <name>Net_URL</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.14</min>
+   </package>
+   <package>
+    <name>Piece_Right</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.7.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity is now available.
+
+What&apos;s New in Piece_Unity 1.2.0
+
+ * Enhanced Dispatcher_Simple plug-in: Two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot; have been added. These provide a feature so that the default event is used if the event is an empty string or NULL. And a feature which allows users to return a view string from an action has been added.
+ * A few Defect Fixes: A defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different has been fixed. And also two defects in Renderer_PHP plug-in have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Kernel:
+
+- Changed getURL() so as to return without replacing the host and port if the URL is external. (Piece_Unity_URL)
+
+Plug-ins:
+
+- Added a feature so that users can overwrite the view returned from the dispatcher with an arbitrary view in an action. (Controller)
+- Changed code so as to use the new interfaces for the continuation server. (Dispatcher_Continuation)
+- Added two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot;. These provide a feature so that the default event is used if the event is an empty string or NULL. (Ticket #80) (Dispatcher_Simple)
+- Added a feature which allows users to return a view string from an action. (Ticket #86) (Dispatcher_Simple)
+
+Defect Fixes
+============
+
+Kernel:
+
+- Fixed the defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different. (Piece_Unity_Config_Factory)
+
+Plug-ins:
+
+- Fixed the defect that caused $file to be tainted if the Piece_Unity_ViewElement object has &quot;file&quot; attribute. (Renderer_PHP)
+- Fixed the defect that caused $viewElement to be tainted if the Piece_Unity_ViewElement object has &quot;viewElement&quot; attribute. (Renderer_PHP)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-08-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity is now available.
+
+What&apos;s New in Piece_Unity 1.1.0
+
+ * Two client interfaces for dynamic configuration: Piece_Unity::setConfiguration() and Piece_Unity::setExtension() can be used for dynamic configuration in entry points and actions.
+ * A client interface to get all field names in a form: Piece_Unity_Validation::getFieldNames() can be used to get all field names corresponding to the given validation set and a Piece_Right_Config object.
+ * Environment settings: The configuration file is always read when the current environment is not production.
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions. The target of the garbage collection is only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Kernel:
+
+- Added setConfiguration()/setExtension() for client use. (Piece_Unity)
+- Updated an exception to be raised when an undefined extension point or configuration point is used in the current configuration. (Piece_Unity_Plugin_Common, Piece_Unity_Config)
+- Added error handling after instantiating a plug-in. (Piece_Unity_Plugin_Factory)
+- Added getFieldNames() to get all field names corresponding to the given validation set and a Piece_Right_Config object. (Piece_Unity_Validation)
+- Updated code so that the configuration file is always read when the current environment is not production. (Ticket #75) (Piece_Unity_Env, Piece_Unity_Config_Factory)
+
+Services:
+
+- Added clear() to clear all properties for the next use. (Piece_Unity_Service_FlowAction)
+
+Plug-ins:
+
+- Added support for garbage collection for expired flow executions. (Dispatcher_Continuation)
+- Added missing error handling. (Dispatcher_Continuation)
+- Added an extension point &quot;envHandlers&quot; which can be used to set whether the current environment is production or not to arbitrary components. (Configurator_Env, Configurator_EnvHandler_PieceFlow, Configurator_EnvHandler_PieceRight)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first stable release of Piece_Unity.
+
+What&apos;s New in Piece_Unity 1.0.0
+
+ * Components: A component is a package that consists of plug-ins, services, GUI elements (HTML templates, images, scripts, etc.), flow definition files, action classes, and entry points, etc.. Many plug-ins are extracted as each Piece_Unity_Component_Xxx package. See the following release notes for details.
+ * Services: A service is one or more classes that provides useful operations for client use.
+ * The Piece_Unity_Service_FlowAction class: The Piece_Unity_Service_FlowAction class can be used as the base class for Piece_Flow actions.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added error handling. (Interceptor_SessionStart)
+- Moved the process of preloading Dispatcher_Continuation plug-in from Configurator_Plugin to Interceptor_SessionStart.
+- A improvement for restoring action instances in session. (Dispatcher_Continuation, Interceptor_SessionStart, Piece_Unity_Session_Preload)
+- Changed the error type on all Piece_Unity_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;. (ConfiguratorChain, InterceptorChain, OutputBufferStack)
+- Moved the following plug-ins to components/. These plug-ins will be packaged as each Piece_Unity_Component_Xxx package.
+  * Interceptor_Authentication
+  * OutputFilter_ContentLength
+  * Renderer_Flexy
+  * Renderer_JSON
+  * OutputFilter_JapaneseZ2H
+  * KernelConfigurator (obsoleted)
+  * Interceptor_NullByteAttackPreventation
+  * Configurator_PieceORM
+  * Interceptor_ProxyBasePath (obsoleted)
+  * Renderer_Smarty
+
+Services:
+
+- Added the base class for Piece_Flow actions. (Piece_Unity_Service_FlowAction)
+
+Kernel:
+
+- Changed factory() to throw an exception if the configuration directory or the configuration file not found. (Ticket #66) (Piece_Unity_Config_Factory)
+- Added a class loader. (Piece_Unity_ClassLoader)
+- Updated an exception to be raised when an undefined extension point is used. (Ticket #72) (Piece_Unity_Plugin_Common)
+- Updated getResults() so that a Piece_Right_Results object can be get by a validation set name. (Ticket #70) (Piece_Unity_Validation)
+- Improved error handling so as to recognize the place where the exception is raised. (Piece_Unity_Plugin_Common)
+- Added hasResults() to check whether or not the Piece_Right_Results object of the given validation set or the latest validation exists. (Piece_Unity_Validation)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.13.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-07-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity is now available.
+
+What&apos;s New in Piece_Unity 0.13.0</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.12.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-05-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity is now available.
+
+What&apos;s New in Piece_Unity 0.12.0
+
+ * Configurator_AppRoot plug-in: A plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web.
+ * Configurator_PieceORM plug-in: A plug-in for Piece_ORM.
+ * Several defect fixes: A defect in fallback view rendering has been fixed. And also a defect in Plug-in Aliases has been fixed. And other defects have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Plug-ins:
+
+- Added the plugins_dir configuration point. (Renderer_Smarty)
+- Updated &quot;Self Notation&quot; so as to set true to the configuration point &quot;addFlowExecutionTicket&quot; of Renderer_Redirection plug-in. (View)
+- Added &quot;Configurator_PieceORM&quot; plug-in for Piece_ORM.
+- Added &quot;Configurator_Proxy&quot; plug-in for proxy.
+- Changed the default value for the configuration point &quot;configurator&quot; from &quot;KernelConfigurator&quot; to &quot;ConfiguratorChain&quot;. (Root)
+- Added &quot;Configurator_AppRoot&quot; plug-in for setting the directory and the URL path that form the top of the document tree of an application visible from the web. (Ticket #56)
+- Removed the configuration point &quot;importSessionIDFromRequest&quot;. (Interceptor_SessionStart)
+
+Kernel:
+
+- Updated pushPEARError() so that the params field in the repackage array contains &quot;userinfo&quot; and &quot;debuginfo&quot; fields, which contains each of the return values from getUserInfo() and getDebugInfo(). (Piece_Unity_Error)
+- Updated the constructor so as to receive a prefix for determining the plug-in name. (Piece_Unity_Plugin_Common)
+- Changed the error type on all Piece_Unity_Error::pushError() calls from &quot;warning&quot; to &quot;exception&quot;. (Piece_Unity_URL)
+- Added getRemoteAddr() for getting an IP address (or IP addresses) of the client making the request. (Piece_Unity_Context)
+- Added _getExtension()/_getConfiguration(). (Piece_Unity_Plugin_Common)
+  getExtension()/getConfiguration() are deprecated since Piece_Unity 0.12.0. (Ticket #54)
+
+Example Applications:
+
+- Changed the function for URI encoding from escape() to encodeURIcomponent(). (ahah.js)
+- Replaced all &quot;__basePath&quot; with &quot;__appRootPath&quot;.
+
+Defect Fixes
+============ 
+
+Plug-ins:
+
+- Fixed a defect in fallback view rendering that caused a fallback view to be always rendered in spite of success in HTML rendering if one or more &quot;warning&quot; level errors raised before rendering. (Ticket #57)
+
+Kernel:
+
+- Fixed the problem that a plug-in with Plug-in Aliases cannot get the current configuration. (Ticket #53)
+- Fixed the problem that the getExtension()/getConfiguration() cannot work with an empty prefix. (Piece_Unity_Plugin_Common)
+
+Example Applications:
+
+- Fixed the problem that all radio elements are transferred regardless of whether they are checked or not. (ahah.js)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.11.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-02-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>Hi all,
+
+A new release of Piece_Unity is now available.
+
+This release includes a feature named &quot;Fallback View&quot; which can be used for rendering a fallback view if an error occured while rendering with a specified view, and a feature named &quot;Plug-in Aliases&quot; which can be used multiple aliases as the name of a plug-in class by setting multiple prefixes.
+
+Also this release includes a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+And also other enhancements and two fixes are included. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Plugin_Factory #####
+
+- Added a feature named &quot;Plug-in Aliases&quot; so that this feature can be used multiple aliases as the name of a plug-in class by setting multiple prefixes. (Ticket #40)
+
+##### Piece_Unity_URL #####
+
+- Added removeQueryString() to remove a name/value pair from the query string.
+
+### Plug-ins ###
+
+##### Renderer_Flexy, Renderer_HTML, Renderer_PHP, Renderer_Smarty #####
+
+- Added a feature named &quot;Fallback View&quot;. (Ticket #37)
+  If an error occured while rendering with a specified view and useFallback is true, a fallback view will be rendered.
+
+##### KernelConfigurator #####
+
+- Added a configuration point &quot;pluginPrefixes&quot; for using &quot;Plug-in Aliases&quot;.
+- Added two configuration point &quot;validationValidatorPrefixes&quot; and &quot;validationFilterPrefixes&quot; for using &quot;Validator Aliases&quot; and &quot;Filter Aliases&quot;. (Ticket #43)
+
+##### Renderer_Redirection #####
+
+- Added a feature so that __eventNameKey is replaced with the event name key. (Ticket #38)
+
+##### View #####
+
+- Added a feature named &quot;Self Notation&quot; for redirection to an entry point itself. (Ticket #39)
+
+##### ConfiguratorChain, Configurator_Env, Configurator_Event, Configurator_Plugin, Configurator_Request, Configurator_Validation #####
+
+- Added a new plug-in &quot;ConfiguratorChain&quot; so that it can invoke multiple configurators. (Ticket #45)
+  In the release after next, &quot;ConfiguratorChain&quot; will become the default configurator instead of &quot;KernelConfigurator&quot;.
+
+### Example Applications ###
+
+- Changed so as to use of ConfigurationChain.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Unity_URL #####
+
+- Fixed the problem so that EZweb mobile phone cannot redirect with Renderer_Redirection plug-in. (Ticket #44)
+
+### Plug-ins ###
+
+##### Renderer_Redirection #####
+
+- Fixed the problem that the renderer cannot redirect to HTTPS URL.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.10.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-01-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>Hi all,
+
+A new release of Piece_Unity is now available.
+This release includes a nice feature for the layout system. It can turn off the use of the layout system by the HTTP Accept header. And also other enhancements are included.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Plug-ins ###
+
+##### Renderer_HTML #####
+
+- Added a new configuration point &apos;turnOffLayoutByHTTPAccept&apos; on Renderer_HTML.
+  If this option is true, the useLayout option is turned off by the HTTP Accept header.
+
+##### Dispatcher_Continuation #####
+
+- Changed the default value of bindActionsWithFlowExecution to true.
+
+##### Interceptor_SessionStart #####
+
+- Added a feature to import a session ID from the request parameters when a new configuration point importSessionIDFromRequest is true. (Ticket #34)
+
+### Example Applications ###
+
+- Updated templates and javascripts of the sample application.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-12-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>Hi all,
+
+A new release of Piece_Unity is now available.
+For Piece_Unity, this will be a big release because this release includes a very important feature named &quot;Action Continuation&quot; and several powerful enhancements as follows.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature allows developers to write stateful action code via the properties without using flow attributes. In fact it allows stateful programming without thinking sessions. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+Interceptor_Authentication plug-in provides a smart and simple solution for authentication.
+
+Renderer_Flexy, Renderer_Smarty, and Renderer_PHP plug-ins provide a simple and useful layout system to reuse shared html layout across multiple pages.
+
+Renderer_JSON plug-in allows to output view elements as JSON.
+
+Also the example applications was restructured with new features as follows. (Sorry there are no JSON examples yet.)
+
+A. Registration Applications
+
+   1. A registration application. *non-exclusive*
+   2. A registration application. *exclusive*
+   3. A registration application with AHAH. *exclusive*
+
+B. Authentication
+
+   1. An authentication service. *exclusive*
+   2. A resource which is protected by the above authentication service. *non-exclusive*
+
+These examples will be available on the web one of these days.
+
+And also other enhancements are included.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_URL #####
+
+- A utility which is used to create the appropriate absolute URL from a relative/absolute URL. (Ticket #4)
+
+##### Piece_Unity_Request #####
+
+- Added support for accessing $_FILES contents as each parameter to support validation of files and images. (Ticket #10)
+
+##### Piece_Unity_Context #####
+
+- Added support for image input type. (Ticket #18)
+
+##### Piece_Unity_Validation #####
+
+- Changed so as to handle a Piece_Right_Results object by reference. (Ticket #20)
+- Updated validate() to set a Piece_Unity_Context object as a payload to Piece_Right. (Ticket #19)
+
+##### Piece_Unity_Session_Preload #####
+
+- A class *pre*loader for restoring objects in session.
+
+##### Piece_Unity_Session #####
+
+- Added a feature to preload for restoring objects.
+
+##### Piece_Unity_Plugin_Factory #####
+
+- Added clearInstances() to clear the plug-in instances.
+
+##### Piece_Unity_Error #####
+
+- Added a constant PIECE_UNITY_ERROR_UNEXPECTED_VALUE.
+- Added a constant PIECE_UNITY_ERROR_INVALID_OPERATION.
+
+### Plug-ins ###
+
+##### Interceptor_Authentication #####
+
+- An interceptor to control the access to protected resources on Piece_Unity applications.
+
+##### Renderer_JSON #####
+
+- A renderer to output view elements as JSON.
+
+##### Controller #####
+
+- Changed to skip dispatcher when context has already view contents.
+
+##### View #####
+
+- Added a feature to replace the current view with a view which is given by a new configuration point forcedView.
+- Added a built-in view element __url which is a Piece_Unity_URL object.
+
+##### KernelConfigurator #####
+
+- Added to preload Dispatcher_Continuation plug-in for restoring action instances in session.
+- Added a configuration point nonSSLableServers to make a list of non-SSLable servers.
+
+##### Dispatcher_Continuation #####
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution.
+- Removed the configuration point sessionKey.
+- Added getContinuationSessionKey() to get the session key for a continuation object.
+
+##### Renderer_HTML #####
+
+- An abstract renderer which is used to render HTML.
+
+##### Renderer_Flexy, Renderer_PHP, Renderer_Smarty #####
+
+- Added a feature to reuse shared html layout across multiple pages. (Ticket #2)
+
+##### Controller, Dispatcher_Continuation #####
+
+- Updated to publish the Piece_Flow_Continuation object as a view element if it exists even though what the specified dispatcher is. And the flow execution ticket key and the flow name key have always been available as each view element. (Ticket #26)
+
+##### Renderer_Redirection #####
+
+- Removed getURL().
+
+### Example Applications ###
+
+- Restructured applications with new features.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.8.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-10-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release of Piece_Unity with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a few enhancements of the validation system. See the following release notes for details.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Validation #####
+- Added getResults() method for getting the Piece_Right_Results object of the latest validation.
+- Added setting the Piece_Right_Results object to the current flow scope when the continuation server is running.
+- Refactored validate() method using Piece_Right_Validation_Script class.
+- Added addValidatorDirectory()/addFilterDirectory() methods.
+
+### Plug-ins ###
+
+##### KernelConfigurator #####
+- Added Piece_Right_Results class to the array for autoloading.
+- Added missing two configuration points validationValidatorDirectories and validationFilterDirectories, and their processes, which had existed in Interceptor_PieceRight plug-in.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.7.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-09-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes built-in validation system with Piece_Right integration, and a few improvement of Renderer_Redirection plug-in. See the following release notes for details.
+
+Note: Interceptor_PieceRight plug-in has been deprecated. It will be removed in the next release.
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Validation #####
+- The validation class for Piece_Unity applications. This class is available from this release.
+
+##### Piece_Unity_Context #####
+- Added a new method getValidation() for getting the Piece_Unity_Validation object for the current request.
+
+### Plug-ins ###
+
+##### Renderer_Redirection #####
+- Added support for redirections with direct access to backend servers when HTTPS protocol is given as a view string.
+- Added support for redirections with other proxy servers.
+- Changed the code so as to add session ID to the query string only if the URL is internal.
+- Added a new configuration point addFlowExecutionTicket to add flow execution ticket to the query string.
+
+##### KernelConfigurator #####
+- Added two configuration points validationConfigDirectory and validationCacheDirectory for setting the configuration directory and the cache directory for validations.
+
+### Example Applications ###
+
+- Removed XML declarations.
+- Changed the code so as to use built-in validation instead of Interceptor_PieceRight plug-in.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.6.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-08-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a lot of enhancements and a few defect fixes as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity_Context #####
+- Added support for context attributes.
+- Added setProxyPath() method for setting the proxy path if the application uses proxy servers.
+- Added getProxyPath() method for getting the proxy path of the application.
+- Added usingProxy() method for checking whether the application is accessed via reverse proxies.
+- Added setContinuation()/getContinuation() methods for setting/getting the Piece_Flow_Continuation object for the current session.
+
+##### Piece_Unity_Plugin_Common #####
+- Added _initialize() method as a template method, and changed the code so as to call it in the constructor.
+
+### Plug-ins ###
+
+##### Interceptor_PieceRight #####
+- An interceptor to set a Piece_Right object to the current application context.
+
+##### OutputBufferStack #####
+- Added support for PHP built-in functions.
+
+##### Dispatcher_Simple #####
+- Added error handling when include_once fail.
+
+##### Interceptor_ProxyBasePath #####
+- Changed the code so as to use Piece_Unity_Context::usingProxy() and Piece_Unity_Context::getProxyPath() methods instead of _useProxy() method and &apos;path&apos; configuration point.
+- Removed _useProxy() method.
+- Removed &apos;path&apos; configuration point.
+
+##### KernelConfigurator #####
+- Added &apos;proxyPath&apos; configuratin point for setting the proxy path of applications.
+
+##### Renderer_Redirection #####
+- A renderer which is used to redirect requests.
+
+##### View #####
+- Added the code to overwrite the extension &apos;renderer&apos; if the view string start with http(s)://.
+
+##### Dispatcher_Continuation #####
+- Added the code to set the Piece_Flow_Continuation object to the current context.
+
+##### Interceptor_NullByteAttackPreventation #####
+- An interceptor to prevent Null Byte Attack for applications.
+
+##### OutputFilter_JapaneseZ2H #####
+- An output filter which can be used to converts Japanese JIS X0208 kana to JIS X0201 kana.
+
+## Example Applications ##
+
+- Updated and improved the design.
+- Removed the mailto: link to my e-mail address.
+- Changed my e-mail address.
+- Introduced form validation using Piece_Right.
+- Adjusted to the new interface of Piece_Flow actions.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Unity_Context #####
+- Fixed the problem that an event is ignored when the event name includes the characters other than letters or numbers.
+
+## Plug-ins ##
+
+##### Dispatcher_Continuation #####
+- Removed wrong error handling which disables the current callback.
+
+##### OutputBufferStack #####
+- Changed the code to prevent strange behaviour.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a lot of enhancements and fixing two problems as follows:
+
+## Enhancements ##
+
+### Kernel ###
+
+##### Piece_Unity #####
+- invoke(): Changed the return value to null.
+
+##### Piece_Unity_Plugin_Common #####
+- getExtension(): Changed code so as to immediately return when an extension is false or an array.
+- Removed unused statements.
+
+##### Piece_Unity_Context #####
+- Added setBasePath() method for setting the base path of the current request.
+- Added setScriptName() method for setting the script name of the current request.
+- Renamed the method from getBaseURLPath() to getBasePath().
+- Renamed the method from getBaseURL() to getScriptName().
+
+### Plug-ins ###
+
+##### Interceptor_ProxyBasePath #####
+- An interceptor to adjust the base path and the script name of the current request which are held in the Piece_Unity_Context object. This interceptor is used and only works when your web servers are used as reverse proxies.
+
+##### Interceptor_SessionStart #####
+- An interceptor to start session automatically.
+
+##### Root #####
+- Removed code to start a session.
+
+##### OutputBufferStack #####
+- Changed code so as to immediately return when the extension is not an array.
+- Added error handling.
+
+##### InterceptorChain #####
+- Changed the default value of &apos;interceptors&apos; extension point to the array which only includes &apos;Interceptor_SessionStart&apos; plug-in.
+- Changed code so as to immediately return when the extension is not an array.
+- Added error handling.
+
+##### KernelConfigurator #####
+- Added &apos;pluginDirectories&apos; configuration point for setting plug-in directories.
+- Added error handling.
+
+##### View #####
+- Added the current session name and the current session id as view elements __sessionName and __sessionID.
+
+## Example Applications ##
+
+- Updated and improved.
+- Changed the event names in the action states.
+
+## Defect Fixes ##
+
+### Kernel ###
+
+##### Piece_Unity_Context #####
+- Fixed the problem that slashes are replaced with backslashes.
+- Fixed the problem where the base path and the script name include the starting slash with Apache 2.0.58 on Windows.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a lot of enhancements as follows:
+
+## Enhancements ##
+
+##### Piece_Unity #####
+- Added properties $_configDirectory, $_cacheDirectory, and $_dynamicConfig to use after instantiation.
+
+##### Piece_Unity_Config #####
+- Removed methods setConfigurationDirectory(), setCacheDirectory(), getConfigurationDirectory(), getCacheDirectory(), getError(), isMergedExtensionPoint(), isMergedConfigurationPoint().
+
+##### Piece_Unity_Error #####
+- pushPHPError(): Added logic to return immediately with the current value of error_reporting() function.
+
+##### Piece_Unity_Request #####
+- Added support for importing the PATH_INFO string as parameters.
+
+##### Piece_Unity_ViewElement #####
+- Added getElement() method for getting elements.
+- Added hasElement() method for checking whether the object has an element with a given name.
+
+##### Root #####
+- Added &apos;interceptor&apos; extension point.
+- Added &apos;outputFilter&apos; extension point.
+- Added &apos;controller&apos; extension point.
+- Removed &apos;dispatcher&apos; and &apos;view&apos; extension points.
+
+##### Controller #####
+- A controller which delegates requests to appropriate dispatchers and fowards requests to the view handler.
+
+##### InterceptorChain #####
+- An interceptor which invokes all interceptors.
+
+##### OutputBufferStack #####
+- An output filter which turns output buffering on, and registers all output handlers.
+
+##### OutputFilter_ContentLength #####
+- An output filter which outputs Content-Legnth header.
+
+##### Renderer_Smarty #####
+- Changed error handling so as to be thrown any errors as exception except non-existing templates.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-08</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements and fixing a problem as follows:
+
+## Enhancements ##
+
+##### Renderer_Flexy #####
+- Added a configuration point &apos;debug&apos; to display debugging information.
+- Changed error handling so as to be thrown any errors as &apos;exception&apos; except non-existing template.
+
+## Example Applications ##
+- Set the cache directory for Piece_Unity configurations and Piece_Flow flow definitions.
+
+## Defect Fixes ##
+
+- Fixed the problem that relative path cannot be used as the cache directory and action cirectory with Solaris.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first beta release of Piece_Unity.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-06-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first alpha release of Piece_Unity.</notes>
+  </release>
+ </changelog>
+</package>

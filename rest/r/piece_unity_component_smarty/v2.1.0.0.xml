@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_smarty">Piece_Unity_Component_Smarty</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <a>1.0.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A renderer which is based on Smarty template engine.</s>
+    <d>A renderer which is based on Smarty template engine.</d>
+    <da>2007-07-18 23:21:53</da>
+    <n>The first release of Piece_Unity_Component_Smarty.</n>
+    <f>5614</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Smarty-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity">Piece_Unity</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.2.0</v>
+    <a>0.7.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Web application framework</s>
+    <d>Piece_Unity is a Web application framework.
+
+Piece_Unity allows stateful programming without thinking about sessions by storing and restoring states with a technology known as continuation server. It also provides high security and eases the burden of implementing security measures for applications by application flow control.</d>
+    <da>2007-10-05 11:43:10</da>
+    <n>A new release of Piece_Unity is now available.
+
+What's New in Piece_Unity 1.2.0
+
+ * Enhanced Dispatcher_Simple plug-in: Two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot; have been added. These provide a feature so that the default event is used if the event is an empty string or NULL. And a feature which allows users to return a view string from an action has been added.
+ * A few Defect Fixes: A defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different has been fixed. And also two defects in Renderer_PHP plug-in have been fixed.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+Kernel:
+
+- Changed getURL() so as to return without replacing the host and port if the URL is external. (Piece_Unity_URL)
+
+Plug-ins:
+
+- Added a feature so that users can overwrite the view returned from the dispatcher with an arbitrary view in an action. (Controller)
+- Changed code so as to use the new interfaces for the continuation server. (Dispatcher_Continuation)
+- Added two configuration points &quot;useDefaultEvent&quot; and &quot;defaultEventName&quot;. These provide a feature so that the default event is used if the event is an empty string or NULL. (Ticket #80) (Dispatcher_Simple)
+- Added a feature which allows users to return a view string from an action. (Ticket #86) (Dispatcher_Simple)
+
+Defect Fixes
+============
+
+Kernel:
+
+- Fixed the defect that caused the same cache to be used if the relative paths of the configuration files are same even though the absolute paths of the files are different. (Piece_Unity_Config_Factory)
+
+Plug-ins:
+
+- Fixed the defect that caused $file to be tainted if the Piece_Unity_ViewElement object has &quot;file&quot; attribute. (Renderer_PHP)
+- Fixed the defect that caused $viewElement to be tainted if the Piece_Unity_ViewElement object has &quot;viewElement&quot; attribute. (Renderer_PHP)</n>
+    <f>59431</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity-1.2.0</g>
+    <x xlink:href="package.1.2.0.xml"/>
+</r>

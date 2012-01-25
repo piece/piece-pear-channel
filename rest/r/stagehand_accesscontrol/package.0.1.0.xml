@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_AccessControl</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An access control object</summary>
+ <description>Stagehand_AccessControl provides an object for access control. You can specify rules to allow access and deny access, evaluate the target such like the following:
+
+ $denyAllow = Stagehand_AccessControl::denyAllow();
+ $denyAllow-&gt;deny(&apos;^192\.168\.0\.1$&apos;);
+ if ($denyAllow-&gt;evaluate(&apos;192.168.0.1&apos;) == Stagehand_AccessControl_AccessState::ALLOW) {
+     // access granted
+     ...
+ } else {
+     // access denied
+     ...
+ }
+
+The evaluation process works like access control by the Order directive of Apache. Stagehand_AccessControl::denyAllow() creates an object corresponding to Deny,Allow of Apache, and Stagehand_AccessControl::allowDeny() creates an object corresponding to Allow,Deny.
+
+Since the evaluation is done by a matcher, the evaluation logic can be changed by replacing the matcher with another. The default is RegexMatcher which matches by regular expressions.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-09-14</date>
+ <time>20:47:24</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+The first release of Stagehand_AccessControl.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="7fe0ee58accd6562d09bad26546d51b6" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="260eb6b375bdbd7fcefbdddddb9c2859" name="src/Stagehand/AccessControl/Matcher/EqualMatcher.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0ac344e451cc2c62325bead51ac3ebfd" name="src/Stagehand/AccessControl/Matcher/RegexMatcher.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8bd9c40ecae26eb4d1bf5f55c2a366fb" name="src/Stagehand/AccessControl/Order/AllowDenyOrder.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e3c5be8c9a1474cc7fa737bbddb5179a" name="src/Stagehand/AccessControl/Order/DenyAllowOrder.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2f044d24dad381a476f7e5ea1aad3715" name="src/Stagehand/AccessControl/AccessState.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3e4edbef8005c8669c4c8656c92f57ce" name="src/Stagehand/AccessControl/Matcher.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="548a0510dfc4d6fcb13eb961f85e8613" name="src/Stagehand/AccessControl/Order.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd3cd06e38710b96adc3cf189637d14a" name="src/Stagehand/AccessControl.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7a27605716e2503765a4a6c4d836d7b8" name="tests/Stagehand/AccessControl/Matcher/RegexMatcherTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="21c34758e37637a93ac881bc8ddf5996" name="tests/Stagehand/AccessControlTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e2d8f50e2a1aef8468d3ffc245686874" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Stagehand_Autoload</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.3.0</min>
+   </package>
+   <extension>
+    <name>pcre</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-09-14</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+The first release of Stagehand_AccessControl.
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/piece_examples_crud">Piece_Examples_CRUD</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A CRUD application with Piece_Unity and Piece_ORM</s>
+    <d>Piece_Examples_CRUD is a CRUD application with Piece_Unity and Piece_ORM.</d>
+    <da>2007-11-25 23:23:43</da>
+    <n>The first release of Piece_Examples_CRUD.</n>
+    <f>105688</f>
+    <g>http://pear.piece-framework.com/get/Piece_Examples_CRUD-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>

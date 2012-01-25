@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.11.0</v>
+    <a>1.7.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-08-15 00:39:06</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.11.0
+
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions.
+ * Environment settings: A flow definition file is always read when the current environment is not production.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the cached value format from array to Piece_Flow_Config. (Piece_Flow_ConfigReader_Common)
+- Updated code so that a flow definition file is always read when the current environment is not production. (Ticket #26) (Piece_Flow_ConfigReader_Common)
+- Added support for garbage collection for expired flow executions. (Ticket #16)
+- Added code so as to clear the payload from the current flow execution to reduce the session size. (Piece_Flow_Continuation, Piece_Flow)
+- Added code so as to call clear() if it exists to reduce the session size. (Piece_Flow_EventHandler)</n>
+    <f>46840</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.11.0</g>
+    <x xlink:href="package.1.11.0.xml"/>
+</r>

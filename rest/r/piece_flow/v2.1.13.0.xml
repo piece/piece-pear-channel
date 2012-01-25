@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_flow">Piece_Flow</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.13.0</v>
+    <a>1.7.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A web flow engine and continuation server</s>
+    <d>Piece_Flow is a web flow engine and continuation server.
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</d>
+    <da>2007-08-26 15:09:17</da>
+    <n>A new release of Piece_Flow is now available.
+
+What's New in Piece_Flow 1.13.0
+
+ * Piece_Flow_Continuation::checkLastEvent(): This method can be used to check whether the last event which is given by a user is valid or not. And this method always return true if the continuation has not activated yet or just started.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed read() so that a flow definition file with unknown extension is read as YAML. (Piece_Flow_ConfigReader)
+- Added checkLastEvent() which can be used to check whether the last event which is given by a user is valid or not. (Piece_Flow_Continuation, Piece_Flow)</n>
+    <f>47481</f>
+    <g>http://pear.piece-framework.com/get/Piece_Flow-1.13.0</g>
+    <x xlink:href="package.1.13.0.xml"/>
+</r>

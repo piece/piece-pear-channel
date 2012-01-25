@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_clicontroller">Stagehand_CLIController</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.1</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A controller object for CLI</s>
+    <d>Stagehand_CLIController provides a controller superclass to run a typical control flow of CLI such like the following:
+
+ * Parsing options and arguments
+ * Configuring runtime components
+ * Running the specified command</d>
+    <da>2011-10-01 19:42:02</da>
+    <n>
+What's New in Stagehand_CLIController 1.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * A possible crash by &quot;Strict Standards&quot; (Issue #341)
+ </n>
+    <f>3500</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_CLIController-1.0.1</g>
+    <x xlink:href="package.1.0.1.xml"/>
+</r>

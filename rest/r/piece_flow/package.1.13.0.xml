@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Flow</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A web flow engine and a continuation server</summary>
+ <description>Piece_Flow is a generic web flow engine and a continuation server based on Finite State Machine(FSM).
+
+Piece_Flow provides a stateful programming model for developers, and high security for applications.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-08-26</date>
+ <time>15:09:17</time>
+ <version>
+  <release>1.13.0</release>
+  <api>1.7.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.13.0
+
+ * Piece_Flow_Continuation::checkLastEvent(): This method can be used to check whether the last event which is given by a user is valid or not. And this method always return true if the continuation has not activated yet or just started.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed read() so that a flow definition file with unknown extension is read as YAML. (Piece_Flow_ConfigReader)
+- Added checkLastEvent() which can be used to check whether the last event which is given by a user is valid or not. (Piece_Flow_Continuation, Piece_Flow)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e1fb4936a526972c1e87b8ba0de3cf7a" name="data/piece-flow.rng" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c8b417bd8d056260835107c8c7825cb7" name="data/piece-flow.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53fa6b664b0c7b6f92ed2118fc91db16" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="34404ad3733c75b1087d04af3d945303" name="Piece/Flow/Action/Factory.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a96ec8b8f611be50a3aa836cde769f3c" name="Piece/Flow/ConfigReader/Common.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="12390917f3c4f73da382681cf497a381" name="Piece/Flow/ConfigReader/XML4.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c18e74652737c212720292b189d3775" name="Piece/Flow/ConfigReader/XML5.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ae8b3354a958530b232bf98555edb56a" name="Piece/Flow/ConfigReader/YAML.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e4843b1312cc4b100fa47e8817eb0503" name="Piece/Flow/Continuation/GC.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bedbb6be5c63720a58b58c2fa520fed3" name="Piece/Flow/Action.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="20d1f95dc138e05bd5a4dceceb579757" name="Piece/Flow/ClassLoader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="984854369e0584ba7d2fe1e0e45fce0f" name="Piece/Flow/Config.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3d27d4d29a60a1849f6b8ad13e954947" name="Piece/Flow/ConfigReader.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="90f75d131ecc25efe4ecae2eda54d9dc" name="Piece/Flow/Continuation.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1ca0215f7a612d5e5ac2cf024b257c01" name="Piece/Flow/Env.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="314c678c932dd48963b8e1ed0c644b38" name="Piece/Flow/Error.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eb2b881d5ea98ec3fccd440c9661a92f" name="Piece/Flow/EventHandler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d2cfca6abfa22d2661c5b7db2104b9f2" name="Piece/Flow.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ab522abca157240c7d60500d1ef89c0" name="tests/Piece/actions/OmitClassNameAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9b6d8f1d55eb51d2f8e72c3d8faeda39" name="tests/Piece/Flow/Action/BarAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ef66ea6f9a564ee98e2195c50249fa80" name="tests/Piece/Flow/Action/FactoryTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="08a6844184424243a2f38de81846a275" name="tests/Piece/Flow/Action/FooAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9ea74de04063314b870a684e7f89e989" name="tests/Piece/Flow/Action/InvalidAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d118762ef4da92cb8ea511404817738d" name="tests/Piece/Flow/ConfigReader/XMLTestCase/broken.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="323a753ad7ee2232741d4b0554155532" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="52b4d58cc00bc937f374b63f984a2acc" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInActivityIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f6421f8e5c5fe38a80cfe68feab1810f" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInEntryIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1354bb87e960d2394362a7786e8149ae" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInExitIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9c13a379f1f96b224a5e68d69e12a73e" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInFinalActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="441d61a440339538387e3c0238b15737" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInGuardIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d8b84e7360748ce0e611977e65a119aa" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ClassInInitialActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8b20b884e476906e4a388565c957cf13" name="tests/Piece/Flow/ConfigReader/XMLTestCase/EventInTransitionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c833e7735e3944d7e720cf4ad799a53b" name="tests/Piece/Flow/ConfigReader/XMLTestCase/EventInTransitionNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f947c08eff00535d1f458292a3597473" name="tests/Piece/Flow/ConfigReader/XMLTestCase/FirstStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aafeb87c8292096ccb4006989fa2b139" name="tests/Piece/Flow/ConfigReader/XMLTestCase/FirstStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b8117933a34ba5375287983a12202f2c" name="tests/Piece/Flow/ConfigReader/XMLTestCase/invalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c462c37a73d02b4842b2892c7ef8f5d" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a0e0003aafb0bfd52ae1f73768e34e5b" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInActionNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="60bb7164df08c6f812a582675fc87a20" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInActivityIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ec0019253485f3864d393e9cdb747ff3" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInActivityNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d77a2ee0eb798173a6b7d65b5b863ffc" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInEntryIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="89c9a2afda951a83b289a83b3c49b2b5" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInEntryNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9c4560419dce3535a8548320e6186711" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInExitIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="db5e209bf4efa6499761191023179122" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInExitNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7eb3ed43f2a8ff214096dd5ceb64b48a" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInFinalActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8de53e451761488624825263f31fb48e" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInFinalActionNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="51937349ccf21dde2480cc12b88f857e" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInGuardIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4b6890dfbaf5039bbe487fed508e900a" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInGuardNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="002564ac0f2389a328cfb0fe4ccc17b1" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInInitialActionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d3a6d3000517c290b8bf164ddf45ff13" name="tests/Piece/Flow/ConfigReader/XMLTestCase/MethodInInitialActionNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aece2ec9e1dac574dfad416f86feb9fd" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInActionStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dc3544690cc370c2986cc1018105abfd" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInActionStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bca54360f0d3bcf07855a404bf30a2d8" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInLastStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b0af4795ec362e7f5e3cca5555215a6" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInLastStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a8008808133433e9e4f0ba1cc4a7b15a" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInViewStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="436dbdf8b15cd43ada2a68b5dc053420" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NameInViewStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e9175150e1fac59abbdbdba36a1ea571" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NextStateInTransitionIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0126b8e9edc28692b6d6c632529ae9dc" name="tests/Piece/Flow/ConfigReader/XMLTestCase/NextStateInTransitionNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce638efade93fefc7d8c24378ae689ef" name="tests/Piece/Flow/ConfigReader/XMLTestCase/Registration.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="59b2d45405fe290a885b74c8409252b3" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ViewInLastStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9e70e8a937cf8c8f8e73e9c0347d2ced" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ViewInLastStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bd1ee355e594be0619bf1f5ec94c6214" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ViewInViewStateIsInvalid.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c63c9f319086066f8a80f913fd5dc1a9" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ViewInViewStateNotFound.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0b9556e1f832a009ac078b5733971a36" name="tests/Piece/Flow/ConfigReader/XMLTestCase/ViewStateHasNoElements.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dab2670ffc42f46f1daa884077304174" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2fbd586aa4171c6f3dedf90bb98f4db5" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInActivityIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1efce8dbf7e586ea3496bc4a42e919e1" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInEntryIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="709a875259e3cccb256e07efa970e691" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInExitIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6d85259b3fe43800b086d0a3c43f9436" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInFinalActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e18ae98d85dfbc910180f5274f4f00d1" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInGuardIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="94eeac23f51030cfec07bbc9f4e15c63" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ClassInInitialActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="de7ce1b82526297ec66e08f1684d708a" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/EventInTransitionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce02c51f2cf197f773d629149d0d78f8" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/EventInTransitionNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="85b77be8a16f7fba1300b93e2575c036" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/FirstStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="65d618e1f5860935c9994dac623c8449" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/FirstStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9448513e64ca56082f786dbd21553381" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8cac52d64cd55e0a418abcd14b4de5da" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInActionNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3dbe6bab73481247015237eb7d6f54d7" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInActivityIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0512507f9e67630d548f56d50eddcf7b" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInActivityNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1bbf4f9ae7a5723e4b49e7d429096523" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInEntryIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="08dc60a2d6bf730e8a9803fd80054a6b" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInEntryNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="78a7258f6aad6a9f851942bec5e64909" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInExitIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="006e0f6f966f82ec255a256d24c46908" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInExitNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6fc0678bbd6541d5daa4fb6ac2b07cf6" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInFinalActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a6d0b59e2c1843dac4b3d533e729d823" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInFinalActionNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8f2c33f1034ad0e9eed6b358959c33e4" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInGuardIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bf927ebdc1c0f5d786df68261ae774a9" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInGuardNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e4a113d9d6b0179c4e4629fef099a7c2" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInInitialActionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="596a61c00fc59ad680fd420171d2fd68" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/MethodInInitialActionNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a2ee19b648aa19ddc29d528ae479c373" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInActionStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8fe4f1ba6db9326c87a860b3b97f8339" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInActionStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cded7935110233222d2c65b4588754ad" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInLastStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="07432a4207364c4870efbb6d613f0dfa" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInLastStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e44bc507bfc82bf71d8b1a1a95b717c7" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInViewStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc70699a0e352589e28e7fab458f2e09" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NameInViewStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d3e56ce1ec8b1e6bb9aa23291b8ae033" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NextStateInTransitionIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="50b37dcff309cc2f92314540864e0ddf" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/NextStateInTransitionNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f0c33c1b9c59c23e305439825c852ec3" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/Registration.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b177240afbb0df687c739e47af48154" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ViewInLastStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ad59b3855be4eb84dff44a7b1e6e3c8" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ViewInLastStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c1a07d7174849874bc7caba80afe7518" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ViewInViewStateIsInvalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a483f6931370f6f04de05ed18b79d2cd" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ViewInViewStateNotFound.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d9beebcabc664b3a99c8349f8999e99b" name="tests/Piece/Flow/ConfigReader/YAMLTestCase/ViewStateHasNoElements.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3e36b3e21bf238d53e54f76d4f483ccf" name="tests/Piece/Flow/ConfigReader/CompatibilityTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="600b1cc39f2b72402fd05139ecaf3674" name="tests/Piece/Flow/ConfigReader/XML4TestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ca6ed185e24d486a5d7cfd4e32317cb8" name="tests/Piece/Flow/ConfigReader/XML5TestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c09b7ef43c1cae822ce96b3b98b7b752" name="tests/Piece/Flow/ConfigReader/YAMLTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="91fc7951ace2582416a3d4892dc7c5ae" name="tests/Piece/Flow/ConfigReaderTestCase/Piece/Flow/ConfigReader/Baz.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2029cb9b83bd570f25970fee0a5fdf57" name="tests/Piece/Flow/ConfigReaderTestCase/foo.flow" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2d6130f59ed224d9d157aaf0d3801a47" name="tests/Piece/Flow/ConfigReaderTestCase/foo.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2d55398c6371243c898fcfbb6aef6961" name="tests/Piece/Flow/ConfigReaderTestCase/foo.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="320af396f42ff9001fcb7644c3dacd1c" name="tests/Piece/Flow/ContinuationTestCase/BindActionsWithFlowExecution.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b656dc2bdc95f112d0ebe60b949a7cd" name="tests/Piece/Flow/ContinuationTestCase/BindActionsWithFlowExecutionAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bd74f3a4101ce99b875aa87dc40add8f" name="tests/Piece/Flow/ContinuationTestCase/CheckLastEvent.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="894d641674e581115c1e1abf9b6fe66b" name="tests/Piece/Flow/ContinuationTestCase/Counter.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b50af58c2be8a1629993387bb448655" name="tests/Piece/Flow/ContinuationTestCase/CounterAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b216296e0b9a4893a77c5371ae6cc448" name="tests/Piece/Flow/ContinuationTestCase/FlowExecutionExpired.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="167a149ecb2e545a9379d4b3bc78c856" name="tests/Piece/Flow/ContinuationTestCase/SecondCounter.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9a1a795437432626c0634b8499a07491" name="tests/Piece/Flow/ContinuationTestCase/SecondCounterAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a786adb5ae1a71a1e2570dc46702ae69" name="tests/Piece/Flow/ContinuationTestCase/Shutdown.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c27e94a66c86b5ebcd7d93f1b60b4501" name="tests/Piece/Flow/ContinuationTestCase/ShutdownAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="20aacde5c1d6f2d65b8aa3a37e0ed383" name="tests/Piece/Flow/EventHandlerTestCase/PieceFlowEventHandlerTestCaseNoMethodsAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f7a3b667192f82680c1fd18254d23935" name="tests/Piece/Flow/EventHandlerTestCase/PieceFlowEventHandlerTestCasePieceFlowAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ca1fc836cb99cd23238b5e4a32117c4a" name="tests/Piece/Flow/EventHandlerTestCase/PieceFlowEventHandlerTestCasePlainPHPAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3e49953c09e1a5d112ac5df97e126463" name="tests/Piece/Flow/ConfigReaderTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="add32ec7826f49ea9e3848eba1d745aa" name="tests/Piece/Flow/ContinuationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="27ff70aa5a084198809090dc47b8fd4c" name="tests/Piece/Flow/EventHandlerTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="83774f79ccc9a4089a300dd8c55f9c59" name="tests/Piece/flows/OmitClassName.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="be6f620ec22b621e4757fcc5af8c41a4" name="tests/Piece/flows/OmitClassName.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="aec1d1d08b70e3fa05c4fb7bdd878782" name="tests/Piece/FlowTestCase/Registration.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eedb999c4f2948a7b505d8348583ee5e" name="tests/Piece/CDPlayer.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5d9e34afc1351a62a6f5d4c31c5f6ee5" name="tests/Piece/FlowCDPlayerAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="69fb3ed1f4e6367e26955d5aa17be4cf" name="tests/Piece/FlowInitialAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="416fac327beb28b68a5d6086de9adbfb" name="tests/Piece/FlowInvalidEventFromTransitionActionsOrActivitiesAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="42b803123073a37f2eb33be36611336c" name="tests/Piece/FlowProblemThatActivityIsInvokedTwiceUnexpectedlyAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1a005707f8b3a2a0320381f02dd8978a" name="tests/Piece/FlowTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bbcd751adee3686438de4d67f17b3394" name="tests/Piece/FlowTestCaseAction.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="758430072fd2921270ac8e6a412f40da" name="tests/Piece/initial.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a8a2035f8ca96c30af555feac5d1a64c" name="tests/Piece/initial.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6bfe044f3777565ef876c0e10d2925aa" name="tests/Piece/invalid.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1cf5caf2ade91f300312283687d664d8" name="tests/Piece/InvalidEventFromTransitionActionsOrActivities.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c7557c46db72b60ea933219b7290f51e" name="tests/Piece/optional.xml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="394129b0e26f02c590920dcce1813dcc" name="tests/Piece/optional.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="53782f8030431e31250ea4fa2ae3ec41" name="tests/Piece/ProblemThatActivityIsInvokedTwiceUnexpectedly.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="805ca532b3b9ed2ca62dab01c6462561" name="tests/Piece/ProtectedEvents.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="514f8c2452f139d66a528e8f9c60c954" name="tests/Piece/ProtectedStates.yaml" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f980dc4f125cdb98adc6ee42baf253b3" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Stagehand_FSM</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.9.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.3</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Stagehand_TestRunner</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.5.0</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.3.2</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.13.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-08-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.13.0
+
+ * Piece_Flow_Continuation::checkLastEvent(): This method can be used to check whether the last event which is given by a user is valid or not. And this method always return true if the continuation has not activated yet or just started.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed read() so that a flow definition file with unknown extension is read as YAML. (Piece_Flow_ConfigReader)
+- Added checkLastEvent() which can be used to check whether the last event which is given by a user is valid or not. (Piece_Flow_Continuation, Piece_Flow)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.12.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-08-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.12.0
+
+ * The target of the garbage collection changed: The target of the garbage collection has been changed from all flow executions to only non-exclusive flow executions.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the target of the garbage collection to only non-exclusive flow executions. (Piece_Flow_Continuation)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.11.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-08-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.11.0
+
+ * Garbage Collection: The garbage collection can be used for sweeping expired flow executions.
+ * Environment settings: A flow definition file is always read when the current environment is not production.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Changed the cached value format from array to Piece_Flow_Config. (Piece_Flow_ConfigReader_Common)
+- Updated code so that a flow definition file is always read when the current environment is not production. (Ticket #26) (Piece_Flow_ConfigReader_Common)
+- Added support for garbage collection for expired flow executions. (Ticket #16)
+- Added code so as to clear the payload from the current flow execution to reduce the session size. (Piece_Flow_Continuation, Piece_Flow)
+- Added code so as to call clear() if it exists to reduce the session size. (Piece_Flow_EventHandler)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.10.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.10.0
+
+ * Runtime Validation of Flow Definition: A flow definition is validated when it is loaded.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Web Flow Engine:
+
+- Added validation of flow definition. (Ticket #23)
+- Many minor improvements.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.9.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-05-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Flow is now available.
+
+What&apos;s New in Piece_Flow 1.9.0
+
+ * Plain Old PHP Object Support: A user-defined class can be used as an action without subclassing Piece_Flow_Action.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+Web Flow Engine:
+
+- Added a feature so that a user-defined class can be used as an action without subclassing Piece_Flow_Action. (Ticket #18)
+- Updated invoke() and invokeAndTriggerEvent() so as to throw an exception if the method that will be called does not exist in an action class. (Ticket #20)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.8.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-12-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a feature named &quot;Action Continuation&quot; and several enhancements.
+
+&quot;Action Continuation&quot; is a very important feature for developers. This feature will allow developers to write stateful action code via the properties without using flow attributes. This means that the programming be nearer natural continuation programming, although it is limited the scope in the action.
+
+See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation, Piece_Flow_Action_Factory ###
+
+- Added a feature to store the action instances as a flow attribute in a flow execution, and restore the action instances when continuing the flow execution. (Ticket #13)
+
+### Piece_Flow_Continuation ###
+
+- Removed setActionDirectory().
+- Changed to start a new flow execution if another flow execution of the current flow already exists in the flow executions. (Ticket #14)
+- Added isExclusive() to check whether the curent flow execution is exclusive or not.
+- Added getCurrentFlowName() to get the current flow name.
+
+### Piece_Flow_Action_Factory ###
+
+- Added clearInstances() to clear all instances of actions. (Ticket #12)
+- Moved _load() to load() as a public method.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.7.0</release>
+    <api>1.7.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-11-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a security fix for a Cross Site Request Forgery (CSRF) vulnerability and a minor fix in the continuation server, and a few enhancements. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+
+- Added getFlowExecutionTicketByFlowName() method for getting a flow execution ticket by the given flow name. (Ticket #5)
+
+### Piece_Flow_Action_Invoker, Piece_Flow_Action ###
+
+- Added the code so as to be able to prepare something for a callback before invoking the callback. (Ticket #6)
+
+### Other Changes ###
+
+- Changed so as to be able to omit the class attribute for a callback. If the class attribute is omitted, ClassNameAction class is used. (Ticket #8)
+
+## Defect Fixes ##
+
+### Piece_Flow_Continuation ###
+
+- Changed the behaviour of preparing flow execution so as to require a flow execution ticket whenever continuing a flow execution even though what the flow execution mode is. (Ticket #2)
+- Changed the behaviour of preparing flow execution so as to require a flow name whenever in multiple flow mode. (Ticket #3)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.6.0</release>
+    <api>1.5.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-10-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first release with the new PEAR Channel Server pear.piece-framework.com.
+
+This release includes a minor enhancement of Piece_Flow_Continuation class. See the following release notes for details.
+
+## Enhancements ##
+
+### Piece_Flow_Continuation ###
+- Moved the location of setting $_currentFlowExecutionTicket and $_activated properties to _start()/_continue() methods for using Piece_Flow_Continuation objects in actions.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.5.0</release>
+    <api>1.5.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-08-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes an enhancement and breaks backward compatibility as follows:
+
+## Enhancements ##
+
+- Introduced Piece_Flow_Action as the base class for Piece_Flow actions.
+- Changed the interface of Piece_Flow actions so as to call setFlow(), setPayload(), and setEvent() methods for passing a Piece_Flow object, a payload, and the event name to an action instead of by the arguments of invoke() method.
+- The original Piece_Flow_Action class has been renamed as Piece_Flow_Action_Invoker.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.4.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes two defect fixes and an enhancement as follows:
+
+## Defect fixes ##
+
+- Removed wrong error handling which disables the current callback.
+- Removed &apos;@&apos; operator from include_once.
+
+## Enhancements ##
+
+- Changed the code so as to use $array[] = $value instead of array_push($array, $value).</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.4.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements as follows:
+
+## Enhancements ##
+
+* Piece_Flow_Action
+- Adjusted to changes in Stagehand_FSM package.
+
+* Piece_Flow_ConfigReader_Common
+- Changed the code so as to get the flow name from the current source.
+
+* the schema of flow definitions
+- Removed &apos;name&apos; attribute from &apos;flow&apos; element in piece-flow.rng.
+- Removed &apos;name&apos; element in piece-flow.yaml.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.3.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements as follows:
+
+## Enhancements ##
+
+* Piece_Flow_Action
+- Added support for raising an exception when an invalid event is returned from actions.
+
+* Piece_Flow
+- Changed the error code from PIECE_FLOW_ERROR_INVALID_OPERATION to PIECE_FLOW_ERROR_ALREADY_SHUTDOWN when triggering events after shutting down a flow.
+
+* Piece_Flow_Continuation
+- Changed the code so as never to start a new flow execution again after shtting down in single flow mode.
+
+* Piece_Flow_Error
+- Added PIECE_FLOW_ERROR_ALREADY_SHUTDOWN constant.
+- Added PIECE_FLOW_ERROR_INVALID_EVENT constant.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>- Fixed the wrong version number of Stagehand_FSM package from 1.4.0 to 1.5.0.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This release includes a few enhancements and fixing two problems as follows:
+
+Enhancements:
+
+* Piece_Flow
+- Added support to prevent configuring protected events and states.
+- Added error handling for failure to invoke actions.
+
+* Example flow definitions
+- Changed some state names and view names to conform the Spring Web Flow best practices.
+
+Defect fixes:
+
+- Fixed the problem that the protected events of the FSM can be triggered by users.
+- Fixed the problem that &apos;entry&apos;, &apos;exit&apos;, and &apos;activity&apos; for the last state could not be added.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is a bug fix release.
+
+- Fixed the problem that relative path cannot be used as the cache directory and action cirectory with Solaris.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-07-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>- Piece/Flow.php: Added removeAttribute()/clearAttributs() for removing attributes from flows.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2006-06-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Flow.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-04-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Flow.</notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_PHP_Class_Parser</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A parser for PHP classes written in file</summary>
+ <description>Stagehand_PHP_Class_Parser provides features of parsing PHP classes writtern in file and mapping to Stagehand_PHP_Class meta objects.</description>
+ <lead>
+  <name>KUMAKURA Yousuke</name>
+  <user>kumatch</user>
+  <email>kumatch@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-09-04</date>
+ <time>17:43:16</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>
+The first release of Stagehand_PHP_Class.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="240805a621fc3dbef3bfba4bd22e3105" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dedf8d51b3268774ef42aa3a3ba9e7bb" name="src/Stagehand/PHP/Class/Parser/Exception.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="052178fdbda3e1ba817b8f51e079a560" name="src/Stagehand/PHP/Class/Parser/Filter.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dd1ec2ef353e01a0e926e3e03c138eb2" name="src/Stagehand/PHP/Class/Parser.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="bc6360953a01d052ceffb642eb9ebcdf" name="tests/Stagehand/PHP/Class/Parser/AbstractTest/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8486e791deaea0f818cdc0cc7a155d5e" name="tests/Stagehand/PHP/Class/Parser/AbstractTest/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="98f84d6dfc1f9024351009299d406daa" name="tests/Stagehand/PHP/Class/Parser/ClassTest/Bar.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0139b310604d83ebf3a54638ff79ed0f" name="tests/Stagehand/PHP/Class/Parser/ClassTest/Baz.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c033b925acac696b317a1d47a27aba2d" name="tests/Stagehand/PHP/Class/Parser/ClassTest/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0948749f464c92054132f87502a267ac" name="tests/Stagehand/PHP/Class/Parser/ClassTest/HasOneInterface.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="495daddc5f0f318c8eea2c5f9d653a31" name="tests/Stagehand/PHP/Class/Parser/ClassTest/HasOtherCodes.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c8e2cbaf93c9ae627396c887a69b114a" name="tests/Stagehand/PHP/Class/Parser/ClassTest/HasOtherCodesTwo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d307cab462f525bc0342549dcae05cb" name="tests/Stagehand/PHP/Class/Parser/ClassTest/HasThreeInterfaces.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="fe322ed0615f22428644d9a953a86bd7" name="tests/Stagehand/PHP/Class/Parser/ClassTest/InterfaceOne.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ea4acb85341221d4a7cc2e6b61ab0682" name="tests/Stagehand/PHP/Class/Parser/ClassTest/InterfaceThree.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="489db545a3343a9d07f61d436558526c" name="tests/Stagehand/PHP/Class/Parser/ClassTest/InterfaceTwo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ddf23251e122872a91e651cdfdc8e0fb" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/Foo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ccf0d3491f9114f730f948f5721e1af" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/HasOneInterface.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f2ad0af4dcbeb7cab71a5a230270ce31" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/HasThreeInterfaces.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b034a0bca7acbd45b78d676f75fdb98e" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/InterfaceOne.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="74387288f0d37e3ba8ab4b8cce874d71" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/InterfaceThree.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6c1961ba397b250ca01f6145724740d" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest/InterfaceTwo.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f61950d3da82fdcf36460361b2b76ce0" name="tests/Stagehand/PHP/Class/Parser/AbstractTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6716acca78cde7f04038ea0bb044081d" name="tests/Stagehand/PHP/Class/Parser/ClassTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="57f4c9722837cc42f166f103b88cf331" name="tests/Stagehand/PHP/Class/Parser/InterfaceTest.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cd72a296d9c4625152e5393da667f237" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Stagehand_PHP_Parser</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <package>
+    <name>Stagehand_PHP_Lexer</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <package>
+    <name>Stagehand_PHP_Class</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <package>
+    <name>Stagehand_Autoload</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.3.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-09-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+The first release of Stagehand_PHP_Class.
+   </notes>
+  </release>
+ </changelog>
+</package>

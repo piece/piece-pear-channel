@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_php_class">Stagehand_PHP_Class</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <st>beta</st>
+    <l>New BSD License</l>
+    <m>kumatch</m>
+    <s>A meta object system for PHP classes</s>
+    <d>Stagehand_PHP_Class provides features of the building, loading, and code generating for PHP classes.
+These classes can be written in pure PHP code.</d>
+    <da>2009-09-02 23:10:43</da>
+    <n>
+The first release of Stagehand_PHP_Class.
+ </n>
+    <f>16811</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_PHP_Class-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

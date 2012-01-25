@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Examples_Conversation</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A potato burger order application example using Piece_Unity</summary>
+ <description>Piece_Examples_Conversation provides an example application using Piece_Unity. This application focuses stateful conversation in ordering a potato burger with a potato side dish. And also this application is a reference implementation for Piece_Unity 1.x with PHP 5.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>MATSUFUJI Hideharu</name>
+  <user>matsufuji</user>
+  <email>matsufuji@iteman.jp</email>
+  <active>yes</active>
+ </developer>
+ <date>2009-03-26</date>
+ <time>18:53:58</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>The first release of Piece_Examples_Conversation.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="8c08c4f40da18c623d90a4ce3f786363" name="data/apache2/sites-available/piece-examples-conversation" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="70476e40f1bd377a190b69ce63f0cff3" name="data/schemas/mysql/orders.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="832680b4877442349b7f13bb1c4ef6fa" name="data/schemas/pgsql/orders.ddl" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="73be2d7e4168e22869dc5f08bf697c4d" name="doc/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0663fcea8e9627fcf1a4702cc5d4c7f8" name="www/htdocs/css/application.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="652c2a02b1502fbaf28cda2e799c29bc" name="www/htdocs/css/common.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dfbe0119c4bbdafd3d4cb8a365890782" name="www/htdocs/css/print.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="88755e06901d74a9f8e5b6458a39f41a" name="www/htdocs/images/bg.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="28c9a7496afab335da7e44a3bc3112d1" name="www/htdocs/images/date_icon.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="729230195e8355b9a981b0099b548c12" name="www/htdocs/images/piece_footer.jpg" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2354491a1ad7cd1ad3b1dae85063d662" name="www/htdocs/images/piece_header.jpg" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="46b71a75328fbdf9c77f8c0d012424fd" name="www/htdocs/images/quotes.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="20639101fdc76b116f82ff45cf597600" name="www/htdocs/order.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="eeb8c207ea3b36f6228809d1c79dd40d" name="www/webapp/actions/OrderAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/cache/flows/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/cache/orm/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/cache/validations/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/cache/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/compiled-templates/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="45f38b3372310554313ce45d518112b4" name="www/webapp/config/flows/Order.flow" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="802ecdc24c5d0c10ee8d72c728eb508f" name="www/webapp/config/orm/mappers/Orders.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="52c1b928ab3c6ea735e72b9733b43fa5" name="www/webapp/config/orm/piece-orm-config.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="825d9b24d297e6e52e1f722cc9ce45ae" name="www/webapp/config/validations/MainMenu.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="615aac982ea5430487e5659cf00db488" name="www/webapp/config/validations/SideMenu.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9886468cbe9deb3e3a12ae840acf7243" name="www/webapp/config/bootstrap.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c8963cc60141d2749d92584d185deca0" name="www/webapp/config/piece-unity-config.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="www/webapp/sessions/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="688c58480dbac8826ce99f4e58c55800" name="www/webapp/templates/Layout/Layout.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e993f49ec0de89d75429b05de0a3c357" name="www/webapp/templates/Order/Confirmation.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="db7b03013b25dfab0853ed4382eb9bc7" name="www/webapp/templates/Order/Finish.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="9c72024dc31c05585e25a68b0c0f34ec" name="www/webapp/templates/Order/MainMenu.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="5987c0b967edf68d274098534d8db7b8" name="www/webapp/templates/Order/SideMenu.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.7.1</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_NullByteAttackPreventation</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_Flexy</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.2.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_PieceORM</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_ExceptionHandler</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+   <package>
+    <name>Stagehand_Autoload</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>0.1.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-03-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>The first release of Piece_Examples_Conversation.</notes>
+  </release>
+ </changelog>
+</package>

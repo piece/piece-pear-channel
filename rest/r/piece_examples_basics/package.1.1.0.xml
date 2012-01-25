@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Examples_Basics</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>Piece Framework basics examples</summary>
+ <description>Piece_Examples_Basics provides several example applications which focus on presenting the basics of using Piece_Unity.</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>iteman@users.sourceforge.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-11-25</date>
+ <time>22:44:44</time>
+ <version>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Examples_Basics is now available.
+
+What&apos;s New in Piece_Examples_Basics 1.1.0
+
+ * Update to Piece_Unity 1.4.0: The code of this release includes a lot of uses of new features of Piece_Unity.
+ * New HTML design: HTML design has been renewed.</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="691feb0716e77e749e8ffb8de643a43f" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0663fcea8e9627fcf1a4702cc5d4c7f8" name="web/htdocs/css/application.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="652c2a02b1502fbaf28cda2e799c29bc" name="web/htdocs/css/common.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dfbe0119c4bbdafd3d4cb8a365890782" name="web/htdocs/css/print.css" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="88755e06901d74a9f8e5b6458a39f41a" name="web/htdocs/images/bg.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="28c9a7496afab335da7e44a3bc3112d1" name="web/htdocs/images/date_icon.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="729230195e8355b9a981b0099b548c12" name="web/htdocs/images/piece_footer.jpg" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2354491a1ad7cd1ad3b1dae85063d662" name="web/htdocs/images/piece_header.jpg" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="46b71a75328fbdf9c77f8c0d012424fd" name="web/htdocs/images/quotes.gif" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="1abd2387d09e907ed9a84868fc55a1f2" name="web/htdocs/js/ahah.js" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b969cfdc2e53f4a80194ba74029c0c8" name="web/htdocs/authenticate.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3546be0e38d955ecdfdb85335cbda61f" name="web/htdocs/flow-execution-expired.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cddd1c597141669941057d0cfd336ef8" name="web/htdocs/index.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7ca0ec9e219c0d4c664dc9d284112e1c" name="web/htdocs/protected-resource.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d50ee14c705c0e3f03a8c1e1b5f8616b" name="web/htdocs/register-with-exclusive-mode-and-ahah.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="66f78ffb1f7ba517a474cc8e0124a6ca" name="web/htdocs/register-with-exclusive-mode.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f0e4739b7d118407cc47fea671e8a67b" name="web/htdocs/register-with-non-exclusive-mode.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="2db90931c73f97de0f33e4b23460e435" name="web/webapp/actions/AuthenticationAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a7eafb4705b77a69b674d7d91962ef43" name="web/webapp/actions/IndexAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b089d6be893d31ac667d6a513399d857" name="web/webapp/actions/ProtectedResourceAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="3fd93c3a271a37ab8cca5bdb7efc8133" name="web/webapp/actions/RegistrationAction.php" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="web/webapp/cache/flows/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="web/webapp/cache/validations/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="web/webapp/cache/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="web/webapp/compiled-templates/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="37a70f4ac64036dff3aa3e49251586bd" name="web/webapp/config/flows/Authentication.flow" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b9e277954767af26bcce58b35fccb0f" name="web/webapp/config/flows/ProtectedResource.flow" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="6223badab91253ef93346bdc48bbd298" name="web/webapp/config/flows/Registration.flow" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="232e0176c58148fa29b1c7cb2f298f60" name="web/webapp/config/validations/Authentication.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="623f16ac11a9b42779a21ddbfb7e932c" name="web/webapp/config/validations/Common.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="dce27a22bf6898f175d3fb55b4db5adf" name="web/webapp/config/validations/Registration.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc92412505ff3da605ffd8bec2eb7bd7" name="web/webapp/config/piece-unity-config.yaml" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="8291bba66bf253d1bc3e3c5a49bd7f32" name="web/webapp/sessions/README" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="595ff3ba5a175da6f9f2f83bc9e8d9b5" name="web/webapp/templates/Authentication/Finish.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="72ff9d2000faa8f6777ca338b609fa02" name="web/webapp/templates/Authentication/Form.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="96264700d1bb1013cf302252c105296f" name="web/webapp/templates/Authentication/Home.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="54a90a81c819c28b84dca8159f8f4696" name="web/webapp/templates/Layout/Layout.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6c5bf27230050ee0bca24d9780d8a58" name="web/webapp/templates/ProtectedResource/A.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7c96ed952f65b83efbcb9e516d1807c1" name="web/webapp/templates/ProtectedResource/B.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="05c665d26a8efe7e91a31a5b54cc8928" name="web/webapp/templates/ProtectedResource/C.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="b463d13a4f5c5726e3b149e2606c3498" name="web/webapp/templates/Registration/Confirmation.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="d91a396748bf9097c57e7ec4207203cc" name="web/webapp/templates/Registration/Finish.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="0d9def799c86746113bda60f3f43a7d0" name="web/webapp/templates/Registration/Form.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="ac3f518056dd9e5d8ee78c270834e6da" name="web/webapp/templates/Static/FlowExecutionExpired.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="7e7a81d1e2cbda8c71edc103ee0b2a60" name="web/webapp/templates/Static/Index.html" role="data">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.4.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_NullByteAttackPreventation</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_Authentication</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Piece_Unity_Component_Flexy</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-11-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Examples_Basics is now available.
+
+What&apos;s New in Piece_Examples_Basics 1.1.0
+
+ * Update to Piece_Unity 1.4.0: The code of this release includes a lot of uses of new features of Piece_Unity.
+ * New HTML design: HTML design has been renewed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-19</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>This is the first stable release of Piece_Examples_Basics.
+
+This package is extracted from the Piece_Unity package.</notes>
+  </release>
+ </changelog>
+</package>

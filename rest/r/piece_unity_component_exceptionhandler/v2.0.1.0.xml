@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_exceptionhandler">Piece_Unity_Component_ExceptionHandler</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>beta</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A component for exception handling</s>
+    <d>Piece_Unity_Component_ExceptionHandler provides a simple exception handling system which can be used in your bootstrap code as follows:
+
+webapp/config/bootstrap.php:
+
+&lt;?php
+...
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_DebugInfo());
+Piece_Unity_Service_ExceptionHandler::register(new Piece_Unity_Service_ExceptionHandler_ErrorLog());
+Piece_Unity_Service_ExceptionHandler::enable();
+...
+
+The last one registered will be the first one called.
+
+Built-in exception handlers are:
+
+Piece_Unity_Service_ExceptionHandler_DebugInfo: Outputs the exception details as a HTML page.
+Piece_Unity_Service_ExceptionHandler_ErrorLog: Logs the exception message by error_log().
+Piece_Unity_Service_ExceptionHandler_InternalServerError: Outputs a typical &quot;Internal Server Error&quot; HTML page.
+
+Additionally, any exception handlers which implement the interface Piece_Unity_Service_ExceptionHandler_Interface can be used.</d>
+    <da>2009-03-24 18:43:19</da>
+    <n>The first beta release of Piece_Unity_Component_ExceptionHandler.</n>
+    <f>5884</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_ExceptionHandler-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

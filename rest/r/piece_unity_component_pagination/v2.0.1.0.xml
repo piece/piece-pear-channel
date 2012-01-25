@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_unity_component_pagination">Piece_Unity_Component_Pagination</p>
+    <c>pear.piece-framework.com</c>
+    <v>0.1.0</v>
+    <a>0.1.0</a>
+    <mp>4.3.0</mp>
+    <st>beta</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>A Pagination component</s>
+    <d>Piece_Unity_Component_Pagination is a Pagination component.
+
+Piece_Unity_Component_Pagination provides a service which creates a pagination HTML fragment by a paginator object in a view. This component can be used with any HTML renderer.</d>
+    <da>2008-09-05 12:00:52</da>
+    <n>The first beta release of Piece_Unity_Component_Pagination.</n>
+    <f>5221</f>
+    <g>http://pear.piece-framework.com/get/Piece_Unity_Component_Pagination-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

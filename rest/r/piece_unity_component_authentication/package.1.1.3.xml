@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Piece_Unity_Component_Authentication</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>An interceptor to control the access to resources which can be accessed only by authenticated users</summary>
+ <description>An interceptor to control the access to resources which can be accessed only by authenticated users</description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>KUMAKURA Yousuke</name>
+  <user>kumatch</user>
+  <email>kumatch@users.sourceforge.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2009-03-10</date>
+ <time>19:31:45</time>
+ <version>
+  <release>1.1.3</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+ <notes>A new release of Piece_Unity_Component_Authentication is now available. If you have used Piece_Unity_Component_Authentication 1.1.2, you *must* upgrade to this version.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.3
+
+ * A defect fix: - A defect has been fixed that redirection to the requested URI to be failed if the URI contains query variables. (Ticket #293)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="2b6b89db150916c360e7480caf250271" name="docs/LICENSE" role="doc">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="33c9c86ac8c56e9c54badfd3a5326c7e" name="Piece/Unity/Plugin/Interceptor/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="4308579565fe35579fa409d93ab5647f" name="Piece/Unity/Service/Authentication/State.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="f1ab07648ac2abf9ef2d69496cec1990" name="Piece/Unity/Service/Authentication.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="290ea3d663e12ce9f2e7a0041292919f" name="tests/Piece/Unity/Plugin/Interceptor/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="c825703fd7573b06e23a67dea23816e9" name="tests/Piece/Unity/Service/AuthenticationTestCase.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="/" md5sum="a7167c30dcddc9a9047593c24df9379c" name="tests/prepare.php" role="test">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>Piece_Unity</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.7.1</min>
+   </package>
+   <package>
+    <name>Net_URL</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.14</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.3</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-03-10</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available. If you have used Piece_Unity_Component_Authentication 1.1.2, you *must* upgrade to this version.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.3
+
+ * A defect fix: - A defect has been fixed that redirection to the requested URI to be failed if the URI contains query variables. (Ticket #293)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-03-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.2
+
+ * A defect fix: A defect has been fixed that caused a URI scheme for redirection to be &quot;http&quot; on SSL by non-standard port. (See Ticket #288)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.1
+
+ * A defect fix: A defect that caused a warning &quot;PHP Warning:  call_user_func(Piece_Unity_Plugin_Interceptor_Authentication::loadAuthenticationState)&quot; to be raised until any protected resource was requested has been fixed.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>A new release of Piece_Unity_Component_Authentication is now available.
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.1.0
+
+ * includes/excludes: Two configuration points &quot;includes&quot; and &quot;excludes&quot; have been added. &quot;includes&quot; allows you to mark multiple URIs as protected resources by regexp. This configuration point behave same as &quot;resourcesMatch&quot;. &quot;excludes&quot; allows you to mark multiple URIs as non-protected resources by regexp. And also the authentication URI has always been excluded from the protected resources.</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first stable release of Piece_Unity_Component_Authentication.
+
+*** Note that this release is not completely backward compatible with release 0.13. ***
+
+What&apos;s New in Piece_Unity_Component_Authentication 1.0.0
+
+ * New configuration points for Interceptor_Authentication plug-in: All configuration points have been renewed for more ease of use.
+ * The client interface for managing authentication states: Piece_Unity_Service_Authentication has been added for managing authentication states. This will make it easy to mark a user as &quot;authenticated&quot; or &quot;not authenticated&quot;.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.13.0</release>
+    <api>0.13.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-07-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>The first release of Piece_Unity_Component_Authentication.</notes>
+  </release>
+ </changelog>
+</package>

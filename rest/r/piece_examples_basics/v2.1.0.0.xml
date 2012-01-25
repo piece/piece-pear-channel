@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/piece_examples_basics">Piece_Examples_Basics</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.0</v>
+    <a>1.0.0</a>
+    <mp>4.3.0</mp>
+    <st>stable</st>
+    <l>BSD License (revised)</l>
+    <m>iteman</m>
+    <s>Piece Framework basics examples</s>
+    <d>Piece_Examples_Basics provides several example applications which focus on presenting the basics of using Piece_Unity.</d>
+    <da>2007-07-19 22:40:36</da>
+    <n>This is the first stable release of Piece_Examples_Basics.
+
+This package is extracted from the Piece_Unity package.</n>
+    <f>105535</f>
+    <g>http://pear.piece-framework.com/get/Piece_Examples_Basics-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>
