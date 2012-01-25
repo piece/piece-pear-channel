@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://pear.piece-framework.com</id>
+    <updated>2012-01-25T11:55:45+09:00</updated>
+    <title>Piece Framework PEAR channel Latest Releases</title>
+    <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
+    <author>
+        <name>http://pear.piece-framework.com</name>
+    </author>
+
+
+</feed>
