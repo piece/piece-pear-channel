@@ -5,6 +5,6 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>New BSD License</l>
 <s>A file alteration monitor</s>
-<d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directory.</d>
+<d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directories.</d>
 <r xlink:href="/rest/r/stagehand_alterationmonitor" />
 </p>

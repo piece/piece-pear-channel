@@ -9,7 +9,7 @@
     <l>New BSD License</l>
     <m>iteman</m>
     <s>A file alteration monitor</s>
-    <d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directory.</d>
+    <d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directories.</d>
     <da>2010-09-10 22:14:29</da>
     <n>
 The features of Stagehand_AlterationMonitor 1.1.0 is the same as Stagehand_AlterationMonitor 1.0.0 except the version number and the directory structure. As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).

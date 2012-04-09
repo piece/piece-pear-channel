@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-04-09T19:45:49+09:00</updated>
+    <updated>2012-04-10T22:10:29+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -2290,6 +2290,41 @@ The features of Stagehand_AccessControl 1.0.0 is the same as Stagehand_AccessCon
         <content>
             
 The first release of Stagehand_AccessControl.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AlterationMonitor 2.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-2.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-2.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-04-10T22:03:40+09:00</updated>
+        <content>
+            
+What's New in Stagehand_AlterationMonitor 2.0.0
+
+Migration to PHP 5.3
+
+ (Issue #374)
+
+ Stagehand_AlterationMonitor has been migrated to PHP 5.3. As of this version, it only works with PHP 5.3.2+.
+
+Improved Scan Interval
+
+ (Issue #379)
+
+ A lot of improvements to scan interval have been made. http://piece-framework.com/issue/379 is the full list of improvements.
+
+Improved Event Object
+
+ (Issue #378)
+
+ The type of the event resource has been changed from string to SplFileInfo.
+
+Deprecated Functionality in Stagehand_AlterationMonitor 2.0.0
+
+ * The functionality that invokes the callback for each change event has been removed. (Issue #377)
  
         </content>
     </entry>    <entry>
