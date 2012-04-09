@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_alterationmonitor">Stagehand_AlterationMonitor</p>
+    <c>pear.piece-framework.com</c>
+    <v>2.0.1</v>
+    <a>2.0.0</a>
+    <mp>5.3.2</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A file alteration monitor</s>
+    <d>Stagehand_AlterationMonitor provides a framework to monitor any changes in the specified directories.</d>
+    <da>2012-04-12 13:02:41</da>
+    <n>
+What's New in Stagehand_AlterationMonitor 2.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An ErrorException is raised when the fileperms() function call is failed. (Issue #382)
+ </n>
+    <f>3780</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-2.0.1</g>
+    <x xlink:href="package.2.0.1.xml"/>
+</r>

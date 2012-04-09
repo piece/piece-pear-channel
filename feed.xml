@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-04-10T22:10:29+09:00</updated>
+    <updated>2012-04-12T13:17:18+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -2290,6 +2290,25 @@ The features of Stagehand_AccessControl 1.0.0 is the same as Stagehand_AccessCon
         <content>
             
 The first release of Stagehand_AccessControl.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_AlterationMonitor 2.0.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-2.0.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_AlterationMonitor-2.0.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-04-12T13:02:41+09:00</updated>
+        <content>
+            
+What's New in Stagehand_AlterationMonitor 2.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An ErrorException is raised when the fileperms() function call is failed. (Issue #382)
  
         </content>
     </entry>    <entry>
