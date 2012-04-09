@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-04-17T01:05:24+09:00</updated>
+    <updated>2012-04-21T14:33:27+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3001,6 +3001,25 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.0.2 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.2.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.2.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-04-21T14:15:23+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.0.2
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An InvalidArgumentException is raised every time a test is run while running Autotest. (Issue #393)
  
         </content>
     </entry>    <entry>
