@@ -6,8 +6,11 @@
     <st>stable</st>
     <l>New BSD License</l>
     <m>iteman</m>
-    <s>A test runner for Test Driven Development</s>
-    <d>Stagehand_TestRunner provides a test runner to run unit tests. Stagehand_TestRunner strongly supports Test Driven Development by various features.</d>
+    <s>A continuous test runner for CLI</s>
+    <d>Stagehand_TestRunner is a continuous test runner to run unit tests in CLI.
+
+It makes unit testing in a local environment much easier and comfortable. Additionally it can easily be integrated with a continuous integration server like Jenkins. It has been designed for integration into Integrated Development Environments (IDEs), a developer can create an extension like MakeGood.
+ </d>
     <da>2010-09-11 17:27:03</da>
     <n>
 What's New in Stagehand_TestRunner 2.13.0
