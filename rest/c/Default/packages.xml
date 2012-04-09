@@ -27,6 +27,7 @@
   <p xlink:href="/rest/p/stagehand_alterationmonitor">Stagehand_AlterationMonitor</p>
   <p xlink:href="/rest/p/stagehand_autoload">Stagehand_Autoload</p>
   <p xlink:href="/rest/p/stagehand_clicontroller">Stagehand_CLIController</p>
+  <p xlink:href="/rest/p/stagehand_componentfactory">Stagehand_ComponentFactory</p>
   <p xlink:href="/rest/p/stagehand_directorycleaner">Stagehand_DirectoryCleaner</p>
   <p xlink:href="/rest/p/stagehand_directoryscanner">Stagehand_DirectoryScanner</p>
   <p xlink:href="/rest/p/stagehand_directorysnap">Stagehand_DirectorySnap</p>

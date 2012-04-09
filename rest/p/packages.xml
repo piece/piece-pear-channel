@@ -28,6 +28,7 @@
   <p>Stagehand_AlterationMonitor</p>
   <p>Stagehand_Autoload</p>
   <p>Stagehand_CLIController</p>
+  <p>Stagehand_ComponentFactory</p>
   <p>Stagehand_DirectoryCleaner</p>
   <p>Stagehand_DirectoryScanner</p>
   <p>Stagehand_DirectorySnap</p>

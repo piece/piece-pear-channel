@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-01-25T12:22:48+09:00</updated>
+    <updated>2012-04-09T19:45:49+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -2538,6 +2538,19 @@ What's New in Stagehand_CLIController 0.1.1
         <content>
             
 The first release of Stagehand_CLIController.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_ComponentFactory 1.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_ComponentFactory-1.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_ComponentFactory-1.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-04-09T19:14:16+09:00</updated>
+        <content>
+            
+This is the first release of Stagehand_ComponentFactory.
  
         </content>
     </entry>    <entry>
