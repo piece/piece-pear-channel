@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-04-12T16:45:22+09:00</updated>
+    <updated>2012-04-17T01:05:24+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3001,6 +3001,30 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.0.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-04-17T00:56:06+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.0.1
+
+Six Defect Fixes
+
+ The following defects have been fixed:
+
+ * An error &quot;Fatal error: Class 'PHPUnit_Util_Configuration' not found in ...&quot; is raised when using the --phpunit-config option together with the --autotest option. (Issue #386)
+ * An error &quot;Fatal error: Call to undefined method Stagehand\ComponentFactory\ComponentAwareFactory::craete() in ...&quot; is raised when a fatal error is raised in Autotest with notification. (Issue #387)
+ * Test is not run on Windows with Autotest. (Issue #388)
+ * Errors &quot;Strict standards: Only variables should be passed by reference in ...&quot; are raised on Windows with Autotest. (Issue #389)
+ * The test run process hangs when a long text is written on Windows with Autotest. (Issue #390)
+ * The testrunner command is not launched by testrunner.bat when the path to the php executable contains spaces. (Issue #391)
  
         </content>
     </entry>    <entry>
