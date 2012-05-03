@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-04-21T14:33:27+09:00</updated>
+    <updated>2012-05-03T17:24:16+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -2592,6 +2592,25 @@ What's New in Stagehand_CLIController 0.1.1
         <content>
             
 The first release of Stagehand_CLIController.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_ComponentFactory 1.0.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_ComponentFactory-1.0.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_ComponentFactory-1.0.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-05-03T17:19:45+09:00</updated>
+        <content>
+            
+What's New in Stagehand_ComponentFactory 1.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An object that is given to the ComponentFactory::set() method is treated as an internal component. (Issue #395)
  
         </content>
     </entry>    <entry>

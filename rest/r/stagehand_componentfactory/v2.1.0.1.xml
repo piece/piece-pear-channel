@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_componentfactory">Stagehand_ComponentFactory</p>
+    <c>pear.piece-framework.com</c>
+    <v>1.0.1</v>
+    <a>1.0.0</a>
+    <mp>5.3.2</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A component factory with the Symfony DependencyInjection component</s>
+    <d>Stagehand_ComponentFactory provides an object factory based on the Symfony DependencyInjection component. It helps developers build their own object factory frameworks.</d>
+    <da>2012-05-03 17:19:45</da>
+    <n>
+What's New in Stagehand_ComponentFactory 1.0.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An object that is given to the ComponentFactory::set() method is treated as an internal component. (Issue #395)
+ </n>
+    <f>3981</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_ComponentFactory-1.0.1</g>
+    <x xlink:href="package.1.0.1.xml"/>
+</r>

@@ -3,6 +3,10 @@
     <p>Stagehand_ComponentFactory</p>
     <c>pear.piece-framework.com</c>
     <r>
+        <v>1.0.1</v>
+        <s>stable</s>
+    </r>
+    <r>
         <v>1.0.0</v>
         <s>stable</s>
     </r>
