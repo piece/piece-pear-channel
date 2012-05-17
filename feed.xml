@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-05-03T17:24:16+09:00</updated>
+    <updated>2012-05-17T19:32:26+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,25 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.0.3 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.3.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.3.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-05-17T19:30:41+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.0.3
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error is raised for a test using the PHPUnit_Extensions_SeleniumTestCase class if the &quot;--test-method&quot; option is specified. (Issue #401)
  
         </content>
     </entry>    <entry>
