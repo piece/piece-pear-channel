@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-05-17T19:32:26+09:00</updated>
+    <updated>2012-06-05T14:15:35+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,25 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.0.4 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.4.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.0.4.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-06-05T14:11:11+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.0.4
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPSpec] An UnexpectedValueException is raised when using the &quot;--log-junit&quot; option if a spec class is in the global namespace. (Issue #406)
  
         </content>
     </entry>    <entry>
