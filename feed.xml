@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-06-28T17:41:08+09:00</updated>
+    <updated>2012-07-17T18:45:41+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,32 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.2.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.2.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.2.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-07-17T18:38:39+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.2.0
+
+[PHPUnit] Early configures PHP configuration by the XML configuration file.
+
+ (Issue #420)
+
+ PHP configuration by the PHPUnit XML configuration file is now configured at the preparation time of the testing framework.
+
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * [PHPUnit] Output from a test case is displayed twice. (Issue #418)
+ * [PHPUnit] An expected failure is not reported when the &quot;--test-class&quot; or &quot;--test-method&quot; option is specified. (Issue #424)
  
         </content>
     </entry>    <entry>

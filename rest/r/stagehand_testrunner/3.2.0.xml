@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>3.2.0</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A continuous test runner for CLI</s>
+    <d>Stagehand_TestRunner is a continuous test runner to run unit tests in CLI.
+
+It makes unit testing in a local environment much easier and comfortable. Additionally it can easily be integrated with a continuous integration server like Jenkins. It has been designed for integration into Integrated Development Environments (IDEs), a developer can create an extension like MakeGood.
+ </d>
+    <da>2012-07-17 18:38:39</da>
+    <n>
+What's New in Stagehand_TestRunner 3.2.0
+
+[PHPUnit] Early configures PHP configuration by the XML configuration file.
+
+ (Issue #420)
+
+ PHP configuration by the PHPUnit XML configuration file is now configured at the preparation time of the testing framework.
+
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * [PHPUnit] Output from a test case is displayed twice. (Issue #418)
+ * [PHPUnit] An expected failure is not reported when the &quot;--test-class&quot; or &quot;--test-method&quot; option is specified. (Issue #424)
+ </n>
+    <f>73112</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.2.0</g>
+    <x xlink:href="package.3.2.0.xml"/>
+</r>
