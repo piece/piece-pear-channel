@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-08-31T00:33:45+09:00</updated>
+    <updated>2012-09-01T02:55:51+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,25 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.3.1 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.3.1.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.3.1.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-09-01T02:48:31+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.3.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;Fatal error: Class 'Symfony\Component\Process\Process' not found in ...&quot; is raised when launching Autotest. (Issue #8)
  
         </content>
     </entry>    <entry>
