@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-09-01T02:55:51+09:00</updated>
+    <updated>2012-11-13T19:00:20+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,37 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.4.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.4.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.4.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2012-11-13T18:55:14+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.4.0
+
+Initializes the environment before loading the preload script.
+
+ (Issue #13)
+
+ The testrunner command now ensures that the error message is displayed when a fatal error or parse error is raised in the preload script.
+
+[PHPUnit] Performance Improvement of Group Filtering
+
+ (Issue #15)
+
+ Performance of group filtering has been improved.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPUnit] The JUnit XML is incomplete when the --test-class or --test-method option is specified. (Issue #12)
  
         </content>
     </entry>    <entry>

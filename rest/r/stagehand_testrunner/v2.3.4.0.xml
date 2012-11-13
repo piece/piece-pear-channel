@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>3.4.0</v>
+    <a>3.0.0</a>
+    <mp>5.3.2</mp>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A continuous test runner for CLI</s>
+    <d>Stagehand_TestRunner is a continuous test runner to run unit tests in CLI.
+
+It makes unit testing in a local environment much easier and comfortable. Additionally it can easily be integrated with a continuous integration server like Jenkins. It has been designed for integration into Integrated Development Environments (IDEs), a developer can create an extension like MakeGood.
+ </d>
+    <da>2012-11-13 18:55:14</da>
+    <n>
+What's New in Stagehand_TestRunner 3.4.0
+
+Initializes the environment before loading the preload script.
+
+ (Issue #13)
+
+ The testrunner command now ensures that the error message is displayed when a fatal error or parse error is raised in the preload script.
+
+[PHPUnit] Performance Improvement of Group Filtering
+
+ (Issue #15)
+
+ Performance of group filtering has been improved.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPUnit] The JUnit XML is incomplete when the --test-class or --test-method option is specified. (Issue #12)
+ </n>
+    <f>72306</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.4.0</g>
+    <x xlink:href="package.3.4.0.xml"/>
+</r>

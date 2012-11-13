@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Stagehand_TestRunner</name>
+ <channel>pear.piece-framework.com</channel>
+ <summary>A continuous test runner for CLI</summary>
+ <description>Stagehand_TestRunner is a continuous test runner to run unit tests in CLI.
+
+It makes unit testing in a local environment much easier and comfortable. Additionally it can easily be integrated with a continuous integration server like Jenkins. It has been designed for integration into Integrated Development Environments (IDEs), a developer can create an extension like MakeGood.
+ </description>
+ <lead>
+  <name>KUBO Atsuhiro</name>
+  <user>iteman</user>
+  <email>kubo@iteman.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-11-13</date>
+ <time>18:55:14</time>
+ <version>
+  <release>3.4.0</release>
+  <api>3.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+What&apos;s New in Stagehand_TestRunner 3.4.0
+
+Initializes the environment before loading the preload script.
+
+ (Issue #13)
+
+ The testrunner command now ensures that the error message is displayed when a fatal error or parse error is raised in the preload script.
+
+[PHPUnit] Performance Improvement of Group Filtering
+
+ (Issue #15)
+
+ Performance of group filtering has been improved.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPUnit] The JUnit XML is incomplete when the --test-class or --test-method option is specified. (Issue #12)
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="e1aa80b390c2ca92313d09145d314f30" name="bin/testrunner" role="script" />
+   <file baseinstalldir="/" md5sum="9bd405782636ef0dba182674954a1738" name="bin/testrunner.bat" role="script" />
+   <file baseinstalldir="/" md5sum="87079db4fccb8efac38c0d5914bcc0fd" name="doc/LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="a4e4a634cb81a494cce6faf005c4ae52" name="Stagehand/TestRunner/CLI/Terminal.php" role="php" />
+   <file baseinstalldir="/" md5sum="21670965cc4e014e3b71089f1ed4c480" name="Stagehand/TestRunner/CLI/TestRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="56eab6475cee40727de5b641d3e12828" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Application.php" role="php" />
+   <file baseinstalldir="/" md5sum="71141e294c8d4022d33f9eca294f942c" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/CakePHPCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="0e5b21c752c10ae7aa3fef455c0e536e" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/CIUnitCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="edf0bca6dd0909549c7f21113d5112c8" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/Command.php" role="php" />
+   <file baseinstalldir="/" md5sum="03395f2e01b14c652b52e2bb555ce18a" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/CommandRepository.php" role="php" />
+   <file baseinstalldir="/" md5sum="175ae8d476377494974cb32f85763072" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/CompileCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="28d883bf6bca4831ee43c024746a55c0" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/HelpCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0e2f50fd79550e96980016c348ac172" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/ListCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0f89eeb036b92f71230747d3eb82c6c" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/PHPSpecCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="6346466dd23d2837623b06b4cbc01e9e" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/PHPUnitCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="1a09e9c4ed61af28067017a595a4560d" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/PluginCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ac09dd435a23bb77759dd81e3324f05" name="Stagehand/TestRunner/CLI/TestRunnerApplication/Command/SimpleTestCommand.php" role="php" />
+   <file baseinstalldir="/" md5sum="89baf79a45d5ee61912cb132935718e6" name="Stagehand/TestRunner/Collector/CakePHPCollector.php" role="php" />
+   <file baseinstalldir="/" md5sum="ea69ffe56b56c48a75b9dd83bc76a840" name="Stagehand/TestRunner/Collector/CIUnitCollector.php" role="php" />
+   <file baseinstalldir="/" md5sum="e16f8f11e378677b5759fab90ea6169b" name="Stagehand/TestRunner/Collector/CollectingType.php" role="php" />
+   <file baseinstalldir="/" md5sum="2002e7de23f81c684be784f43568c084" name="Stagehand/TestRunner/Collector/CollectingTypeFactory.php" role="php" />
+   <file baseinstalldir="/" md5sum="2d4ddf7ffc9a5933d77d92c363b921da" name="Stagehand/TestRunner/Collector/Collector.php" role="php" />
+   <file baseinstalldir="/" md5sum="82695e9f5f1649490558eb6780fa9921" name="Stagehand/TestRunner/Collector/PHPSpecCollector.php" role="php" />
+   <file baseinstalldir="/" md5sum="9be4c496724ae39bd8c8f17129f63f53" name="Stagehand/TestRunner/Collector/PHPUnitCollector.php" role="php" />
+   <file baseinstalldir="/" md5sum="428cfc3c0c02da6067e166b0b2444ef1" name="Stagehand/TestRunner/Collector/SimpleTestCollector.php" role="php" />
+   <file baseinstalldir="/" md5sum="050aeea02e3375edd532d38af752dd9c" name="Stagehand/TestRunner/Core/ApplicationContext.php" role="php" />
+   <file baseinstalldir="/" md5sum="bea637eac9181d1a65dfb63bddfe75de" name="Stagehand/TestRunner/Core/Bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="0bf361f02c063a29379752eb5d8390c2" name="Stagehand/TestRunner/Core/Environment.php" role="php" />
+   <file baseinstalldir="/" md5sum="bed9b42924eee481ae6c4c2e54e6a5eb" name="Stagehand/TestRunner/Core/TestTargetRepository.php" role="php" />
+   <file baseinstalldir="/" md5sum="66238afe32d9aa9e74c304325cd9d2b4" name="Stagehand/TestRunner/Core/Plugin/CakePHPPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="70e96b1dc4a688ce4ec1883c28ecb311" name="Stagehand/TestRunner/Core/Plugin/CIUnitPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="32133e4fefac7ee881cf54ed3c8bd0b9" name="Stagehand/TestRunner/Core/Plugin/IPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="6b6c2f3abf6fbed5f6abcad16059413a" name="Stagehand/TestRunner/Core/Plugin/PHPSpecPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="a04b8f720b18a6b5b70d0f3dcd2864cc" name="Stagehand/TestRunner/Core/Plugin/PHPUnitPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="6bd1ca0be47235268c23d8eb791c7b06" name="Stagehand/TestRunner/Core/Plugin/Plugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa8aa16b505300a0db774830c27e15bb" name="Stagehand/TestRunner/Core/Plugin/PluginAwareFactory.php" role="php" />
+   <file baseinstalldir="/" md5sum="93c187009ab8c15e284ef81d272a0fbd" name="Stagehand/TestRunner/Core/Plugin/PluginRepository.php" role="php" />
+   <file baseinstalldir="/" md5sum="d4ea405031bb4875efb643e42a399c80" name="Stagehand/TestRunner/Core/Plugin/SimpleTestPlugin.php" role="php" />
+   <file baseinstalldir="/" md5sum="2256f1ca0d2d315c2fcbbb7a489faa69" name="Stagehand/TestRunner/DependencyInjection/CompiledContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="76aee4fdd32081566e0b9c0f8ca4874c" name="Stagehand/TestRunner/DependencyInjection/Compiler.php" role="php" />
+   <file baseinstalldir="/" md5sum="fd5bb4e559250acecda8b2570d9a7cd2" name="Stagehand/TestRunner/DependencyInjection/Container.php" role="php" />
+   <file baseinstalldir="/" md5sum="7d5ae7e35702acd73ae85a449e993bfa" name="Stagehand/TestRunner/DependencyInjection/Configuration/CakePHPConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="719c797a10760de1395a97dba19e3409" name="Stagehand/TestRunner/DependencyInjection/Configuration/CIUnitConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="7ae09324f75a64446caa9c14d4bf9aa3" name="Stagehand/TestRunner/DependencyInjection/Configuration/Configuration.php" role="php" />
+   <file baseinstalldir="/" md5sum="f293b117c2a396ed090fb3a334792ddc" name="Stagehand/TestRunner/DependencyInjection/Configuration/GeneralConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="010ef9726bbe776f9c9a8a8c14b94ee9" name="Stagehand/TestRunner/DependencyInjection/Configuration/IConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="258fc2081c922b1b0089a4ea663e9d51" name="Stagehand/TestRunner/DependencyInjection/Configuration/PHPSpecConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="8f3fa44383c4300ab7953fcc8d313040" name="Stagehand/TestRunner/DependencyInjection/Configuration/PHPUnitConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="f82e746d47303be478d6c8f473645ec0" name="Stagehand/TestRunner/DependencyInjection/Configuration/SimpleTestConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="aae5d681a5dbd6f3d512c846842c5e73" name="Stagehand/TestRunner/DependencyInjection/Extension/CakePHPExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd06e7a251b14bfc778f11603cf916b0" name="Stagehand/TestRunner/DependencyInjection/Extension/CIUnitExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="0faa1ebd000cbe4ee788dbf5b8db8bc3" name="Stagehand/TestRunner/DependencyInjection/Extension/Extension.php" role="php" />
+   <file baseinstalldir="/" md5sum="defbdfb798e039083995b312faee19c0" name="Stagehand/TestRunner/DependencyInjection/Extension/ExtensionRepository.php" role="php" />
+   <file baseinstalldir="/" md5sum="1578c98d9ee1dac8f98caeddf99bf528" name="Stagehand/TestRunner/DependencyInjection/Extension/FrameworkUnavailableException.php" role="php" />
+   <file baseinstalldir="/" md5sum="a358a4ecbb973897f11a9c42c8d31e4c" name="Stagehand/TestRunner/DependencyInjection/Extension/GeneralExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="7c156cdc19300fd43c2a890cf36e70f3" name="Stagehand/TestRunner/DependencyInjection/Extension/PHPSpecExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="5d829275d2268417c7549035d311fd71" name="Stagehand/TestRunner/DependencyInjection/Extension/PHPUnitExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7dfc3aac5f649af83219ed6a77a545d" name="Stagehand/TestRunner/DependencyInjection/Extension/SimpleTestExtension.php" role="php" />
+   <file baseinstalldir="/" md5sum="f63e27aa1515d3b058236bfebf6fae66" name="Stagehand/TestRunner/DependencyInjection/Transformation/CakePHPTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="332c5d6e4fe2768e6b030783cddfc242" name="Stagehand/TestRunner/DependencyInjection/Transformation/CIUnitTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="0b17524a221f9b81f5532842cae8ddc1" name="Stagehand/TestRunner/DependencyInjection/Transformation/GeneralTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="25658042653d7beec619b92bca692646" name="Stagehand/TestRunner/DependencyInjection/Transformation/PHPSpecTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc1359222553c5b3527e45e1ffb15c49" name="Stagehand/TestRunner/DependencyInjection/Transformation/PHPUnitTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="6dd09223ffefad201246591cbef69ec1" name="Stagehand/TestRunner/DependencyInjection/Transformation/SimpleTestTransformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="72ad67c8b22c8b5290423f0800ef191b" name="Stagehand/TestRunner/DependencyInjection/Transformation/Transformation.php" role="php" />
+   <file baseinstalldir="/" md5sum="37700da1d4ff78d5299ca56eced1cfc3" name="Stagehand/TestRunner/DependencyInjection/Transformation/Transformer.php" role="php" />
+   <file baseinstalldir="/" md5sum="47be6f0a873092d0cbb268063161b707" name="Stagehand/TestRunner/JUnitXMLWriter/DOMJUnitXMLWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="ba702cfd420d35804ef4928443ca09ec" name="Stagehand/TestRunner/JUnitXMLWriter/JUnitXMLWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="765275d799c8a7f149704b477f974fdd" name="Stagehand/TestRunner/JUnitXMLWriter/NullUTF8Converter.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3883d2f02ffd086b36b4289c983b465" name="Stagehand/TestRunner/JUnitXMLWriter/StreamJUnitXMLWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="29d8c4c523d2cdf167488caf8e28496a" name="Stagehand/TestRunner/JUnitXMLWriter/TestsuiteDOMElement.php" role="php" />
+   <file baseinstalldir="/" md5sum="538e3a405a6413651987c0f656b27e73" name="Stagehand/TestRunner/JUnitXMLWriter/UTF8Converter.php" role="php" />
+   <file baseinstalldir="/" md5sum="2590f4521a939766cd35c5a325a65746" name="Stagehand/TestRunner/JUnitXMLWriter/XMLStreamWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="0576aec92b53ee1cab67be8c12795e1c" name="Stagehand/TestRunner/Notification/failed.png" role="php" />
+   <file baseinstalldir="/" md5sum="4e218a09fde3ca79af2e6d57a09bd380" name="Stagehand/TestRunner/Notification/Notification.php" role="php" />
+   <file baseinstalldir="/" md5sum="ad250ff004b7ac2cd679bb938dac0b20" name="Stagehand/TestRunner/Notification/Notifier.php" role="php" />
+   <file baseinstalldir="/" md5sum="6c57f6951202e60bdd2dc38f45567819" name="Stagehand/TestRunner/Notification/passed.png" role="php" />
+   <file baseinstalldir="/" md5sum="37a17e0575f8c2bfef4d819a8580dc4a" name="Stagehand/TestRunner/Notification/stopped.png" role="php" />
+   <file baseinstalldir="/" md5sum="6862d5cdb4c82cfa447d4a7cfb4088b3" name="Stagehand/TestRunner/Preparer/CakePHPPreparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="99a6bba5cf6a23d49a815a4d10d2bb9a" name="Stagehand/TestRunner/Preparer/CIUnitPreparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="7fb7e7955b8a37e348f4eaa09afd678a" name="Stagehand/TestRunner/Preparer/PHPSpecPreparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="68f97d24c16e6d7db7e35f9d8f73d906" name="Stagehand/TestRunner/Preparer/PHPUnitPreparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="d09d2577d877143e366bb6e632cb5111" name="Stagehand/TestRunner/Preparer/Preparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="cddfdd5c1e8e41d569c7db026f537522" name="Stagehand/TestRunner/Preparer/SimpleTestPreparer.php" role="php" />
+   <file baseinstalldir="/" md5sum="a4408e73143f566e8db3fdb3d49cc239" name="Stagehand/TestRunner/Preparer/CakePHPPreparer/TestRunnerShellDispatcher.php" role="php" />
+   <file baseinstalldir="/" md5sum="afb2231e7a4516760afb390fb899014a" name="Stagehand/TestRunner/Process/AlterationMonitoring.php" role="php" />
+   <file baseinstalldir="/" md5sum="bb3b1696cdf5dbbe9bbdbaf3587c1bbc" name="Stagehand/TestRunner/Process/FatalError.php" role="php" />
+   <file baseinstalldir="/" md5sum="eff5909d043730bd7a0b4b9c52c57f34" name="Stagehand/TestRunner/Process/TestRun.php" role="php" />
+   <file baseinstalldir="/" md5sum="24a6a91894dad1eb041ddafefc0e4d3d" name="Stagehand/TestRunner/Process/Autotest/Autotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="61839761c72f0885a6165824fadaa03a" name="Stagehand/TestRunner/Process/Autotest/CakePHPAutotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d355da07ea598d6799ff4a149f300b38" name="Stagehand/TestRunner/Process/Autotest/CIUnitAutotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="6a655c4505ba3cffb57fb891c8cd66f0" name="Stagehand/TestRunner/Process/Autotest/PHPSpecAutotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9674d635d36a5b3a22f9782a90fafc6" name="Stagehand/TestRunner/Process/Autotest/PHPUnitAutotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="1803e2ee25b9c402eaaad7585f5ecad5" name="Stagehand/TestRunner/Process/Autotest/SimpleTestAutotest.php" role="php" />
+   <file baseinstalldir="/" md5sum="0c642d72495d09bb381760ba939b6d68" name="Stagehand/TestRunner/Resources/config/cakephp.yml" role="php" />
+   <file baseinstalldir="/" md5sum="fda159c25040ec15675ebbd672627345" name="Stagehand/TestRunner/Resources/config/ciunit.yml" role="php" />
+   <file baseinstalldir="/" md5sum="236df66d09bfbc917a02c258f2412b5a" name="Stagehand/TestRunner/Resources/config/general.yml" role="php" />
+   <file baseinstalldir="/" md5sum="2d9d5a12b335af08fcdf18e901c24eb4" name="Stagehand/TestRunner/Resources/config/phpspec.yml" role="php" />
+   <file baseinstalldir="/" md5sum="b323a51d40b351052977f9a10e4a76c1" name="Stagehand/TestRunner/Resources/config/phpunit.yml" role="php" />
+   <file baseinstalldir="/" md5sum="b00b4ce0ed90e98532f2186ef254282c" name="Stagehand/TestRunner/Resources/config/simpletest.yml" role="php" />
+   <file baseinstalldir="/" md5sum="cde008934da6ecdde94281d5ca425add" name="Stagehand/TestRunner/Resources/config/schema/junit-xml-dom-2.10.0.rng" role="php" />
+   <file baseinstalldir="/" md5sum="945b6bcdf76bb2d9567f1aa60f650a60" name="Stagehand/TestRunner/Resources/config/schema/junit-xml-stream-3.1.0.rng" role="php" />
+   <file baseinstalldir="/" md5sum="23ad60055410c916cf3d03aae4dbc8fb" name="Stagehand/TestRunner/Runner/CakePHPRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="fcbbb0924df12c0d32b59a8d63228b84" name="Stagehand/TestRunner/Runner/CIUnitRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="f25b5d47b2902fe83804faff63067ac1" name="Stagehand/TestRunner/Runner/PHPSpecRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="cada786ac37846c73c8ddfb80ca31507" name="Stagehand/TestRunner/Runner/PHPUnitRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="c192106da985619ffcd55d43bc4182f4" name="Stagehand/TestRunner/Runner/Runner.php" role="php" />
+   <file baseinstalldir="/" md5sum="5dfcec2dc5d6df17cd4458ff63d02297" name="Stagehand/TestRunner/Runner/SimpleTestRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="f2d7b0df78c1c0c6f566d6fe4a83a988" name="Stagehand/TestRunner/Runner/CakePHPRunner/JUnitXMLReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="f7dd0b131b33fbfb05e48b65b603cdd8" name="Stagehand/TestRunner/Runner/CakePHPRunner/MethodFilterReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="2f804383382552044cc4bee3076d1a13" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Example.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5a7800c52969fe291f5bf10fc601410" name="Stagehand/TestRunner/Runner/PHPSpecRunner/ExampleFactory.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6655c89a07e0a195a0cfe68b3121eae" name="Stagehand/TestRunner/Runner/PHPSpecRunner/ExampleRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="fcd9be826fd15c20c78dacdb4614ac56" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Reporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="d223528916d84bc29bf03a44ea2cae0e" name="Stagehand/TestRunner/Runner/PHPSpecRunner/SpecLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="cc9a819161635ff70ee389048ca3f4f3" name="Stagehand/TestRunner/Runner/PHPSpecRunner/SpecLoaderFactory.php" role="php" />
+   <file baseinstalldir="/" md5sum="359a0dd6ba16391b01bdca9f1c2362cc" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Formatter/DocumentationFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa05e0ac7a62e68069be0583382f4518" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Formatter/JUnitXMLFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="0452062798d0f31ed5671985c86fa165" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Formatter/NotificationFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="158e703505fdf507695e5e5faa7854a6" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Formatter/ProgressFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="c772ce4a2d12e9a402c3075739306b90" name="Stagehand/TestRunner/Runner/PHPSpecRunner/Formatter/TerminatableFormatter.php" role="php" />
+   <file baseinstalldir="/" md5sum="bf83977b9d54457c41923e1284171f19" name="Stagehand/TestRunner/Runner/PHPUnitRunner/TestRunner.php" role="php" />
+   <file baseinstalldir="/" md5sum="cb79440053c5b937c8f0db2a8f0a04ee" name="Stagehand/TestRunner/Runner/PHPUnitRunner/Printer/DetailedProgressPrinter.php" role="php" />
+   <file baseinstalldir="/" md5sum="bd19faf4f3f430f9221dffe137acbcb6" name="Stagehand/TestRunner/Runner/PHPUnitRunner/Printer/JUnitXMLPrinter.php" role="php" />
+   <file baseinstalldir="/" md5sum="1a4316e23398a077259774dee319b6eb" name="Stagehand/TestRunner/Runner/PHPUnitRunner/Printer/ProgressPrinter.php" role="php" />
+   <file baseinstalldir="/" md5sum="0d16c0e258a39eb2d3aedf1e08a66624" name="Stagehand/TestRunner/Runner/PHPUnitRunner/Printer/ResultPrinter.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf5b04dd77abe52558f8452b440fe24f" name="Stagehand/TestRunner/Runner/PHPUnitRunner/Printer/TestDoxPrinter.php" role="php" />
+   <file baseinstalldir="/" md5sum="2d11704c47f08a06555cfdec210ac89c" name="Stagehand/TestRunner/Runner/PHPUnitRunner/TestDox/Stream.php" role="php" />
+   <file baseinstalldir="/" md5sum="12a131a74c0c7ca8fa88ff6460279946" name="Stagehand/TestRunner/Runner/PHPUnitRunner/TestDox/TestDox.php" role="php" />
+   <file baseinstalldir="/" md5sum="1c25dfb42ca5fa210e476a68f9a9867a" name="Stagehand/TestRunner/Runner/SimpleTestRunner/ClassFilterReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="6c05d974c9595675a9e38be27ec6b3c8" name="Stagehand/TestRunner/Runner/SimpleTestRunner/JUnitXMLReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="a876a62945f054312ff4d3fbe32b480b" name="Stagehand/TestRunner/Runner/SimpleTestRunner/JUnitXMLReporterFactory.php" role="php" />
+   <file baseinstalldir="/" md5sum="601f6d721d4661a88238a8bb3e8f0b55" name="Stagehand/TestRunner/Runner/SimpleTestRunner/MethodFilterReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="270a1bdca5855081aa633db23e499c90" name="Stagehand/TestRunner/Runner/SimpleTestRunner/StopOnFailureReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="8fe6a905bcb5f2af985d2cfd7c7c9b83" name="Stagehand/TestRunner/Runner/SimpleTestRunner/TextReporter.php" role="php" />
+   <file baseinstalldir="/" md5sum="038bc7b0bb07cbe90796ab7eb7836985" name="Stagehand/TestRunner/TestSuite/CakePHPTestSuite.php" role="php" />
+   <file baseinstalldir="/" md5sum="2ae442ce7b42afbd48ba9150b4f1aa16" name="Stagehand/TestRunner/TestSuite/PHPSpecTestSuite.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2ffdf0d36d0f69961b25adbe6085807" name="Stagehand/TestRunner/TestSuite/PHPUnitGroupFilterTestSuite.php" role="php" />
+   <file baseinstalldir="/" md5sum="5a0151352938ff5d459df6ddd51f0b65" name="Stagehand/TestRunner/TestSuite/SimpleTestTestSuite.php" role="php" />
+   <file baseinstalldir="/" md5sum="041bde317a4f77b7e74dd11d2d0fcb27" name="Stagehand/TestRunner/Util/Coloring.php" role="php" />
+   <file baseinstalldir="/" md5sum="caf4123f130614d74a5d07207221a603" name="Stagehand/TestRunner/Util/ErrorReporting.php" role="php" />
+   <file baseinstalldir="/" md5sum="a0667008bb74bba7d04e206277889a9d" name="Stagehand/TestRunner/Util/FailureTrace.php" role="php" />
+   <file baseinstalldir="/" md5sum="ca67c2c1aef82366f290a9e7f510f246" name="Stagehand/TestRunner/Util/FileStreamWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="bdd32014c385a3b70cd32f549ff31244" name="Stagehand/TestRunner/Util/FileSystem.php" role="php" />
+   <file baseinstalldir="/" md5sum="43d9c3dff841f70d7d84ab901f9cc5e2" name="Stagehand/TestRunner/Util/LegacyProxy.php" role="php" />
+   <file baseinstalldir="/" md5sum="33766b51a89b018c0f171d953d3797bb" name="Stagehand/TestRunner/Util/OS.php" role="php" />
+   <file baseinstalldir="/" md5sum="81b0fc92c5f44350fe9e648000565998" name="Stagehand/TestRunner/Util/OutputBuffering.php" role="php" />
+   <file baseinstalldir="/" md5sum="565559c828fa4429dfbd40e1b59a33cf" name="Stagehand/TestRunner/Util/PHPUnitXMLConfiguration.php" role="php" />
+   <file baseinstalldir="/" md5sum="65e94d52d6a1e0c5d21dccfaa25bb68d" name="Stagehand/TestRunner/Util/StreamWriter.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e2359adac730771ec1f82f6a2c6b736" name="Stagehand/TestRunner/Util/String.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>ClassLoader</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>Config</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>Console</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>DependencyInjection</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>Finder</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>Process</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <package>
+    <name>Stagehand_AlterationMonitor</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>2.0.1</min>
+   </package>
+   <package>
+    <name>Stagehand_ComponentFactory</name>
+    <channel>pear.piece-framework.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Yaml</name>
+    <channel>pear.symfony.com</channel>
+    <min>2.0.0</min>
+   </package>
+   <extension>
+    <name>pcre</name>
+   </extension>
+   <extension>
+    <name>SPL</name>
+   </extension>
+  </required>
+  <optional>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>3.6.0</min>
+   </package>
+   <extension>
+    <name>dom</name>
+   </extension>
+   <extension>
+    <name>mbstring</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="testrunner" name="bin/testrunner" />
+   <install as="testrunner.bat" name="bin/testrunner.bat" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-04-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+The first release of Stagehand_TestRunner.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.1</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+This release includes an enhancement as follows:
+
+## Enhancements ##
+
+##### Stagehand_TestRunner_PHPUnit2TestRunner, Stagehand_TestRunner_PHPUnitTestRunner #####
+- Changed the code so as to use $array[] = $value instead of array_push($array, $value).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.2</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-07-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+This release includes fixing two problems as follows:
+
+## Defect fixes ##
+
+##### Stagehand_TestRunner_PHPUnit2TestRunner #####
+- Changed a code to the previous code.
+
+##### Stagehand_TestRunner_PHPUnitTestRunner #####
+- Added missing brackets.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2006-10-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+This is the first release with the new PEAR Channel Server pear.piece-framework.com. There are no changes from the previous release except the PEAR Channel Server is changed.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2007-07-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 0.5.0
+
+ * Command Line Interface Support: testrunner1/testrunner2 can be used to run tests automatically without TestRunner.php and AllTestRunner.php. Also these commands can be used to run only the specified test case.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added testrunner1/testrunner2 scripts to run tests automatically without TestRunner.php and AllTestRunner.php.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+This is the first stable release of Stagehand_TestRunner.
+
+What&apos;s New in Stagehand_TestRunner 1.0.0
+
+ * PHPUnit 3 Support: Stagehand_TestRunner can now be used with PHPUnit 3. If you use PHPUnit 3, use the testrunner3 script for running tests.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Added support for specifying a file name directly. (Stagehand_TestRunner)
+- Added support for PHPUnit 3.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-20</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 1.1.0
+
+ * SimpleTest Support: Stagehand_TestRunner can now be used with SimpleTest (http://simpletest.org/). If you use SimpleTest v1.0.1beta2 or greater, use the testrunner-st script for running tests.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-10-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 1.2.0
+
+ * Coloring the result of a test runner run: The result of a test runner run can be colored by &quot;-c&quot; option.
+ * PHP script preloading: An arbitrary PHP script can be loaded before tests run for testing in a closed environment.
+
+See the following release notes for details.
+
+Enhancements
+============
+
+- Added support for coloring the result of a test runner run with ANSI console colors.
+- Added support for preloading an arbitrary PHP script for testing in a closed environment. (Ticket #4)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-01-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.0.0
+
+ * PHPSpec Support: Stagehand_TestRunner can now be used with PHPSpec (http://code.google.com/p/phpspec/). If you use PHPSpec 0.2.0devel or greater, use the specrunner script for running tests.
+ * Migration to PHP 5: Stagehand_TestRunner now works with PHP 5.0.3 or greater.
+ * End of support for PHPUnit 1 and 2: Starting with this release, PHPUnit 1 and 2 are no longer supported.
+ * New directory structure: The source code of Stagehand_TestRunner is now located in the php_dir/src directory. Please add php_dir/src into your include_path before starting to use this package.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-03-06</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.1.0
+
+ * autotest Support: autotest support can now be used by -a option. When using autotest, one or more directories to be watched for changes can specify by the -w option.
+ * Explicit test directory: An arbitrary directory can now be used as the test directory by specifying the directory as the last argument for testrunner commands.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.2.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-05-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.2.0
+
+ * Test.php support: Test classes ending with &quot;Test.php&quot; have become targets of running tests by testrunner/testrunner-st (PHPUnit/SimpleTest).
+ * Test class extensions: Extending test classes has become a lot easier since the PHPUnit/SimpleTest collectors now target only classes ending with Test or TestCase.
+
+See the following release notes for details.
+
+Enhancements
+============ 
+
+- Removed the second argument for passthru(). (Stagehand_TestRunner_AlterationMonitor)
+- Removed error_reporting(). (specrunner/testrunner/testrunner-st)
+- Added some error handling. (Stagehand_TestRunner)
+- Added support for running tests ending with &quot;Test.php&quot;. (PHPUnit/SimpleTest)
+- Changed a collector&apos;s behavior so as to target only classes ending with Test or TestCase. (Ticket #18) (PHPUnit/SimpleTest)
+- Added &apos;^.#&apos; to the exclude patterns. (Stagehand_TestRunner_DirectoryScanner)
+- Changed code so as to exit the program when loading a preload file is failed. (specrunner/testrunner/testrunner-st)
+
+Defect Fixes
+============
+
+- Fixed a defect that caused tests to be run every time if fileperms()/filemtime() fails when using autotest.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.3.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-05-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.3.0
+
+ * Growl support: Growl support can now be used by the -g option. If the Growl requires password, specify the password by the --growl-password option.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.4.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.4.0
+
+ * Enhanced PHPUnit support: TestDox documentation has been supported. And also real-time progress report has been supported.
+ * Improved preloading option handling: Preloading option handling has been improved so as to be able to use &quot;-p&quot; with other options such like &quot;-Rcp prepare.php&quot;
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.5.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-09-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.5.0
+
+ * Enhanced PHPUnit support: Results output has been improved so as to be same as PHPUnit 3.3.0.
+ * A defect fix: A defect has been fixed so that the Growl message is output only &quot;FAILURES!&quot; when a test fails.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.6.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-10-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.6.0
+
+ * Enhanced PHPUnit support: A feature to display detailed progress report instead of normal progress report has been added. This feature will make it easy to find out where a fatal error occurred. This feature can be used by the -v option.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.6.1</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-01-14</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.6.1
+
+ * A defect fix: A defect has been fixed that caused warning messages to be displayed if E_STRICT was enabled.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.6.2</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-01-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD License (revised)</license>
+   <notes>
+A new release of Stagehand_TestRunner is now available.
+
+What&apos;s New in Stagehand_TestRunner 2.6.2
+
+ * A defect fix: A defect with PHPUnit has been fixed that caused the numerical part of the prettified method name for a method ending with a number to be lost.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.7.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-09-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.7.0
+
+ Runs only the specified tests in the specified file. (PHPUnit only):
+
+  From the specified file, only methods which you want to test can now be specified.
+
+ Supports PHPUnit 3.4.:
+
+  PHPUnit 3.4 has been supported. As of this version, PHPUnit 3.3.x are no longer supported.
+
+ Supports JUnit XML output. (PHPUnit and PHPT).
+
+  Test results can now be logged in the JUnit XML format into the specified file.
+
+ Supports PHPT.:
+
+  PHPT has been supported. PHPUnit is required to use this feature.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.8.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-10-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.8.0
+
+ Runs only the tests in the specified classes. (PHPUnit only):
+
+  phpunitrunner --classes=CLASS1,CLASS2,... FILE
+
+  Runs the tests in the specified classes which are included in the specified file. Multiple classes can be specified by a comma delimited list.
+
+ Improvements for testing specified methods:
+
+  Can specify fully-qualified method names.:
+
+   In the version 2.7.0, if multiple classes have same method, their methods are run when testing specified methods.
+
+   As of this version, fully-qualified method names can be specified as CLASS::METHOD for resolving this ambiguity.
+
+  Be case-insensitive.:
+
+   In the version 2.7.0, it is case-sensitive even though PHP methods are case-insensitive.
+
+   As of this version, it has been made case-insensitive.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.9.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-12-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.9.0
+
+ Can specify multiple files and directories as test target.:
+
+  phpunitrunner DIRECTORY_OR_FILE1 DIRECTORY_OR_FILE2 ...
+
+  In previous versions, one file or directory could only be specified as test target.
+
+  As of this version, multiple files and directories can be specified as test target.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.10.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2009-12-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.10.0
+
+ Logs test results in real-time into the specified file in the JUnit XML format. (PHPUnit, PHPT, and SimpleTest):
+
+  phpunitrunner --log-junit=FILE --log-junit-realtime DIRECTORY_OR_FILE
+
+  By specifying the --log-junit-realtime option, the test results get to be written in real-time by element-by-element.
+
+ Enhanced SimpleTest support:
+
+  The following features have been supported in SimpleTest:
+
+   * Runs only the specified tests in the specified file.
+   * Runs only the tests in the specified classes.
+   * Logs test results into the specified file in the JUnit XML format.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.11.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-02-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.11.0
+
+ Stops on the first failure or error. (PHPUnit, PHPT, and SimpleTest):
+
+  phpunitrunner --stop-on-failure DIRECTORY_OR_FILE
+
+  Stops the test run when the first failure or error is raised.
+
+ Provides easy to understand information for incomplete and skipped tests. (PHPUnit):
+
+  JUnit XML:
+
+   The specified message is included in the value of the error element.
+
+  TestDox and detailed progress report:
+
+   The specified message is included in the TestDox and detailed progress report as follows:
+
+    &lt;?php
+    class FooTest
+    {
+        /**
+         * @test
+         */
+        public function bar()
+        {
+            $this-&gt;markTestSkipped(&apos;Baz is not available&apos;);
+        }
+    ...
+
+    The test suite generated by Stagehand_TestRunner
+    FooTest
+      bar ... skipped (Baz is not available)
+
+    FooTest
+     [ ] Bar (Baz is not available)
+    ...
+
+ A defect fix:
+
+  A defect has been fixed that caused a test run to be failed by unexpected preload.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.11.1</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-03-09</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.11.1
+
+ Two defect fixes
+
+  A defect has been fixed that caused the layout of the detailed progress report to be broken by incomplete or skipped tests with data providers. (Issue #136)
+
+  And a defect has been fixed that caused wrong number of tests to be output to a JUnit XML if using method/class filters with the real-time option. (Issue #141)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.11.2</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-05-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.11.2
+
+ Two defect fixes
+
+  (Issue #173, #175)
+
+  A defect has been fixed that caused a start tag not to be closed when the tag and all attributes are written. And also a defect has been fixed that caused TestDox output to be broken if the same test method names except trailing numbers.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.12.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-07-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.12.0
+
+ Supports PHPUnit 3.5.
+
+  (Issue #179)
+
+  PHPUnit 3.5 has been supported.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.13.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-11</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.13.0
+
+ New Directory Structure
+  As of this version, the sources are located directly under the &quot;php_dir&quot; (PEAR directory).
+
+ Three Defect Fixes
+  The following defects have been fixed:
+
+  * Growl does not work. (Issue #192)
+  * A fatal error is raised when launching by a launcher script with the -a option. (Issue #196)
+  * The current directory is not treated as the test directory if no directories or files are specified. (Issue #197)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.14.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-10-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.14.0
+
+ Supports CakePHP.
+  (Issue #212)
+
+  The testing framework of CakePHP has been supported. For more information, see the User Guide.
+
+ Supports the PHPUnit XML configuration file.
+  (Issue #202)
+
+  The PHPUnit XML configuration file has been supported. For more information, see the User Guide.
+
+ Supports Web Page Testing.
+  (Issue #222)
+
+  Web Page Testing by WebTestCase (SimpleTest), CakeWebTestCase (CakePHP) has been supported.
+
+ Specifies the test file suffix.
+  (Issue #211)
+
+  The suffix of your test files can be specified by a regular expression literal. For more information, see the User Guide.
+
+ Three Defect Fixes
+  The following defects have been fixed:
+
+  * An error Warning: DOMDocument::createElement(): unterminated entity reference is raised if a failure/error message contains ampersands. (Issue #215)
+  * An invalid XML is generated if a test case is skipped by the @depends annotations. (Issue #216)
+  * An invalid XML is generated when multiple failures are included in a single test. (Issue #219)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.14.1</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-10-22</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.14.1
+
+ A Defect Fix
+
+  The following defect has been fixed:
+
+  * An error &quot;Fatal error: Cannot redeclare class UnitTestCase&quot; is raised when using the project&apos;s internal CakePHP libraries. (Issue #226)
+
+Backward Compatibility
+
+ When using CakePHP the SimpleTest package must be placed in the *vendors* directory as *vendors/simpletest*.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.14.2</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-11-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.14.2
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * CakeWebTestCase does not work with JUnit XML output. (Issue #232)
+ * CakeTestCase does not work with the -m option. (Issue #235)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.15.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-12-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.15.0
+Supports URL-encoded class and method names.
+ (Issue #247)
+
+ The --classes and -m options can now accept URL-encoded string. This feature is intended to be used for the class and method names which contain multibyte characters.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * No tests found when specifying the fully qualified class name with a namespace. (Issue #245)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.16.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-02-25</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.16.0
+Supports CIUnit.
+ (Issue #231)
+
+ CIUnit has been supported. CIUnit is a testing framework for CodeIgniter based on PHPUnit. For more information, see the User Guide.
+
+Supports the &lt;selenium&gt; element in the PHPUnit XML configuration file.
+
+ (Issue #237)
+
+ The &lt;selenium&gt; element in the PHPUnit XML configuration file has been supported.
+
+Specifies the test file pattern.
+
+ (Issue #230)
+
+ The pattern of your test files can be specified by a regular expression literal. For more information, see the User Guide.
+
+Logs more correct information about test cases into JUnit XML files.
+
+ (Issue #261)
+
+ More correct information about test cases is now logged into JUnit XML files.
+
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * A &quot;bootstrap&quot; PHP file that is specified by the XML configuration file is not loaded. (Issue #257)
+ * An error &quot;Notice: Undefined property: ...DetailedProgressPrinter::$lastEvent&quot; is raised if the -v option is specified. (Issue #258)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.17.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-07-03</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.17.0
+ Sometimes PHPUnit reports warning messages such as follows:
+
+ Warning: Deprecated PHPUnit features are being used 1 times!
+ Use --verbose for more information.
+
+ If the &quot;--verbose&quot; option is enabled, PHPUnit reports more detailed information as follows:
+
+ PHPUnit 3.5.10 by Sebastian Bergmann.
+
+ ...................
+
+ Time: 0 seconds, Memory: 3.50Mb
+
+ /home/iteman/GITREPOS/stagehand-fsm/test/Stagehand/FSM/FSMTest.php:(between 281 and 297) - assertType() will be removed in PHPUnit 3.6 and should no longer be used. assertInternalType() should be used for asserting internal types such as &quot;integer&quot; or &quot;string&quot; whereas assertInstanceOf() should be used for asserting that an object is an instance of a specified class or interface.
+ ...
+
+ This information would be useful to improve your test code.
+
+Three Defect Fixes
+
+ The following defects have been fixed:
+
+ * The excluded tests by the &lt;groups&gt; element are contained in the number of tests. (Issue #288)
+ * The value of the constant TEST_CAKE_CORE_INCLUDE_PATH is wrong. (Issue #290)
+ * JUnit XML output is broken if a test class is skipped. (Issue #291)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.17.1</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-07-08</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.17.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;PHP Fatal error: Call to protected Net_Growl::__construct() from context &apos;Stagehand_TestRunner_TestRunner&apos; in ...&quot; is raised when using Growl. (Issue #305)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.18.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-07-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.18.0
+
+Improved Notifications
+
+ (Issue #309, #311)
+
+ The following improvements have been made:
+
+ * Provides the icons for notifications.
+ * Uses the &quot;growlnotify&quot; command (Windows, Mac OS X) or the &quot;notify-send&quot; command instead of the Net_Growl package.
+ * Sends the fatal error message when monitoring changes.
+
+ For more information, see the User Guide (http://redmine.piece-framework.com/projects/stagehand-testrunner/wiki/Stagehand_TestRunner_User_Guide_2_18_0#Notifies-test-results).
+
+Runs tests at the beginning of monitoring changes.
+
+ (Issue #318)
+
+ If the &quot;-a&quot; option is specified, Stagehand_TestRunner runs tests unconditionally at the beginning.
+
+Three Defect Fixes
+
+ The following defects have been fixed:
+
+ * The preload script is not loaded when specifying multiple options after one &quot;-&quot;. (Issue #312)
+ * Some command line options are lost with the monitoring feature. (Issue #314)
+ * An underscore is not treated as a word separator in TestDox. (Issue #317)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.18.1</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-07-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.18.1
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * The command line is broken when monitoring changes. (Issue #319)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.19.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-08-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.19.0
+
+Reflects the colors attribute in the PHPUnit XML configuration file to the configuration.
+
+ (Issue #326)
+
+ The value of the colors attribute in the PHPUnit XML configuration file is now reflected to the Stagehand_TestRunner&apos;s configuration.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * Nothing is displayed when specifying the -a option. (Issue #323)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.20.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-10-18</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 2.20.0
+
+Supports PHPUnit 3.6.
+
+ (Issue #327)
+
+ PHPUnit 3.6 has been supported.
+
+Four Defect Fix
+
+ The following defects have been fixed:
+
+ * Missing backslashes in notice messages on Linux. (Issue #332)
+ * An error message does not appear in the notice message. (Issue #333)
+ * A possible crash by &quot;Strict Standards&quot; (Issue #334)
+ * Super-type is collected as test unexpectedly. (Issue #347)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.0</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.0.0
+
+Migration to PHP 5.3
+
+ (Issue #354)
+
+ Stagehand_TestRunner has been migrated to PHP 5.3. As of this version, it only works with PHP 5.3.2+.
+
+New Command Line Application
+
+ (Issue #368)
+
+ A new launcher script &quot;testrunner&quot; has been added. It provides a new style of arguments and options that are different by each testing framework. All existing launcher script have been removed.
+
+Supports PHPSpec 1.3.
+
+ (Issue #339)
+
+ PHPSpec 1.3 has been supported.
+
+Enhanced PHPSpec Support
+
+(Issue #340)
+
+ The PHPSpec support has been enhanced, and the following features have been added:
+
+ * Runs only the specified tests in the specified file.
+ * Runs only the tests in the specified classes.
+ * Logs test results into the specified file in the JUnit XML format.
+ * Stops on the first failure or error.
+
+Supports SimpleTest 1.1.
+
+ (Issue #307)
+
+ SimpleTest 1.1 has been supported.
+
+YAML-based Configuration
+
+ (Issue #178)
+
+ In the past versions, the runtime environment of Stagehand_TestRunner can only be configured with command line options. As of this version, the runtime environment can also be configured with a YAML configuration file.
+
+Deprecated Functionality in Stagehand_TestRunner 3.0.0
+
+ * The Support for PHPSpec 0.2 (Issue #338)
+ * The Support for PHPT (Issue #356)
+ * Test File Suffix (Issue #357)
+ * The Support for PHPUnit 3.5, 3.4 (Issue #359)
+ * The Support for PHP 5.2 (Issue #362)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.1</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.0.1
+
+Six Defect Fixes
+
+ The following defects have been fixed:
+
+ * An error &quot;Fatal error: Class &apos;PHPUnit_Util_Configuration&apos; not found in ...&quot; is raised when using the --phpunit-config option together with the --autotest option. (Issue #386)
+ * An error &quot;Fatal error: Call to undefined method Stagehand\ComponentFactory\ComponentAwareFactory::craete() in ...&quot; is raised when a fatal error is raised in Autotest with notification. (Issue #387)
+ * Test is not run on Windows with Autotest. (Issue #388)
+ * Errors &quot;Strict standards: Only variables should be passed by reference in ...&quot; are raised on Windows with Autotest. (Issue #389)
+ * The test run process hangs when a long text is written on Windows with Autotest. (Issue #390)
+ * The testrunner command is not launched by testrunner.bat when the path to the php executable contains spaces. (Issue #391)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.2</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-21</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.0.2
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An InvalidArgumentException is raised every time a test is run while running Autotest. (Issue #393)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.3</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-05-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.0.3
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error is raised for a test using the PHPUnit_Extensions_SeleniumTestCase class if the &quot;--test-method&quot; option is specified. (Issue #401)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.4</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-06-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.0.4
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPSpec] An UnexpectedValueException is raised when using the &quot;--log-junit&quot; option if a spec class is in the global namespace. (Issue #406)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.1.0</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-06-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.1.0
+
+Logs additional information into a JUnit XML file when the --log-junit-realtime option is specified.
+
+ (Issue #415)
+
+ Additional information for test suites and test cases is now available in a JUnit XML file when the &quot;--log-junit-realtime&quot; option is specified.A Defect Fix
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.2.0</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-07-17</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.2.0
+
+[PHPUnit] Early configures PHP configuration by the XML configuration file.
+
+ (Issue #420)
+
+ PHP configuration by the PHPUnit XML configuration file is now configured at the preparation time of the testing framework.
+
+Two Defect Fixes
+
+ The following defects have been fixed:
+
+ * [PHPUnit] Output from a test case is displayed twice. (Issue #418)
+ * [PHPUnit] An expected failure is not reported when the &quot;--test-class&quot; or &quot;--test-method&quot; option is specified. (Issue #424)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.3.0</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-08-31</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.3.0
+
+Improved Autoloading for Stagehand_TestRunner&apos;s Classes
+
+ (Issue #6)
+
+ The launcher script &quot;testrunner&quot; has been changed as follows:
+
+ * Does not load Composer&apos;s autoload.php.
+ * Loads Stagehand/TestRunner/Core/Bootstrap.php only if the Stagehand\TestRunner\Core\Bootstrap class does not exist.
+
+Sets the memory_limit directive to -1.
+
+ (Issue #5)
+
+ Sometimes MakeGood, an unexpected error &quot;Fatal error: Allowed memory size of xxx bytes exhausted ...&quot; is raised when running a test even though the memory_limit directive is set to -1 in the php.ini file. The memory_limit directive is now set to -1 to avoid raising this error.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPUnit] Specifying test methods do not work with the groups. (Issue #4)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.3.1</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-09-01</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.3.1
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * An error &quot;Fatal error: Class &apos;Symfony\Component\Process\Process&apos; not found in ...&quot; is raised when launching Autotest. (Issue #8)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.4.0</release>
+    <api>3.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-11-13</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+What&apos;s New in Stagehand_TestRunner 3.4.0
+
+Initializes the environment before loading the preload script.
+
+ (Issue #13)
+
+ The testrunner command now ensures that the error message is displayed when a fatal error or parse error is raised in the preload script.
+
+[PHPUnit] Performance Improvement of Group Filtering
+
+ (Issue #15)
+
+ Performance of group filtering has been improved.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * [PHPUnit] The JUnit XML is incomplete when the --test-class or --test-method option is specified. (Issue #12)
+   </notes>
+  </release>
+ </changelog>
+</package>
