@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2012-12-19T12:45:10+09:00</updated>
+    <updated>2013-03-19T16:25:31+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -3020,6 +3020,31 @@ The first release of Stagehand_PHP_Parser.
         <content>
             
 The first release of Stagehand_SmtpDaemon.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_TestRunner 3.6.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_TestRunner-3.6.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.6.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2013-03-19T16:07:16+09:00</updated>
+        <content>
+            
+What's New in Stagehand_TestRunner 3.6.0
+
+[PHPUnit] Runs the phpunit command via the testrunner command.
+
+ (Issue #23)
+
+ The &quot;phpunit:passthrough&quot; command has been added that is equivalent to the phpunit command except it allows you to declare multiple test classes in a file.
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * The file and line attributes are not included in failure/error elements of the JUnit XML when a test method which is declared in a trait is failed or error. (Issue #24)
  
         </content>
     </entry>    <entry>

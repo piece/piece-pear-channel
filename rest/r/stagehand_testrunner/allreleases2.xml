@@ -3,6 +3,11 @@
     <p>Stagehand_TestRunner</p>
     <c>pear.piece-framework.com</c>
     <r>
+        <v>3.6.0</v>
+        <s>stable</s>
+        <m>5.3.2</m>
+    </r>
+    <r>
         <v>3.5.0</v>
         <s>stable</s>
         <m>5.3.2</m>
