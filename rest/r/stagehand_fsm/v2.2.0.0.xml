@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/stagehand_fsm">Stagehand_FSM</p>
+    <c>pear.piece-framework.com</c>
+    <v>2.0.0</v>
+    <a>2.0.0</a>
+    <mp>5.3.2</mp>
+    <st>stable</st>
+    <l>The BSD 2-Clause License</l>
+    <m>iteman</m>
+    <s>A finite state machine</s>
+    <d>Stagehand_FSM is a finite state machine.
+
+Manual state management makes code complex, decreases intentionality. By using Stagehand_FSM, state management code can be declaratively represented in the form of FSM. This makes code simpler, increases intentionality.
+
+Stagehand_FSM can be used as an infrastructure for domain-specific languages (DSLs). Examples are workflow engines, page flow engines such as Piece_Flow.</d>
+    <da>2013-08-01 10:38:25</da>
+    <n>
+What's New in Stagehand_FSM 2.0.0
+
+Migration to PHP 5.3
+
+ (Issue #2)
+
+ Stagehand_FSM has been migrated to PHP 5.3. As of this version, it only works with PHP 5.3.2+.
+
+New and Improved API
+
+ (Issue #3)
+
+ Stagehand_FSM v2 has introduced new and improved API. The following code shows how to create a state machine and how to activate the state machine.
+
+ ---
+ &lt;?php
+ use Stagehand\FSM\StateMachine\StateMachineBuilder;
+
+ $stateMachineBuilder = new StateMachineBuilder();
+ $stateMachineBuilder-&gt;addState('locked');
+ $stateMachineBuilder-&gt;addState('unlocked');
+ $stateMachineBuilder-&gt;setStartState('locked');
+ $stateMachineBuilder-&gt;addTransition('locked', 'insertCoin', 'unlocked');
+ $stateMachineBuilder-&gt;addTransition('unlocked', 'pass', 'locked');
+ $stateMachine = $stateMachineBuilder-&gt;getStateMachine();
+
+ $stateMachine-&gt;start();
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;locked&quot;
+ $stateMachine-&gt;triggerEvent('insertCoin');
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;unlocked&quot;
+ $stateMachine-&gt;triggerEvent('pass');
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;locked&quot;
+ ---
+
+ For more information, see the StateMachineTest class.
+
+End of Support for Nested State Machine and History Marker
+
+ (Issue #4)
+
+ Stagehand_FSM v2 no longer supports Nested State Machine and History Marker.
+ </n>
+    <f>8347</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_FSM-2.0.0</g>
+    <x xlink:href="package.2.0.0.xml"/>
+</r>

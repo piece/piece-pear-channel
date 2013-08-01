@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.piece-framework.com</id>
-    <updated>2013-03-26T17:49:07+09:00</updated>
+    <updated>2013-08-01T10:41:04+09:00</updated>
     <title>Piece Framework PEAR channel Latest Releases</title>
     <link href="http://pear.piece-framework.com/feed.xml" rel="self" />
     <author>
@@ -2698,6 +2698,59 @@ The first release of Stagehand_DirectoryScanner.
         <content>
             
 The first release of Stagehand_DirectorySnap.
+ 
+        </content>
+    </entry>    <entry>
+        <title>Stagehand_FSM 2.0.0 (stable)</title>
+        <link href="http://pear.piece-framework.com/get/Stagehand_FSM-2.0.0.tgz" />
+        <id>http://pear.piece-framework.com/get/Stagehand_FSM-2.0.0.tgz</id>
+        <author>
+            <name>iteman</name>
+        </author>
+        <updated>2013-08-01T10:38:25+09:00</updated>
+        <content>
+            
+What's New in Stagehand_FSM 2.0.0
+
+Migration to PHP 5.3
+
+ (Issue #2)
+
+ Stagehand_FSM has been migrated to PHP 5.3. As of this version, it only works with PHP 5.3.2+.
+
+New and Improved API
+
+ (Issue #3)
+
+ Stagehand_FSM v2 has introduced new and improved API. The following code shows how to create a state machine and how to activate the state machine.
+
+ ---
+ &lt;?php
+ use Stagehand\FSM\StateMachine\StateMachineBuilder;
+
+ $stateMachineBuilder = new StateMachineBuilder();
+ $stateMachineBuilder-&gt;addState('locked');
+ $stateMachineBuilder-&gt;addState('unlocked');
+ $stateMachineBuilder-&gt;setStartState('locked');
+ $stateMachineBuilder-&gt;addTransition('locked', 'insertCoin', 'unlocked');
+ $stateMachineBuilder-&gt;addTransition('unlocked', 'pass', 'locked');
+ $stateMachine = $stateMachineBuilder-&gt;getStateMachine();
+
+ $stateMachine-&gt;start();
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;locked&quot;
+ $stateMachine-&gt;triggerEvent('insertCoin');
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;unlocked&quot;
+ $stateMachine-&gt;triggerEvent('pass');
+ echo $stateMachine-&gt;getCurrentState()-&gt;getStateID() . PHP_EOL; // &quot;locked&quot;
+ ---
+
+ For more information, see the StateMachineTest class.
+
+End of Support for Nested State Machine and History Marker
+
+ (Issue #4)
+
+ Stagehand_FSM v2 no longer supports Nested State Machine and History Marker.
  
         </content>
     </entry>    <entry>

@@ -6,12 +6,14 @@
     <a>1.7.0</a>
     <mp>4.3.0</mp>
     <st>stable</st>
-    <l>BSD License (revised)</l>
+    <l>The BSD 2-Clause License</l>
     <m>iteman</m>
     <s>A finite state machine</s>
     <d>Stagehand_FSM is a finite state machine.
 
-Using Stagehand_FSM with applications, frameworks, and toolkits, it can make to simplify complex state management code in them. And also, it can be used as an engine of event-driven architecture.</d>
+Manual state management makes code complex, decreases intentionality. By using Stagehand_FSM, state management code can be declaratively represented in the form of FSM. This makes code simpler, increases intentionality.
+
+Stagehand_FSM can be used as an infrastructure for domain-specific languages (DSLs). Examples are workflow engines, page flow engines such as Piece_Flow.</d>
     <da>2007-08-14 19:14:26</da>
     <n>A new release of Stagehand_FSM is now available.
 
