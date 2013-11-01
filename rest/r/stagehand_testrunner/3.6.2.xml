@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/stagehand_testrunner">Stagehand_TestRunner</p>
+    <c>pear.piece-framework.com</c>
+    <v>3.6.2</v>
+    <st>stable</st>
+    <l>New BSD License</l>
+    <m>iteman</m>
+    <s>A continuous test runner for CLI</s>
+    <d>Stagehand_TestRunner is a continuous test runner to run unit tests in CLI.
+
+It makes unit testing in a local environment much easier and comfortable. Additionally it can easily be integrated with a continuous integration server like Jenkins. It has been designed for integration into Integrated Development Environments (IDEs), a developer can create an extension like MakeGood.
+ </d>
+    <da>2013-11-01 17:33:47</da>
+    <n>
+What's New in Stagehand_TestRunner 3.6.2
+
+A Defect Fix
+
+ The following defect has been fixed:
+
+ * A Symfony\Component\Process\Exception\RuntimeException is raised when running a test with continuous testing. (Issue #28)
+ </n>
+    <f>90571</f>
+    <g>http://pear.piece-framework.com/get/Stagehand_TestRunner-3.6.2</g>
+    <x xlink:href="package.3.6.2.xml"/>
+</r>
